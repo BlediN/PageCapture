@@ -1,0 +1,1700 @@
+{
+   "acctConnected": {
+      "message": "Signed in. This browser is on your account."
+   },
+   "acctConnecting": {
+      "message": "Finish signing in in the tab that just opened, then come back here."
+   },
+   "acctGetPro": {
+      "message": "Get Pro"
+   },
+   "acctManage": {
+      "message": "Manage account"
+   },
+   "acctNotSignedIn": {
+      "message": "Not signed in"
+   },
+   "acctSignIn": {
+      "message": "Sign in"
+   },
+   "acctSignInHint": {
+      "message": "Sign in with Google or an email link to use Pro in this browser. The free version works without an account."
+   },
+   "acctSignOut": {
+      "message": "Sign out"
+   },
+   "acctSignedOut": {
+      "message": "Signed out of this browser."
+   },
+   "acctStatusCanceled": {
+      "message": "Pro · until $DATE$, will not renew",
+      "placeholders": {
+         "date": {
+            "content": "$1"
+         }
+      }
+   },
+   "acctStatusDisputed": {
+      "message": "Pro was stopped after a card dispute"
+   },
+   "acctStatusExpired": {
+      "message": "Pro has ended. Renew it in your account."
+   },
+   "acctStatusFree": {
+      "message": "Free version"
+   },
+   "acctStatusPastDue": {
+      "message": "Pro · until $DATE$. The last payment failed, update your card in your account.",
+      "placeholders": {
+         "date": {
+            "content": "$1"
+         }
+      }
+   },
+   "acctStatusPaymentFailed": {
+      "message": "Pro stopped: the renewal could not be charged"
+   },
+   "acctStatusPro": {
+      "message": "Pro · until $DATE$",
+      "placeholders": {
+         "date": {
+            "content": "$1"
+         }
+      }
+   },
+   "acctStatusRefunded": {
+      "message": "Pro was refunded."
+   },
+   "acctStatusTrial": {
+      "message": "Pro · trial until $DATE$",
+      "placeholders": {
+         "date": {
+            "content": "$1"
+         }
+      }
+   },
+   "acctStatusUnverified": {
+      "message": "Could not verify the account for two weeks. Check your connection and reopen Settings."
+   },
+   "actionCancel": {
+      "message": "Cancel"
+   },
+   "actionDelete": {
+      "message": "Delete"
+   },
+   "actionEdit": {
+      "message": "Edit"
+   },
+   "actionFiles": {
+      "message": "Files"
+   },
+   "actionOpen": {
+      "message": "Open"
+   },
+   "actionPrint": {
+      "message": "Print"
+   },
+   "actionRate": {
+      "message": "Rate FullPage Capture"
+   },
+   "actionReport": {
+      "message": "Report an issue"
+   },
+   "actionSave": {
+      "message": "Save"
+   },
+   "actionSettings": {
+      "message": "Settings"
+   },
+   "appDesc": {
+      "message": "Full page screen capture and long scrolling screenshot with an annotation editor."
+   },
+   "appName": {
+      "message": "FullPage Capture - Full Page Screenshot"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "batchAddOpen": {
+      "message": "Add open tabs"
+   },
+   "batchAllFailed": {
+      "message": "Nothing was captured. Check the reasons above: an address that cannot be reached, or a page the browser will not let an extension read."
+   },
+   "batchBuilding": {
+      "message": "Adding page $1 of $2…",
+      "placeholders": {
+         "n": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "batchCapturing": {
+      "message": "Capturing…"
+   },
+   "batchClear": {
+      "message": "Clear"
+   },
+   "batchFinished": {
+      "message": "Finished"
+   },
+   "batchHeading": {
+      "message": "Batch capture"
+   },
+   "batchListHint": {
+      "message": "Up to 200 pages. Each one is opened, captured whole and saved to your capture history."
+   },
+   "batchListLabel": {
+      "message": "Addresses, one per line"
+   },
+   "batchListPlaceholder": {
+      "message": "https://example.com\nhttps://example.com/pricing"
+   },
+   "batchLoadFailed": {
+      "message": "The page could not be opened"
+   },
+   "batchLoadTimeout": {
+      "message": "The page did not finish loading"
+   },
+   "batchNoUrls": {
+      "message": "No addresses in the list"
+   },
+   "batchOnePdf": {
+      "message": "One PDF of everything"
+   },
+   "batchOnePdfSaved": {
+      "message": "One PDF saved"
+   },
+   "batchOpenFiles": {
+      "message": "Open your captures"
+   },
+   "batchOpening": {
+      "message": "Opening…"
+   },
+   "batchPausedHidden": {
+      "message": "Waiting: the capture window is hidden. Bring it back to the front and the run carries on."
+   },
+   "batchPdfName": {
+      "message": "batch-capture"
+   },
+   "batchPdfTitle": {
+      "message": "$1 pages",
+      "placeholders": {
+         "n": {
+            "content": "$1"
+         }
+      }
+   },
+   "batchProBody": {
+      "message": "Give the extension a list of addresses and it captures every page in one go, while you do something else."
+   },
+   "batchProTitle": {
+      "message": "Batch capture is part of Pro"
+   },
+   "batchProgress": {
+      "message": "$1 of $2",
+      "placeholders": {
+         "done": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "batchResume": {
+      "message": "Bring it back"
+   },
+   "batchSaveAll": {
+      "message": "Save all files"
+   },
+   "batchSaved": {
+      "message": "$1 files saved",
+      "placeholders": {
+         "n": {
+            "content": "$1"
+         }
+      }
+   },
+   "batchSaving": {
+      "message": "Saving $1 of $2…",
+      "placeholders": {
+         "n": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "batchStart": {
+      "message": "Start"
+   },
+   "batchStop": {
+      "message": "Stop"
+   },
+   "batchStopped": {
+      "message": "Stopped"
+   },
+   "batchSummary": {
+      "message": "$1 pages captured",
+      "placeholders": {
+         "ok": {
+            "content": "$1"
+         }
+      }
+   },
+   "batchSummaryFailed": {
+      "message": "$1 captured, $2 could not be",
+      "placeholders": {
+         "bad": {
+            "content": "$2"
+         },
+         "ok": {
+            "content": "$1"
+         }
+      }
+   },
+   "batchTimeout": {
+      "message": "Took too long"
+   },
+   "batchWindows": {
+      "message": "The pages open in a second window, in front. Leave it on screen while the batch runs: a covered window cannot be photographed. Your own window is not moved or resized."
+   },
+   "cloudAccountLine": {
+      "message": "Connected as $email$",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudBatchSend": {
+      "message": "Send all to $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudChangedSinceSend": {
+      "message": "Changed since it went to $service$ - send it again to update the copy",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudConnect": {
+      "message": "Connect"
+   },
+   "cloudConnected": {
+      "message": "$service$ is connected",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudConnecting": {
+      "message": "Connecting to $service$...",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudCopyLink": {
+      "message": "Copy the link"
+   },
+   "cloudDisconnect": {
+      "message": "Disconnect"
+   },
+   "cloudDisconnected": {
+      "message": "$service$ is disconnected",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudFailed": {
+      "message": "Could not save to the cloud: $why$",
+      "placeholders": {
+         "why": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudFileGone": {
+      "message": "That file is no longer in $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudFolderLine": {
+      "message": "Captures go to the folder \"$name$\"",
+      "placeholders": {
+         "name": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudFull": {
+      "message": "There is no room left in that $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudInDrive": {
+      "message": "In $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudLinkCopied": {
+      "message": "Link copied"
+   },
+   "cloudNoAnswer": {
+      "message": "The sign-in did not answer. Check that you are signed in to the browser, then try again"
+   },
+   "cloudNoIdentity": {
+      "message": "This browser cannot sign in to Google here"
+   },
+   "cloudNoPro": {
+      "message": "Saving to the cloud is part of Pro"
+   },
+   "cloudNotConfigured": {
+      "message": "Cloud saving is not set up in this build"
+   },
+   "cloudNotConnected": {
+      "message": "$service$ was not connected",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudOffline": {
+      "message": "No connection to $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudOpenEdited": {
+      "message": "Open the edited copy"
+   },
+   "cloudOpenFile": {
+      "message": "Open in $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudOpenFolder": {
+      "message": "Open the folder"
+   },
+   "cloudOpenLink": {
+      "message": "Open the link"
+   },
+   "cloudOptBody": {
+      "message": "Send a capture straight to a \"FullPage Capture\" folder in your own cloud storage."
+   },
+   "cloudOptTitle": {
+      "message": "Save to the cloud"
+   },
+   "cloudOtherAccount": {
+      "message": "This went to $email$, which is not the Google account connected now.",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudOtherProvider": {
+      "message": "This went to $service$, which is not the cloud in use now.",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudProviderHint": {
+      "message": "One at a time. Captures already sent stay where they are."
+   },
+   "cloudProviderLabel": {
+      "message": "Where captures go"
+   },
+   "cloudSaved": {
+      "message": "Saved to $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudSavedEdited": {
+      "message": "The edited picture is in $service$, beside the capture",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudSavedN": {
+      "message": "$n$ saved to $service$",
+      "placeholders": {
+         "n": {
+            "content": "$1"
+         },
+         "service": {
+            "content": "$2"
+         }
+      }
+   },
+   "cloudScopeDrive": {
+      "message": "Google Drive lets the extension see only the files it puts there itself."
+   },
+   "cloudScopeOneDrive": {
+      "message": "Microsoft offers no per-file permission, so OneDrive asks for access to your files. The extension still only ever writes to its own folder."
+   },
+   "cloudSend": {
+      "message": "Save to $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudSendAgain": {
+      "message": "Send the current version"
+   },
+   "cloudSendMany": {
+      "message": "Send to $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudSendTitle": {
+      "message": "Save this capture to your $service$",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudShare": {
+      "message": "Get a link anyone can open"
+   },
+   "cloudShareForbidden": {
+      "message": "This account is not allowed to share files by link"
+   },
+   "cloudShareManyFiles": {
+      "message": "This capture is several files, so there is no single link for it"
+   },
+   "cloudShareNote": {
+      "message": "Anyone holding the link will be able to view this file. Nobody can find it without the link."
+   },
+   "cloudSharedCopied": {
+      "message": "Anyone with the link can view it now - link copied"
+   },
+   "cloudSharedLabel": {
+      "message": "Shared by link"
+   },
+   "cloudSharedOff": {
+      "message": "The link no longer works"
+   },
+   "cloudSharedOn": {
+      "message": "Anyone with the link can view it now"
+   },
+   "cloudSignInChrome": {
+      "message": "Sign in to Chrome with the Google account whose Drive you want to use, then try again"
+   },
+   "cloudSignInFailed": {
+      "message": "The sign-in did not finish. Try again, and complete it in the window that opens."
+   },
+   "cloudSomeFailed": {
+      "message": "$n$ could not be sent",
+      "placeholders": {
+         "n": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudStaleTitle": {
+      "message": "The copy in $service$ is not what is on screen now",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "cloudStopSharing": {
+      "message": "Stop sharing"
+   },
+   "cloudUploading": {
+      "message": "Sending to Drive:"
+   },
+   "cloudUploadingOf": {
+      "message": "Sending to Drive, $n$ of $total$:",
+      "placeholders": {
+         "n": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "cmdCapturePage": {
+      "message": "Capture the full page"
+   },
+   "cmdPickFrame": {
+      "message": "Pick a frame or part of the page to capture"
+   },
+   "confirmDeleteKeepsDrive": {
+      "message": "The copy in your $service$ stays where it is.",
+      "placeholders": {
+         "service": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmDeleteMany": {
+      "message": "Delete $1 screenshots?\n(This cannot be undone.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Delete this screenshot?\n(This cannot be undone.)"
+   },
+   "copiedToClipboard": {
+      "message": "Copied to clipboard"
+   },
+   "copyFailed": {
+      "message": "Copy failed: $1"
+   },
+   "createdPdf": {
+      "message": "Created PDF"
+   },
+   "creatingPdf": {
+      "message": "Creating PDF:"
+   },
+   "dateFmtDate": {
+      "message": "Date"
+   },
+   "dateFmtDateTime": {
+      "message": "Date & time"
+   },
+   "dateFmtNone": {
+      "message": "No date"
+   },
+   "edApplyCrop": {
+      "message": "Apply crop"
+   },
+   "edArrowheads": {
+      "message": "Arrowheads"
+   },
+   "edBack": {
+      "message": "Back to capture"
+   },
+   "edBrand": {
+      "message": "Markup"
+   },
+   "edBringForward": {
+      "message": "Bring forward"
+   },
+   "edCancelCrop": {
+      "message": "Cancel crop"
+   },
+   "edClose": {
+      "message": "Close"
+   },
+   "edColor": {
+      "message": "Color"
+   },
+   "edConfirmDelete": {
+      "message": "Delete this capture?"
+   },
+   "edCopiedResized": {
+      "message": "Copied (resized to $WIDTH$x$HEIGHT$ for clipboard limits)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Copy"
+   },
+   "edCopyLayer": {
+      "message": "Copy layer"
+   },
+   "edCopyTitle": {
+      "message": "Copy to clipboard"
+   },
+   "edCornerRadius": {
+      "message": "Corner radius"
+   },
+   "edCustomColor": {
+      "message": "Custom color"
+   },
+   "edDeleteCapture": {
+      "message": "Delete capture"
+   },
+   "edDeleteSel": {
+      "message": "Delete selection"
+   },
+   "edDlImage": {
+      "message": "Download image"
+   },
+   "edDuplicateSel": {
+      "message": "Duplicate selection"
+   },
+   "edEvidenceOn": {
+      "message": "Evidence stamp on export"
+   },
+   "edExport": {
+      "message": "Export"
+   },
+   "edExportSaveAs": {
+      "message": "Export save as"
+   },
+   "edFasterMove": {
+      "message": "Faster move"
+   },
+   "edFill": {
+      "message": "Fill"
+   },
+   "edFontSize": {
+      "message": "Font size"
+   },
+   "edHeadBoth": {
+      "message": "Both"
+   },
+   "edHeadOne": {
+      "message": "One end"
+   },
+   "edHelp": {
+      "message": "Help"
+   },
+   "edHelpDocument": {
+      "message": "Document"
+   },
+   "edHelpLayers": {
+      "message": "Layers"
+   },
+   "edHelpShapes": {
+      "message": "Insert shapes"
+   },
+   "edHelpTools": {
+      "message": "Tools"
+   },
+   "edKeyMouseArrows": {
+      "message": "Mouse or arrow keys"
+   },
+   "edKeyOorE": {
+      "message": "O or E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + arrows"
+   },
+   "edLayersEmpty": {
+      "message": "Nothing yet. Pick a tool from the rail."
+   },
+   "edMode": {
+      "message": "Mode"
+   },
+   "edModeBlur": {
+      "message": "Blur"
+   },
+   "edModePixel": {
+      "message": "Pixelate"
+   },
+   "edMore": {
+      "message": "More"
+   },
+   "edMoveLayer": {
+      "message": "Move layer"
+   },
+   "edNoFill": {
+      "message": "No fill"
+   },
+   "edNotFoundBody": {
+      "message": "Capture not found. It may have been deleted."
+   },
+   "edNotFoundTitle": {
+      "message": "Capture not found - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Object"
+   },
+   "edObjects": {
+      "message": "Objects"
+   },
+   "edOnlyResized": {
+      "message": "A crop or an address bar changes the size of the picture, so this edit stays in the editor - save or copy from this page to get it. The other pages keep the untouched capture."
+   },
+   "edOnlySplit": {
+      "message": "This capture is stored in several images, so what you draw here stays in the editor - save or copy from this page to get it. The other pages keep the untouched capture."
+   },
+   "edPasteLayer": {
+      "message": "Paste layer"
+   },
+   "edPropsEmpty": {
+      "message": "Select an object to edit its style."
+   },
+   "edRedo": {
+      "message": "Redo (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Redo"
+   },
+   "edSaveAsJpeg": {
+      "message": "Save as JPEG"
+   },
+   "edSaveAsPdf": {
+      "message": "Save as PDF"
+   },
+   "edSaveAsPng": {
+      "message": "Save as PNG"
+   },
+   "edSaveImage": {
+      "message": "Save image"
+   },
+   "edSaveOther": {
+      "message": "Other file types"
+   },
+   "edSendBackward": {
+      "message": "Send backward"
+   },
+   "edShortcuts": {
+      "message": "Keyboard shortcuts"
+   },
+   "edThickness": {
+      "message": "Thickness"
+   },
+   "edToggleCrop": {
+      "message": "Toggle crop"
+   },
+   "edToggleUrlDate": {
+      "message": "Toggle URL and date"
+   },
+   "edToolArrow": {
+      "message": "Arrow (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Arrow"
+   },
+   "edToolBadge": {
+      "message": "Numbered badge (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Numbered badge"
+   },
+   "edToolBrush": {
+      "message": "Brush (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Brush"
+   },
+   "edToolCrop": {
+      "message": "Crop (C)"
+   },
+   "edToolEllipse": {
+      "message": "Ellipse (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Ellipse"
+   },
+   "edToolHighlight": {
+      "message": "Highlighter (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Highlighter"
+   },
+   "edToolLine": {
+      "message": "Line (L)"
+   },
+   "edToolLineShort": {
+      "message": "Line"
+   },
+   "edToolOvalShort": {
+      "message": "Oval"
+   },
+   "edToolPen": {
+      "message": "Pen (P)"
+   },
+   "edToolPenShort": {
+      "message": "Pen"
+   },
+   "edToolRect": {
+      "message": "Rectangle (R)"
+   },
+   "edToolRectShort": {
+      "message": "Rectangle"
+   },
+   "edToolRedact": {
+      "message": "Blur (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Blur"
+   },
+   "edToolSelect": {
+      "message": "Select (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Select"
+   },
+   "edToolText": {
+      "message": "Text (T)"
+   },
+   "edToolTextShort": {
+      "message": "Text"
+   },
+   "edTplMac": {
+      "message": "Mac browser"
+   },
+   "edTplNone": {
+      "message": "None"
+   },
+   "edTplWin": {
+      "message": "Windows browser"
+   },
+   "edUndo": {
+      "message": "Undo (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Undo"
+   },
+   "evCopied": {
+      "message": "Copied with the evidence stamp"
+   },
+   "evCopiedFull": {
+      "message": "Copied with the evidence stamp at full size (evidence copies are never resized)"
+   },
+   "evSavedPng": {
+      "message": "Saved as PNG: evidence exports are lossless"
+   },
+   "evSkippedNoPro": {
+      "message": "Evidence stamp skipped: Pro is not active in this browser"
+   },
+   "evStamping": {
+      "message": "Adding the evidence stamp:"
+   },
+   "evTooLarge": {
+      "message": "Too large for the evidence band. Save the PDF instead."
+   },
+   "filesClearSelection": {
+      "message": "Clear selection"
+   },
+   "filesDeselectAll": {
+      "message": "Deselect all"
+   },
+   "filesEmpty": {
+      "message": "No captures yet. Click the extension icon on any page to take one."
+   },
+   "filesFoundInText": {
+      "message": "$n$ found by what is written on the page",
+      "placeholders": {
+         "n": {
+            "content": "$1"
+         }
+      }
+   },
+   "filesHeading": {
+      "message": "Your captures"
+   },
+   "filesLoadFailed": {
+      "message": "Failed to load: $1"
+   },
+   "filesSaveAll": {
+      "message": "Save all $1"
+   },
+   "filesSaveBoth": {
+      "message": "Save both"
+   },
+   "filesSaveFailed": {
+      "message": "Could not save $1 of these."
+   },
+   "filesSavedCount": {
+      "message": "$1 saved on this device"
+   },
+   "filesSearch": {
+      "message": "Search"
+   },
+   "filesSelect": {
+      "message": "Select"
+   },
+   "filesSelectAll": {
+      "message": "Select all"
+   },
+   "filesSelectedCount": {
+      "message": "$1 selected"
+   },
+   "optAllow": {
+      "message": "Allow"
+   },
+   "optAutoDownload": {
+      "message": "Auto-download files"
+   },
+   "optAutoDownloadHint": {
+      "message": "Automatically download your screenshot as an image instead of opening it in a new window. The capture tab will not open. You can return here by right-clicking the extension icon and selecting Options."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Not compatible with the browser setting 'Ask where to save each file before downloading'. If that is enabled too, the save dialog can show errors."
+   },
+   "optBatch": {
+      "message": "Batch capture"
+   },
+   "optBatchHint": {
+      "message": "A list of addresses captured in one go, on its own page. Open it from here or from your captures."
+   },
+   "optBatchOpen": {
+      "message": "Open batch capture"
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Ask what to capture"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Clicking the icon first offers Whole page or Part of the page. Off: one click captures the whole page."
+   },
+   "optCopyFit": {
+      "message": "Shrink copies for Google Docs"
+   },
+   "optCopyFitHint": {
+      "message": "Clipboard copies above 25,000,000 px are resized automatically"
+   },
+   "optDateFmt": {
+      "message": "Date format"
+   },
+   "optDateFmtHint": {
+      "message": "How the capture date appears in the bar, or hide it"
+   },
+   "optDelay": {
+      "message": "Pause between scrolls"
+   },
+   "optDelay150": {
+      "message": "150 ms (default)"
+   },
+   "optDelayHint": {
+      "message": "Raise it for pages with slow lazy-loading"
+   },
+   "optDelayNone": {
+      "message": "None"
+   },
+   "optDirPermNote": {
+      "message": "Saving into a folder needs the Downloads permission. Allow it to make the folder take effect."
+   },
+   "optEvidence": {
+      "message": "Evidence mode"
+   },
+   "optEvidenceHint": {
+      "message": "Every export gets a band with the page address, the exact time with its time zone, and a SHA-256 checksum of the pixels; the same facts are written into the file. Images are saved as PNG and PDF pages losslessly, so the checksum can be verified later at fullpagecapture.net/verify. Replaces the PDF address bar."
+   },
+   "optEvidenceProNote": {
+      "message": "These are part of Pro."
+   },
+   "optFileType": {
+      "message": "File type"
+   },
+   "optFileTypeHint": {
+      "message": "For the Save button and auto-download"
+   },
+   "optFolder": {
+      "message": "Save into a folder"
+   },
+   "optFolderHint": {
+      "message": "A subfolder under Downloads. Leave empty to use Downloads itself"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Settings"
+   },
+   "optImgWait": {
+      "message": "Wait for images"
+   },
+   "optImgWaitFull": {
+      "message": "Full, up to 8 s for large images"
+   },
+   "optImgWaitHint": {
+      "message": "Pause each frame until lazy-loading images finish. Turn on if screenshots show blurry or empty images"
+   },
+   "optImgWaitOff": {
+      "message": "Off"
+   },
+   "optImgWaitShort": {
+      "message": "Short, up to 1.5 s per frame (default)"
+   },
+   "optLandscape": {
+      "message": "Landscape"
+   },
+   "optLinks": {
+      "message": "Clickable links"
+   },
+   "optLinksHint": {
+      "message": "Links on the page stay clickable in the PDF"
+   },
+   "optOrientation": {
+      "message": "Orientation"
+   },
+   "optOrientationHint": {
+      "message": "Paper orientation for the page sizes above"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "Full image"
+   },
+   "optPdfFullHint": {
+      "message": "One page, sized to the screenshot"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8.5 x 14 in"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8.5 x 11 in"
+   },
+   "optPdfText": {
+      "message": "Searchable PDF"
+   },
+   "optPdfTextHint": {
+      "message": "PDF exports carry the words of the page over the picture, so the text can be selected, searched and copied. Nothing is visible on the page itself."
+   },
+   "optPortrait": {
+      "message": "Portrait"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Ask where to save"
+   },
+   "optSaveAsHint": {
+      "message": "A save-as dialog for single files. Skipped for batches"
+   },
+   "optSaved": {
+      "message": "Saved"
+   },
+   "optSecAccount": {
+      "message": "Account & Pro"
+   },
+   "optSecCapturing": {
+      "message": "Capturing"
+   },
+   "optSecEvidence": {
+      "message": "Evidence"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSecPro": {
+      "message": "Pro features"
+   },
+   "optSmartSplit": {
+      "message": "Smart page splitting"
+   },
+   "optSmartSplitHint": {
+      "message": "Move each page break to a gap between lines so text is never cut in half"
+   },
+   "optUrlDate": {
+      "message": "Stamp the page address and date on top"
+   },
+   "optUrlDateHint": {
+      "message": "The page URL and capture time on the first PDF page"
+   },
+   "pageTitle_batch": {
+      "message": "Batch capture - FullPage Capture"
+   },
+   "pageTitle_editor": {
+      "message": "Markup - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Files - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Settings - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Screenshot - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Welcome - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "$1 parts"
+   },
+   "pdfFailed": {
+      "message": "PDF failed: $1"
+   },
+   "pickBlock": {
+      "message": "Part of the page"
+   },
+   "pickFrameClose": {
+      "message": "Close"
+   },
+   "pickFrameHint": {
+      "message": "Click the frame, panel or part of the page to capture"
+   },
+   "pickFrameKeyArrows": {
+      "message": "larger or smaller"
+   },
+   "pickFrameKeyEsc": {
+      "message": "cancel"
+   },
+   "pickImage": {
+      "message": "Image"
+   },
+   "pickNav": {
+      "message": "Navigation"
+   },
+   "pickNoFrames": {
+      "message": "Nothing on this page can be picked"
+   },
+   "pickScrollArea": {
+      "message": "Scrolling area"
+   },
+   "pickVideo": {
+      "message": "Video"
+   },
+   "popupBlockedBody": {
+      "message": "Browser pages like settings and the Web Store are protected, so no extension can capture them. Any regular website works fine."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome keeps this page private"
+   },
+   "popupCannotAccess": {
+      "message": "Cannot access this page."
+   },
+   "popupCanvasWide": {
+      "message": "$1 px wide (canvas)"
+   },
+   "popupCaptureFailed": {
+      "message": "Capture failed."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Could not capture this page: $1"
+   },
+   "popupCapturing": {
+      "message": "Capturing..."
+   },
+   "popupCapturingTitle": {
+      "message": "Capturing the page"
+   },
+   "popupChooseTitle": {
+      "message": "What to capture?"
+   },
+   "popupClose": {
+      "message": "Close"
+   },
+   "popupConnectionLost": {
+      "message": "Connection to the page was lost."
+   },
+   "popupCreatingPdf": {
+      "message": "Creating PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "Watch a demo"
+   },
+   "popupDownloading": {
+      "message": "Downloading..."
+   },
+   "popupFileUrlHint": {
+      "message": "For file:// pages enable \"Allow access to file URLs\" in extension details."
+   },
+   "popupFrameEarly": {
+      "message": "New in Pro: capture just the part of the page you need, in full, with scrolling."
+   },
+   "popupFrameTitle": {
+      "message": "Capturing a frame"
+   },
+   "popupFrameUnreachable": {
+      "message": "This frame cannot be reached by the extension."
+   },
+   "popupHowItWorks": {
+      "message": "How it works"
+   },
+   "popupHowStep1": {
+      "message": "Point at any part of the page: it gets outlined."
+   },
+   "popupHowStep2": {
+      "message": "pick a larger or smaller part."
+   },
+   "popupHowStep3": {
+      "message": "Click: we scroll through it and capture all of it, even what's hidden below."
+   },
+   "popupLocalFile": {
+      "message": "This is a local file. To capture it, turn on \"Allow access to file URLs\" for this extension, then try again."
+   },
+   "popupModeFrame": {
+      "message": "Part of the page"
+   },
+   "popupModeFrameHint": {
+      "message": "Early access. Click a frame, a panel or any area; only that is captured."
+   },
+   "popupModePage": {
+      "message": "Whole page"
+   },
+   "popupModePageHint": {
+      "message": "Scrolls to the end and stitches every screen into one image."
+   },
+   "popupNoActiveTab": {
+      "message": "No active tab."
+   },
+   "popupNoFrames": {
+      "message": "Nothing on this page can be picked."
+   },
+   "popupOpenSettings": {
+      "message": "Open extension settings"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Only need part of the page?"
+   },
+   "popupPauseHint": {
+      "message": "close to pause, reopen to resume"
+   },
+   "popupPauseTitle": {
+      "message": "Pause. Closing the popup pauses, reopening resumes"
+   },
+   "popupPdfFailed": {
+      "message": "Could not create the PDF. The capture is saved in Files."
+   },
+   "popupPdfInvalid": {
+      "message": "This file could not be read as a PDF."
+   },
+   "popupPdfLoading": {
+      "message": "Loading the PDF..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(pages 1-$1 of $2)"
+   },
+   "popupPdfPassword": {
+      "message": "This PDF is password-protected and cannot be captured."
+   },
+   "popupPdfReadFailed": {
+      "message": "Could not read the PDF: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Rendering page $1 of $2..."
+   },
+   "popupPickFrame": {
+      "message": "Click the frame on the page"
+   },
+   "popupPickLost": {
+      "message": "The element picked on the page is gone. Pick it again."
+   },
+   "popupPickStartFailed": {
+      "message": "The pick could not start on this page. Try again."
+   },
+   "popupPreparing": {
+      "message": "Preparing..."
+   },
+   "popupReadImageFailed": {
+      "message": "Could not read the image: $1"
+   },
+   "popupResuming": {
+      "message": "Resuming"
+   },
+   "popupSaving": {
+      "message": "Saving..."
+   },
+   "popupScrolling": {
+      "message": "Scrolling"
+   },
+   "popupSelfReload": {
+      "message": "This page reloads itself as soon as anything on it is changed, so a full-page capture could not be completed."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Set keyboard shortcuts"
+   },
+   "popupShortcut": {
+      "message": "Shortcut: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "This page is taller than one image can hold, so it will arrive as $1 pieces. You can download them all together."
+   },
+   "popupStalled": {
+      "message": "Capture stalled ($1). Reload the page and try again, or use Report an issue."
+   },
+   "popupStamping": {
+      "message": "Adding the evidence stamp..."
+   },
+   "popupStopCapture": {
+      "message": "Stop capture"
+   },
+   "popupTryDemo": {
+      "message": "Try it on a sample page"
+   },
+   "popupWarmingUp": {
+      "message": "Warming up"
+   },
+   "proBuyYear": {
+      "message": "Get Pro"
+   },
+   "proCloudBody": {
+      "message": "Saving to the cloud is part of Pro. Saving to your computer stays free."
+   },
+   "proExportBody": {
+      "message": "Saving a screenshot with your edits is part of Pro. The capture as the page looked stays free to save, copy and print."
+   },
+   "proExportBuy": {
+      "message": "Start the trial"
+   },
+   "proExportF1": {
+      "message": "Your edits go into the file you save"
+   },
+   "proExportF2": {
+      "message": "PDFs you can search, select and copy from"
+   },
+   "proExportF3": {
+      "message": "Address, time and checksum stamped on exports"
+   },
+   "proExportF4": {
+      "message": "A whole list of pages captured in one go"
+   },
+   "proExportF5": {
+      "message": "Straight into your own Google Drive"
+   },
+   "proExportFine": {
+      "message": "Secure checkout. 48-hour money-back guarantee (14 days in the EU and UK). The price in your country may differ."
+   },
+   "proExportLoading": {
+      "message": "Loading secure checkout..."
+   },
+   "proExportNo": {
+      "message": "Not now"
+   },
+   "proExportOpenTab": {
+      "message": "Open in a tab"
+   },
+   "proExportRenew": {
+      "message": "After 7 days, $$19 a year. Cancel any time."
+   },
+   "proExportSkipped": {
+      "message": "$1 of these carry edits, which is part of Pro, and were not saved."
+   },
+   "proExportSlow": {
+      "message": "The checkout is taking a while."
+   },
+   "proExportTitle": {
+      "message": "To carry on, start your Pro trial"
+   },
+   "proExportTitleYear": {
+      "message": "To carry on, get Pro"
+   },
+   "proExportTrial": {
+      "message": "trial for 7 days"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Nothing to pay today"
+   },
+   "proOfferTitle": {
+      "message": "What Pro adds"
+   },
+   "proTryCta": {
+      "message": "Try Pro"
+   },
+   "proYearAmount": {
+      "message": "$$19"
+   },
+   "proYearNote": {
+      "message": "You've already had the free trial"
+   },
+   "proYearPer": {
+      "message": "a year"
+   },
+   "rateDoNotAsk": {
+      "message": "Do not ask again"
+   },
+   "rateNotNow": {
+      "message": "Not now"
+   },
+   "rateSkip": {
+      "message": "Skip"
+   },
+   "rateSorry": {
+      "message": "Sorry about that"
+   },
+   "rateStar1": {
+      "message": "Terrible"
+   },
+   "rateStar2": {
+      "message": "Poor"
+   },
+   "rateStar3": {
+      "message": "Okay"
+   },
+   "rateStar4": {
+      "message": "Good"
+   },
+   "rateStar5": {
+      "message": "Excellent"
+   },
+   "rateTakenCount": {
+      "message": "$1 screenshots so far. If it has been useful, a short review would mean a lot - and if not, that is completely fine."
+   },
+   "rateTellUs": {
+      "message": "Tell us"
+   },
+   "rateText1": {
+      "message": "Please rate FullPage Capture and tell us what you think."
+   },
+   "rateText2": {
+      "message": "A short review helps other people find it. And if you would rather not, no problem at all."
+   },
+   "rateText3": {
+      "message": "If the extension has earned it, a short review would help a lot. Either way, thank you for using it."
+   },
+   "rateTitle1": {
+      "message": "Got a moment?"
+   },
+   "rateTitle2": {
+      "message": "Still using FullPage Capture?"
+   },
+   "rateTitle3": {
+      "message": "One last ask"
+   },
+   "reportEmpty": {
+      "message": "Please describe the problem in a few words."
+   },
+   "reportFailed": {
+      "message": "Could not send the report. Please check your connection and try again."
+   },
+   "reportLimited": {
+      "message": "That is the most reports for today. Please write to us by email instead."
+   },
+   "reportNotify": {
+      "message": "Email me when this page captures correctly"
+   },
+   "reportPage": {
+      "message": "Page link"
+   },
+   "reportPageHint": {
+      "message": "Paste the link to the page"
+   },
+   "reportPlaceholder": {
+      "message": "What happened? What did you expect?"
+   },
+   "reportPriority": {
+      "message": "Priority"
+   },
+   "reportPriorityTitle": {
+      "message": "Priority support: a person answers within one business day"
+   },
+   "reportPro": {
+      "message": "Priority support: a person answers within one business day, at $1."
+   },
+   "reportProSent": {
+      "message": "Received - request $1. We will answer by email."
+   },
+   "reportSend": {
+      "message": "Send report"
+   },
+   "reportSending": {
+      "message": "Sending..."
+   },
+   "reportSub": {
+      "message": "Tell us what went wrong or what is missing. We read every report and fix things fast."
+   },
+   "reportThanks": {
+      "message": "Thank you. Your report was sent."
+   },
+   "resultCopiedPartN": {
+      "message": "Copied part $1 to clipboard"
+   },
+   "resultCopyOther": {
+      "message": "Copy another part"
+   },
+   "resultCopyPart": {
+      "message": "Copy this part"
+   },
+   "resultCopyPartN": {
+      "message": "Copy part $1"
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Download this part"
+   },
+   "resultEditEntire": {
+      "message": "Edit entire image"
+   },
+   "resultEditPart": {
+      "message": "Edit this part"
+   },
+   "resultEditPartN": {
+      "message": "Edit part $1"
+   },
+   "resultImgTitle": {
+      "message": "Captured screenshot"
+   },
+   "resultNameLabel": {
+      "message": "Screenshot name"
+   },
+   "resultNotFound": {
+      "message": "Screenshot not found - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Capture ready"
+   },
+   "resultRename": {
+      "message": "Rename"
+   },
+   "resultRenameFailed": {
+      "message": "Could not save the name"
+   },
+   "resultSaveAllJpg": {
+      "message": "Save all $1 JPGs"
+   },
+   "resultSaveAllPng": {
+      "message": "Save all $1 PNGs"
+   },
+   "resultSaveJpg": {
+      "message": "Save JPG"
+   },
+   "resultSavePdf": {
+      "message": "Save PDF"
+   },
+   "resultSavePng": {
+      "message": "Save PNG"
+   },
+   "resultSplitStrip": {
+      "message": "Too tall for a single image, so it's split into $1. Edit any part on its own, or the whole thing at once."
+   },
+   "resultZoomOut": {
+      "message": "Fit"
+   },
+   "untitledCapture": {
+      "message": "Screenshot"
+   },
+   "welcomeH1a": {
+      "message": "The whole page."
+   },
+   "welcomeH1b": {
+      "message": "One image."
+   },
+   "welcomeH2a": {
+      "message": "Frames and inner scrollers"
+   },
+   "welcomeH2b": {
+      "message": "included."
+   },
+   "welcomeH3a": {
+      "message": "Annotate. Blur."
+   },
+   "welcomeH3b": {
+      "message": "Badge. Crop."
+   },
+   "welcomeH4a": {
+      "message": "PDFs that break"
+   },
+   "welcomeH4b": {
+      "message": "between"
+   },
+   "welcomeH4c": {
+      "message": "lines. Never through them."
+   },
+   "welcomeH5a": {
+      "message": "Nothing ever leaves"
+   },
+   "welcomeH5b": {
+      "message": "this browser."
+   },
+   "welcomeH6": {
+      "message": "You're in good company."
+   },
+   "welcomeLater": {
+      "message": "Later"
+   },
+   "welcomeP1": {
+      "message": "Scrolls, stitches and delivers the entire page as a single pixel-perfect screenshot."
+   },
+   "welcomeP2": {
+      "message": "Editors, dashboards and mail clients unroll too, not just the page itself."
+   },
+   "welcomeP3": {
+      "message": "A full markup editor with arrows, text, highlighter, pixelate and numbered steps."
+   },
+   "welcomeP4": {
+      "message": "Full image, or Letter, Legal and A4 with smart page breaks and clickable links."
+   },
+   "welcomeP5": {
+      "message": "No account needed. No analytics. No tracking. Every capture stays on this device."
+   },
+   "welcomePress": {
+      "message": "Press"
+   },
+   "welcomeShortcutTail": {
+      "message": "on any page, or click the extension icon."
+   },
+   "welcomeSignIn": {
+      "message": "Sign in with Google or email"
+   },
+   "welcomeSignInHint": {
+      "message": "Optional. An account lets Pro follow you between browsers."
+   },
+   "welcomeSkip": {
+      "message": "Click anywhere to skip"
+   },
+   "welcomeTryNow": {
+      "message": "Try it right now, on this very page."
+   },
+   "zoomActual": {
+      "message": "Actual size"
+   },
+   "zoomFit": {
+      "message": "Fit to window"
+   },
+   "zoomFitShort": {
+      "message": "Fit"
+   },
+   "zoomIn": {
+      "message": "Zoom in"
+   },
+   "zoomLabel": {
+      "message": "Zoom"
+   },
+   "zoomOut": {
+      "message": "Zoom out"
+   }
+}

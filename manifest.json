@@ -1,0 +1,57 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "Capture full page"
+   },
+   "background": {
+      "service_worker": "js/background.js",
+      "type": "module"
+   },
+   "commands": {
+      "capture-page": {
+         "description": "__MSG_cmdCapturePage__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+K"
+         }
+      },
+      "pick-frame": {
+         "description": "__MSG_cmdPickFrame__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+E"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content/connect.js" ],
+      "matches": [ "https://fullpagecapture.net/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://fullpagecapture.net/",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2NUxwQGA/a+p+Ik0CmVTviPEEGjZv6yt5g+m56rGp/M7QozGPfvFCQmm+hn4zkF4nqrye2fHt0oyyi2/v9FsjEBWn3Yy5MIRVYMxmoAoBMf669yDvr2FxYWeYyuUz9fhnx2wyGdiewYVoQ32fWRS+2TOK9MFlpfyIdzskFrWEsOSj0zmkfOwvW5Se1UAdRWkv+3zk2+v1bheCJY1rUgqGgfPIRaHcV/bQw9BIruDvliSvPJ9A/xzatkWMzQuWWkh+xT7m4ED866UINPvqyHGhOB5F/UTV0fSRZ3s4AgO9e4l78Uoy7TyqmTr2P/a5uOO6AIiQ1pK8Vy/Qo4cViC/9QIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "102",
+   "name": "__MSG_appName__",
+   "oauth2": {
+      "client_id": "358561409107-ci01ecgknsme5ksqk1o0jmjkdbake2tn.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "optional_permissions": [ "downloads" ],
+   "options_page": "options/options.html",
+   "permissions": [ "activeTab", "scripting", "storage", "unlimitedStorage", "webNavigation", "contextMenus", "identity" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.19.73"
+}

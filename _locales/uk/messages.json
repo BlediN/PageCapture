@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "Скасувати"
+   },
+   "actionDelete": {
+      "message": "Видалити"
+   },
+   "actionEdit": {
+      "message": "Редагувати"
+   },
+   "actionFiles": {
+      "message": "Файли"
+   },
+   "actionOpen": {
+      "message": "Відкрити"
+   },
+   "actionPrint": {
+      "message": "Друк"
+   },
+   "actionRate": {
+      "message": "Оцінити FullPage Capture"
+   },
+   "actionReport": {
+      "message": "Повідомити про проблему"
+   },
+   "actionSave": {
+      "message": "Зберегти"
+   },
+   "actionSettings": {
+      "message": "Налаштування"
+   },
+   "appDesc": {
+      "message": "Довгий скріншот усієї сторінки сайту в Chrome. Знімок екрана з редактором анотацій."
+   },
+   "appName": {
+      "message": "FullPage Capture - Скріншот всієї сторінки"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "Видалити знімків: $1?\n(Цю дію не можна скасувати.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Видалити цей знімок?\n(Цю дію не можна скасувати.)"
+   },
+   "copiedToClipboard": {
+      "message": "Скопійовано в буфер обміну"
+   },
+   "copyFailed": {
+      "message": "Не вдалося скопіювати: $1"
+   },
+   "createdPdf": {
+      "message": "PDF готовий"
+   },
+   "creatingPdf": {
+      "message": "Створення PDF:"
+   },
+   "dateFmtDate": {
+      "message": "Дата"
+   },
+   "dateFmtDateTime": {
+      "message": "Дата й час"
+   },
+   "dateFmtNone": {
+      "message": "Без дати"
+   },
+   "edApplyCrop": {
+      "message": "Застосувати обрізання"
+   },
+   "edArrowheads": {
+      "message": "Наконечники"
+   },
+   "edBack": {
+      "message": "Назад до знімка"
+   },
+   "edBrand": {
+      "message": "Розмітка"
+   },
+   "edBringForward": {
+      "message": "На передній план"
+   },
+   "edCancelCrop": {
+      "message": "Скасувати обрізання"
+   },
+   "edClose": {
+      "message": "Закрити"
+   },
+   "edColor": {
+      "message": "Колір"
+   },
+   "edConfirmDelete": {
+      "message": "Видалити цей знімок?"
+   },
+   "edCopiedResized": {
+      "message": "Скопійовано (розмір змінено до $WIDTH$x$HEIGHT$ через обмеження буфера обміну)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Копіювати"
+   },
+   "edCopyLayer": {
+      "message": "Копіювати шар"
+   },
+   "edCopyTitle": {
+      "message": "Копіювати в буфер обміну"
+   },
+   "edCornerRadius": {
+      "message": "Радіус заокруглення"
+   },
+   "edCustomColor": {
+      "message": "Власний колір"
+   },
+   "edDeleteCapture": {
+      "message": "Видалити знімок"
+   },
+   "edDeleteSel": {
+      "message": "Видалити виділене"
+   },
+   "edDlImage": {
+      "message": "Завантажити зображення"
+   },
+   "edDuplicateSel": {
+      "message": "Дублювати виділене"
+   },
+   "edExport": {
+      "message": "Експорт"
+   },
+   "edExportSaveAs": {
+      "message": "Експорт із вибором місця"
+   },
+   "edFasterMove": {
+      "message": "Швидке переміщення"
+   },
+   "edFill": {
+      "message": "Заливка"
+   },
+   "edFontSize": {
+      "message": "Розмір тексту"
+   },
+   "edHeadBoth": {
+      "message": "Обидва"
+   },
+   "edHeadOne": {
+      "message": "Один кінець"
+   },
+   "edHelp": {
+      "message": "Довідка"
+   },
+   "edHelpDocument": {
+      "message": "Документ"
+   },
+   "edHelpLayers": {
+      "message": "Шари"
+   },
+   "edHelpShapes": {
+      "message": "Вставлення фігур"
+   },
+   "edHelpTools": {
+      "message": "Інструменти"
+   },
+   "edKeyMouseArrows": {
+      "message": "Миша або стрілки"
+   },
+   "edKeyOorE": {
+      "message": "O або E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + стрілки"
+   },
+   "edLayersEmpty": {
+      "message": "Поки порожньо. Виберіть інструмент на панелі."
+   },
+   "edMode": {
+      "message": "Режим"
+   },
+   "edModeBlur": {
+      "message": "Розмиття"
+   },
+   "edModePixel": {
+      "message": "Пікселізація"
+   },
+   "edMore": {
+      "message": "Ще"
+   },
+   "edMoveLayer": {
+      "message": "Перемістити шар"
+   },
+   "edNoFill": {
+      "message": "Без заливки"
+   },
+   "edNotFoundBody": {
+      "message": "Знімок не знайдено. Можливо, його видалено."
+   },
+   "edNotFoundTitle": {
+      "message": "Знімок не знайдено - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Обʼєкт"
+   },
+   "edObjects": {
+      "message": "Обʼєкти"
+   },
+   "edPasteLayer": {
+      "message": "Вставити шар"
+   },
+   "edPropsEmpty": {
+      "message": "Виберіть обʼєкт, щоб змінити його стиль."
+   },
+   "edRedo": {
+      "message": "Повторити (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Повторити"
+   },
+   "edSaveImage": {
+      "message": "Зберегти зображення"
+   },
+   "edSendBackward": {
+      "message": "На задній план"
+   },
+   "edShortcuts": {
+      "message": "Гарячі клавіші"
+   },
+   "edThickness": {
+      "message": "Товщина"
+   },
+   "edToggleCrop": {
+      "message": "Режим обрізання"
+   },
+   "edToggleUrlDate": {
+      "message": "Показати або сховати адресу й дату"
+   },
+   "edToolArrow": {
+      "message": "Стрілка (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Стрілка"
+   },
+   "edToolBadge": {
+      "message": "Нумерована позначка (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Нумерована позначка"
+   },
+   "edToolBrush": {
+      "message": "Пензель (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Пензель"
+   },
+   "edToolCrop": {
+      "message": "Обрізання (C)"
+   },
+   "edToolEllipse": {
+      "message": "Еліпс (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Еліпс"
+   },
+   "edToolHighlight": {
+      "message": "Маркер (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Маркер"
+   },
+   "edToolLine": {
+      "message": "Лінія (L)"
+   },
+   "edToolLineShort": {
+      "message": "Лінія"
+   },
+   "edToolOvalShort": {
+      "message": "Овал"
+   },
+   "edToolPen": {
+      "message": "Олівець (P)"
+   },
+   "edToolPenShort": {
+      "message": "Олівець"
+   },
+   "edToolRect": {
+      "message": "Прямокутник (R)"
+   },
+   "edToolRectShort": {
+      "message": "Прямокутник"
+   },
+   "edToolRedact": {
+      "message": "Розмиття (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Розмиття"
+   },
+   "edToolSelect": {
+      "message": "Виділення (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Виділення"
+   },
+   "edToolText": {
+      "message": "Текст (T)"
+   },
+   "edToolTextShort": {
+      "message": "Текст"
+   },
+   "edTplMac": {
+      "message": "Браузер Mac"
+   },
+   "edTplNone": {
+      "message": "Немає"
+   },
+   "edTplWin": {
+      "message": "Браузер Windows"
+   },
+   "edUndo": {
+      "message": "Відмінити (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Відмінити"
+   },
+   "filesClearSelection": {
+      "message": "Очистити вибір"
+   },
+   "filesDeselectAll": {
+      "message": "Зняти виділення"
+   },
+   "filesEmpty": {
+      "message": "Знімків поки немає. Натисніть значок розширення на будь-якій сторінці, щоб зробити перший."
+   },
+   "filesHeading": {
+      "message": "Ваші знімки"
+   },
+   "filesLoadFailed": {
+      "message": "Не вдалося завантажити: $1"
+   },
+   "filesSaveAll": {
+      "message": "Зберегти всі: $1"
+   },
+   "filesSaveBoth": {
+      "message": "Зберегти обидва"
+   },
+   "filesSaveFailed": {
+      "message": "Не вдалося зберегти: $1."
+   },
+   "filesSavedCount": {
+      "message": "Збережено на цьому пристрої: $1"
+   },
+   "filesSearch": {
+      "message": "Пошук"
+   },
+   "filesSelect": {
+      "message": "Вибрати"
+   },
+   "filesSelectAll": {
+      "message": "Вибрати всі"
+   },
+   "filesSelectedCount": {
+      "message": "Вибрано: $1"
+   },
+   "optAllow": {
+      "message": "Дозволити"
+   },
+   "optAutoDownload": {
+      "message": "Автоматично завантажувати файли"
+   },
+   "optAutoDownloadHint": {
+      "message": "Автоматично завантажувати знімок як зображення замість того, щоб відкривати його в новому вікні. Вкладка зі знімком не відкриється. Повернутися сюди можна, натиснувши правою кнопкою значок розширення й вибравши Параметри."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Несумісно з налаштуванням браузера 'Завжди вказувати місце для завантаження'. Якщо воно теж увімкнене, вікно збереження може показувати помилки."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Питати, що знімати"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Клік по іконці спершу запропонує: уся сторінка або частина сторінки. Вимкнено: один клік знімає всю сторінку."
+   },
+   "optCopyFit": {
+      "message": "Зменшувати копії для Google Docs"
+   },
+   "optCopyFitHint": {
+      "message": "Копії в буфер обміну понад 25 000 000 пікселів зменшуються автоматично"
+   },
+   "optDateFmt": {
+      "message": "Формат дати"
+   },
+   "optDateFmtHint": {
+      "message": "Як дата виглядає на смузі, або сховати її"
+   },
+   "optDelay": {
+      "message": "Пауза між прокрутками"
+   },
+   "optDelay150": {
+      "message": "150 мс (за умовчанням)"
+   },
+   "optDelayHint": {
+      "message": "Збільште для сторінок, які повільно довантажують вміст"
+   },
+   "optDelayNone": {
+      "message": "Немає"
+   },
+   "optDirPermNote": {
+      "message": "Щоб зберігати в папку, потрібен дозвіл на завантаження. Надайте його, щоб папка запрацювала."
+   },
+   "optFileType": {
+      "message": "Тип файлу"
+   },
+   "optFileTypeHint": {
+      "message": "Для кнопки «Зберегти» та автозавантаження"
+   },
+   "optFolder": {
+      "message": "Зберігати в папку"
+   },
+   "optFolderHint": {
+      "message": "Підпапка всередині Завантажень. Залиште порожнім, щоб зберігати просто в Завантаження"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Налаштування"
+   },
+   "optImgWait": {
+      "message": "Чекати на зображення"
+   },
+   "optImgWaitFull": {
+      "message": "Повністю, до 8 с для великих зображень"
+   },
+   "optImgWaitHint": {
+      "message": "Чекати на кожному кадрі, поки довантажаться зображення. Увімкніть, якщо на знімках розмиті або порожні картинки"
+   },
+   "optImgWaitOff": {
+      "message": "Вимкнено"
+   },
+   "optImgWaitShort": {
+      "message": "Коротко, до 1,5 с на кадр (за умовчанням)"
+   },
+   "optLandscape": {
+      "message": "Альбомна"
+   },
+   "optLinks": {
+      "message": "Клікабельні посилання"
+   },
+   "optLinksHint": {
+      "message": "Посилання на сторінці залишаються клікабельними в PDF"
+   },
+   "optOrientation": {
+      "message": "Орієнтація"
+   },
+   "optOrientationHint": {
+      "message": "Орієнтація сторінки для форматів вище"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 мм"
+   },
+   "optPdfFull": {
+      "message": "Усе зображення"
+   },
+   "optPdfFullHint": {
+      "message": "Одна сторінка за розміром знімка"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8,5 x 14 дюйма"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8,5 x 11 дюйма"
+   },
+   "optPortrait": {
+      "message": "Книжкова"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Запитувати, куди зберігати"
+   },
+   "optSaveAsHint": {
+      "message": "Вікно збереження для окремих файлів. Коли їх кілька, пропускається"
+   },
+   "optSaved": {
+      "message": "Збережено"
+   },
+   "optSecCapturing": {
+      "message": "Знімання"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "Розумний поділ на сторінки"
+   },
+   "optSmartSplitHint": {
+      "message": "Переносити розрив сторінки в проміжок між рядками, щоб текст ніколи не розрізався"
+   },
+   "optUrlDate": {
+      "message": "Ставити адресу сторінки й дату вгорі"
+   },
+   "optUrlDateHint": {
+      "message": "Адреса сторінки та час знімання на першій сторінці PDF"
+   },
+   "pageTitle_editor": {
+      "message": "Розмітка - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Файли - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Налаштування - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Знімок - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Вітаємо - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Частин: $1"
+   },
+   "pdfFailed": {
+      "message": "Не вдалося створити PDF: $1"
+   },
+   "popupBlockedBody": {
+      "message": "Службові сторінки браузера, наприклад налаштування та Інтернет-магазин, захищені, тому їх не може зняти жодне розширення. Зі звичайними сайтами все працює."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome захищає цю сторінку"
+   },
+   "popupCannotAccess": {
+      "message": "Немає доступу до цієї сторінки."
+   },
+   "popupCanvasWide": {
+      "message": "Ширина $1 пікселів (полотно)"
+   },
+   "popupCaptureFailed": {
+      "message": "Не вдалося зробити знімок."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Не вдалося зняти цю сторінку: $1"
+   },
+   "popupCapturing": {
+      "message": "Знімання..."
+   },
+   "popupCapturingTitle": {
+      "message": "Знімання сторінки"
+   },
+   "popupChooseTitle": {
+      "message": "Що знімати?"
+   },
+   "popupClose": {
+      "message": "Закрити"
+   },
+   "popupConnectionLost": {
+      "message": "Звʼязок зі сторінкою втрачено."
+   },
+   "popupCreatingPdf": {
+      "message": "Створення PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "Дивитися демо"
+   },
+   "popupDownloading": {
+      "message": "Завантаження..."
+   },
+   "popupFileUrlHint": {
+      "message": "Для сторінок file:// увімкніть 'Дозволити доступ до URL файлів' у деталях розширення."
+   },
+   "popupFrameEarly": {
+      "message": "Нове в Pro: знімайте лише потрібну частину сторінки повністю, з прокручуванням."
+   },
+   "popupFrameTitle": {
+      "message": "Знімання фрейму"
+   },
+   "popupFrameUnreachable": {
+      "message": "Розширення не має доступу до цього фрейму."
+   },
+   "popupHowItWorks": {
+      "message": "Як це працює"
+   },
+   "popupHowStep1": {
+      "message": "Наведіть на будь-яку частину сторінки, і її буде виділено рамкою."
+   },
+   "popupHowStep2": {
+      "message": "вибрати більшу або меншу частину."
+   },
+   "popupHowStep3": {
+      "message": "Натисніть, і її буде знято повністю з прокручуванням, навіть те, що приховано нижче."
+   },
+   "popupLocalFile": {
+      "message": "Це локальний файл. Щоб його зняти, увімкніть 'Дозволити доступ до URL файлів' для цього розширення й спробуйте ще раз."
+   },
+   "popupModeFrame": {
+      "message": "Частина сторінки"
+   },
+   "popupModeFrameHint": {
+      "message": "Ранній доступ. Натисніть фрейм, панель або будь-яку область — буде знято лише вибране."
+   },
+   "popupModePage": {
+      "message": "Уся сторінка"
+   },
+   "popupModePageHint": {
+      "message": "Прокручує сторінку до кінця та зшиває всі екрани в одне зображення."
+   },
+   "popupNoActiveTab": {
+      "message": "Немає активної вкладки."
+   },
+   "popupNoFrames": {
+      "message": "На цій сторінці немає чого вибрати."
+   },
+   "popupOpenSettings": {
+      "message": "Відкрити налаштування розширення"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Лише частина сторінки?"
+   },
+   "popupPauseHint": {
+      "message": "закрийте, щоб призупинити, відкрийте знову, щоб продовжити"
+   },
+   "popupPauseTitle": {
+      "message": "Пауза. Закриття призупиняє, відкриття продовжує"
+   },
+   "popupPdfFailed": {
+      "message": "Не вдалося створити PDF. Знімок збережено в розділі «Файли»."
+   },
+   "popupPdfInvalid": {
+      "message": "Не вдалося прочитати цей файл як PDF."
+   },
+   "popupPdfLoading": {
+      "message": "Завантаження PDF..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(сторінки 1–$1 з $2)"
+   },
+   "popupPdfPassword": {
+      "message": "Цей PDF захищено паролем, тому зняти його не можна."
+   },
+   "popupPdfReadFailed": {
+      "message": "Не вдалося прочитати PDF: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Обробка сторінки $1 з $2..."
+   },
+   "popupPickFrame": {
+      "message": "Натисніть фрейм на сторінці"
+   },
+   "popupPickLost": {
+      "message": "Вибраний елемент зник зі сторінки. Виберіть його ще раз."
+   },
+   "popupPickStartFailed": {
+      "message": "Не вдалося почати вибір на цій сторінці. Спробуйте ще раз."
+   },
+   "popupPreparing": {
+      "message": "Підготовка..."
+   },
+   "popupReadImageFailed": {
+      "message": "Не вдалося прочитати зображення: $1"
+   },
+   "popupResuming": {
+      "message": "Продовження"
+   },
+   "popupSaving": {
+      "message": "Збереження..."
+   },
+   "popupScrolling": {
+      "message": "Прокручування"
+   },
+   "popupSelfReload": {
+      "message": "Ця сторінка перезавантажує себе, щойно в ній щось змінюється, тому зняти її повністю не вдалося."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Призначити сполучення клавіш"
+   },
+   "popupShortcut": {
+      "message": "Комбінація клавіш: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "Сторінка не вміщається в одне зображення, тому надійде частинами: $1. Їх можна завантажити всі разом."
+   },
+   "popupStalled": {
+      "message": "Знімання зупинилося ($1). Перезавантажте сторінку й спробуйте ще раз або повідомте про проблему."
+   },
+   "popupStamping": {
+      "message": "Додавання доказового штампа..."
+   },
+   "popupStopCapture": {
+      "message": "Зупинити знімання"
+   },
+   "popupTryDemo": {
+      "message": "Спробувати на тестовій сторінці"
+   },
+   "popupWarmingUp": {
+      "message": "Завантаження вмісту"
+   },
+   "proBuyYear": {
+      "message": "Оформити Pro"
+   },
+   "proCloudBody": {
+      "message": "Збереження в хмару — це функція Pro. Зберігати на комп'ютер і далі можна безкоштовно."
+   },
+   "proExportBody": {
+      "message": "Збереження знімка з вашими змінами — це функція Pro. Оригінальний знімок сторінки й далі можна безкоштовно зберігати, копіювати та друкувати."
+   },
+   "proExportBuy": {
+      "message": "Почати пробний період"
+   },
+   "proExportF1": {
+      "message": "Ваші зміни — у збереженому файлі"
+   },
+   "proExportF2": {
+      "message": "PDF із пошуком і копіюванням тексту"
+   },
+   "proExportF3": {
+      "message": "Адреса, час і контрольна сума на знімку"
+   },
+   "proExportF4": {
+      "message": "Знімки цілого списку сторінок за один раз"
+   },
+   "proExportF5": {
+      "message": "Збереження одразу у ваш Google Drive"
+   },
+   "proExportFine": {
+      "message": "Безпечна оплата. Гарантія повернення коштів протягом 48 годин (14 днів у ЄС і Великій Британії). Ціна у вашій країні може відрізнятися."
+   },
+   "proExportLoading": {
+      "message": "Завантаження безпечної форми оплати..."
+   },
+   "proExportNo": {
+      "message": "Не зараз"
+   },
+   "proExportOpenTab": {
+      "message": "Відкрити у вкладці"
+   },
+   "proExportRenew": {
+      "message": "Через 7 днів — 19 $$ на рік. Скасувати можна будь-коли."
+   },
+   "proExportSkipped": {
+      "message": "Не збережено знімків зі змінами: $1. Зберегти їх можна лише з Pro."
+   },
+   "proExportSlow": {
+      "message": "Форма оплати довго завантажується."
+   },
+   "proExportTitle": {
+      "message": "Щоб продовжити, почніть пробний період Pro"
+   },
+   "proExportTitleYear": {
+      "message": "Щоб продовжити, оформіть Pro"
+   },
+   "proExportTrial": {
+      "message": "за 7 пробних днів"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Сьогодні ви нічого не платите"
+   },
+   "proOfferTitle": {
+      "message": "Що дає Pro"
+   },
+   "proTryCta": {
+      "message": "Спробувати Pro"
+   },
+   "proYearNote": {
+      "message": "Пробний період у вас уже був"
+   },
+   "proYearPer": {
+      "message": "на рік"
+   },
+   "rateDoNotAsk": {
+      "message": "Більше не запитувати"
+   },
+   "rateNotNow": {
+      "message": "Не зараз"
+   },
+   "rateSkip": {
+      "message": "Пропустити"
+   },
+   "rateSorry": {
+      "message": "Шкода, що так вийшло"
+   },
+   "rateStar1": {
+      "message": "Жахливо"
+   },
+   "rateStar2": {
+      "message": "Погано"
+   },
+   "rateStar3": {
+      "message": "Нормально"
+   },
+   "rateStar4": {
+      "message": "Добре"
+   },
+   "rateStar5": {
+      "message": "Відмінно"
+   },
+   "rateTakenCount": {
+      "message": "Знімків на сьогодні: $1. Якщо він став у пригоді, короткий відгук багато означає, а якщо ні, це цілком нормально."
+   },
+   "rateTellUs": {
+      "message": "Розкажіть"
+   },
+   "rateText1": {
+      "message": "Оцініть FullPage Capture і розкажіть, що ви думаєте."
+   },
+   "rateText2": {
+      "message": "Короткий відгук допомагає іншим його знайти. А якщо не хочеться, нічого страшного."
+   },
+   "rateText3": {
+      "message": "Якщо розширення того варте, короткий відгук дуже допоможе. У будь-якому разі дякуємо, що користуєтеся."
+   },
+   "rateTitle1": {
+      "message": "Знайдеться хвилинка?"
+   },
+   "rateTitle2": {
+      "message": "Усе ще користуєтеся FullPage Capture?"
+   },
+   "rateTitle3": {
+      "message": "Останнє прохання"
+   },
+   "reportEmpty": {
+      "message": "Опишіть проблему кількома словами."
+   },
+   "reportFailed": {
+      "message": "Не вдалося надіслати повідомлення. Перевірте зʼєднання й спробуйте ще раз."
+   },
+   "reportLimited": {
+      "message": "На сьогодні це максимум повідомлень. Будь ласка, напишіть нам на пошту."
+   },
+   "reportNotify": {
+      "message": "Повідомити мене поштою, коли ця сторінка зніматиметься правильно"
+   },
+   "reportPage": {
+      "message": "Посилання на сторінку"
+   },
+   "reportPageHint": {
+      "message": "Вставте посилання на сторінку"
+   },
+   "reportPlaceholder": {
+      "message": "Що сталося? Чого ви очікували?"
+   },
+   "reportPriority": {
+      "message": "Пріоритет"
+   },
+   "reportPriorityTitle": {
+      "message": "Пріоритетна підтримка: відповість людина протягом робочого дня"
+   },
+   "reportPro": {
+      "message": "Пріоритетна підтримка: відповість людина протягом робочого дня, на $1."
+   },
+   "reportProSent": {
+      "message": "Отримано — звернення $1. Відповімо поштою."
+   },
+   "reportSend": {
+      "message": "Надіслати"
+   },
+   "reportSending": {
+      "message": "Надсилання..."
+   },
+   "reportSub": {
+      "message": "Розкажіть, що пішло не так або чого бракує. Ми читаємо кожне повідомлення й швидко все виправляємо."
+   },
+   "reportThanks": {
+      "message": "Дякуємо. Ваше повідомлення надіслано."
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Завантажити цю частину"
+   },
+   "resultEditEntire": {
+      "message": "Редагувати все зображення"
+   },
+   "resultEditPart": {
+      "message": "Редагувати цю частину"
+   },
+   "resultEditPartN": {
+      "message": "Редагувати частину $1"
+   },
+   "resultImgTitle": {
+      "message": "Знімок сторінки"
+   },
+   "resultNameLabel": {
+      "message": "Ім’я знімка"
+   },
+   "resultNotFound": {
+      "message": "Знімок не знайдено - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Знімок готовий"
+   },
+   "resultRename": {
+      "message": "Перейменувати"
+   },
+   "resultRenameFailed": {
+      "message": "Не вдалося зберегти ім’я"
+   },
+   "resultSaveAllJpg": {
+      "message": "Зберегти всі JPG: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Зберегти всі PNG: $1"
+   },
+   "resultSaveJpg": {
+      "message": "Зберегти як JPG"
+   },
+   "resultSavePdf": {
+      "message": "Зберегти PDF"
+   },
+   "resultSavePng": {
+      "message": "Зберегти як PNG"
+   },
+   "resultSplitStrip": {
+      "message": "Не вміщається в одне зображення, тому поділено на частини: $1. Можна редагувати кожну частину окремо або все разом."
+   },
+   "resultZoomOut": {
+      "message": "За розміром"
+   },
+   "untitledCapture": {
+      "message": "Знімок"
+   },
+   "welcomeH1a": {
+      "message": "Уся сторінка."
+   },
+   "welcomeH1b": {
+      "message": "Одне зображення."
+   },
+   "welcomeH2a": {
+      "message": "Фрейми та внутрішні прокрутки"
+   },
+   "welcomeH2b": {
+      "message": "також."
+   },
+   "welcomeH3a": {
+      "message": "Позначки. Розмиття."
+   },
+   "welcomeH3b": {
+      "message": "Нумерація. Обрізання."
+   },
+   "welcomeH4a": {
+      "message": "PDF із розривами"
+   },
+   "welcomeH4b": {
+      "message": "між"
+   },
+   "welcomeH4c": {
+      "message": "рядками. Ніколи крізь них."
+   },
+   "welcomeH5a": {
+      "message": "Ніщо не залишає"
+   },
+   "welcomeH5b": {
+      "message": "цей браузер."
+   },
+   "welcomeH6": {
+      "message": "Ви в гарній компанії."
+   },
+   "welcomeP1": {
+      "message": "Прокручує, зшиває й віддає всю сторінку одним точним знімком."
+   },
+   "welcomeP2": {
+      "message": "Редактори, панелі та поштові клієнти теж розгортаються, не лише сама сторінка."
+   },
+   "welcomeP3": {
+      "message": "Повноцінний редактор розмітки зі стрілками, текстом, маркером, пікселізацією та нумерованими кроками."
+   },
+   "welcomeP4": {
+      "message": "Усе зображення або Letter, Legal і A4 з розумними розривами сторінок та клікабельними посиланнями."
+   },
+   "welcomeP5": {
+      "message": "Без облікового запису. Без аналітики. Без стеження. Кожен знімок залишається на цьому пристрої."
+   },
+   "welcomePress": {
+      "message": "Натисніть"
+   },
+   "welcomeShortcutTail": {
+      "message": "на будь-якій сторінці або натисніть значок розширення."
+   },
+   "welcomeSkip": {
+      "message": "Натисніть будь-де, щоб пропустити"
+   },
+   "welcomeTryNow": {
+      "message": "Спробуйте просто зараз, на цій самій сторінці."
+   },
+   "zoomActual": {
+      "message": "Реальний розмір"
+   },
+   "zoomFit": {
+      "message": "За розміром вікна"
+   },
+   "zoomFitShort": {
+      "message": "За розміром"
+   },
+   "zoomIn": {
+      "message": "Збільшити"
+   },
+   "zoomLabel": {
+      "message": "Масштаб"
+   },
+   "zoomOut": {
+      "message": "Зменшити"
+   }
+}

@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "キャンセル"
+   },
+   "actionDelete": {
+      "message": "削除"
+   },
+   "actionEdit": {
+      "message": "編集"
+   },
+   "actionFiles": {
+      "message": "ファイル"
+   },
+   "actionOpen": {
+      "message": "開く"
+   },
+   "actionPrint": {
+      "message": "印刷"
+   },
+   "actionRate": {
+      "message": "FullPage Capture を評価"
+   },
+   "actionReport": {
+      "message": "問題を報告"
+   },
+   "actionSave": {
+      "message": "保存"
+   },
+   "actionSettings": {
+      "message": "設定"
+   },
+   "appDesc": {
+      "message": "Chromeでページ全体をスクショ。スクロールする画面キャプチャと注釈エディター付き。"
+   },
+   "appName": {
+      "message": "FullPage Capture - ページ全体スクリーンショット"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "スクリーンショットを削除しますか：$1 件\n（この操作は取り消せません。）"
+   },
+   "confirmDeleteOne": {
+      "message": "このスクリーンショットを削除しますか？\n（この操作は取り消せません。）"
+   },
+   "copiedToClipboard": {
+      "message": "クリップボードにコピーしました"
+   },
+   "copyFailed": {
+      "message": "コピーできませんでした：$1"
+   },
+   "createdPdf": {
+      "message": "PDF を作成しました"
+   },
+   "creatingPdf": {
+      "message": "PDF を作成中:"
+   },
+   "dateFmtDate": {
+      "message": "日付"
+   },
+   "dateFmtDateTime": {
+      "message": "日付と時刻"
+   },
+   "dateFmtNone": {
+      "message": "日付なし"
+   },
+   "edApplyCrop": {
+      "message": "トリミングを適用"
+   },
+   "edArrowheads": {
+      "message": "矢じり"
+   },
+   "edBack": {
+      "message": "スクリーンショットに戻る"
+   },
+   "edBrand": {
+      "message": "マークアップ"
+   },
+   "edBringForward": {
+      "message": "前面へ"
+   },
+   "edCancelCrop": {
+      "message": "トリミングをキャンセル"
+   },
+   "edClose": {
+      "message": "閉じる"
+   },
+   "edColor": {
+      "message": "色"
+   },
+   "edConfirmDelete": {
+      "message": "このスクリーンショットを削除しますか？"
+   },
+   "edCopiedResized": {
+      "message": "コピーしました（クリップボードの上限に合わせて $WIDTH$x$HEIGHT$ に縮小）",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "コピー"
+   },
+   "edCopyLayer": {
+      "message": "レイヤーをコピー"
+   },
+   "edCopyTitle": {
+      "message": "クリップボードにコピー"
+   },
+   "edCornerRadius": {
+      "message": "角の丸み"
+   },
+   "edCustomColor": {
+      "message": "カスタムカラー"
+   },
+   "edDeleteCapture": {
+      "message": "スクリーンショットを削除"
+   },
+   "edDeleteSel": {
+      "message": "選択範囲を削除"
+   },
+   "edDlImage": {
+      "message": "画像をダウンロード"
+   },
+   "edDuplicateSel": {
+      "message": "選択範囲を複製"
+   },
+   "edExport": {
+      "message": "書き出し"
+   },
+   "edExportSaveAs": {
+      "message": "保存先を選んで書き出し"
+   },
+   "edFasterMove": {
+      "message": "速く移動"
+   },
+   "edFill": {
+      "message": "塗りつぶし"
+   },
+   "edFontSize": {
+      "message": "文字サイズ"
+   },
+   "edHeadBoth": {
+      "message": "両端"
+   },
+   "edHeadOne": {
+      "message": "片端"
+   },
+   "edHelp": {
+      "message": "ヘルプ"
+   },
+   "edHelpDocument": {
+      "message": "ドキュメント"
+   },
+   "edHelpLayers": {
+      "message": "レイヤー"
+   },
+   "edHelpShapes": {
+      "message": "図形の挿入"
+   },
+   "edHelpTools": {
+      "message": "ツール"
+   },
+   "edKeyMouseArrows": {
+      "message": "マウスまたは矢印キー"
+   },
+   "edKeyOorE": {
+      "message": "O または E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + 矢印キー"
+   },
+   "edLayersEmpty": {
+      "message": "まだ何もありません。バーからツールを選んでください。"
+   },
+   "edMode": {
+      "message": "モード"
+   },
+   "edModeBlur": {
+      "message": "ぼかし"
+   },
+   "edModePixel": {
+      "message": "モザイク"
+   },
+   "edMore": {
+      "message": "その他"
+   },
+   "edMoveLayer": {
+      "message": "レイヤーを移動"
+   },
+   "edNoFill": {
+      "message": "塗りつぶしなし"
+   },
+   "edNotFoundBody": {
+      "message": "スクリーンショットが見つかりません。削除された可能性があります。"
+   },
+   "edNotFoundTitle": {
+      "message": "スクリーンショットが見つかりません - FullPage Capture"
+   },
+   "edObject": {
+      "message": "オブジェクト"
+   },
+   "edObjects": {
+      "message": "オブジェクト"
+   },
+   "edPasteLayer": {
+      "message": "レイヤーを貼り付け"
+   },
+   "edPropsEmpty": {
+      "message": "スタイルを変更するオブジェクトを選択してください。"
+   },
+   "edRedo": {
+      "message": "やり直す (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "やり直す"
+   },
+   "edSaveImage": {
+      "message": "画像を保存"
+   },
+   "edSendBackward": {
+      "message": "背面へ"
+   },
+   "edShortcuts": {
+      "message": "キーボードショートカット"
+   },
+   "edThickness": {
+      "message": "太さ"
+   },
+   "edToggleCrop": {
+      "message": "トリミングモード"
+   },
+   "edToggleUrlDate": {
+      "message": "アドレスと日付の表示を切り替え"
+   },
+   "edToolArrow": {
+      "message": "矢印 (A)"
+   },
+   "edToolArrowShort": {
+      "message": "矢印"
+   },
+   "edToolBadge": {
+      "message": "番号付きマーク (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "番号付きマーク"
+   },
+   "edToolBrush": {
+      "message": "ブラシ (M)"
+   },
+   "edToolBrushShort": {
+      "message": "ブラシ"
+   },
+   "edToolCrop": {
+      "message": "トリミング (C)"
+   },
+   "edToolEllipse": {
+      "message": "楕円 (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "楕円"
+   },
+   "edToolHighlight": {
+      "message": "蛍光ペン (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "蛍光ペン"
+   },
+   "edToolLine": {
+      "message": "直線 (L)"
+   },
+   "edToolLineShort": {
+      "message": "直線"
+   },
+   "edToolOvalShort": {
+      "message": "円"
+   },
+   "edToolPen": {
+      "message": "ペン (P)"
+   },
+   "edToolPenShort": {
+      "message": "ペン"
+   },
+   "edToolRect": {
+      "message": "長方形 (R)"
+   },
+   "edToolRectShort": {
+      "message": "長方形"
+   },
+   "edToolRedact": {
+      "message": "ぼかし (B)"
+   },
+   "edToolRedactShort": {
+      "message": "ぼかし"
+   },
+   "edToolSelect": {
+      "message": "選択 (V)"
+   },
+   "edToolSelectShort": {
+      "message": "選択"
+   },
+   "edToolText": {
+      "message": "テキスト (T)"
+   },
+   "edToolTextShort": {
+      "message": "テキスト"
+   },
+   "edTplMac": {
+      "message": "Mac のブラウザ"
+   },
+   "edTplNone": {
+      "message": "なし"
+   },
+   "edTplWin": {
+      "message": "Windows のブラウザ"
+   },
+   "edUndo": {
+      "message": "元に戻す (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "元に戻す"
+   },
+   "filesClearSelection": {
+      "message": "選択を解除"
+   },
+   "filesDeselectAll": {
+      "message": "すべての選択を解除"
+   },
+   "filesEmpty": {
+      "message": "まだスクリーンショットがありません。任意のページで拡張機能のアイコンをクリックして、最初の 1 枚を撮ってください。"
+   },
+   "filesHeading": {
+      "message": "あなたのスクリーンショット"
+   },
+   "filesLoadFailed": {
+      "message": "読み込めませんでした：$1"
+   },
+   "filesSaveAll": {
+      "message": "すべて保存：$1"
+   },
+   "filesSaveBoth": {
+      "message": "両方を保存"
+   },
+   "filesSaveFailed": {
+      "message": "このうち $1 件を保存できませんでした。"
+   },
+   "filesSavedCount": {
+      "message": "このデバイスに保存済み：$1"
+   },
+   "filesSearch": {
+      "message": "検索"
+   },
+   "filesSelect": {
+      "message": "選択"
+   },
+   "filesSelectAll": {
+      "message": "すべて選択"
+   },
+   "filesSelectedCount": {
+      "message": "選択中：$1"
+   },
+   "optAllow": {
+      "message": "許可"
+   },
+   "optAutoDownload": {
+      "message": "ファイルを自動でダウンロード"
+   },
+   "optAutoDownloadHint": {
+      "message": "スクリーンショットを新しいウィンドウで開かず、画像として自動でダウンロードします。スクリーンショットのタブは開きません。拡張機能のアイコンを右クリックしてオプションを選ぶと、ここに戻れます。"
+   },
+   "optAutoDownloadWarn": {
+      "message": "ブラウザの設定「ダウンロード前に各ファイルの保存場所を確認する」とは併用できません。その設定も有効な場合、保存ダイアログにエラーが表示されることがあります。"
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "撮影する範囲を確認する"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "アイコンをクリックすると、まずページ全体かページの一部かを選べます。オフ: 1 回のクリックでページ全体を撮影します。"
+   },
+   "optCopyFit": {
+      "message": "Google ドキュメント用にコピーを縮小"
+   },
+   "optCopyFitHint": {
+      "message": "25,000,000 ピクセルを超えるクリップボードへのコピーは自動的に縮小されます"
+   },
+   "optDateFmt": {
+      "message": "日付の形式"
+   },
+   "optDateFmtHint": {
+      "message": "バーに日付をどう表示するか、または非表示にします"
+   },
+   "optDelay": {
+      "message": "スクロールの間隔"
+   },
+   "optDelay150": {
+      "message": "150 ミリ秒（既定）"
+   },
+   "optDelayHint": {
+      "message": "読み込みが遅いページでは長くしてください"
+   },
+   "optDelayNone": {
+      "message": "なし"
+   },
+   "optDirPermNote": {
+      "message": "フォルダへの保存にはダウンロードの権限が必要です。許可するとフォルダ指定が有効になります。"
+   },
+   "optFileType": {
+      "message": "ファイル形式"
+   },
+   "optFileTypeHint": {
+      "message": "保存ボタンと自動ダウンロードに適用されます"
+   },
+   "optFolder": {
+      "message": "フォルダに保存"
+   },
+   "optFolderHint": {
+      "message": "ダウンロード内のサブフォルダ。空欄にするとダウンロード直下に保存します"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "設定"
+   },
+   "optImgWait": {
+      "message": "画像を待つ"
+   },
+   "optImgWaitFull": {
+      "message": "完全に待つ（大きな画像で最大 8 秒）"
+   },
+   "optImgWaitHint": {
+      "message": "各フレームで画像の読み込みが終わるまで待ちます。スクリーンショットに画像がぼやけて写る、または空で写る場合はオンにしてください"
+   },
+   "optImgWaitOff": {
+      "message": "オフ"
+   },
+   "optImgWaitShort": {
+      "message": "短く待つ（1 フレームあたり最大 1.5 秒、既定）"
+   },
+   "optLandscape": {
+      "message": "横"
+   },
+   "optLinks": {
+      "message": "クリックできるリンク"
+   },
+   "optLinksHint": {
+      "message": "ページ上のリンクは PDF でもクリックできます"
+   },
+   "optOrientation": {
+      "message": "向き"
+   },
+   "optOrientationHint": {
+      "message": "上のページサイズに対する用紙の向き"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "画像全体"
+   },
+   "optPdfFullHint": {
+      "message": "スクリーンショットと同じ大きさの 1 ページ"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8.5 x 14 インチ"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8.5 x 11 インチ"
+   },
+   "optPortrait": {
+      "message": "縦"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "保存先を確認する"
+   },
+   "optSaveAsHint": {
+      "message": "単体のファイルでは保存ダイアログを表示します。複数のときは省略されます"
+   },
+   "optSaved": {
+      "message": "保存しました"
+   },
+   "optSecCapturing": {
+      "message": "撮影"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "スマートなページ分割"
+   },
+   "optSmartSplitHint": {
+      "message": "ページの区切りを行と行の間に移し、文字が途中で切れないようにします"
+   },
+   "optUrlDate": {
+      "message": "ページのアドレスと日付を上に入れる"
+   },
+   "optUrlDateHint": {
+      "message": "PDF の 1 ページ目にページのアドレスと撮影時刻を入れます"
+   },
+   "pageTitle_editor": {
+      "message": "マークアップ - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "ファイル - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "設定 - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "スクリーンショット - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "ようこそ - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "パーツ：$1"
+   },
+   "pdfFailed": {
+      "message": "PDF を作成できませんでした：$1"
+   },
+   "popupBlockedBody": {
+      "message": "設定や Chrome ウェブストアなどブラウザのページは保護されているため、どの拡張機能でも撮影できません。通常のサイトでは問題なく動きます。"
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome がこのページを保護しています"
+   },
+   "popupCannotAccess": {
+      "message": "このページにアクセスできません。"
+   },
+   "popupCanvasWide": {
+      "message": "幅 $1 ピクセル（キャンバス）"
+   },
+   "popupCaptureFailed": {
+      "message": "撮影できませんでした。"
+   },
+   "popupCaptureFailedDetail": {
+      "message": "このページを撮影できませんでした：$1"
+   },
+   "popupCapturing": {
+      "message": "撮影中..."
+   },
+   "popupCapturingTitle": {
+      "message": "ページを撮影しています"
+   },
+   "popupChooseTitle": {
+      "message": "何を撮影しますか？"
+   },
+   "popupClose": {
+      "message": "閉じる"
+   },
+   "popupConnectionLost": {
+      "message": "ページとの接続が切れました。"
+   },
+   "popupCreatingPdf": {
+      "message": "PDF を作成しています..."
+   },
+   "popupDemoVideo": {
+      "message": "デモを見る"
+   },
+   "popupDownloading": {
+      "message": "ダウンロード中..."
+   },
+   "popupFileUrlHint": {
+      "message": "file:// のページでは、拡張機能の詳細で「ファイルの URL へのアクセスを許可する」をオンにしてください。"
+   },
+   "popupFrameEarly": {
+      "message": "Pro の新機能：ページの必要な部分だけを、スクロールして丸ごと撮影。"
+   },
+   "popupFrameTitle": {
+      "message": "フレームを撮影しています"
+   },
+   "popupFrameUnreachable": {
+      "message": "拡張機能はこのフレームにアクセスできません。"
+   },
+   "popupHowItWorks": {
+      "message": "使い方"
+   },
+   "popupHowStep1": {
+      "message": "ページの任意の部分にポインターを合わせると、枠で囲まれます。"
+   },
+   "popupHowStep2": {
+      "message": "でより大きい部分・小さい部分を選択。"
+   },
+   "popupHowStep3": {
+      "message": "クリックすると、スクロールしながら下に隠れた部分まで丸ごと撮影します。"
+   },
+   "popupLocalFile": {
+      "message": "これはローカルファイルです。撮影するには、この拡張機能で「ファイルの URL へのアクセスを許可する」をオンにしてから、もう一度お試しください。"
+   },
+   "popupModeFrame": {
+      "message": "ページの一部"
+   },
+   "popupModeFrameHint": {
+      "message": "早期アクセス版。フレーム、パネル、または任意の領域をクリックすると、その部分だけを撮影します。"
+   },
+   "popupModePage": {
+      "message": "ページ全体"
+   },
+   "popupModePageHint": {
+      "message": "ページを最後までスクロールし、すべての画面を 1 枚の画像につなぎ合わせます。"
+   },
+   "popupNoActiveTab": {
+      "message": "アクティブなタブがありません。"
+   },
+   "popupNoFrames": {
+      "message": "このページには選択できるものがありません。"
+   },
+   "popupOpenSettings": {
+      "message": "拡張機能の設定を開く"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "ページの一部だけ必要ですか？"
+   },
+   "popupPauseHint": {
+      "message": "閉じると一時停止、開き直すと再開します"
+   },
+   "popupPauseTitle": {
+      "message": "一時停止。閉じると停止、開き直すと再開します"
+   },
+   "popupPdfFailed": {
+      "message": "PDF を作成できませんでした。スクリーンショットは「ファイル」に保存されています。"
+   },
+   "popupPdfInvalid": {
+      "message": "このファイルは PDF として読み取れませんでした。"
+   },
+   "popupPdfLoading": {
+      "message": "PDF を読み込んでいます..."
+   },
+   "popupPdfPagesOf": {
+      "message": "（1～$1 / $2 ページ）"
+   },
+   "popupPdfPassword": {
+      "message": "この PDF はパスワードで保護されているため撮影できません。"
+   },
+   "popupPdfReadFailed": {
+      "message": "PDF を読み取れませんでした: $1"
+   },
+   "popupPdfRendering": {
+      "message": "ページ $1 / $2 を描画しています..."
+   },
+   "popupPickFrame": {
+      "message": "ページ上のフレームをクリックしてください"
+   },
+   "popupPickLost": {
+      "message": "選択した要素がページから消えました。もう一度選択してください。"
+   },
+   "popupPickStartFailed": {
+      "message": "このページでは選択を開始できませんでした。もう一度お試しください。"
+   },
+   "popupPreparing": {
+      "message": "準備中..."
+   },
+   "popupReadImageFailed": {
+      "message": "画像を読み込めませんでした：$1"
+   },
+   "popupResuming": {
+      "message": "再開中"
+   },
+   "popupSaving": {
+      "message": "保存中..."
+   },
+   "popupScrolling": {
+      "message": "スクロール中"
+   },
+   "popupSelfReload": {
+      "message": "このページは内容が少しでも変更されると自動的に再読み込みされるため、ページ全体のキャプチャを完了できませんでした。"
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "キーボード ショートカットを設定"
+   },
+   "popupShortcut": {
+      "message": "ショートカット: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "このページは 1 枚の画像に収まらないため、分割して保存します：$1 個。まとめてダウンロードできます。"
+   },
+   "popupStalled": {
+      "message": "撮影が止まりました ($1)。ページを再読み込みしてやり直すか、問題を報告してください。"
+   },
+   "popupStamping": {
+      "message": "証拠スタンプを追加しています..."
+   },
+   "popupStopCapture": {
+      "message": "撮影を停止"
+   },
+   "popupTryDemo": {
+      "message": "サンプルページで試す"
+   },
+   "popupWarmingUp": {
+      "message": "コンテンツを読み込み中"
+   },
+   "proBuyYear": {
+      "message": "Pro にアップグレード"
+   },
+   "proCloudBody": {
+      "message": "クラウドへの保存は Pro の機能です。パソコンへの保存はこれまでどおり無料です。"
+   },
+   "proExportBody": {
+      "message": "編集を加えたスクリーンショットの保存は Pro の機能です。ページをそのまま撮ったスクリーンショットは、これまでどおり無料で保存・コピー・印刷できます。"
+   },
+   "proExportBuy": {
+      "message": "無料トライアルを開始"
+   },
+   "proExportF1": {
+      "message": "編集内容をそのままファイルに保存"
+   },
+   "proExportF2": {
+      "message": "検索・選択・コピーできる PDF"
+   },
+   "proExportF3": {
+      "message": "アドレス・時刻・チェックサム入りで書き出し"
+   },
+   "proExportF4": {
+      "message": "ページのリストをまとめて撮影"
+   },
+   "proExportF5": {
+      "message": "自分の Google Drive に直接保存"
+   },
+   "proExportFine": {
+      "message": "安全な決済。48 時間の返金保証付き（EU・英国では 14 日間）。お住まいの国では価格が異なる場合があります。"
+   },
+   "proExportLoading": {
+      "message": "安全な決済画面を読み込み中..."
+   },
+   "proExportNo": {
+      "message": "今はしない"
+   },
+   "proExportOpenTab": {
+      "message": "新しいタブで開く"
+   },
+   "proExportRenew": {
+      "message": "7 日後からは年額 $$19。いつでも解約できます。"
+   },
+   "proExportSkipped": {
+      "message": "このうち $1 件は編集が含まれているため保存されませんでした。編集したスクリーンショットの保存は Pro の機能です。"
+   },
+   "proExportSlow": {
+      "message": "決済画面の表示に時間がかかっています。"
+   },
+   "proExportTitle": {
+      "message": "続けるには Pro の無料トライアルを開始してください"
+   },
+   "proExportTitleYear": {
+      "message": "続けるには Pro にアップグレードしてください"
+   },
+   "proExportTrial": {
+      "message": "で 7 日間お試し"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "本日のお支払いはありません"
+   },
+   "proOfferTitle": {
+      "message": "Pro でできること"
+   },
+   "proTryCta": {
+      "message": "Pro を試す"
+   },
+   "proYearNote": {
+      "message": "無料トライアルはご利用済みです"
+   },
+   "proYearPer": {
+      "message": "/ 年"
+   },
+   "rateDoNotAsk": {
+      "message": "今後は表示しない"
+   },
+   "rateNotNow": {
+      "message": "あとで"
+   },
+   "rateSkip": {
+      "message": "スキップ"
+   },
+   "rateSorry": {
+      "message": "申し訳ありません"
+   },
+   "rateStar1": {
+      "message": "ひどい"
+   },
+   "rateStar2": {
+      "message": "よくない"
+   },
+   "rateStar3": {
+      "message": "ふつう"
+   },
+   "rateStar4": {
+      "message": "よい"
+   },
+   "rateStar5": {
+      "message": "とてもよい"
+   },
+   "rateTakenCount": {
+      "message": "これまでに $1 枚。お役に立ったなら短いレビューがとても励みになりますし、そうでなければまったく気になさらないでください。"
+   },
+   "rateTellUs": {
+      "message": "教えてください"
+   },
+   "rateText1": {
+      "message": "FullPage Capture を評価して、ご意見をお聞かせください。"
+   },
+   "rateText2": {
+      "message": "短いレビューは、ほかの人が見つける助けになります。気が進まなければ、もちろん構いません。"
+   },
+   "rateText3": {
+      "message": "この拡張機能にその価値があったなら、短いレビューがとても助かります。いずれにしても、使ってくださってありがとうございます。"
+   },
+   "rateTitle1": {
+      "message": "少しお時間ありますか？"
+   },
+   "rateTitle2": {
+      "message": "FullPage Capture を今もお使いですか？"
+   },
+   "rateTitle3": {
+      "message": "最後にひとつだけ"
+   },
+   "reportEmpty": {
+      "message": "問題を短くご記入ください。"
+   },
+   "reportFailed": {
+      "message": "報告を送信できませんでした。接続を確認して、もう一度お試しください。"
+   },
+   "reportLimited": {
+      "message": "本日の報告の上限に達しました。メールでお問い合わせください。"
+   },
+   "reportNotify": {
+      "message": "このページが正しく撮影できるようになったらメールで知らせる"
+   },
+   "reportPage": {
+      "message": "ページのリンク"
+   },
+   "reportPageHint": {
+      "message": "ページのリンクを貼り付けてください"
+   },
+   "reportPlaceholder": {
+      "message": "何が起きましたか？ どうなるはずでしたか？"
+   },
+   "reportPriority": {
+      "message": "優先"
+   },
+   "reportPriorityTitle": {
+      "message": "優先サポート：1 営業日以内に担当者がお返事します"
+   },
+   "reportPro": {
+      "message": "優先サポート：1 営業日以内に担当者が $1 宛てにお返事します。"
+   },
+   "reportProSent": {
+      "message": "受け付けました（お問い合わせ番号 $1）。メールでお返事します。"
+   },
+   "reportSend": {
+      "message": "送信"
+   },
+   "reportSending": {
+      "message": "送信中..."
+   },
+   "reportSub": {
+      "message": "うまくいかなかったこと、足りないことをお知らせください。すべての報告に目を通し、すぐに直します。"
+   },
+   "reportThanks": {
+      "message": "ありがとうございます。報告を送信しました。"
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "このパーツをダウンロード"
+   },
+   "resultEditEntire": {
+      "message": "画像全体を編集"
+   },
+   "resultEditPart": {
+      "message": "このパーツを編集"
+   },
+   "resultEditPartN": {
+      "message": "パーツ $1 を編集"
+   },
+   "resultImgTitle": {
+      "message": "ページのスクリーンショット"
+   },
+   "resultNameLabel": {
+      "message": "スクリーンショットの名前"
+   },
+   "resultNotFound": {
+      "message": "スクリーンショットが見つかりません - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "スクリーンショットができました"
+   },
+   "resultRename": {
+      "message": "名前を変更"
+   },
+   "resultRenameFailed": {
+      "message": "名前を保存できませんでした"
+   },
+   "resultSaveAllJpg": {
+      "message": "JPG をすべて保存：$1"
+   },
+   "resultSaveAllPng": {
+      "message": "PNG をすべて保存：$1"
+   },
+   "resultSaveJpg": {
+      "message": "JPG で保存"
+   },
+   "resultSavePdf": {
+      "message": "PDF を保存"
+   },
+   "resultSavePng": {
+      "message": "PNG で保存"
+   },
+   "resultSplitStrip": {
+      "message": "1 枚の画像に収まらないため分割しました：$1 個。パーツごとに編集も、まとめて編集もできます。"
+   },
+   "resultZoomOut": {
+      "message": "全体表示"
+   },
+   "untitledCapture": {
+      "message": "スクリーンショット"
+   },
+   "welcomeH1a": {
+      "message": "ページ全体を。"
+   },
+   "welcomeH1b": {
+      "message": "1 枚の画像に。"
+   },
+   "welcomeH2a": {
+      "message": "フレームも内側のスクロールも"
+   },
+   "welcomeH2b": {
+      "message": "まとめて。"
+   },
+   "welcomeH3a": {
+      "message": "注釈。ぼかし。"
+   },
+   "welcomeH3b": {
+      "message": "番号。トリミング。"
+   },
+   "welcomeH4a": {
+      "message": "行と行の"
+   },
+   "welcomeH4b": {
+      "message": "あいだで"
+   },
+   "welcomeH4c": {
+      "message": "区切る PDF。行の途中では切りません。"
+   },
+   "welcomeH5a": {
+      "message": "何ひとつ"
+   },
+   "welcomeH5b": {
+      "message": "このブラウザから出ません。"
+   },
+   "welcomeH6": {
+      "message": "よい仲間がいます。"
+   },
+   "welcomeP1": {
+      "message": "スクロールしてつなぎ合わせ、ページ全体を 1 枚のスクリーンショットとして正確に書き出します。"
+   },
+   "welcomeP2": {
+      "message": "ページ本体だけでなく、エディタやダッシュボード、メールソフトも展開します。"
+   },
+   "welcomeP3": {
+      "message": "矢印、テキスト、蛍光ペン、モザイク、番号付きステップを備えた本格的なマークアップエディタ。"
+   },
+   "welcomeP4": {
+      "message": "画像全体のほか、スマートなページ区切りとクリックできるリンクを備えた Letter、Legal、A4 にも対応。"
+   },
+   "welcomeP5": {
+      "message": "アカウント不要。解析なし。追跡なし。すべてのスクリーンショットはこのデバイスに残ります。"
+   },
+   "welcomePress": {
+      "message": "押してください:"
+   },
+   "welcomeShortcutTail": {
+      "message": "任意のページで。拡張機能のアイコンをクリックしても構いません。"
+   },
+   "welcomeSkip": {
+      "message": "どこかをクリックするとスキップします"
+   },
+   "welcomeTryNow": {
+      "message": "いますぐ、このページで試してみてください。"
+   },
+   "zoomActual": {
+      "message": "実際のサイズ"
+   },
+   "zoomFit": {
+      "message": "ウィンドウに合わせる"
+   },
+   "zoomFitShort": {
+      "message": "全体表示"
+   },
+   "zoomIn": {
+      "message": "拡大"
+   },
+   "zoomLabel": {
+      "message": "ズーム"
+   },
+   "zoomOut": {
+      "message": "縮小"
+   }
+}

@@ -1,0 +1,1099 @@
+{
+   "acctStatusDisputed": {
+      "message": "Действие Pro прекращено после оспаривания платежа по карте"
+   },
+   "acctStatusPaymentFailed": {
+      "message": "Действие Pro прекращено: не удалось списать оплату за продление"
+   },
+   "actionCancel": {
+      "message": "Отмена"
+   },
+   "actionDelete": {
+      "message": "Удалить"
+   },
+   "actionEdit": {
+      "message": "Редактировать"
+   },
+   "actionFiles": {
+      "message": "Файлы"
+   },
+   "actionOpen": {
+      "message": "Открыть"
+   },
+   "actionPrint": {
+      "message": "Печать"
+   },
+   "actionRate": {
+      "message": "Оценить FullPage Capture"
+   },
+   "actionReport": {
+      "message": "Сообщить о проблеме"
+   },
+   "actionSave": {
+      "message": "Сохранить"
+   },
+   "actionSettings": {
+      "message": "Настройки"
+   },
+   "appDesc": {
+      "message": "Скриншот сайта целиком с прокруткой. Снимок всей страницы в Chrome и редактор аннотаций."
+   },
+   "appName": {
+      "message": "FullPage Capture - длинный скриншот всей страницы"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "cmdCapturePage": {
+      "message": "Снять всю страницу"
+   },
+   "cmdPickFrame": {
+      "message": "Выбрать фрейм или часть страницы для снимка"
+   },
+   "confirmDeleteMany": {
+      "message": "Удалить скриншотов: $1?\n(Это действие нельзя отменить.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Удалить этот скриншот?\n(Это действие нельзя отменить.)"
+   },
+   "copiedToClipboard": {
+      "message": "Скопировано в буфер обмена"
+   },
+   "copyFailed": {
+      "message": "Не удалось скопировать: $1"
+   },
+   "createdPdf": {
+      "message": "PDF готов"
+   },
+   "creatingPdf": {
+      "message": "Создание PDF:"
+   },
+   "dateFmtDate": {
+      "message": "Дата"
+   },
+   "dateFmtDateTime": {
+      "message": "Дата и время"
+   },
+   "dateFmtNone": {
+      "message": "Без даты"
+   },
+   "edApplyCrop": {
+      "message": "Применить обрезку"
+   },
+   "edArrowheads": {
+      "message": "Наконечники"
+   },
+   "edBack": {
+      "message": "Назад к скриншоту"
+   },
+   "edBrand": {
+      "message": "Разметка"
+   },
+   "edBringForward": {
+      "message": "На передний план"
+   },
+   "edCancelCrop": {
+      "message": "Отменить обрезку"
+   },
+   "edClose": {
+      "message": "Закрыть"
+   },
+   "edColor": {
+      "message": "Цвет"
+   },
+   "edConfirmDelete": {
+      "message": "Удалить этот скриншот?"
+   },
+   "edCopiedResized": {
+      "message": "Скопировано (размер изменён до $WIDTH$x$HEIGHT$ из-за ограничений буфера обмена)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Копировать"
+   },
+   "edCopyLayer": {
+      "message": "Копировать слой"
+   },
+   "edCopyTitle": {
+      "message": "Копировать в буфер обмена"
+   },
+   "edCornerRadius": {
+      "message": "Радиус скругления"
+   },
+   "edCustomColor": {
+      "message": "Свой цвет"
+   },
+   "edDeleteCapture": {
+      "message": "Удалить скриншот"
+   },
+   "edDeleteSel": {
+      "message": "Удалить выделенное"
+   },
+   "edDlImage": {
+      "message": "Скачать изображение"
+   },
+   "edDuplicateSel": {
+      "message": "Дублировать выделенное"
+   },
+   "edExport": {
+      "message": "Экспорт"
+   },
+   "edExportSaveAs": {
+      "message": "Экспорт с выбором места"
+   },
+   "edFasterMove": {
+      "message": "Быстрое перемещение"
+   },
+   "edFill": {
+      "message": "Заливка"
+   },
+   "edFontSize": {
+      "message": "Размер шрифта"
+   },
+   "edHeadBoth": {
+      "message": "Оба конца"
+   },
+   "edHeadOne": {
+      "message": "Один конец"
+   },
+   "edHelp": {
+      "message": "Справка"
+   },
+   "edHelpDocument": {
+      "message": "Документ"
+   },
+   "edHelpLayers": {
+      "message": "Слои"
+   },
+   "edHelpShapes": {
+      "message": "Вставка фигур"
+   },
+   "edHelpTools": {
+      "message": "Инструменты"
+   },
+   "edKeyMouseArrows": {
+      "message": "Мышь или стрелки"
+   },
+   "edKeyOorE": {
+      "message": "O или E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + стрелки"
+   },
+   "edLayersEmpty": {
+      "message": "Пока пусто. Выберите инструмент на панели."
+   },
+   "edMode": {
+      "message": "Режим"
+   },
+   "edModeBlur": {
+      "message": "Размытие"
+   },
+   "edModePixel": {
+      "message": "Пикселизация"
+   },
+   "edMore": {
+      "message": "Ещё"
+   },
+   "edMoveLayer": {
+      "message": "Переместить слой"
+   },
+   "edNoFill": {
+      "message": "Без заливки"
+   },
+   "edNotFoundBody": {
+      "message": "Скриншот не найден. Возможно, он был удалён."
+   },
+   "edNotFoundTitle": {
+      "message": "Скриншот не найден - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Объект"
+   },
+   "edObjects": {
+      "message": "Объекты"
+   },
+   "edOnlyResized": {
+      "message": "Обрезка или адресная строка меняют размер картинки, поэтому эта правка остаётся в редакторе — сохраните или скопируйте её с этой страницы. На других страницах снимок остаётся без изменений."
+   },
+   "edOnlySplit": {
+      "message": "Этот снимок хранится в нескольких изображениях, поэтому нарисованное здесь остаётся в редакторе — сохраните или скопируйте его с этой страницы. На других страницах снимок остаётся без изменений."
+   },
+   "edPasteLayer": {
+      "message": "Вставить слой"
+   },
+   "edPropsEmpty": {
+      "message": "Выберите объект, чтобы изменить его стиль."
+   },
+   "edRedo": {
+      "message": "Повторить (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Повторить"
+   },
+   "edSaveAsJpeg": {
+      "message": "Сохранить JPEG"
+   },
+   "edSaveAsPdf": {
+      "message": "Сохранить PDF"
+   },
+   "edSaveAsPng": {
+      "message": "Сохранить PNG"
+   },
+   "edSaveImage": {
+      "message": "Сохранить изображение"
+   },
+   "edSaveOther": {
+      "message": "Другие форматы"
+   },
+   "edSendBackward": {
+      "message": "На задний план"
+   },
+   "edShortcuts": {
+      "message": "Горячие клавиши"
+   },
+   "edThickness": {
+      "message": "Толщина"
+   },
+   "edToggleCrop": {
+      "message": "Режим обрезки"
+   },
+   "edToggleUrlDate": {
+      "message": "Показать или скрыть адрес и дату"
+   },
+   "edToolArrow": {
+      "message": "Стрелка (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Стрелка"
+   },
+   "edToolBadge": {
+      "message": "Нумерованная метка (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Нумерованная метка"
+   },
+   "edToolBrush": {
+      "message": "Кисть (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Кисть"
+   },
+   "edToolCrop": {
+      "message": "Обрезка (C)"
+   },
+   "edToolEllipse": {
+      "message": "Эллипс (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Эллипс"
+   },
+   "edToolHighlight": {
+      "message": "Маркер (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Маркер"
+   },
+   "edToolLine": {
+      "message": "Линия (L)"
+   },
+   "edToolLineShort": {
+      "message": "Линия"
+   },
+   "edToolOvalShort": {
+      "message": "Овал"
+   },
+   "edToolPen": {
+      "message": "Карандаш (P)"
+   },
+   "edToolPenShort": {
+      "message": "Карандаш"
+   },
+   "edToolRect": {
+      "message": "Прямоугольник (R)"
+   },
+   "edToolRectShort": {
+      "message": "Прямоугольник"
+   },
+   "edToolRedact": {
+      "message": "Размытие (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Размытие"
+   },
+   "edToolSelect": {
+      "message": "Выделение (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Выделение"
+   },
+   "edToolText": {
+      "message": "Текст (T)"
+   },
+   "edToolTextShort": {
+      "message": "Текст"
+   },
+   "edTplMac": {
+      "message": "Браузер Mac"
+   },
+   "edTplNone": {
+      "message": "Нет"
+   },
+   "edTplWin": {
+      "message": "Браузер Windows"
+   },
+   "edUndo": {
+      "message": "Отменить (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Отменить"
+   },
+   "filesClearSelection": {
+      "message": "Очистить выбор"
+   },
+   "filesDeselectAll": {
+      "message": "Снять выделение"
+   },
+   "filesEmpty": {
+      "message": "Скриншотов пока нет. Нажмите значок расширения на любой странице, чтобы сделать первый."
+   },
+   "filesHeading": {
+      "message": "Ваши скриншоты"
+   },
+   "filesLoadFailed": {
+      "message": "Не удалось загрузить: $1"
+   },
+   "filesSaveAll": {
+      "message": "Сохранить все: $1"
+   },
+   "filesSaveBoth": {
+      "message": "Сохранить оба"
+   },
+   "filesSaveFailed": {
+      "message": "Не удалось сохранить: $1."
+   },
+   "filesSavedCount": {
+      "message": "Сохранено на этом устройстве: $1"
+   },
+   "filesSearch": {
+      "message": "Поиск"
+   },
+   "filesSelect": {
+      "message": "Выбрать"
+   },
+   "filesSelectAll": {
+      "message": "Выбрать все"
+   },
+   "filesSelectedCount": {
+      "message": "Выбрано: $1"
+   },
+   "optAllow": {
+      "message": "Разрешить"
+   },
+   "optAutoDownload": {
+      "message": "Автоматически скачивать файлы"
+   },
+   "optAutoDownloadHint": {
+      "message": "Автоматически скачивать скриншот как изображение вместо открытия в новом окне. Вкладка со скриншотом не откроется. Вернуться сюда можно, нажав правой кнопкой на значок расширения и выбрав Параметры."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Несовместимо с настройкой браузера 'Всегда указывать место для скачивания'. Если она тоже включена, диалог сохранения может выдавать ошибки."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Спрашивать, что снимать"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Клик по иконке сначала предложит: вся страница или часть страницы. Выключено: один клик снимает всю страницу."
+   },
+   "optCopyFit": {
+      "message": "Уменьшать копии для Google Docs"
+   },
+   "optCopyFitHint": {
+      "message": "Копии в буфер обмена больше 25 000 000 пикселей уменьшаются автоматически"
+   },
+   "optDateFmt": {
+      "message": "Формат даты"
+   },
+   "optDateFmtHint": {
+      "message": "Как дата выглядит в полосе сверху, или скрыть её"
+   },
+   "optDelay": {
+      "message": "Пауза между прокрутками"
+   },
+   "optDelay150": {
+      "message": "150 мс (по умолчанию)"
+   },
+   "optDelayHint": {
+      "message": "Увеличьте для страниц с медленной подгрузкой"
+   },
+   "optDelayNone": {
+      "message": "Нет"
+   },
+   "optDirPermNote": {
+      "message": "Для сохранения в папку нужно разрешение на скачивание. Разрешите, чтобы папка начала действовать."
+   },
+   "optFileType": {
+      "message": "Тип файла"
+   },
+   "optFileTypeHint": {
+      "message": "Для кнопки «Сохранить» и автозагрузки"
+   },
+   "optFolder": {
+      "message": "Сохранять в папку"
+   },
+   "optFolderHint": {
+      "message": "Подпапка внутри Загрузок. Оставьте пустым, чтобы сохранять прямо в Загрузки"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Настройки"
+   },
+   "optImgWait": {
+      "message": "Ждать изображения"
+   },
+   "optImgWaitFull": {
+      "message": "Полностью, до 8 с для больших изображений"
+   },
+   "optImgWaitHint": {
+      "message": "Ждать на каждом кадре, пока догрузятся изображения. Включите, если на скриншотах размытые или пустые картинки"
+   },
+   "optImgWaitOff": {
+      "message": "Выключено"
+   },
+   "optImgWaitShort": {
+      "message": "Коротко, до 1,5 с на кадр (по умолчанию)"
+   },
+   "optLandscape": {
+      "message": "Альбомная"
+   },
+   "optLinks": {
+      "message": "Кликабельные ссылки"
+   },
+   "optLinksHint": {
+      "message": "Ссылки на странице остаются кликабельными в PDF"
+   },
+   "optOrientation": {
+      "message": "Ориентация"
+   },
+   "optOrientationHint": {
+      "message": "Ориентация страницы для форматов выше"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 мм"
+   },
+   "optPdfFull": {
+      "message": "Всё изображение"
+   },
+   "optPdfFullHint": {
+      "message": "Одна страница по размеру скриншота"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8,5 x 14 дюймов"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8,5 x 11 дюймов"
+   },
+   "optPortrait": {
+      "message": "Книжная"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Спрашивать, куда сохранять"
+   },
+   "optSaveAsHint": {
+      "message": "Диалог сохранения для отдельных файлов. При сохранении нескольких пропускается"
+   },
+   "optSaved": {
+      "message": "Сохранено"
+   },
+   "optSecCapturing": {
+      "message": "Съёмка"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "Умное разбиение на страницы"
+   },
+   "optSmartSplitHint": {
+      "message": "Переносить разрыв страницы в промежуток между строками, чтобы текст никогда не разрезался"
+   },
+   "optUrlDate": {
+      "message": "Ставить адрес страницы и дату сверху"
+   },
+   "optUrlDateHint": {
+      "message": "Адрес страницы и время съёмки на первой странице PDF"
+   },
+   "pageTitle_editor": {
+      "message": "Разметка - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Файлы - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Настройки - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Скриншот - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Добро пожаловать - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Частей: $1"
+   },
+   "pdfFailed": {
+      "message": "Не удалось создать PDF: $1"
+   },
+   "pickBlock": {
+      "message": "Часть страницы"
+   },
+   "pickFrameClose": {
+      "message": "Закрыть"
+   },
+   "pickFrameHint": {
+      "message": "Нажмите на фрейм, панель или часть страницы, которую нужно снять"
+   },
+   "pickFrameKeyArrows": {
+      "message": "больше или меньше"
+   },
+   "pickFrameKeyEsc": {
+      "message": "отмена"
+   },
+   "pickImage": {
+      "message": "Изображение"
+   },
+   "pickNav": {
+      "message": "Навигация"
+   },
+   "pickNoFrames": {
+      "message": "На этой странице нечего выбрать"
+   },
+   "pickScrollArea": {
+      "message": "Прокручиваемая область"
+   },
+   "pickVideo": {
+      "message": "Видео"
+   },
+   "popupBlockedBody": {
+      "message": "Служебные страницы браузера, например настройки и Интернет-магазин, защищены, поэтому их не может снять ни одно расширение. С обычными сайтами всё работает."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome защищает эту страницу"
+   },
+   "popupCannotAccess": {
+      "message": "Нет доступа к этой странице."
+   },
+   "popupCanvasWide": {
+      "message": "Ширина $1 пикселей (холст)"
+   },
+   "popupCaptureFailed": {
+      "message": "Не удалось сделать скриншот."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Не удалось снять эту страницу: $1"
+   },
+   "popupCapturing": {
+      "message": "Съёмка..."
+   },
+   "popupCapturingTitle": {
+      "message": "Съёмка страницы"
+   },
+   "popupChooseTitle": {
+      "message": "Что снимать?"
+   },
+   "popupClose": {
+      "message": "Закрыть"
+   },
+   "popupConnectionLost": {
+      "message": "Связь со страницей потеряна."
+   },
+   "popupCreatingPdf": {
+      "message": "Создание PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "Смотреть демо"
+   },
+   "popupDownloading": {
+      "message": "Скачивание..."
+   },
+   "popupFileUrlHint": {
+      "message": "Для страниц file:// включите \"Разрешить открывать файлы по ссылкам\" в настройках расширения."
+   },
+   "popupFrameEarly": {
+      "message": "Новое в Pro: снимайте только нужную часть страницы полностью, с прокруткой."
+   },
+   "popupFrameTitle": {
+      "message": "Снимаем фрейм"
+   },
+   "popupFrameUnreachable": {
+      "message": "Расширение не может получить доступ к этому фрейму."
+   },
+   "popupHowItWorks": {
+      "message": "Как это работает"
+   },
+   "popupHowStep1": {
+      "message": "Наведите на любую часть страницы: она выделится рамкой."
+   },
+   "popupHowStep2": {
+      "message": "выбрать часть побольше или поменьше."
+   },
+   "popupHowStep3": {
+      "message": "Нажмите, и она снимется целиком с прокруткой, даже то, что скрыто ниже."
+   },
+   "popupLocalFile": {
+      "message": "Это локальный файл. Чтобы его снять, включите \"Разрешить открывать файлы по ссылкам\" в настройках расширения и попробуйте снова."
+   },
+   "popupModeFrame": {
+      "message": "Часть страницы"
+   },
+   "popupModeFrameHint": {
+      "message": "Ранний доступ. Нажмите на фрейм, панель или любую область: снимется только она."
+   },
+   "popupModePage": {
+      "message": "Вся страница"
+   },
+   "popupModePageHint": {
+      "message": "Прокрутит до конца и склеит все экраны в одно изображение."
+   },
+   "popupNoActiveTab": {
+      "message": "Нет активной вкладки."
+   },
+   "popupNoFrames": {
+      "message": "На этой странице нечего выбрать."
+   },
+   "popupOpenSettings": {
+      "message": "Открыть настройки расширения"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Нужна только часть страницы?"
+   },
+   "popupPauseHint": {
+      "message": "закройте, чтобы приостановить, откройте снова, чтобы продолжить"
+   },
+   "popupPauseTitle": {
+      "message": "Пауза. Закрытие окна ставит на паузу, открытие продолжает"
+   },
+   "popupPdfFailed": {
+      "message": "Не удалось создать PDF. Снимок сохранён в разделе «Файлы»."
+   },
+   "popupPdfInvalid": {
+      "message": "Не удалось прочитать этот файл как PDF."
+   },
+   "popupPdfLoading": {
+      "message": "Загрузка PDF..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(страницы 1–$1 из $2)"
+   },
+   "popupPdfPassword": {
+      "message": "Этот PDF защищён паролем, снять его нельзя."
+   },
+   "popupPdfReadFailed": {
+      "message": "Не удалось прочитать PDF: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Отрисовка страницы $1 из $2..."
+   },
+   "popupPickFrame": {
+      "message": "Нажмите на нужный фрейм на странице"
+   },
+   "popupPickLost": {
+      "message": "Выбранный на странице элемент исчез. Выберите его ещё раз."
+   },
+   "popupPickStartFailed": {
+      "message": "Не удалось начать выбор на этой странице. Попробуйте ещё раз."
+   },
+   "popupPreparing": {
+      "message": "Подготовка..."
+   },
+   "popupReadImageFailed": {
+      "message": "Не удалось прочитать изображение: $1"
+   },
+   "popupResuming": {
+      "message": "Продолжение"
+   },
+   "popupSaving": {
+      "message": "Сохранение..."
+   },
+   "popupScrolling": {
+      "message": "Прокрутка"
+   },
+   "popupSelfReload": {
+      "message": "Эта страница перезагружает себя, как только в ней что-то меняется, поэтому снять её целиком не удалось."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Назначить сочетания клавиш"
+   },
+   "popupShortcut": {
+      "message": "Горячие клавиши: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "Страница не помещается в одно изображение, поэтому будет разбита на части: $1. Их можно скачать все сразу."
+   },
+   "popupStalled": {
+      "message": "Съёмка остановилась ($1). Перезагрузите страницу и попробуйте снова или отправьте сообщение о проблеме."
+   },
+   "popupStamping": {
+      "message": "Добавление штампа доказательства..."
+   },
+   "popupStopCapture": {
+      "message": "Остановить съёмку"
+   },
+   "popupTryDemo": {
+      "message": "Попробовать на тестовой странице"
+   },
+   "popupWarmingUp": {
+      "message": "Загрузка содержимого"
+   },
+   "proBuyYear": {
+      "message": "Оформить Pro"
+   },
+   "proCloudBody": {
+      "message": "Сохранение в облако входит в Pro. Сохранять на компьютер по-прежнему можно бесплатно."
+   },
+   "proExportBody": {
+      "message": "Сохранение снимка с вашими правками входит в Pro. Сам снимок, каким выглядела страница, по-прежнему можно бесплатно сохранять, копировать и печатать."
+   },
+   "proExportBuy": {
+      "message": "Начать пробный период"
+   },
+   "proExportF1": {
+      "message": "Правки попадают в сохранённый файл"
+   },
+   "proExportF2": {
+      "message": "PDF с поиском и выделением текста"
+   },
+   "proExportF3": {
+      "message": "Адрес, время и контрольная сумма на экспортах"
+   },
+   "proExportF4": {
+      "message": "Список страниц снимается за один заход"
+   },
+   "proExportF5": {
+      "message": "Выгрузка прямо в ваш Google Drive"
+   },
+   "proExportFine": {
+      "message": "Безопасная оплата. Возврат денег в течение 48 часов (14 дней в ЕС и Великобритании). Цена в вашей стране может отличаться."
+   },
+   "proExportLoading": {
+      "message": "Загружается защищённая форма оплаты..."
+   },
+   "proExportNo": {
+      "message": "Не сейчас"
+   },
+   "proExportOpenTab": {
+      "message": "Открыть во вкладке"
+   },
+   "proExportRenew": {
+      "message": "Через 7 дней — $$19 в год. Отменить можно в любой момент."
+   },
+   "proExportSkipped": {
+      "message": "Не сохранено: $1 — они содержат правки, а это входит в Pro."
+   },
+   "proExportSlow": {
+      "message": "Форма оплаты долго не открывается."
+   },
+   "proExportTitle": {
+      "message": "Чтобы продолжить, начните пробный период Pro"
+   },
+   "proExportTitleYear": {
+      "message": "Чтобы продолжить, оформите Pro"
+   },
+   "proExportTrial": {
+      "message": "пробный период на 7 дней"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Сегодня ничего платить не нужно"
+   },
+   "proOfferTitle": {
+      "message": "Что даёт Pro"
+   },
+   "proTryCta": {
+      "message": "Попробовать Pro"
+   },
+   "proYearNote": {
+      "message": "Пробный период у вас уже был"
+   },
+   "proYearPer": {
+      "message": "в год"
+   },
+   "rateDoNotAsk": {
+      "message": "Больше не спрашивать"
+   },
+   "rateNotNow": {
+      "message": "Не сейчас"
+   },
+   "rateSkip": {
+      "message": "Пропустить"
+   },
+   "rateSorry": {
+      "message": "Жаль, что так вышло"
+   },
+   "rateStar1": {
+      "message": "Ужасно"
+   },
+   "rateStar2": {
+      "message": "Плохо"
+   },
+   "rateStar3": {
+      "message": "Нормально"
+   },
+   "rateStar4": {
+      "message": "Хорошо"
+   },
+   "rateStar5": {
+      "message": "Отлично"
+   },
+   "rateTakenCount": {
+      "message": "Скриншотов на сегодня: $1. Если он пригодился, короткий отзыв много значит, а если нет, это совершенно нормально."
+   },
+   "rateTellUs": {
+      "message": "Расскажите"
+   },
+   "rateText1": {
+      "message": "Оцените FullPage Capture и расскажите, что вы думаете."
+   },
+   "rateText2": {
+      "message": "Короткий отзыв помогает другим его найти. А если не хочется, ничего страшного."
+   },
+   "rateText3": {
+      "message": "Если расширение того стоило, короткий отзыв очень поможет. В любом случае спасибо, что пользуетесь."
+   },
+   "rateTitle1": {
+      "message": "Найдётся минутка?"
+   },
+   "rateTitle2": {
+      "message": "Всё ещё пользуетесь FullPage Capture?"
+   },
+   "rateTitle3": {
+      "message": "Последняя просьба"
+   },
+   "reportEmpty": {
+      "message": "Опишите проблему в нескольких словах."
+   },
+   "reportFailed": {
+      "message": "Не удалось отправить сообщение. Проверьте подключение и попробуйте снова."
+   },
+   "reportLimited": {
+      "message": "На сегодня это максимум сообщений. Пожалуйста, напишите нам на почту."
+   },
+   "reportNotify": {
+      "message": "Сообщить мне, когда страница начнёт сниматься правильно"
+   },
+   "reportPage": {
+      "message": "Ссылка на страницу"
+   },
+   "reportPageHint": {
+      "message": "Вставьте ссылку на страницу"
+   },
+   "reportPlaceholder": {
+      "message": "Что произошло? Чего вы ожидали?"
+   },
+   "reportPriority": {
+      "message": "Приоритет"
+   },
+   "reportPriorityTitle": {
+      "message": "Приоритетная поддержка: ответит человек в течение рабочего дня"
+   },
+   "reportPro": {
+      "message": "Приоритетная поддержка: ответит человек в течение рабочего дня, на $1."
+   },
+   "reportProSent": {
+      "message": "Получено — обращение $1. Ответим по почте."
+   },
+   "reportSend": {
+      "message": "Отправить"
+   },
+   "reportSending": {
+      "message": "Отправка..."
+   },
+   "reportSub": {
+      "message": "Расскажите, что пошло не так или чего не хватает. Мы читаем каждое сообщение и быстро всё исправляем."
+   },
+   "reportThanks": {
+      "message": "Спасибо. Ваше сообщение отправлено."
+   },
+   "resultCopiedPartN": {
+      "message": "Часть $1 скопирована в буфер обмена"
+   },
+   "resultCopyOther": {
+      "message": "Скопировать другую часть"
+   },
+   "resultCopyPart": {
+      "message": "Скопировать эту часть"
+   },
+   "resultCopyPartN": {
+      "message": "Скопировать часть $1"
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Скачать эту часть"
+   },
+   "resultEditEntire": {
+      "message": "Редактировать всё изображение"
+   },
+   "resultEditPart": {
+      "message": "Редактировать эту часть"
+   },
+   "resultEditPartN": {
+      "message": "Редактировать часть $1"
+   },
+   "resultImgTitle": {
+      "message": "Скриншот страницы"
+   },
+   "resultNameLabel": {
+      "message": "Имя скриншота"
+   },
+   "resultNotFound": {
+      "message": "Скриншот не найден - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Скриншот готов"
+   },
+   "resultRename": {
+      "message": "Переименовать"
+   },
+   "resultRenameFailed": {
+      "message": "Не удалось сохранить имя"
+   },
+   "resultSaveAllJpg": {
+      "message": "Сохранить все JPG: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Сохранить все PNG: $1"
+   },
+   "resultSaveJpg": {
+      "message": "Сохранить JPG"
+   },
+   "resultSavePdf": {
+      "message": "Сохранить PDF"
+   },
+   "resultSavePng": {
+      "message": "Сохранить PNG"
+   },
+   "resultSplitStrip": {
+      "message": "Не помещается в одно изображение, поэтому разбито на части: $1. Можно редактировать каждую часть отдельно или всё сразу."
+   },
+   "resultZoomOut": {
+      "message": "По размеру"
+   },
+   "untitledCapture": {
+      "message": "Скриншот"
+   },
+   "welcomeH1a": {
+      "message": "Вся страница."
+   },
+   "welcomeH1b": {
+      "message": "Одно изображение."
+   },
+   "welcomeH2a": {
+      "message": "Фреймы и внутренние прокрутки"
+   },
+   "welcomeH2b": {
+      "message": "включены."
+   },
+   "welcomeH3a": {
+      "message": "Пометки. Размытие."
+   },
+   "welcomeH3b": {
+      "message": "Метки. Обрезка."
+   },
+   "welcomeH4a": {
+      "message": "PDF с разрывами"
+   },
+   "welcomeH4b": {
+      "message": "между"
+   },
+   "welcomeH4c": {
+      "message": "строк. Никогда сквозь них."
+   },
+   "welcomeH5a": {
+      "message": "Ничего не покидает"
+   },
+   "welcomeH5b": {
+      "message": "этот браузер."
+   },
+   "welcomeH6": {
+      "message": "Вы в хорошей компании."
+   },
+   "welcomeP1": {
+      "message": "Прокручивает, сшивает и отдаёт всю страницу одним точным скриншотом."
+   },
+   "welcomeP2": {
+      "message": "Редакторы, панели и почтовые клиенты тоже разворачиваются, не только сама страница."
+   },
+   "welcomeP3": {
+      "message": "Полноценный редактор разметки со стрелками, текстом, маркером, пикселизацией и нумерованными шагами."
+   },
+   "welcomeP4": {
+      "message": "Всё изображение или Letter, Legal и A4 с умными разрывами страниц и кликабельными ссылками."
+   },
+   "welcomeP5": {
+      "message": "Без аккаунта. Без аналитики. Без слежки. Каждый скриншот остаётся на этом устройстве."
+   },
+   "welcomePress": {
+      "message": "Нажмите"
+   },
+   "welcomeShortcutTail": {
+      "message": "на любой странице или нажмите на значок расширения."
+   },
+   "welcomeSkip": {
+      "message": "Нажмите в любом месте, чтобы пропустить"
+   },
+   "welcomeTryNow": {
+      "message": "Попробуйте прямо сейчас, на этой самой странице."
+   },
+   "zoomActual": {
+      "message": "Реальный размер"
+   },
+   "zoomFit": {
+      "message": "По размеру окна"
+   },
+   "zoomFitShort": {
+      "message": "По размеру"
+   },
+   "zoomIn": {
+      "message": "Приблизить"
+   },
+   "zoomLabel": {
+      "message": "Масштаб"
+   },
+   "zoomOut": {
+      "message": "Отдалить"
+   }
+}

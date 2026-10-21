@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Files - FullPage Capture</title>
+  <link rel="stylesheet" href="../shared/theme.css" />
+  <link rel="stylesheet" href="files.css" />
+</head>
+<body data-page="files">
+  <header>
+    <span class="htitle" data-i18n="filesHeading">Your captures</span>
+    <span id="count" class="hcount"></span>
+    <button id="selectAllBtn" class="pill sm-pill" hidden>
+      <svg class="ic sm"><use href="../shared/icons.svg#check" /></svg><span id="selectAllLabel" data-i18n="filesSelectAll">Select all</span></button>
+    <label class="search">
+      <svg class="ic sm"><use href="../shared/icons.svg#search" /></svg>
+      <input id="search" type="search" placeholder="Search" data-i18n-placeholder="filesSearch" />
+    </label>
+    <a href="#" id="btn-rate" class="round" title="Rate FullPage Capture" data-i18n-title="actionRate" target="_blank" rel="noopener">
+      <svg class="ic"><use href="../shared/icons.svg#star" /></svg></a>
+    <a href="../batch/batch.html" class="round" title="Batch capture" data-i18n-title="batchHeading">
+      <svg class="ic"><use href="../shared/icons.svg#layers" /></svg></a>
+    <a href="../options/options.html" class="round" title="Settings" data-i18n-title="actionSettings">
+      <svg class="ic"><use href="../shared/icons.svg#settings" /></svg></a>
+  </header>
+  <p id="searchNote" class="search-note" hidden></p>
+  <main id="grid"></main>
+  <p id="empty" hidden data-i18n="filesEmpty">No captures yet. Click the extension icon on any page to take one.</p>
+  <footer id="bulkbar" hidden>
+    <span id="selCount"></span>
+    <div class="bulk-actions">
+      <button id="bulkDelete" class="pill">
+        <svg class="ic sm"><use href="../shared/icons.svg#trash-2" /></svg><span data-i18n="actionDelete">Delete</span></button>
+      <button id="bulkCloud" class="pill" hidden title="Save this capture to your Google Drive">
+        <svg class="ic sm"><use href="../shared/icons.svg#cloud-upload" /></svg><span>Send to the cloud</span></button>
+      <button id="bulkDownload" class="pill primary">
+        <svg class="ic sm"><use href="../shared/icons.svg#download" /></svg><span id="bulkDlLabel" data-i18n="actionSave">Save</span></button>
+      <button id="bulkClear" class="round sm muted" title="Clear selection" data-i18n-title="filesClearSelection">
+        <svg class="ic sm"><use href="../shared/icons.svg#x" /></svg></button>
+    </div>
+  </footer>
+  <script type="module" src="files.js"></script>
+</body>
+</html>

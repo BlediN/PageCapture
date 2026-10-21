@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Markup - FullPage Capture</title>
+  <link rel="stylesheet" href="../shared/theme.css" />
+  <link rel="stylesheet" href="editor.css" />
+</head>
+<body data-page="editor">
+  <header id="topbar">
+    <div class="group">
+      <a id="back" href="#" class="round" title="Back to capture" data-i18n-title="edBack">
+        <svg class="ic"><use href="../shared/icons.svg#arrow-left" /></svg></a>
+      <span class="brand" data-i18n="edBrand">Markup</span>
+      <div class="group tight">
+        <button id="undo" class="round sm" title="Undo (Ctrl+Z)" data-i18n-title="edUndo">
+          <svg class="ic"><use href="../shared/icons.svg#undo-2" /></svg></button>
+        <button id="redo" class="round sm" title="Redo (Ctrl+Shift+Z)" data-i18n-title="edRedo">
+          <svg class="ic"><use href="../shared/icons.svg#redo-2" /></svg></button>
+      </div>
+    </div>
+    <div class="zoompill">
+      <button id="zoomOut" class="round sm" title="Zoom out" data-i18n-title="zoomOut">
+        <svg class="ic sm"><use href="../shared/icons.svg#zoom-out" /></svg></button>
+      <span id="zoomLabel">75%</span>
+      <button id="zoomIn" class="round sm" title="Zoom in" data-i18n-title="zoomIn">
+        <svg class="ic sm"><use href="../shared/icons.svg#zoom-in" /></svg></button>
+      <button id="zoomFit" class="round sm" title="Fit" data-i18n-title="zoomFitShort">
+        <svg class="ic sm"><use href="../shared/icons.svg#maximize-2" /></svg></button>
+    </div>
+    <div class="group">
+      <button id="copy" class="pill" title="Copy to clipboard" data-i18n-title="edCopyTitle">
+        <svg class="ic sm"><use href="../shared/icons.svg#copy" /></svg><span data-i18n="edCopy">Copy</span></button>
+      <button id="print" class="pill" title="Print" data-i18n-title="actionPrint">
+        <svg class="ic sm"><use href="../shared/icons.svg#printer" /></svg><span data-i18n="actionPrint">Print</span></button>
+      <div class="menu-wrap" id="edCloudWrap" hidden>
+        <button id="edCloud" class="pill" title="Save this to your cloud folder">
+          <svg class="ic sm"><use href="../shared/icons.svg#cloud-upload" /></svg><span id="edCloudLabel">Save to the cloud</span></button>
+        <div id="edCloudMenu" class="menu right" hidden></div>
+      </div>
+      <div class="menu-wrap" id="saveWrap">
+        <button id="dlPng" class="pill primary" title="Download image" data-i18n-title="edDlImage">
+          <svg class="ic sm"><use href="../shared/icons.svg#download" /></svg><span id="saveLabel" data-i18n="edSaveImage">Save image</span></button>
+        <button id="saveMore" class="pill primary save-more" title="Other file types" data-i18n-title="edSaveOther">
+          <svg class="ic sm"><use href="../shared/icons.svg#chevron-down" /></svg></button>
+        <div id="saveMenu" class="menu right" hidden>
+          <button id="saveAsPng" data-i18n="edSaveAsPng">Save as PNG</button>
+          <button id="saveAsJpeg" data-i18n="edSaveAsJpeg">Save as JPEG</button>
+          <button id="saveAsPdf" data-i18n="edSaveAsPdf">Save as PDF</button>
+        </div>
+      </div>
+      <div class="menu-wrap">
+        <button id="moreBtn" class="round" title="More" data-i18n-title="edMore">
+          <svg class="ic"><use href="../shared/icons.svg#ellipsis" /></svg></button>
+        <div id="moreMenu" class="menu right" hidden>
+          <div class="menu-label">URL &amp; date</div>
+          <button data-tpl="none" data-i18n="edTplNone">None</button>
+          <button data-tpl="bar">URL on top</button>
+          <button data-tpl="barBottom">URL on bottom</button>
+          <button data-tpl="mac" data-i18n="edTplMac">Mac browser</button>
+          <button data-tpl="windows" data-i18n="edTplWin">Windows browser</button>
+          <div class="menu-label" data-i18n="optDateFmt">Date format</div>
+          <button data-fmt="date" data-i18n="dateFmtDate">Date</button>
+          <button data-fmt="datetime" data-i18n="dateFmtDateTime">Date &amp; time</button>
+          <button data-fmt="iso">ISO</button>
+          <button data-fmt="none" data-i18n="dateFmtNone">No date</button>
+          <div class="menu-sep"></div>
+          <button id="helpBtn" data-i18n="edShortcuts">Keyboard shortcuts</button>
+          <button id="reportBtn" data-i18n="actionReport">Report an issue</button>
+          <button id="del" class="danger" data-i18n="edDeleteCapture">Delete capture</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <p id="editorOnly" class="editor-only" hidden></p>
+  <div id="workspace">
+    <nav id="rail">
+      <button data-tool="select" class="tool active" title="Select (V)" data-i18n-title="edToolSelect">
+        <svg class="ic lg"><use href="../shared/icons.svg#mouse-pointer-2" /></svg></button>
+      <button data-tool="crop" class="tool" title="Crop (C)" data-i18n-title="edToolCrop">
+        <svg class="ic lg"><use href="../shared/icons.svg#crop" /></svg></button>
+      <div class="rail-sep"></div>
+      <button data-tool="rect" class="tool" title="Rectangle (R)" data-i18n-title="edToolRect">
+        <svg class="ic lg"><use href="../shared/icons.svg#square" /></svg></button>
+      <button data-tool="ellipse" class="tool" title="Ellipse (E)" data-i18n-title="edToolEllipse">
+        <svg class="ic lg"><use href="../shared/icons.svg#circle" /></svg></button>
+      <button data-tool="arrow" class="tool" title="Arrow (A)" data-i18n-title="edToolArrow">
+        <svg class="ic lg"><use href="../shared/icons.svg#arrow-up-right" /></svg></button>
+      <button data-tool="line" class="tool" title="Line (L)" data-i18n-title="edToolLine">
+        <svg class="ic lg"><use href="../shared/icons.svg#slash" /></svg></button>
+      <button data-tool="text" class="tool" title="Text (T)" data-i18n-title="edToolText">
+        <svg class="ic lg"><use href="../shared/icons.svg#type" /></svg></button>
+      <button data-tool="highlight" class="tool" title="Highlighter (H)" data-i18n-title="edToolHighlight">
+        <svg class="ic lg"><use href="../shared/icons.svg#highlighter" /></svg></button>
+      <button data-tool="redact" class="tool" title="Redact (B)" data-i18n-title="edToolRedact">
+        <svg class="ic lg"><use href="../shared/icons.svg#eye-off" /></svg></button>
+      <button data-tool="badge" class="tool" title="Numbered badge (N)" data-i18n-title="edToolBadge">
+        <svg class="ic lg"><use href="../shared/icons.svg#circle-dot" /></svg></button>
+      <div class="rail-sep"></div>
+      <button data-tool="pen" class="tool" title="Pen (P)" data-i18n-title="edToolPen">
+        <svg class="ic lg"><use href="../shared/icons.svg#pen-tool" /></svg></button>
+      <button data-tool="marker" class="tool" title="Brush (M)" data-i18n-title="edToolBrush">
+        <svg class="ic lg"><use href="../shared/icons.svg#brush" /></svg></button>
+      <button id="railReport" title="Report an issue" data-i18n-title="actionReport">
+        <svg class="ic lg"><use href="../shared/icons.svg#message-square-warning" /></svg></button>
+    </nav>
+    <div id="stagewrap">
+      <main id="stage">
+        <div id="canvasBox">
+          <canvas id="view"></canvas>
+          <svg id="overlay" xmlns="http://www.w3.org/2000/svg"></svg>
+          <textarea id="textInput" rows="1" spellcheck="false" hidden></textarea>
+        </div>
+      </main>
+      <div id="cropBar" hidden>
+        <button id="cropCancel" class="pill" data-i18n="actionCancel">Cancel</button>
+        <button id="cropApply" class="pill primary" data-i18n="edApplyCrop">Apply crop</button>
+      </div>
+    </div>
+    <aside id="propsPanel">
+      <div id="propsBody" hidden>
+        <div id="selHead">
+          <svg class="ic" id="selIconSvg"><use id="selIconUse" href="../shared/icons.svg#square" /></svg>
+          <span id="selName" data-i18n="edObject">Object</span>
+        </div>
+        <div class="prop" id="colorGroup">
+          <div class="overline" data-i18n="edColor">Color</div>
+          <div id="colors"></div>
+        </div>
+        <div class="prop" id="sizeGroup">
+          <div class="overline split"><span data-i18n="edThickness">Thickness</span><span id="sizeVal">4 px</span></div>
+          <input type="range" id="size" min="1" max="24" value="4" />
+        </div>
+        <div class="prop" id="fillGroup" hidden>
+          <div class="overline" data-i18n="edFill">Fill</div>
+          <div id="fillColors"></div>
+        </div>
+        <div class="prop" id="extraGroup" hidden>
+          <div class="overline split"><span id="extraLabel"></span><span id="extraVal"></span></div>
+          <input type="range" id="extra" min="0" max="30" value="0" />
+        </div>
+        <div class="prop" id="arrowHeads" hidden>
+          <div class="overline" data-i18n="edArrowheads">Arrowheads</div>
+          <div class="seg">
+            <button data-heads="end" class="active" data-i18n="edHeadOne">One end</button>
+            <button data-heads="both" data-i18n="edHeadBoth">Both</button>
+          </div>
+        </div>
+        <div class="prop" id="redactModes" hidden>
+          <div class="overline" data-i18n="edMode">Mode</div>
+          <div class="seg">
+            <button data-mode="blur" data-i18n="edModeBlur">Blur</button>
+            <button data-mode="pixel" data-i18n="edModePixel">Pixelate</button>
+          </div>
+        </div>
+      </div>
+      <p id="propsEmpty" class="aside-empty" data-i18n="edPropsEmpty">Select an object to edit its style.</p>
+      <div class="hr"></div>
+      <div id="objectsHead">
+        <svg class="ic"><use href="../shared/icons.svg#layers" /></svg>
+        <span data-i18n="edObjects">Objects</span>
+        <span id="objCount"></span>
+      </div>
+      <div id="layersList"></div>
+      <p id="layersEmpty" class="aside-empty" data-i18n="edLayersEmpty">Nothing yet. Pick a tool from the rail.</p>
+    </aside>
+  </div>
+  <footer id="statusbar">
+    <span id="dims"></span>
+    <span id="pageUrl"></span>
+    <span id="evChip" class="ev-chip" hidden data-i18n="edEvidenceOn">Evidence stamp on export</span>
+  </footer>
+  <div id="helpDlg" hidden>
+    <div class="help-card">
+      <div class="help-head">
+        <span data-i18n="edShortcuts">Keyboard shortcuts</span>
+        <button id="helpClose" class="round" title="Close" data-i18n-title="edClose">
+          <svg class="ic"><use href="../shared/icons.svg#x" /></svg></button>
+      </div>
+      <div class="help-grid"></div>
+    </div>
+  </div>
+  <script type="module" src="editor.js"></script>
+</body>
+</html>

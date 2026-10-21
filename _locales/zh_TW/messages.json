@@ -1,0 +1,1030 @@
+{
+   "actionCancel": {
+      "message": "取消"
+   },
+   "actionDelete": {
+      "message": "刪除"
+   },
+   "actionEdit": {
+      "message": "編輯"
+   },
+   "actionFiles": {
+      "message": "檔案"
+   },
+   "actionOpen": {
+      "message": "開啟"
+   },
+   "actionPrint": {
+      "message": "列印"
+   },
+   "actionRate": {
+      "message": "為 FullPage Capture 評分"
+   },
+   "actionReport": {
+      "message": "回報問題"
+   },
+   "actionSave": {
+      "message": "儲存"
+   },
+   "actionSettings": {
+      "message": "設定"
+   },
+   "appDesc": {
+      "message": "一鍵擷取整個網頁的長截圖。支援滾動截圖、螢幕截圖與標註編輯器。"
+   },
+   "appName": {
+      "message": "FullPage Capture - 網頁整頁截圖 長截圖"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "要刪除的截圖數量：$1？\n（此操作無法復原。）"
+   },
+   "confirmDeleteOne": {
+      "message": "要刪除這張截圖嗎？\n（此操作無法復原。）"
+   },
+   "copiedToClipboard": {
+      "message": "已複製到剪貼簿"
+   },
+   "copyFailed": {
+      "message": "複製失敗：$1"
+   },
+   "createdPdf": {
+      "message": "PDF 已建立"
+   },
+   "creatingPdf": {
+      "message": "正在建立 PDF："
+   },
+   "dateFmtDate": {
+      "message": "日期"
+   },
+   "dateFmtDateTime": {
+      "message": "日期和時間"
+   },
+   "dateFmtNone": {
+      "message": "不顯示日期"
+   },
+   "edApplyCrop": {
+      "message": "套用裁切"
+   },
+   "edArrowheads": {
+      "message": "箭頭樣式"
+   },
+   "edBack": {
+      "message": "返回截圖"
+   },
+   "edBrand": {
+      "message": "註記"
+   },
+   "edBringForward": {
+      "message": "上移一層"
+   },
+   "edCancelCrop": {
+      "message": "取消裁切"
+   },
+   "edClose": {
+      "message": "關閉"
+   },
+   "edColor": {
+      "message": "顏色"
+   },
+   "edConfirmDelete": {
+      "message": "要刪除這張截圖嗎？"
+   },
+   "edCopiedResized": {
+      "message": "已複製（受剪貼簿限制，已縮小為 $WIDTH$x$HEIGHT$）",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "複製"
+   },
+   "edCopyLayer": {
+      "message": "複製圖層"
+   },
+   "edCopyTitle": {
+      "message": "複製到剪貼簿"
+   },
+   "edCornerRadius": {
+      "message": "圓角半徑"
+   },
+   "edCustomColor": {
+      "message": "自訂顏色"
+   },
+   "edDeleteCapture": {
+      "message": "刪除截圖"
+   },
+   "edDeleteSel": {
+      "message": "刪除選取項目"
+   },
+   "edDlImage": {
+      "message": "下載圖片"
+   },
+   "edDuplicateSel": {
+      "message": "複製選取項目"
+   },
+   "edExport": {
+      "message": "匯出"
+   },
+   "edExportSaveAs": {
+      "message": "匯出並選擇位置"
+   },
+   "edFasterMove": {
+      "message": "快速移動"
+   },
+   "edFill": {
+      "message": "填滿"
+   },
+   "edFontSize": {
+      "message": "字型大小"
+   },
+   "edHeadBoth": {
+      "message": "兩端"
+   },
+   "edHeadOne": {
+      "message": "一端"
+   },
+   "edHelp": {
+      "message": "說明"
+   },
+   "edHelpDocument": {
+      "message": "文件"
+   },
+   "edHelpLayers": {
+      "message": "圖層"
+   },
+   "edHelpShapes": {
+      "message": "插入圖形"
+   },
+   "edHelpTools": {
+      "message": "工具"
+   },
+   "edKeyMouseArrows": {
+      "message": "滑鼠或方向鍵"
+   },
+   "edKeyOorE": {
+      "message": "O 或 E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + 方向鍵"
+   },
+   "edLayersEmpty": {
+      "message": "目前還沒有內容。請從工具列選擇一項工具。"
+   },
+   "edMode": {
+      "message": "模式"
+   },
+   "edModeBlur": {
+      "message": "模糊"
+   },
+   "edModePixel": {
+      "message": "馬賽克"
+   },
+   "edMore": {
+      "message": "更多"
+   },
+   "edMoveLayer": {
+      "message": "移動圖層"
+   },
+   "edNoFill": {
+      "message": "不填滿"
+   },
+   "edNotFoundBody": {
+      "message": "找不到截圖，可能已被刪除。"
+   },
+   "edNotFoundTitle": {
+      "message": "找不到截圖 - FullPage Capture"
+   },
+   "edObject": {
+      "message": "物件"
+   },
+   "edObjects": {
+      "message": "物件"
+   },
+   "edPasteLayer": {
+      "message": "貼上圖層"
+   },
+   "edPropsEmpty": {
+      "message": "請選擇一個物件來變更它的樣式。"
+   },
+   "edRedo": {
+      "message": "重做 (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "重做"
+   },
+   "edSaveImage": {
+      "message": "儲存圖片"
+   },
+   "edSendBackward": {
+      "message": "下移一層"
+   },
+   "edShortcuts": {
+      "message": "鍵盤快速鍵"
+   },
+   "edThickness": {
+      "message": "粗細"
+   },
+   "edToggleCrop": {
+      "message": "裁切模式"
+   },
+   "edToggleUrlDate": {
+      "message": "顯示或隱藏網址和日期"
+   },
+   "edToolArrow": {
+      "message": "箭頭 (A)"
+   },
+   "edToolArrowShort": {
+      "message": "箭頭"
+   },
+   "edToolBadge": {
+      "message": "編號標記 (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "編號標記"
+   },
+   "edToolBrush": {
+      "message": "筆刷 (M)"
+   },
+   "edToolBrushShort": {
+      "message": "筆刷"
+   },
+   "edToolCrop": {
+      "message": "裁切 (C)"
+   },
+   "edToolEllipse": {
+      "message": "橢圓 (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "橢圓"
+   },
+   "edToolHighlight": {
+      "message": "螢光筆 (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "螢光筆"
+   },
+   "edToolLine": {
+      "message": "直線 (L)"
+   },
+   "edToolLineShort": {
+      "message": "直線"
+   },
+   "edToolOvalShort": {
+      "message": "橢圓"
+   },
+   "edToolPen": {
+      "message": "鉛筆 (P)"
+   },
+   "edToolPenShort": {
+      "message": "鉛筆"
+   },
+   "edToolRect": {
+      "message": "矩形 (R)"
+   },
+   "edToolRectShort": {
+      "message": "矩形"
+   },
+   "edToolRedact": {
+      "message": "模糊 (B)"
+   },
+   "edToolRedactShort": {
+      "message": "模糊"
+   },
+   "edToolSelect": {
+      "message": "選取 (V)"
+   },
+   "edToolSelectShort": {
+      "message": "選取"
+   },
+   "edToolText": {
+      "message": "文字 (T)"
+   },
+   "edToolTextShort": {
+      "message": "文字"
+   },
+   "edTplMac": {
+      "message": "Mac 瀏覽器"
+   },
+   "edTplNone": {
+      "message": "無"
+   },
+   "edTplWin": {
+      "message": "Windows 瀏覽器"
+   },
+   "edUndo": {
+      "message": "復原 (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "復原"
+   },
+   "filesClearSelection": {
+      "message": "清除選取"
+   },
+   "filesDeselectAll": {
+      "message": "取消全選"
+   },
+   "filesEmpty": {
+      "message": "目前還沒有截圖。在任何網頁上按一下擴充功能圖示，就能拍下第一張。"
+   },
+   "filesHeading": {
+      "message": "你的截圖"
+   },
+   "filesLoadFailed": {
+      "message": "載入失敗：$1"
+   },
+   "filesSaveAll": {
+      "message": "全部儲存：$1"
+   },
+   "filesSaveBoth": {
+      "message": "兩張都儲存"
+   },
+   "filesSaveFailed": {
+      "message": "其中 $1 個無法儲存。"
+   },
+   "filesSavedCount": {
+      "message": "已儲存在這台裝置：$1"
+   },
+   "filesSearch": {
+      "message": "搜尋"
+   },
+   "filesSelect": {
+      "message": "選取"
+   },
+   "filesSelectAll": {
+      "message": "全選"
+   },
+   "filesSelectedCount": {
+      "message": "已選取：$1"
+   },
+   "optAllow": {
+      "message": "允許"
+   },
+   "optAutoDownload": {
+      "message": "自動下載檔案"
+   },
+   "optAutoDownloadHint": {
+      "message": "自動將截圖以圖片形式下載，而不是在新視窗開啟。截圖分頁不會開啟。在擴充功能圖示上按右鍵並選擇「選項」，即可回到這裡。"
+   },
+   "optAutoDownloadWarn": {
+      "message": "與瀏覽器設定「下載每個檔案前先詢問儲存位置」不相容。若該設定也已開啟，儲存對話方塊可能會出現錯誤。"
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "詢問要擷取的內容"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "點擊圖示時先選擇整個頁面或頁面的一部分。關閉: 一次點擊即擷取整個頁面。"
+   },
+   "optCopyFit": {
+      "message": "為 Google 文件縮小複本"
+   },
+   "optCopyFitHint": {
+      "message": "複製到剪貼簿且超過 25,000,000 像素的圖片會自動縮小"
+   },
+   "optDateFmt": {
+      "message": "日期格式"
+   },
+   "optDateFmtHint": {
+      "message": "日期在資訊列中的顯示方式，或將其隱藏"
+   },
+   "optDelay": {
+      "message": "每次捲動之間的暫停"
+   },
+   "optDelay150": {
+      "message": "150 毫秒（預設）"
+   },
+   "optDelayHint": {
+      "message": "內容載入較慢的網頁可以調大"
+   },
+   "optDelayNone": {
+      "message": "不暫停"
+   },
+   "optDirPermNote": {
+      "message": "儲存到資料夾需要下載權限。授權後資料夾設定才會生效。"
+   },
+   "optFileType": {
+      "message": "檔案類型"
+   },
+   "optFileTypeHint": {
+      "message": "適用於儲存按鈕和自動下載"
+   },
+   "optFolder": {
+      "message": "儲存到資料夾"
+   },
+   "optFolderHint": {
+      "message": "「下載」內的子資料夾。留空則直接儲存到「下載」"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "設定"
+   },
+   "optImgWait": {
+      "message": "等待圖片"
+   },
+   "optImgWaitFull": {
+      "message": "完整等待，大圖最多 8 秒"
+   },
+   "optImgWaitHint": {
+      "message": "每一格都等到圖片載入完成。如果截圖中出現模糊或空白的圖片，請開啟"
+   },
+   "optImgWaitOff": {
+      "message": "關閉"
+   },
+   "optImgWaitShort": {
+      "message": "短暫等待，每格最多 1.5 秒（預設）"
+   },
+   "optLandscape": {
+      "message": "橫向"
+   },
+   "optLinks": {
+      "message": "可點按的連結"
+   },
+   "optLinksHint": {
+      "message": "網頁上的連結在 PDF 中仍可點按"
+   },
+   "optOrientation": {
+      "message": "方向"
+   },
+   "optOrientationHint": {
+      "message": "上述紙張尺寸的頁面方向"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 公釐"
+   },
+   "optPdfFull": {
+      "message": "整張圖片"
+   },
+   "optPdfFullHint": {
+      "message": "一頁，大小與截圖相同"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8.5 x 14 英吋"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8.5 x 11 英吋"
+   },
+   "optPortrait": {
+      "message": "直向"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "詢問儲存位置"
+   },
+   "optSaveAsHint": {
+      "message": "單一檔案會跳出儲存對話方塊。多個檔案時會略過"
+   },
+   "optSaved": {
+      "message": "已儲存"
+   },
+   "optSecCapturing": {
+      "message": "截圖"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "智慧分頁"
+   },
+   "optSmartSplitHint": {
+      "message": "把每個分頁位置移到兩行之間的空白，文字就不會從中間被切斷"
+   },
+   "optUrlDate": {
+      "message": "在頂端標註網址和日期"
+   },
+   "optUrlDateHint": {
+      "message": "在 PDF 第一頁標註網頁網址和截圖時間"
+   },
+   "pageTitle_editor": {
+      "message": "註記 - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "檔案 - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "設定 - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "截圖 - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "歡迎 - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "區塊：$1"
+   },
+   "pdfFailed": {
+      "message": "建立 PDF 失敗：$1"
+   },
+   "popupBlockedBody": {
+      "message": "設定頁、線上應用程式商店等瀏覽器頁面受到保護，任何擴充功能都無法擷取。一般網站都能正常運作。"
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome 保護了這個頁面"
+   },
+   "popupCannotAccess": {
+      "message": "無法存取這個頁面。"
+   },
+   "popupCanvasWide": {
+      "message": "寬 $1 像素（畫布）"
+   },
+   "popupCaptureFailed": {
+      "message": "擷取失敗。"
+   },
+   "popupCaptureFailedDetail": {
+      "message": "無法擷取這個頁面：$1"
+   },
+   "popupCapturing": {
+      "message": "正在擷取…"
+   },
+   "popupCapturingTitle": {
+      "message": "正在擷取網頁"
+   },
+   "popupChooseTitle": {
+      "message": "要擷取什麼？"
+   },
+   "popupClose": {
+      "message": "關閉"
+   },
+   "popupConnectionLost": {
+      "message": "與頁面的連線已中斷。"
+   },
+   "popupCreatingPdf": {
+      "message": "正在建立 PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "觀看示範"
+   },
+   "popupDownloading": {
+      "message": "正在下載…"
+   },
+   "popupFileUrlHint": {
+      "message": "對於 file:// 頁面，請在擴充功能詳細資料中開啟「允許存取檔案網址」。"
+   },
+   "popupFrameEarly": {
+      "message": "Pro 新功能：只擷取網頁中你需要的部分，自動捲動，完整擷取。"
+   },
+   "popupFrameTitle": {
+      "message": "正在擷取框架"
+   },
+   "popupFrameUnreachable": {
+      "message": "擴充功能無法存取這個框架。"
+   },
+   "popupHowItWorks": {
+      "message": "使用方式"
+   },
+   "popupHowStep1": {
+      "message": "將指標移到網頁的任意部分，它會被框起來。"
+   },
+   "popupHowStep2": {
+      "message": "選擇較大或較小的部分。"
+   },
+   "popupHowStep3": {
+      "message": "點選後，我們會自動捲動並完整擷取，連下方隱藏的內容也不遺漏。"
+   },
+   "popupLocalFile": {
+      "message": "這是本機檔案。若要擷取，請為這個擴充功能開啟「允許存取檔案網址」，然後再試一次。"
+   },
+   "popupModeFrame": {
+      "message": "網頁的一部分"
+   },
+   "popupModeFrameHint": {
+      "message": "搶先體驗。點選一個框架、面板或任意區域，只擷取該部分。"
+   },
+   "popupModePage": {
+      "message": "整個網頁"
+   },
+   "popupModePageHint": {
+      "message": "捲動到網頁底部，並將所有畫面拼接成一張圖片。"
+   },
+   "popupNoActiveTab": {
+      "message": "沒有作用中的分頁。"
+   },
+   "popupNoFrames": {
+      "message": "這個頁面上沒有可選取的內容。"
+   },
+   "popupOpenSettings": {
+      "message": "開啟擴充功能設定"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "只需要頁面的一部分？"
+   },
+   "popupPauseHint": {
+      "message": "關閉即暫停，重新開啟即繼續"
+   },
+   "popupPauseTitle": {
+      "message": "暫停。關閉會暫停，重新開啟會繼續"
+   },
+   "popupPdfFailed": {
+      "message": "無法建立 PDF。螢幕擷取畫面已儲存在「檔案」中。"
+   },
+   "popupPdfInvalid": {
+      "message": "無法以 PDF 格式讀取這個檔案。"
+   },
+   "popupPdfLoading": {
+      "message": "正在載入 PDF…"
+   },
+   "popupPdfPagesOf": {
+      "message": "（第 1-$1 頁，共 $2 頁）"
+   },
+   "popupPdfPassword": {
+      "message": "這個 PDF 受密碼保護，無法擷取。"
+   },
+   "popupPdfReadFailed": {
+      "message": "無法讀取 PDF：$1"
+   },
+   "popupPdfRendering": {
+      "message": "正在轉譯第 $1 頁（共 $2 頁）…"
+   },
+   "popupPickFrame": {
+      "message": "請點選網頁上的框架"
+   },
+   "popupPickLost": {
+      "message": "所選的元素已從網頁上消失，請重新選取。"
+   },
+   "popupPickStartFailed": {
+      "message": "無法在這個頁面開始選取，請再試一次。"
+   },
+   "popupPreparing": {
+      "message": "正在準備…"
+   },
+   "popupReadImageFailed": {
+      "message": "無法讀取圖片：$1"
+   },
+   "popupResuming": {
+      "message": "正在繼續"
+   },
+   "popupSaving": {
+      "message": "正在儲存…"
+   },
+   "popupScrolling": {
+      "message": "正在捲動"
+   },
+   "popupSelfReload": {
+      "message": "此頁面只要有任何變動就會自行重新載入，因此無法完成整頁擷取。"
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "設定鍵盤快速鍵"
+   },
+   "popupShortcut": {
+      "message": "快速鍵：$key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "這個頁面放不進一張圖片，因此會分成幾個區塊：$1 個。可以一次全部下載。"
+   },
+   "popupStalled": {
+      "message": "擷取卡住了（$1）。請重新載入頁面再試一次，或回報問題。"
+   },
+   "popupStamping": {
+      "message": "正在加上證據戳記…"
+   },
+   "popupStopCapture": {
+      "message": "停止擷取"
+   },
+   "popupTryDemo": {
+      "message": "在範例網頁上試試"
+   },
+   "popupWarmingUp": {
+      "message": "正在載入內容"
+   },
+   "proBuyYear": {
+      "message": "升級到 Pro"
+   },
+   "proCloudBody": {
+      "message": "儲存到雲端屬於 Pro 功能。儲存到電腦仍然免費。"
+   },
+   "proExportBody": {
+      "message": "儲存含編輯內容的截圖屬於 Pro 功能。保持網頁原貌的截圖仍可免費儲存、複製和列印。"
+   },
+   "proExportBuy": {
+      "message": "開始免費試用"
+   },
+   "proExportF1": {
+      "message": "編輯內容隨檔案一起儲存"
+   },
+   "proExportF2": {
+      "message": "可搜尋、選取和複製文字的 PDF"
+   },
+   "proExportF3": {
+      "message": "匯出時標註網址、時間和總和檢查碼"
+   },
+   "proExportF4": {
+      "message": "一次擷取整批網頁"
+   },
+   "proExportF5": {
+      "message": "直接存到你自己的 Google Drive"
+   },
+   "proExportFine": {
+      "message": "安全付款。48 小時退款保證（歐盟和英國為 14 天）。你所在國家/地區的價格可能不同。"
+   },
+   "proExportLoading": {
+      "message": "正在載入安全付款頁面…"
+   },
+   "proExportNo": {
+      "message": "稍後再說"
+   },
+   "proExportOpenTab": {
+      "message": "在新分頁中開啟"
+   },
+   "proExportRenew": {
+      "message": "7 天後每年收費 US$$19，可隨時取消。"
+   },
+   "proExportSkipped": {
+      "message": "其中 $1 個因含有編輯內容而未儲存。儲存編輯過的截圖是 Pro 功能。"
+   },
+   "proExportSlow": {
+      "message": "付款頁面載入時間較長。"
+   },
+   "proExportTitle": {
+      "message": "開始 Pro 免費試用，即可繼續"
+   },
+   "proExportTitleYear": {
+      "message": "升級到 Pro 即可繼續"
+   },
+   "proExportTrial": {
+      "message": "試用 7 天"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "今天不需付款"
+   },
+   "proOfferTitle": {
+      "message": "Pro 包含的功能"
+   },
+   "proTryCta": {
+      "message": "試用 Pro"
+   },
+   "proYearAmount": {
+      "message": "US$$19"
+   },
+   "proYearNote": {
+      "message": "你已使用過免費試用"
+   },
+   "proYearPer": {
+      "message": "/ 年"
+   },
+   "rateDoNotAsk": {
+      "message": "不要再詢問"
+   },
+   "rateNotNow": {
+      "message": "以後再說"
+   },
+   "rateSkip": {
+      "message": "略過"
+   },
+   "rateSorry": {
+      "message": "很抱歉"
+   },
+   "rateStar1": {
+      "message": "很差"
+   },
+   "rateStar2": {
+      "message": "較差"
+   },
+   "rateStar3": {
+      "message": "普通"
+   },
+   "rateStar4": {
+      "message": "不錯"
+   },
+   "rateStar5": {
+      "message": "很棒"
+   },
+   "rateTakenCount": {
+      "message": "到目前為止 $1 張。如果它幫上了忙，一則簡短的評價意義很大；如果沒有，也完全沒關係。"
+   },
+   "rateTellUs": {
+      "message": "告訴我們"
+   },
+   "rateText1": {
+      "message": "為 FullPage Capture 評分，並告訴我們你的想法。"
+   },
+   "rateText2": {
+      "message": "一則簡短的評價能幫更多人找到它。若是不想寫，也完全沒關係。"
+   },
+   "rateText3": {
+      "message": "如果這個擴充功能值得，一則簡短的評價會很有幫助。無論如何，謝謝你使用它。"
+   },
+   "rateTitle1": {
+      "message": "有一分鐘嗎？"
+   },
+   "rateTitle2": {
+      "message": "還在用 FullPage Capture 嗎？"
+   },
+   "rateTitle3": {
+      "message": "最後一個小請求"
+   },
+   "reportEmpty": {
+      "message": "請用幾句話描述問題。"
+   },
+   "reportFailed": {
+      "message": "回報傳送失敗。請檢查網路連線後再試一次。"
+   },
+   "reportLimited": {
+      "message": "今天的回報次數已達上限。請改用電子郵件與我們聯絡。"
+   },
+   "reportNotify": {
+      "message": "這個頁面能正確擷取時，寄電子郵件通知我"
+   },
+   "reportPage": {
+      "message": "頁面連結"
+   },
+   "reportPageHint": {
+      "message": "在此貼上頁面連結"
+   },
+   "reportPlaceholder": {
+      "message": "發生了什麼事？你原本預期的結果是什麼？"
+   },
+   "reportPriority": {
+      "message": "優先"
+   },
+   "reportPriorityTitle": {
+      "message": "優先支援：一個工作天內會有專人回覆"
+   },
+   "reportPro": {
+      "message": "優先支援：一個工作天內會有專人回覆到 $1。"
+   },
+   "reportProSent": {
+      "message": "已收到，請求編號 $1。我們會以電子郵件回覆你。"
+   },
+   "reportSend": {
+      "message": "傳送"
+   },
+   "reportSending": {
+      "message": "正在傳送…"
+   },
+   "reportSub": {
+      "message": "告訴我們哪裡出了問題，或還缺少什麼。我們會閱讀每一則回報並盡快修正。"
+   },
+   "reportThanks": {
+      "message": "謝謝，你的回報已送出。"
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "下載這個區塊"
+   },
+   "resultEditEntire": {
+      "message": "編輯整張圖片"
+   },
+   "resultEditPart": {
+      "message": "編輯這個區塊"
+   },
+   "resultEditPartN": {
+      "message": "編輯第 $1 個區塊"
+   },
+   "resultImgTitle": {
+      "message": "網頁截圖"
+   },
+   "resultNameLabel": {
+      "message": "螢幕擷取畫面名稱"
+   },
+   "resultNotFound": {
+      "message": "找不到截圖 - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "截圖完成"
+   },
+   "resultRename": {
+      "message": "重新命名"
+   },
+   "resultRenameFailed": {
+      "message": "無法儲存名稱"
+   },
+   "resultSaveAllJpg": {
+      "message": "儲存全部 JPG：$1"
+   },
+   "resultSaveAllPng": {
+      "message": "儲存全部 PNG：$1"
+   },
+   "resultSaveJpg": {
+      "message": "儲存為 JPG"
+   },
+   "resultSavePdf": {
+      "message": "儲存 PDF"
+   },
+   "resultSavePng": {
+      "message": "儲存為 PNG"
+   },
+   "resultSplitStrip": {
+      "message": "放不進一張圖片，因此分成了幾個區塊：$1 個。可以單獨編輯每個區塊，也可以一次編輯整張。"
+   },
+   "resultZoomOut": {
+      "message": "符合視窗"
+   },
+   "untitledCapture": {
+      "message": "截圖"
+   },
+   "welcomeH1a": {
+      "message": "整個頁面。"
+   },
+   "welcomeH1b": {
+      "message": "一張圖片。"
+   },
+   "welcomeH2a": {
+      "message": "內嵌框架和內部捲動區域"
+   },
+   "welcomeH2b": {
+      "message": "同樣包含。"
+   },
+   "welcomeH3a": {
+      "message": "註記。模糊。"
+   },
+   "welcomeH3b": {
+      "message": "編號。裁切。"
+   },
+   "welcomeH4a": {
+      "message": "在行與行"
+   },
+   "welcomeH4b": {
+      "message": "之間"
+   },
+   "welcomeH4c": {
+      "message": "分頁的 PDF，絕不從行中間切開。"
+   },
+   "welcomeH5a": {
+      "message": "沒有任何內容"
+   },
+   "welcomeH5b": {
+      "message": "離開這個瀏覽器。"
+   },
+   "welcomeH6": {
+      "message": "你並不孤單。"
+   },
+   "welcomeP1": {
+      "message": "捲動、拼接，把整個頁面交付為一張像素精確的截圖。"
+   },
+   "welcomeP2": {
+      "message": "不只是頁面本身，編輯器、儀表板和郵件用戶端也會一併展開。"
+   },
+   "welcomeP3": {
+      "message": "完整的註記編輯器，含箭頭、文字、螢光筆、馬賽克和編號步驟。"
+   },
+   "welcomeP4": {
+      "message": "整張圖片，或帶智慧分頁與可點按連結的 Letter、Legal 和 A4。"
+   },
+   "welcomeP5": {
+      "message": "不需帳戶。沒有分析。沒有追蹤。每張截圖都留在這台裝置上。"
+   },
+   "welcomePress": {
+      "message": "按"
+   },
+   "welcomeShortcutTail": {
+      "message": "在任何網頁上，或按一下擴充功能圖示。"
+   },
+   "welcomeSkip": {
+      "message": "點任意位置即可略過"
+   },
+   "welcomeTryNow": {
+      "message": "現在就在這個頁面上試試。"
+   },
+   "zoomActual": {
+      "message": "實際大小"
+   },
+   "zoomFit": {
+      "message": "符合視窗大小"
+   },
+   "zoomFitShort": {
+      "message": "符合視窗"
+   },
+   "zoomIn": {
+      "message": "放大"
+   },
+   "zoomLabel": {
+      "message": "縮放"
+   },
+   "zoomOut": {
+      "message": "縮小"
+   }
+}

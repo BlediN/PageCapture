@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "取消"
+   },
+   "actionDelete": {
+      "message": "删除"
+   },
+   "actionEdit": {
+      "message": "编辑"
+   },
+   "actionFiles": {
+      "message": "文件"
+   },
+   "actionOpen": {
+      "message": "打开"
+   },
+   "actionPrint": {
+      "message": "打印"
+   },
+   "actionRate": {
+      "message": "为 FullPage Capture 评分"
+   },
+   "actionReport": {
+      "message": "报告问题"
+   },
+   "actionSave": {
+      "message": "保存"
+   },
+   "actionSettings": {
+      "message": "设置"
+   },
+   "appDesc": {
+      "message": "一键截取整个网页的长截图。支持滚动截图、屏幕截图与标注编辑器。"
+   },
+   "appName": {
+      "message": "FullPage Capture - 网页整页截图 长截图"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "要删除的截图数量：$1？\n（此操作无法撤销。）"
+   },
+   "confirmDeleteOne": {
+      "message": "要删除这张截图吗？\n（此操作无法撤销。）"
+   },
+   "copiedToClipboard": {
+      "message": "已复制到剪贴板"
+   },
+   "copyFailed": {
+      "message": "复制失败：$1"
+   },
+   "createdPdf": {
+      "message": "PDF 已生成"
+   },
+   "creatingPdf": {
+      "message": "正在生成 PDF："
+   },
+   "dateFmtDate": {
+      "message": "日期"
+   },
+   "dateFmtDateTime": {
+      "message": "日期和时间"
+   },
+   "dateFmtNone": {
+      "message": "不显示日期"
+   },
+   "edApplyCrop": {
+      "message": "应用裁剪"
+   },
+   "edArrowheads": {
+      "message": "箭头样式"
+   },
+   "edBack": {
+      "message": "返回截图"
+   },
+   "edBrand": {
+      "message": "标注"
+   },
+   "edBringForward": {
+      "message": "上移一层"
+   },
+   "edCancelCrop": {
+      "message": "取消裁剪"
+   },
+   "edClose": {
+      "message": "关闭"
+   },
+   "edColor": {
+      "message": "颜色"
+   },
+   "edConfirmDelete": {
+      "message": "要删除这张截图吗？"
+   },
+   "edCopiedResized": {
+      "message": "已复制（受剪贴板限制，已缩小到 $WIDTH$x$HEIGHT$）",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "复制"
+   },
+   "edCopyLayer": {
+      "message": "复制图层"
+   },
+   "edCopyTitle": {
+      "message": "复制到剪贴板"
+   },
+   "edCornerRadius": {
+      "message": "圆角半径"
+   },
+   "edCustomColor": {
+      "message": "自定义颜色"
+   },
+   "edDeleteCapture": {
+      "message": "删除截图"
+   },
+   "edDeleteSel": {
+      "message": "删除所选"
+   },
+   "edDlImage": {
+      "message": "下载图片"
+   },
+   "edDuplicateSel": {
+      "message": "复制所选"
+   },
+   "edExport": {
+      "message": "导出"
+   },
+   "edExportSaveAs": {
+      "message": "导出并选择位置"
+   },
+   "edFasterMove": {
+      "message": "快速移动"
+   },
+   "edFill": {
+      "message": "填充"
+   },
+   "edFontSize": {
+      "message": "字号"
+   },
+   "edHeadBoth": {
+      "message": "两端"
+   },
+   "edHeadOne": {
+      "message": "一端"
+   },
+   "edHelp": {
+      "message": "帮助"
+   },
+   "edHelpDocument": {
+      "message": "文档"
+   },
+   "edHelpLayers": {
+      "message": "图层"
+   },
+   "edHelpShapes": {
+      "message": "插入形状"
+   },
+   "edHelpTools": {
+      "message": "工具"
+   },
+   "edKeyMouseArrows": {
+      "message": "鼠标或方向键"
+   },
+   "edKeyOorE": {
+      "message": "O 或 E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + 方向键"
+   },
+   "edLayersEmpty": {
+      "message": "还没有内容。请从工具栏选择一个工具。"
+   },
+   "edMode": {
+      "message": "模式"
+   },
+   "edModeBlur": {
+      "message": "模糊"
+   },
+   "edModePixel": {
+      "message": "马赛克"
+   },
+   "edMore": {
+      "message": "更多"
+   },
+   "edMoveLayer": {
+      "message": "移动图层"
+   },
+   "edNoFill": {
+      "message": "无填充"
+   },
+   "edNotFoundBody": {
+      "message": "未找到截图，可能已被删除。"
+   },
+   "edNotFoundTitle": {
+      "message": "未找到截图 - FullPage Capture"
+   },
+   "edObject": {
+      "message": "对象"
+   },
+   "edObjects": {
+      "message": "对象"
+   },
+   "edPasteLayer": {
+      "message": "粘贴图层"
+   },
+   "edPropsEmpty": {
+      "message": "选择一个对象来修改它的样式。"
+   },
+   "edRedo": {
+      "message": "重做 (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "重做"
+   },
+   "edSaveImage": {
+      "message": "保存图片"
+   },
+   "edSendBackward": {
+      "message": "下移一层"
+   },
+   "edShortcuts": {
+      "message": "键盘快捷键"
+   },
+   "edThickness": {
+      "message": "粗细"
+   },
+   "edToggleCrop": {
+      "message": "裁剪模式"
+   },
+   "edToggleUrlDate": {
+      "message": "显示或隐藏网址和日期"
+   },
+   "edToolArrow": {
+      "message": "箭头 (A)"
+   },
+   "edToolArrowShort": {
+      "message": "箭头"
+   },
+   "edToolBadge": {
+      "message": "编号标记 (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "编号标记"
+   },
+   "edToolBrush": {
+      "message": "画笔 (M)"
+   },
+   "edToolBrushShort": {
+      "message": "画笔"
+   },
+   "edToolCrop": {
+      "message": "裁剪 (C)"
+   },
+   "edToolEllipse": {
+      "message": "椭圆 (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "椭圆"
+   },
+   "edToolHighlight": {
+      "message": "荧光笔 (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "荧光笔"
+   },
+   "edToolLine": {
+      "message": "直线 (L)"
+   },
+   "edToolLineShort": {
+      "message": "直线"
+   },
+   "edToolOvalShort": {
+      "message": "椭圆"
+   },
+   "edToolPen": {
+      "message": "铅笔 (P)"
+   },
+   "edToolPenShort": {
+      "message": "铅笔"
+   },
+   "edToolRect": {
+      "message": "矩形 (R)"
+   },
+   "edToolRectShort": {
+      "message": "矩形"
+   },
+   "edToolRedact": {
+      "message": "模糊 (B)"
+   },
+   "edToolRedactShort": {
+      "message": "模糊"
+   },
+   "edToolSelect": {
+      "message": "选择 (V)"
+   },
+   "edToolSelectShort": {
+      "message": "选择"
+   },
+   "edToolText": {
+      "message": "文字 (T)"
+   },
+   "edToolTextShort": {
+      "message": "文字"
+   },
+   "edTplMac": {
+      "message": "Mac 浏览器"
+   },
+   "edTplNone": {
+      "message": "无"
+   },
+   "edTplWin": {
+      "message": "Windows 浏览器"
+   },
+   "edUndo": {
+      "message": "撤销 (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "撤销"
+   },
+   "filesClearSelection": {
+      "message": "清除选择"
+   },
+   "filesDeselectAll": {
+      "message": "取消全选"
+   },
+   "filesEmpty": {
+      "message": "还没有截图。在任意网页上点击扩展程序图标，就能拍下第一张。"
+   },
+   "filesHeading": {
+      "message": "你的截图"
+   },
+   "filesLoadFailed": {
+      "message": "加载失败：$1"
+   },
+   "filesSaveAll": {
+      "message": "全部保存：$1"
+   },
+   "filesSaveBoth": {
+      "message": "两张都保存"
+   },
+   "filesSaveFailed": {
+      "message": "其中 $1 个无法保存。"
+   },
+   "filesSavedCount": {
+      "message": "已保存在本设备：$1"
+   },
+   "filesSearch": {
+      "message": "搜索"
+   },
+   "filesSelect": {
+      "message": "选择"
+   },
+   "filesSelectAll": {
+      "message": "全选"
+   },
+   "filesSelectedCount": {
+      "message": "已选择：$1"
+   },
+   "optAllow": {
+      "message": "允许"
+   },
+   "optAutoDownload": {
+      "message": "自动下载文件"
+   },
+   "optAutoDownloadHint": {
+      "message": "自动把截图作为图片下载，而不是在新窗口中打开。截图标签页不会打开。右键点击扩展程序图标并选择“选项”，即可回到这里。"
+   },
+   "optAutoDownloadWarn": {
+      "message": "与浏览器设置“下载前询问每个文件的保存位置”不兼容。若该设置也已开启，保存对话框可能会报错。"
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "询问要截取的内容"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "点击图标时先选择整个页面或页面的一部分。关闭: 一次点击即截取整个页面。"
+   },
+   "optCopyFit": {
+      "message": "为 Google 文档缩小副本"
+   },
+   "optCopyFitHint": {
+      "message": "复制到剪贴板且超过 25,000,000 像素的图片会自动缩小"
+   },
+   "optDateFmt": {
+      "message": "日期格式"
+   },
+   "optDateFmtHint": {
+      "message": "日期在信息条中的显示方式，或将其隐藏"
+   },
+   "optDelay": {
+      "message": "每次滚动之间的停顿"
+   },
+   "optDelay150": {
+      "message": "150 毫秒（默认）"
+   },
+   "optDelayHint": {
+      "message": "内容加载较慢的网页可以调大"
+   },
+   "optDelayNone": {
+      "message": "不停顿"
+   },
+   "optDirPermNote": {
+      "message": "保存到文件夹需要下载权限。授权后文件夹设置才会生效。"
+   },
+   "optFileType": {
+      "message": "文件类型"
+   },
+   "optFileTypeHint": {
+      "message": "适用于保存按钮和自动下载"
+   },
+   "optFolder": {
+      "message": "保存到文件夹"
+   },
+   "optFolderHint": {
+      "message": "“下载”内的子文件夹。留空则直接保存到“下载”"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "设置"
+   },
+   "optImgWait": {
+      "message": "等待图片"
+   },
+   "optImgWaitFull": {
+      "message": "完整等待，大图最多 8 秒"
+   },
+   "optImgWaitHint": {
+      "message": "每一帧都等待图片加载完成。如果截图中出现模糊或空白的图片，请开启"
+   },
+   "optImgWaitOff": {
+      "message": "关闭"
+   },
+   "optImgWaitShort": {
+      "message": "短暂等待，每帧最多 1.5 秒（默认）"
+   },
+   "optLandscape": {
+      "message": "横向"
+   },
+   "optLinks": {
+      "message": "可点击的链接"
+   },
+   "optLinksHint": {
+      "message": "网页上的链接在 PDF 中仍可点击"
+   },
+   "optOrientation": {
+      "message": "方向"
+   },
+   "optOrientationHint": {
+      "message": "上述纸张尺寸的页面方向"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 毫米"
+   },
+   "optPdfFull": {
+      "message": "整张图片"
+   },
+   "optPdfFullHint": {
+      "message": "一页，大小与截图相同"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8.5 x 14 英寸"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8.5 x 11 英寸"
+   },
+   "optPortrait": {
+      "message": "纵向"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "询问保存位置"
+   },
+   "optSaveAsHint": {
+      "message": "单个文件会弹出保存对话框。多个文件时会跳过"
+   },
+   "optSaved": {
+      "message": "已保存"
+   },
+   "optSecCapturing": {
+      "message": "截图"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "智能分页"
+   },
+   "optSmartSplitHint": {
+      "message": "把每个分页处移到两行之间的空白，文字就不会被从中间切断"
+   },
+   "optUrlDate": {
+      "message": "在顶部标注网址和日期"
+   },
+   "optUrlDateHint": {
+      "message": "在 PDF 第一页标注网页地址和截图时间"
+   },
+   "pageTitle_editor": {
+      "message": "标注 - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "文件 - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "设置 - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "截图 - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "欢迎 - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "分块：$1"
+   },
+   "pdfFailed": {
+      "message": "生成 PDF 失败：$1"
+   },
+   "popupBlockedBody": {
+      "message": "设置页、网上应用店等浏览器页面受到保护，任何扩展程序都无法截取。普通网站一切正常。"
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome 保护了此页面"
+   },
+   "popupCannotAccess": {
+      "message": "无法访问此页面。"
+   },
+   "popupCanvasWide": {
+      "message": "宽 $1 像素（画布）"
+   },
+   "popupCaptureFailed": {
+      "message": "截图失败。"
+   },
+   "popupCaptureFailedDetail": {
+      "message": "无法截取此页面：$1"
+   },
+   "popupCapturing": {
+      "message": "正在截图…"
+   },
+   "popupCapturingTitle": {
+      "message": "正在截取网页"
+   },
+   "popupChooseTitle": {
+      "message": "要截取什么？"
+   },
+   "popupClose": {
+      "message": "关闭"
+   },
+   "popupConnectionLost": {
+      "message": "与页面的连接已断开。"
+   },
+   "popupCreatingPdf": {
+      "message": "正在创建 PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "观看演示"
+   },
+   "popupDownloading": {
+      "message": "正在下载…"
+   },
+   "popupFileUrlHint": {
+      "message": "对于 file:// 页面，请在扩展程序详情中开启“允许访问文件网址”。"
+   },
+   "popupFrameEarly": {
+      "message": "Pro 新功能：只截取网页中你需要的部分，自动滚动，完整截下。"
+   },
+   "popupFrameTitle": {
+      "message": "正在截取框架"
+   },
+   "popupFrameUnreachable": {
+      "message": "扩展程序无法访问此框架。"
+   },
+   "popupHowItWorks": {
+      "message": "使用方法"
+   },
+   "popupHowStep1": {
+      "message": "将指针移到网页的任意部分，它会被框出。"
+   },
+   "popupHowStep2": {
+      "message": "选择更大或更小的部分。"
+   },
+   "popupHowStep3": {
+      "message": "点击后，我们会自动滚动并完整截取，连下方隐藏的内容也不遗漏。"
+   },
+   "popupLocalFile": {
+      "message": "这是一个本地文件。若要截取，请为此扩展程序开启“允许访问文件网址”，然后重试。"
+   },
+   "popupModeFrame": {
+      "message": "网页的一部分"
+   },
+   "popupModeFrameHint": {
+      "message": "抢先体验。点击一个框架、面板或任意区域，只截取该部分。"
+   },
+   "popupModePage": {
+      "message": "整个网页"
+   },
+   "popupModePageHint": {
+      "message": "滚动到页面底部，并将每一屏拼接成一张长图。"
+   },
+   "popupNoActiveTab": {
+      "message": "没有活动标签页。"
+   },
+   "popupNoFrames": {
+      "message": "此页面上没有可选择的内容。"
+   },
+   "popupOpenSettings": {
+      "message": "打开扩展程序设置"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "只需要页面的一部分？"
+   },
+   "popupPauseHint": {
+      "message": "关闭即暂停，重新打开即继续"
+   },
+   "popupPauseTitle": {
+      "message": "暂停。关闭会暂停，重新打开会继续"
+   },
+   "popupPdfFailed": {
+      "message": "无法创建 PDF。截图已保存在“文件”中。"
+   },
+   "popupPdfInvalid": {
+      "message": "无法将此文件作为 PDF 读取。"
+   },
+   "popupPdfLoading": {
+      "message": "正在加载 PDF…"
+   },
+   "popupPdfPagesOf": {
+      "message": "（第 1-$1 页，共 $2 页）"
+   },
+   "popupPdfPassword": {
+      "message": "此 PDF 受密码保护，无法截取。"
+   },
+   "popupPdfReadFailed": {
+      "message": "无法读取 PDF：$1"
+   },
+   "popupPdfRendering": {
+      "message": "正在渲染第 $1 页（共 $2 页）…"
+   },
+   "popupPickFrame": {
+      "message": "请点击页面上的框架"
+   },
+   "popupPickLost": {
+      "message": "所选元素已从页面上消失，请重新选择。"
+   },
+   "popupPickStartFailed": {
+      "message": "无法在此页面上开始选择，请重试。"
+   },
+   "popupPreparing": {
+      "message": "正在准备…"
+   },
+   "popupReadImageFailed": {
+      "message": "无法读取图片：$1"
+   },
+   "popupResuming": {
+      "message": "正在继续"
+   },
+   "popupSaving": {
+      "message": "正在保存…"
+   },
+   "popupScrolling": {
+      "message": "正在滚动"
+   },
+   "popupSelfReload": {
+      "message": "此页面一旦有任何改动就会自行重新加载，因此无法完成整页截图。"
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "设置键盘快捷键"
+   },
+   "popupShortcut": {
+      "message": "快捷键：$key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "此页面放不进一张图片，因此会分块生成：$1 块。可以一次性全部下载。"
+   },
+   "popupStalled": {
+      "message": "截图卡住了（$1）。请刷新页面重试，或报告问题。"
+   },
+   "popupStamping": {
+      "message": "正在添加证据标记…"
+   },
+   "popupStopCapture": {
+      "message": "停止截图"
+   },
+   "popupTryDemo": {
+      "message": "在示例页面上试试"
+   },
+   "popupWarmingUp": {
+      "message": "正在加载内容"
+   },
+   "proBuyYear": {
+      "message": "升级到 Pro"
+   },
+   "proCloudBody": {
+      "message": "保存到云端属于 Pro 功能。保存到电脑仍然免费。"
+   },
+   "proExportBody": {
+      "message": "保存带编辑内容的截图属于 Pro 功能。保持网页原貌的截图仍可免费保存、复制和打印。"
+   },
+   "proExportBuy": {
+      "message": "开始免费试用"
+   },
+   "proExportF1": {
+      "message": "编辑内容随文件一起保存"
+   },
+   "proExportF2": {
+      "message": "可搜索、选择和复制文字的 PDF"
+   },
+   "proExportF3": {
+      "message": "导出时标注网页地址、时间和校验和"
+   },
+   "proExportF4": {
+      "message": "一次截取整批网页"
+   },
+   "proExportF5": {
+      "message": "直接存入你自己的 Google Drive"
+   },
+   "proExportFine": {
+      "message": "安全支付。48 小时退款保证（欧盟和英国为 14 天）。你所在国家/地区的价格可能有所不同。"
+   },
+   "proExportLoading": {
+      "message": "正在加载安全支付页面…"
+   },
+   "proExportNo": {
+      "message": "以后再说"
+   },
+   "proExportOpenTab": {
+      "message": "在新标签页中打开"
+   },
+   "proExportRenew": {
+      "message": "7 天后每年收费 $$19，可随时取消。"
+   },
+   "proExportSkipped": {
+      "message": "其中 $1 个因包含编辑内容而未保存。保存编辑过的截图是 Pro 功能。"
+   },
+   "proExportSlow": {
+      "message": "支付页面加载时间较长。"
+   },
+   "proExportTitle": {
+      "message": "开始 Pro 免费试用，即可继续"
+   },
+   "proExportTitleYear": {
+      "message": "升级到 Pro 即可继续"
+   },
+   "proExportTrial": {
+      "message": "试用 7 天"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "今天无需付款"
+   },
+   "proOfferTitle": {
+      "message": "Pro 包含的功能"
+   },
+   "proTryCta": {
+      "message": "试用 Pro"
+   },
+   "proYearNote": {
+      "message": "你已使用过免费试用"
+   },
+   "proYearPer": {
+      "message": "/ 年"
+   },
+   "rateDoNotAsk": {
+      "message": "不再询问"
+   },
+   "rateNotNow": {
+      "message": "以后再说"
+   },
+   "rateSkip": {
+      "message": "跳过"
+   },
+   "rateSorry": {
+      "message": "很抱歉"
+   },
+   "rateStar1": {
+      "message": "很差"
+   },
+   "rateStar2": {
+      "message": "较差"
+   },
+   "rateStar3": {
+      "message": "一般"
+   },
+   "rateStar4": {
+      "message": "不错"
+   },
+   "rateStar5": {
+      "message": "很棒"
+   },
+   "rateTakenCount": {
+      "message": "到目前为止 $1 张。如果它帮上了忙，一条简短的评价意义很大；如果没有，也完全没关系。"
+   },
+   "rateTellUs": {
+      "message": "告诉我们"
+   },
+   "rateText1": {
+      "message": "为 FullPage Capture 评分，并告诉我们你的想法。"
+   },
+   "rateText2": {
+      "message": "一条简短的评价能帮更多人找到它。要是不想写，也完全没关系。"
+   },
+   "rateText3": {
+      "message": "如果这个扩展值得，一条简短的评价会很有帮助。无论如何，谢谢你使用它。"
+   },
+   "rateTitle1": {
+      "message": "有一分钟吗？"
+   },
+   "rateTitle2": {
+      "message": "还在用 FullPage Capture 吗？"
+   },
+   "rateTitle3": {
+      "message": "最后一个小请求"
+   },
+   "reportEmpty": {
+      "message": "请用几句话描述问题。"
+   },
+   "reportFailed": {
+      "message": "报告发送失败。请检查网络连接后重试。"
+   },
+   "reportLimited": {
+      "message": "今天的报告次数已达上限。请改用邮件联系我们。"
+   },
+   "reportNotify": {
+      "message": "这个页面能正确截取时，发邮件通知我"
+   },
+   "reportPage": {
+      "message": "页面链接"
+   },
+   "reportPageHint": {
+      "message": "在此粘贴页面链接"
+   },
+   "reportPlaceholder": {
+      "message": "发生了什么？你期待的结果是什么？"
+   },
+   "reportPriority": {
+      "message": "优先"
+   },
+   "reportPriorityTitle": {
+      "message": "优先支持：一个工作日内会有专人回复"
+   },
+   "reportPro": {
+      "message": "优先支持：一个工作日内会有专人回复到 $1。"
+   },
+   "reportProSent": {
+      "message": "已收到，请求编号 $1。我们会通过邮件回复你。"
+   },
+   "reportSend": {
+      "message": "发送"
+   },
+   "reportSending": {
+      "message": "正在发送…"
+   },
+   "reportSub": {
+      "message": "告诉我们哪里出了问题，或者还缺少什么。我们会阅读每一条报告并尽快修复。"
+   },
+   "reportThanks": {
+      "message": "谢谢，你的报告已发送。"
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "下载这一块"
+   },
+   "resultEditEntire": {
+      "message": "编辑整张图片"
+   },
+   "resultEditPart": {
+      "message": "编辑这一块"
+   },
+   "resultEditPartN": {
+      "message": "编辑第 $1 块"
+   },
+   "resultImgTitle": {
+      "message": "网页截图"
+   },
+   "resultNameLabel": {
+      "message": "截图名称"
+   },
+   "resultNotFound": {
+      "message": "未找到截图 - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "截图完成"
+   },
+   "resultRename": {
+      "message": "重命名"
+   },
+   "resultRenameFailed": {
+      "message": "无法保存名称"
+   },
+   "resultSaveAllJpg": {
+      "message": "保存全部 JPG：$1"
+   },
+   "resultSaveAllPng": {
+      "message": "保存全部 PNG：$1"
+   },
+   "resultSaveJpg": {
+      "message": "保存为 JPG"
+   },
+   "resultSavePdf": {
+      "message": "保存 PDF"
+   },
+   "resultSavePng": {
+      "message": "保存为 PNG"
+   },
+   "resultSplitStrip": {
+      "message": "放不进一张图片，因此分成了几块：$1 块。可以单独编辑每一块，也可以一次编辑整张。"
+   },
+   "resultZoomOut": {
+      "message": "适应窗口"
+   },
+   "untitledCapture": {
+      "message": "截图"
+   },
+   "welcomeH1a": {
+      "message": "整个页面。"
+   },
+   "welcomeH1b": {
+      "message": "一张图片。"
+   },
+   "welcomeH2a": {
+      "message": "内嵌框架和内部滚动区域"
+   },
+   "welcomeH2b": {
+      "message": "同样包含。"
+   },
+   "welcomeH3a": {
+      "message": "标注。模糊。"
+   },
+   "welcomeH3b": {
+      "message": "编号。裁剪。"
+   },
+   "welcomeH4a": {
+      "message": "在行与行"
+   },
+   "welcomeH4b": {
+      "message": "之间"
+   },
+   "welcomeH4c": {
+      "message": "分页的 PDF，绝不从行中间切开。"
+   },
+   "welcomeH5a": {
+      "message": "没有任何内容"
+   },
+   "welcomeH5b": {
+      "message": "离开这个浏览器。"
+   },
+   "welcomeH6": {
+      "message": "你并不孤单。"
+   },
+   "welcomeP1": {
+      "message": "滚动、拼接，把整个页面交付为一张像素精确的截图。"
+   },
+   "welcomeP2": {
+      "message": "不只是页面本身，编辑器、仪表板和邮件客户端也会一并展开。"
+   },
+   "welcomeP3": {
+      "message": "完整的标注编辑器，含箭头、文字、荧光笔、马赛克和编号步骤。"
+   },
+   "welcomeP4": {
+      "message": "整张图片，或带智能分页和可点击链接的 Letter、Legal 和 A4。"
+   },
+   "welcomeP5": {
+      "message": "无需账号。没有分析。没有追踪。每张截图都留在这台设备上。"
+   },
+   "welcomePress": {
+      "message": "按"
+   },
+   "welcomeShortcutTail": {
+      "message": "在任意网页上，或点击扩展程序图标。"
+   },
+   "welcomeSkip": {
+      "message": "点击任意位置可跳过"
+   },
+   "welcomeTryNow": {
+      "message": "现在就在这个页面上试试。"
+   },
+   "zoomActual": {
+      "message": "实际大小"
+   },
+   "zoomFit": {
+      "message": "适应窗口大小"
+   },
+   "zoomFitShort": {
+      "message": "适应窗口"
+   },
+   "zoomIn": {
+      "message": "放大"
+   },
+   "zoomLabel": {
+      "message": "缩放"
+   },
+   "zoomOut": {
+      "message": "缩小"
+   }
+}

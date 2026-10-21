@@ -1,0 +1,3 @@
+pdf.js 4.10.38 (pdfjs-dist, legacy build) - Mozilla, Apache License 2.0 (see LICENSE)
+Files: pdf.min.mjs, pdf.worker.min.mjs, cmaps/ (packed CMaps), standard_fonts/
+Unmodified. The legacy build carries its own polyfills and needs no WebAssembly.

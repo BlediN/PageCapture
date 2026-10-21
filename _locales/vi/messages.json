@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "Hủy"
+   },
+   "actionDelete": {
+      "message": "Xóa"
+   },
+   "actionEdit": {
+      "message": "Chỉnh sửa"
+   },
+   "actionFiles": {
+      "message": "Tệp"
+   },
+   "actionOpen": {
+      "message": "Mở"
+   },
+   "actionPrint": {
+      "message": "In"
+   },
+   "actionRate": {
+      "message": "Đánh giá FullPage Capture"
+   },
+   "actionReport": {
+      "message": "Báo lỗi"
+   },
+   "actionSave": {
+      "message": "Lưu"
+   },
+   "actionSettings": {
+      "message": "Cài đặt"
+   },
+   "appDesc": {
+      "message": "Chụp màn hình cả trang web trên máy tính. Chụp màn hình dài với trình chỉnh sửa chú thích."
+   },
+   "appName": {
+      "message": "FullPage Capture - Chụp Toàn Trang Web"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "Xóa số ảnh chụp: $1?\n(Không thể hoàn tác.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Xóa ảnh chụp này?\n(Không thể hoàn tác.)"
+   },
+   "copiedToClipboard": {
+      "message": "Đã sao chép vào bộ nhớ tạm"
+   },
+   "copyFailed": {
+      "message": "Không sao chép được: $1"
+   },
+   "createdPdf": {
+      "message": "Đã tạo PDF"
+   },
+   "creatingPdf": {
+      "message": "Đang tạo PDF:"
+   },
+   "dateFmtDate": {
+      "message": "Ngày"
+   },
+   "dateFmtDateTime": {
+      "message": "Ngày và giờ"
+   },
+   "dateFmtNone": {
+      "message": "Không có ngày"
+   },
+   "edApplyCrop": {
+      "message": "Áp dụng cắt"
+   },
+   "edArrowheads": {
+      "message": "Đầu mũi tên"
+   },
+   "edBack": {
+      "message": "Quay lại ảnh chụp"
+   },
+   "edBrand": {
+      "message": "Đánh dấu"
+   },
+   "edBringForward": {
+      "message": "Đưa lên trước"
+   },
+   "edCancelCrop": {
+      "message": "Hủy cắt"
+   },
+   "edClose": {
+      "message": "Đóng"
+   },
+   "edColor": {
+      "message": "Màu"
+   },
+   "edConfirmDelete": {
+      "message": "Xóa ảnh chụp này?"
+   },
+   "edCopiedResized": {
+      "message": "Đã sao chép (thu nhỏ còn $WIDTH$x$HEIGHT$ do giới hạn bộ nhớ tạm)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Sao chép"
+   },
+   "edCopyLayer": {
+      "message": "Sao chép lớp"
+   },
+   "edCopyTitle": {
+      "message": "Sao chép vào bộ nhớ tạm"
+   },
+   "edCornerRadius": {
+      "message": "Bán kính góc"
+   },
+   "edCustomColor": {
+      "message": "Màu tùy chỉnh"
+   },
+   "edDeleteCapture": {
+      "message": "Xóa ảnh chụp"
+   },
+   "edDeleteSel": {
+      "message": "Xóa phần đã chọn"
+   },
+   "edDlImage": {
+      "message": "Tải ảnh xuống"
+   },
+   "edDuplicateSel": {
+      "message": "Nhân đôi phần đã chọn"
+   },
+   "edExport": {
+      "message": "Xuất"
+   },
+   "edExportSaveAs": {
+      "message": "Xuất và chọn vị trí"
+   },
+   "edFasterMove": {
+      "message": "Di chuyển nhanh"
+   },
+   "edFill": {
+      "message": "Tô nền"
+   },
+   "edFontSize": {
+      "message": "Cỡ chữ"
+   },
+   "edHeadBoth": {
+      "message": "Hai đầu"
+   },
+   "edHeadOne": {
+      "message": "Một đầu"
+   },
+   "edHelp": {
+      "message": "Trợ giúp"
+   },
+   "edHelpDocument": {
+      "message": "Tài liệu"
+   },
+   "edHelpLayers": {
+      "message": "Lớp"
+   },
+   "edHelpShapes": {
+      "message": "Chèn hình"
+   },
+   "edHelpTools": {
+      "message": "Công cụ"
+   },
+   "edKeyMouseArrows": {
+      "message": "Chuột hoặc phím mũi tên"
+   },
+   "edKeyOorE": {
+      "message": "O hoặc E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + phím mũi tên"
+   },
+   "edLayersEmpty": {
+      "message": "Chưa có gì. Hãy chọn một công cụ trên thanh."
+   },
+   "edMode": {
+      "message": "Chế độ"
+   },
+   "edModeBlur": {
+      "message": "Làm mờ"
+   },
+   "edModePixel": {
+      "message": "Làm vỡ hạt"
+   },
+   "edMore": {
+      "message": "Thêm"
+   },
+   "edMoveLayer": {
+      "message": "Di chuyển lớp"
+   },
+   "edNoFill": {
+      "message": "Không tô nền"
+   },
+   "edNotFoundBody": {
+      "message": "Không tìm thấy ảnh chụp. Có thể ảnh đã bị xóa."
+   },
+   "edNotFoundTitle": {
+      "message": "Không tìm thấy ảnh chụp - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Đối tượng"
+   },
+   "edObjects": {
+      "message": "Đối tượng"
+   },
+   "edPasteLayer": {
+      "message": "Dán lớp"
+   },
+   "edPropsEmpty": {
+      "message": "Hãy chọn một đối tượng để đổi kiểu của nó."
+   },
+   "edRedo": {
+      "message": "Làm lại (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Làm lại"
+   },
+   "edSaveImage": {
+      "message": "Lưu ảnh"
+   },
+   "edSendBackward": {
+      "message": "Đưa ra sau"
+   },
+   "edShortcuts": {
+      "message": "Phím tắt"
+   },
+   "edThickness": {
+      "message": "Độ dày"
+   },
+   "edToggleCrop": {
+      "message": "Chế độ cắt"
+   },
+   "edToggleUrlDate": {
+      "message": "Hiện hoặc ẩn địa chỉ và ngày"
+   },
+   "edToolArrow": {
+      "message": "Mũi tên (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Mũi tên"
+   },
+   "edToolBadge": {
+      "message": "Dấu đánh số (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Dấu đánh số"
+   },
+   "edToolBrush": {
+      "message": "Cọ vẽ (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Cọ vẽ"
+   },
+   "edToolCrop": {
+      "message": "Cắt (C)"
+   },
+   "edToolEllipse": {
+      "message": "Hình elip (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Hình elip"
+   },
+   "edToolHighlight": {
+      "message": "Bút dạ quang (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Bút dạ quang"
+   },
+   "edToolLine": {
+      "message": "Đường thẳng (L)"
+   },
+   "edToolLineShort": {
+      "message": "Đường thẳng"
+   },
+   "edToolOvalShort": {
+      "message": "Hình bầu dục"
+   },
+   "edToolPen": {
+      "message": "Bút chì (P)"
+   },
+   "edToolPenShort": {
+      "message": "Bút chì"
+   },
+   "edToolRect": {
+      "message": "Hình chữ nhật (R)"
+   },
+   "edToolRectShort": {
+      "message": "Hình chữ nhật"
+   },
+   "edToolRedact": {
+      "message": "Làm mờ (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Làm mờ"
+   },
+   "edToolSelect": {
+      "message": "Chọn (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Chọn"
+   },
+   "edToolText": {
+      "message": "Văn bản (T)"
+   },
+   "edToolTextShort": {
+      "message": "Văn bản"
+   },
+   "edTplMac": {
+      "message": "Trình duyệt Mac"
+   },
+   "edTplNone": {
+      "message": "Không có"
+   },
+   "edTplWin": {
+      "message": "Trình duyệt Windows"
+   },
+   "edUndo": {
+      "message": "Hoàn tác (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Hoàn tác"
+   },
+   "filesClearSelection": {
+      "message": "Bỏ chọn"
+   },
+   "filesDeselectAll": {
+      "message": "Bỏ chọn tất cả"
+   },
+   "filesEmpty": {
+      "message": "Chưa có ảnh chụp nào. Hãy nhấp vào biểu tượng tiện ích trên bất kỳ trang nào để chụp tấm đầu tiên."
+   },
+   "filesHeading": {
+      "message": "Ảnh chụp của bạn"
+   },
+   "filesLoadFailed": {
+      "message": "Không tải được: $1"
+   },
+   "filesSaveAll": {
+      "message": "Lưu tất cả: $1"
+   },
+   "filesSaveBoth": {
+      "message": "Lưu cả hai"
+   },
+   "filesSaveFailed": {
+      "message": "Không thể lưu $1 mục trong số này."
+   },
+   "filesSavedCount": {
+      "message": "Đã lưu trên thiết bị này: $1"
+   },
+   "filesSearch": {
+      "message": "Tìm kiếm"
+   },
+   "filesSelect": {
+      "message": "Chọn"
+   },
+   "filesSelectAll": {
+      "message": "Chọn tất cả"
+   },
+   "filesSelectedCount": {
+      "message": "Đã chọn: $1"
+   },
+   "optAllow": {
+      "message": "Cho phép"
+   },
+   "optAutoDownload": {
+      "message": "Tự động tải tệp xuống"
+   },
+   "optAutoDownloadHint": {
+      "message": "Tự động tải ảnh chụp xuống dưới dạng hình ảnh thay vì mở trong cửa sổ mới. Thẻ ảnh chụp sẽ không mở. Bạn có thể quay lại đây bằng cách nhấp chuột phải vào biểu tượng tiện ích và chọn Tùy chọn."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Không tương thích với cài đặt trình duyệt 'Hỏi nơi lưu từng tệp trước khi tải xuống'. Nếu cài đặt đó cũng bật, hộp thoại lưu có thể báo lỗi."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Hỏi chụp gì"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Nhấp vào biểu tượng sẽ hỏi trước: Toàn trang hay Một phần trang. Tắt: một lần nhấp chụp toàn trang."
+   },
+   "optCopyFit": {
+      "message": "Thu nhỏ bản sao cho Google Tài liệu"
+   },
+   "optCopyFitHint": {
+      "message": "Bản sao vào bộ nhớ tạm lớn hơn 25.000.000 pixel sẽ được thu nhỏ tự động"
+   },
+   "optDateFmt": {
+      "message": "Định dạng ngày"
+   },
+   "optDateFmtHint": {
+      "message": "Cách ngày hiển thị trên thanh, hoặc ẩn nó đi"
+   },
+   "optDelay": {
+      "message": "Khoảng dừng giữa các lần cuộn"
+   },
+   "optDelay150": {
+      "message": "150 mili giây (mặc định)"
+   },
+   "optDelayHint": {
+      "message": "Hãy tăng lên với những trang tải nội dung chậm"
+   },
+   "optDelayNone": {
+      "message": "Không dừng"
+   },
+   "optDirPermNote": {
+      "message": "Lưu vào thư mục cần quyền tải xuống. Hãy cấp quyền để thư mục có hiệu lực."
+   },
+   "optFileType": {
+      "message": "Loại tệp"
+   },
+   "optFileTypeHint": {
+      "message": "Cho nút Lưu và tải xuống tự động"
+   },
+   "optFolder": {
+      "message": "Lưu vào thư mục"
+   },
+   "optFolderHint": {
+      "message": "Một thư mục con trong Tải xuống. Để trống để lưu thẳng vào Tải xuống"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Cài đặt"
+   },
+   "optImgWait": {
+      "message": "Chờ hình ảnh"
+   },
+   "optImgWaitFull": {
+      "message": "Đầy đủ, tối đa 8 giây với ảnh lớn"
+   },
+   "optImgWaitHint": {
+      "message": "Chờ ở mỗi khung hình cho đến khi hình ảnh tải xong. Hãy bật nếu ảnh chụp có hình bị mờ hoặc trống"
+   },
+   "optImgWaitOff": {
+      "message": "Tắt"
+   },
+   "optImgWaitShort": {
+      "message": "Ngắn, tối đa 1,5 giây mỗi khung hình (mặc định)"
+   },
+   "optLandscape": {
+      "message": "Ngang"
+   },
+   "optLinks": {
+      "message": "Liên kết có thể nhấp"
+   },
+   "optLinksHint": {
+      "message": "Các liên kết trên trang vẫn nhấp được trong PDF"
+   },
+   "optOrientation": {
+      "message": "Hướng"
+   },
+   "optOrientationHint": {
+      "message": "Hướng trang cho các khổ giấy ở trên"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "Toàn bộ ảnh"
+   },
+   "optPdfFullHint": {
+      "message": "Một trang, bằng kích thước ảnh chụp"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8,5 x 14 inch"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8,5 x 11 inch"
+   },
+   "optPortrait": {
+      "message": "Dọc"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Hỏi nơi lưu"
+   },
+   "optSaveAsHint": {
+      "message": "Hộp thoại lưu cho từng tệp riêng lẻ. Khi có nhiều tệp thì bỏ qua"
+   },
+   "optSaved": {
+      "message": "Đã lưu"
+   },
+   "optSecCapturing": {
+      "message": "Chụp ảnh"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "Chia trang thông minh"
+   },
+   "optSmartSplitHint": {
+      "message": "Chuyển mỗi chỗ ngắt trang vào khoảng trống giữa hai dòng để chữ không bao giờ bị cắt đôi"
+   },
+   "optUrlDate": {
+      "message": "Ghi địa chỉ trang và ngày ở phía trên"
+   },
+   "optUrlDateHint": {
+      "message": "Địa chỉ trang và thời điểm chụp trên trang đầu của PDF"
+   },
+   "pageTitle_editor": {
+      "message": "Đánh dấu - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Tệp - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Cài đặt - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Ảnh chụp - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Chào mừng - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Số phần: $1"
+   },
+   "pdfFailed": {
+      "message": "Không tạo được PDF: $1"
+   },
+   "popupBlockedBody": {
+      "message": "Các trang của trình duyệt như trang cài đặt hay Cửa hàng Chrome trực tuyến đều được bảo vệ, nên không tiện ích nào chụp được. Với các trang web thông thường thì mọi thứ vẫn hoạt động."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome bảo vệ trang này"
+   },
+   "popupCannotAccess": {
+      "message": "Không truy cập được trang này."
+   },
+   "popupCanvasWide": {
+      "message": "Rộng $1 pixel (canvas)"
+   },
+   "popupCaptureFailed": {
+      "message": "Không chụp được."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Không chụp được trang này: $1"
+   },
+   "popupCapturing": {
+      "message": "Đang chụp..."
+   },
+   "popupCapturingTitle": {
+      "message": "Đang chụp trang"
+   },
+   "popupChooseTitle": {
+      "message": "Bạn muốn chụp gì?"
+   },
+   "popupClose": {
+      "message": "Đóng"
+   },
+   "popupConnectionLost": {
+      "message": "Đã mất kết nối với trang."
+   },
+   "popupCreatingPdf": {
+      "message": "Đang tạo PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "Xem bản demo"
+   },
+   "popupDownloading": {
+      "message": "Đang tải xuống..."
+   },
+   "popupFileUrlHint": {
+      "message": "Với các trang file://, hãy bật 'Cho phép truy cập URL tệp' trong phần chi tiết của tiện ích."
+   },
+   "popupFrameEarly": {
+      "message": "Mới trong Pro: chỉ chụp phần trang bạn cần, trọn vẹn, có cuộn."
+   },
+   "popupFrameTitle": {
+      "message": "Đang chụp khung"
+   },
+   "popupFrameUnreachable": {
+      "message": "Tiện ích không thể truy cập khung này."
+   },
+   "popupHowItWorks": {
+      "message": "Cách hoạt động"
+   },
+   "popupHowStep1": {
+      "message": "Trỏ vào bất kỳ phần nào của trang: phần đó sẽ có khung viền."
+   },
+   "popupHowStep2": {
+      "message": "chọn phần lớn hơn hoặc nhỏ hơn."
+   },
+   "popupHowStep3": {
+      "message": "Nhấp: chúng tôi cuộn qua và chụp toàn bộ, kể cả phần bị ẩn bên dưới."
+   },
+   "popupLocalFile": {
+      "message": "Đây là tệp cục bộ. Để chụp, hãy bật 'Cho phép truy cập URL tệp' cho tiện ích này rồi thử lại."
+   },
+   "popupModeFrame": {
+      "message": "Một phần trang"
+   },
+   "popupModeFrameHint": {
+      "message": "Tính năng thử nghiệm. Nhấp vào một khung, một bảng hoặc vùng bất kỳ; chỉ phần đó sẽ được chụp."
+   },
+   "popupModePage": {
+      "message": "Toàn bộ trang"
+   },
+   "popupModePageHint": {
+      "message": "Cuộn đến cuối trang và ghép tất cả các màn hình thành một ảnh."
+   },
+   "popupNoActiveTab": {
+      "message": "Không có thẻ nào đang mở."
+   },
+   "popupNoFrames": {
+      "message": "Không thể chọn gì trên trang này."
+   },
+   "popupOpenSettings": {
+      "message": "Mở cài đặt tiện ích"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Chỉ cần một phần trang?"
+   },
+   "popupPauseHint": {
+      "message": "đóng để tạm dừng, mở lại để tiếp tục"
+   },
+   "popupPauseTitle": {
+      "message": "Tạm dừng. Đóng sẽ tạm dừng, mở lại sẽ tiếp tục"
+   },
+   "popupPdfFailed": {
+      "message": "Không thể tạo PDF. Ảnh chụp đã được lưu trong mục Tệp."
+   },
+   "popupPdfInvalid": {
+      "message": "Không thể đọc tệp này dưới dạng PDF."
+   },
+   "popupPdfLoading": {
+      "message": "Đang tải PDF..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(trang 1-$1/$2)"
+   },
+   "popupPdfPassword": {
+      "message": "PDF này được bảo vệ bằng mật khẩu nên không thể chụp."
+   },
+   "popupPdfReadFailed": {
+      "message": "Không thể đọc PDF: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Đang hiển thị trang $1/$2..."
+   },
+   "popupPickFrame": {
+      "message": "Nhấp vào khung trên trang"
+   },
+   "popupPickLost": {
+      "message": "Phần tử đã chọn không còn trên trang. Hãy chọn lại."
+   },
+   "popupPickStartFailed": {
+      "message": "Không thể bắt đầu chọn trên trang này. Hãy thử lại."
+   },
+   "popupPreparing": {
+      "message": "Đang chuẩn bị..."
+   },
+   "popupReadImageFailed": {
+      "message": "Không đọc được hình ảnh: $1"
+   },
+   "popupResuming": {
+      "message": "Đang tiếp tục"
+   },
+   "popupSaving": {
+      "message": "Đang lưu..."
+   },
+   "popupScrolling": {
+      "message": "Đang cuộn"
+   },
+   "popupSelfReload": {
+      "message": "Trang này tự tải lại ngay khi có gì đó trên trang bị thay đổi, nên không thể hoàn tất việc chụp toàn bộ trang."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Đặt phím tắt"
+   },
+   "popupShortcut": {
+      "message": "Phím tắt: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "Trang này không vừa một ảnh nên sẽ được chia thành nhiều phần: $1. Bạn có thể tải tất cả cùng lúc."
+   },
+   "popupStalled": {
+      "message": "Việc chụp bị kẹt ($1). Hãy tải lại trang và thử lại, hoặc báo lỗi cho chúng tôi."
+   },
+   "popupStamping": {
+      "message": "Đang thêm dấu bằng chứng..."
+   },
+   "popupStopCapture": {
+      "message": "Dừng chụp"
+   },
+   "popupTryDemo": {
+      "message": "Thử trên một trang mẫu"
+   },
+   "popupWarmingUp": {
+      "message": "Đang tải nội dung"
+   },
+   "proBuyYear": {
+      "message": "Nâng cấp lên Pro"
+   },
+   "proCloudBody": {
+      "message": "Lưu lên đám mây là tính năng của Pro. Lưu vào máy tính vẫn miễn phí."
+   },
+   "proExportBody": {
+      "message": "Lưu ảnh chụp đã chỉnh sửa là tính năng của Pro. Ảnh chụp nguyên bản của trang vẫn được lưu, sao chép và in miễn phí."
+   },
+   "proExportBuy": {
+      "message": "Bắt đầu dùng thử"
+   },
+   "proExportF1": {
+      "message": "Tệp đã lưu có đủ các chỉnh sửa của bạn"
+   },
+   "proExportF2": {
+      "message": "PDF có thể tìm kiếm, chọn và sao chép chữ"
+   },
+   "proExportF3": {
+      "message": "Đóng dấu địa chỉ, thời gian, checksum khi xuất"
+   },
+   "proExportF4": {
+      "message": "Chụp cả danh sách trang trong một lần"
+   },
+   "proExportF5": {
+      "message": "Lưu thẳng vào Google Drive của bạn"
+   },
+   "proExportFine": {
+      "message": "Thanh toán an toàn. Bảo đảm hoàn tiền trong 48 giờ (14 ngày ở EU và Vương quốc Anh). Giá ở quốc gia của bạn có thể khác."
+   },
+   "proExportLoading": {
+      "message": "Đang tải trang thanh toán an toàn..."
+   },
+   "proExportNo": {
+      "message": "Để sau"
+   },
+   "proExportOpenTab": {
+      "message": "Mở trong thẻ mới"
+   },
+   "proExportRenew": {
+      "message": "Sau 7 ngày là $$19 mỗi năm. Bạn có thể hủy bất cứ lúc nào."
+   },
+   "proExportSkipped": {
+      "message": "$1 mục trong số này có chỉnh sửa nên không được lưu. Lưu ảnh đã chỉnh sửa là tính năng của Pro."
+   },
+   "proExportSlow": {
+      "message": "Trang thanh toán đang tải hơi lâu."
+   },
+   "proExportTitle": {
+      "message": "Dùng thử Pro miễn phí để tiếp tục"
+   },
+   "proExportTitleYear": {
+      "message": "Nâng cấp lên Pro để tiếp tục"
+   },
+   "proExportTrial": {
+      "message": "dùng thử 7 ngày"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Hôm nay bạn chưa phải trả gì"
+   },
+   "proOfferTitle": {
+      "message": "Những gì Pro mang lại"
+   },
+   "proTryCta": {
+      "message": "Dùng thử Pro"
+   },
+   "proYearNote": {
+      "message": "Bạn đã dùng thử miễn phí rồi"
+   },
+   "proYearPer": {
+      "message": "mỗi năm"
+   },
+   "rateDoNotAsk": {
+      "message": "Đừng hỏi lại"
+   },
+   "rateNotNow": {
+      "message": "Để sau"
+   },
+   "rateSkip": {
+      "message": "Bỏ qua"
+   },
+   "rateSorry": {
+      "message": "Rất tiếc về điều đó"
+   },
+   "rateStar1": {
+      "message": "Rất tệ"
+   },
+   "rateStar2": {
+      "message": "Kém"
+   },
+   "rateStar3": {
+      "message": "Tạm ổn"
+   },
+   "rateStar4": {
+      "message": "Tốt"
+   },
+   "rateStar5": {
+      "message": "Tuyệt vời"
+   },
+   "rateTakenCount": {
+      "message": "Đến giờ là $1 ảnh chụp. Nếu nó hữu ích, một nhận xét ngắn sẽ rất có ý nghĩa, còn nếu không thì cũng hoàn toàn ổn."
+   },
+   "rateTellUs": {
+      "message": "Hãy cho chúng tôi biết"
+   },
+   "rateText1": {
+      "message": "Hãy đánh giá FullPage Capture và cho chúng tôi biết ý kiến của bạn."
+   },
+   "rateText2": {
+      "message": "Một nhận xét ngắn giúp người khác tìm thấy nó. Còn nếu bạn không muốn thì cũng không sao cả."
+   },
+   "rateText3": {
+      "message": "Nếu tiện ích xứng đáng, một nhận xét ngắn sẽ giúp rất nhiều. Dù thế nào, cảm ơn bạn đã dùng nó."
+   },
+   "rateTitle1": {
+      "message": "Bạn có một phút không?"
+   },
+   "rateTitle2": {
+      "message": "Bạn vẫn dùng FullPage Capture chứ?"
+   },
+   "rateTitle3": {
+      "message": "Một đề nghị cuối cùng"
+   },
+   "reportEmpty": {
+      "message": "Hãy mô tả vấn đề trong vài từ."
+   },
+   "reportFailed": {
+      "message": "Không gửi được báo cáo. Hãy kiểm tra kết nối và thử lại."
+   },
+   "reportLimited": {
+      "message": "Bạn đã đạt giới hạn báo cáo hôm nay. Hãy viết email cho chúng tôi."
+   },
+   "reportNotify": {
+      "message": "Gửi email cho tôi khi trang này chụp được đúng"
+   },
+   "reportPage": {
+      "message": "Liên kết trang"
+   },
+   "reportPageHint": {
+      "message": "Dán liên kết của trang vào đây"
+   },
+   "reportPlaceholder": {
+      "message": "Chuyện gì đã xảy ra? Bạn mong đợi điều gì?"
+   },
+   "reportPriority": {
+      "message": "Ưu tiên"
+   },
+   "reportPriorityTitle": {
+      "message": "Hỗ trợ ưu tiên: một người sẽ trả lời bạn trong một ngày làm việc"
+   },
+   "reportPro": {
+      "message": "Hỗ trợ ưu tiên: một người sẽ trả lời bạn trong một ngày làm việc, qua $1."
+   },
+   "reportProSent": {
+      "message": "Đã nhận – yêu cầu $1. Chúng tôi sẽ trả lời qua email."
+   },
+   "reportSend": {
+      "message": "Gửi"
+   },
+   "reportSending": {
+      "message": "Đang gửi..."
+   },
+   "reportSub": {
+      "message": "Hãy cho chúng tôi biết điều gì chưa ổn hoặc còn thiếu. Chúng tôi đọc mọi báo cáo và sửa rất nhanh."
+   },
+   "reportThanks": {
+      "message": "Cảm ơn bạn. Báo cáo đã được gửi."
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Tải phần này xuống"
+   },
+   "resultEditEntire": {
+      "message": "Chỉnh sửa toàn bộ ảnh"
+   },
+   "resultEditPart": {
+      "message": "Chỉnh sửa phần này"
+   },
+   "resultEditPartN": {
+      "message": "Chỉnh sửa phần $1"
+   },
+   "resultImgTitle": {
+      "message": "Ảnh chụp trang"
+   },
+   "resultNameLabel": {
+      "message": "Tên ảnh chụp màn hình"
+   },
+   "resultNotFound": {
+      "message": "Không tìm thấy ảnh chụp - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Ảnh chụp đã sẵn sàng"
+   },
+   "resultRename": {
+      "message": "Đổi tên"
+   },
+   "resultRenameFailed": {
+      "message": "Không thể lưu tên"
+   },
+   "resultSaveAllJpg": {
+      "message": "Lưu tất cả JPG: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Lưu tất cả PNG: $1"
+   },
+   "resultSaveJpg": {
+      "message": "Lưu dạng JPG"
+   },
+   "resultSavePdf": {
+      "message": "Lưu PDF"
+   },
+   "resultSavePng": {
+      "message": "Lưu dạng PNG"
+   },
+   "resultSplitStrip": {
+      "message": "Không vừa một ảnh nên đã chia thành nhiều phần: $1. Bạn có thể sửa từng phần riêng hoặc sửa tất cả cùng lúc."
+   },
+   "resultZoomOut": {
+      "message": "Vừa cửa sổ"
+   },
+   "untitledCapture": {
+      "message": "Ảnh chụp"
+   },
+   "welcomeH1a": {
+      "message": "Cả trang."
+   },
+   "welcomeH1b": {
+      "message": "Một ảnh duy nhất."
+   },
+   "welcomeH2a": {
+      "message": "Khung nhúng và vùng cuộn bên trong"
+   },
+   "welcomeH2b": {
+      "message": "cũng có."
+   },
+   "welcomeH3a": {
+      "message": "Ghi chú. Làm mờ."
+   },
+   "welcomeH3b": {
+      "message": "Đánh số. Cắt."
+   },
+   "welcomeH4a": {
+      "message": "PDF ngắt trang"
+   },
+   "welcomeH4b": {
+      "message": "giữa"
+   },
+   "welcomeH4c": {
+      "message": "các dòng, không bao giờ cắt ngang dòng."
+   },
+   "welcomeH5a": {
+      "message": "Không gì rời khỏi"
+   },
+   "welcomeH5b": {
+      "message": "trình duyệt này."
+   },
+   "welcomeH6": {
+      "message": "Bạn không đơn độc."
+   },
+   "welcomeP1": {
+      "message": "Cuộn, ghép và trả về cả trang thành một ảnh chụp chính xác đến từng pixel."
+   },
+   "welcomeP2": {
+      "message": "Không chỉ trang web, mà cả trình soạn thảo, bảng điều khiển và ứng dụng thư cũng được trải ra."
+   },
+   "welcomeP3": {
+      "message": "Một trình chỉnh sửa đánh dấu đầy đủ với mũi tên, văn bản, bút dạ quang, làm vỡ hạt và các bước đánh số."
+   },
+   "welcomeP4": {
+      "message": "Toàn bộ ảnh, hoặc Letter, Legal và A4 với ngắt trang thông minh và liên kết nhấp được."
+   },
+   "welcomeP5": {
+      "message": "Không cần tài khoản. Không phân tích. Không theo dõi. Mọi ảnh chụp đều ở lại thiết bị này."
+   },
+   "welcomePress": {
+      "message": "Nhấn"
+   },
+   "welcomeShortcutTail": {
+      "message": "trên bất kỳ trang nào, hoặc nhấp vào biểu tượng tiện ích."
+   },
+   "welcomeSkip": {
+      "message": "Nhấp vào bất kỳ đâu để bỏ qua"
+   },
+   "welcomeTryNow": {
+      "message": "Hãy thử ngay bây giờ, trên chính trang này."
+   },
+   "zoomActual": {
+      "message": "Kích thước thật"
+   },
+   "zoomFit": {
+      "message": "Vừa với cửa sổ"
+   },
+   "zoomFitShort": {
+      "message": "Vừa cửa sổ"
+   },
+   "zoomIn": {
+      "message": "Phóng to"
+   },
+   "zoomLabel": {
+      "message": "Thu phóng"
+   },
+   "zoomOut": {
+      "message": "Thu nhỏ"
+   }
+}

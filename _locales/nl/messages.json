@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "Annuleren"
+   },
+   "actionDelete": {
+      "message": "Verwijderen"
+   },
+   "actionEdit": {
+      "message": "Bewerken"
+   },
+   "actionFiles": {
+      "message": "Bestanden"
+   },
+   "actionOpen": {
+      "message": "Openen"
+   },
+   "actionPrint": {
+      "message": "Afdrukken"
+   },
+   "actionRate": {
+      "message": "FullPage Capture beoordelen"
+   },
+   "actionReport": {
+      "message": "Een probleem melden"
+   },
+   "actionSave": {
+      "message": "Opslaan"
+   },
+   "actionSettings": {
+      "message": "Instellingen"
+   },
+   "appDesc": {
+      "message": "Schermafbeelding van de hele webpagina in Chrome. Scrollende screenshot met annotatie-editor."
+   },
+   "appName": {
+      "message": "FullPage Capture - Screenshot Hele Pagina"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "Schermafbeeldingen verwijderen: $1?\n(Dit kan niet ongedaan worden gemaakt.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Deze schermafbeelding verwijderen?\n(Dit kan niet ongedaan worden gemaakt.)"
+   },
+   "copiedToClipboard": {
+      "message": "Gekopieerd naar het klembord"
+   },
+   "copyFailed": {
+      "message": "Kopiëren mislukt: $1"
+   },
+   "createdPdf": {
+      "message": "PDF gemaakt"
+   },
+   "creatingPdf": {
+      "message": "PDF wordt gemaakt:"
+   },
+   "dateFmtDate": {
+      "message": "Datum"
+   },
+   "dateFmtDateTime": {
+      "message": "Datum en tijd"
+   },
+   "dateFmtNone": {
+      "message": "Geen datum"
+   },
+   "edApplyCrop": {
+      "message": "Bijsnijden toepassen"
+   },
+   "edArrowheads": {
+      "message": "Pijlpunten"
+   },
+   "edBack": {
+      "message": "Terug naar de schermafbeelding"
+   },
+   "edBrand": {
+      "message": "Opmaak"
+   },
+   "edBringForward": {
+      "message": "Naar voren"
+   },
+   "edCancelCrop": {
+      "message": "Bijsnijden annuleren"
+   },
+   "edClose": {
+      "message": "Sluiten"
+   },
+   "edColor": {
+      "message": "Kleur"
+   },
+   "edConfirmDelete": {
+      "message": "Deze schermafbeelding verwijderen?"
+   },
+   "edCopiedResized": {
+      "message": "Gekopieerd (verkleind naar $WIDTH$x$HEIGHT$ vanwege de limieten van het klembord)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Kopiëren"
+   },
+   "edCopyLayer": {
+      "message": "Laag kopiëren"
+   },
+   "edCopyTitle": {
+      "message": "Naar het klembord kopiëren"
+   },
+   "edCornerRadius": {
+      "message": "Hoekradius"
+   },
+   "edCustomColor": {
+      "message": "Eigen kleur"
+   },
+   "edDeleteCapture": {
+      "message": "Schermafbeelding verwijderen"
+   },
+   "edDeleteSel": {
+      "message": "Selectie verwijderen"
+   },
+   "edDlImage": {
+      "message": "Afbeelding downloaden"
+   },
+   "edDuplicateSel": {
+      "message": "Selectie dupliceren"
+   },
+   "edExport": {
+      "message": "Exporteren"
+   },
+   "edExportSaveAs": {
+      "message": "Exporteren met keuze van locatie"
+   },
+   "edFasterMove": {
+      "message": "Sneller verplaatsen"
+   },
+   "edFill": {
+      "message": "Vulling"
+   },
+   "edFontSize": {
+      "message": "Tekstgrootte"
+   },
+   "edHeadBoth": {
+      "message": "Beide"
+   },
+   "edHeadOne": {
+      "message": "Eén uiteinde"
+   },
+   "edHelp": {
+      "message": "Help"
+   },
+   "edHelpDocument": {
+      "message": "Document"
+   },
+   "edHelpLayers": {
+      "message": "Lagen"
+   },
+   "edHelpShapes": {
+      "message": "Vormen invoegen"
+   },
+   "edHelpTools": {
+      "message": "Gereedschappen"
+   },
+   "edKeyMouseArrows": {
+      "message": "Muis of pijltjestoetsen"
+   },
+   "edKeyOorE": {
+      "message": "O of E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + pijltjes"
+   },
+   "edLayersEmpty": {
+      "message": "Nog niets. Kies een gereedschap in de balk."
+   },
+   "edMode": {
+      "message": "Modus"
+   },
+   "edModeBlur": {
+      "message": "Vervagen"
+   },
+   "edModePixel": {
+      "message": "Pixelen"
+   },
+   "edMore": {
+      "message": "Meer"
+   },
+   "edMoveLayer": {
+      "message": "Laag verplaatsen"
+   },
+   "edNoFill": {
+      "message": "Geen vulling"
+   },
+   "edNotFoundBody": {
+      "message": "Schermafbeelding niet gevonden. Mogelijk is die verwijderd."
+   },
+   "edNotFoundTitle": {
+      "message": "Schermafbeelding niet gevonden - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Object"
+   },
+   "edObjects": {
+      "message": "Objecten"
+   },
+   "edPasteLayer": {
+      "message": "Laag plakken"
+   },
+   "edPropsEmpty": {
+      "message": "Selecteer een object om de stijl ervan te wijzigen."
+   },
+   "edRedo": {
+      "message": "Opnieuw (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Opnieuw"
+   },
+   "edSaveImage": {
+      "message": "Afbeelding opslaan"
+   },
+   "edSendBackward": {
+      "message": "Naar achteren"
+   },
+   "edShortcuts": {
+      "message": "Sneltoetsen"
+   },
+   "edThickness": {
+      "message": "Dikte"
+   },
+   "edToggleCrop": {
+      "message": "Bijsnijdmodus"
+   },
+   "edToggleUrlDate": {
+      "message": "Adres en datum tonen of verbergen"
+   },
+   "edToolArrow": {
+      "message": "Pijl (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Pijl"
+   },
+   "edToolBadge": {
+      "message": "Genummerd label (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Genummerd label"
+   },
+   "edToolBrush": {
+      "message": "Penseel (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Penseel"
+   },
+   "edToolCrop": {
+      "message": "Bijsnijden (C)"
+   },
+   "edToolEllipse": {
+      "message": "Ellips (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Ellips"
+   },
+   "edToolHighlight": {
+      "message": "Markeerstift (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Markeerstift"
+   },
+   "edToolLine": {
+      "message": "Lijn (L)"
+   },
+   "edToolLineShort": {
+      "message": "Lijn"
+   },
+   "edToolOvalShort": {
+      "message": "Ovaal"
+   },
+   "edToolPen": {
+      "message": "Potlood (P)"
+   },
+   "edToolPenShort": {
+      "message": "Potlood"
+   },
+   "edToolRect": {
+      "message": "Rechthoek (R)"
+   },
+   "edToolRectShort": {
+      "message": "Rechthoek"
+   },
+   "edToolRedact": {
+      "message": "Vervagen (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Vervagen"
+   },
+   "edToolSelect": {
+      "message": "Selecteren (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Selecteren"
+   },
+   "edToolText": {
+      "message": "Tekst (T)"
+   },
+   "edToolTextShort": {
+      "message": "Tekst"
+   },
+   "edTplMac": {
+      "message": "Mac-browser"
+   },
+   "edTplNone": {
+      "message": "Geen"
+   },
+   "edTplWin": {
+      "message": "Windows-browser"
+   },
+   "edUndo": {
+      "message": "Ongedaan maken (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Ongedaan maken"
+   },
+   "filesClearSelection": {
+      "message": "Selectie wissen"
+   },
+   "filesDeselectAll": {
+      "message": "Alles deselecteren"
+   },
+   "filesEmpty": {
+      "message": "Nog geen schermafbeeldingen. Klik op elke gewenste pagina op het pictogram van de extensie om de eerste te maken."
+   },
+   "filesHeading": {
+      "message": "Uw schermafbeeldingen"
+   },
+   "filesLoadFailed": {
+      "message": "Laden mislukt: $1"
+   },
+   "filesSaveAll": {
+      "message": "Alles opslaan: $1"
+   },
+   "filesSaveBoth": {
+      "message": "Beide opslaan"
+   },
+   "filesSaveFailed": {
+      "message": "$1 hiervan konden niet worden opgeslagen."
+   },
+   "filesSavedCount": {
+      "message": "Opgeslagen op dit apparaat: $1"
+   },
+   "filesSearch": {
+      "message": "Zoeken"
+   },
+   "filesSelect": {
+      "message": "Selecteren"
+   },
+   "filesSelectAll": {
+      "message": "Alles selecteren"
+   },
+   "filesSelectedCount": {
+      "message": "Geselecteerd: $1"
+   },
+   "optAllow": {
+      "message": "Toestaan"
+   },
+   "optAutoDownload": {
+      "message": "Bestanden automatisch downloaden"
+   },
+   "optAutoDownloadHint": {
+      "message": "De schermafbeelding automatisch als afbeelding downloaden in plaats van die in een nieuw venster te openen. Het tabblad met de schermafbeelding gaat niet open. U komt hier terug door met de rechtermuisknop op het pictogram van de extensie te klikken en Opties te kiezen."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Niet compatibel met de browserinstelling 'Vragen waar elk bestand moet worden opgeslagen voordat het wordt gedownload'. Staat die ook aan, dan kan het opslagvenster fouten tonen."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Vragen wat je vastlegt"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Een klik op het pictogram biedt eerst Hele pagina of Deel van de pagina. Uit: één klik legt de hele pagina vast."
+   },
+   "optCopyFit": {
+      "message": "Kopieën verkleinen voor Google Docs"
+   },
+   "optCopyFitHint": {
+      "message": "Kopieën naar het klembord boven 25.000.000 pixels worden automatisch verkleind"
+   },
+   "optDateFmt": {
+      "message": "Datumnotatie"
+   },
+   "optDateFmtHint": {
+      "message": "Hoe de datum in de balk verschijnt, of verberg die"
+   },
+   "optDelay": {
+      "message": "Pauze tussen het scrollen"
+   },
+   "optDelay150": {
+      "message": "150 ms (standaard)"
+   },
+   "optDelayHint": {
+      "message": "Verhoog dit bij pagina's die hun inhoud traag laden"
+   },
+   "optDelayNone": {
+      "message": "Geen"
+   },
+   "optDirPermNote": {
+      "message": "Opslaan in een map vereist de downloadmachtiging. Sta die toe zodat de map werkt."
+   },
+   "optFileType": {
+      "message": "Bestandstype"
+   },
+   "optFileTypeHint": {
+      "message": "Voor de knop Opslaan en het automatisch downloaden"
+   },
+   "optFolder": {
+      "message": "Opslaan in een map"
+   },
+   "optFolderHint": {
+      "message": "Een submap in Downloads. Laat leeg om rechtstreeks in Downloads op te slaan"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Instellingen"
+   },
+   "optImgWait": {
+      "message": "Op afbeeldingen wachten"
+   },
+   "optImgWaitFull": {
+      "message": "Volledig, tot 8 s bij grote afbeeldingen"
+   },
+   "optImgWaitHint": {
+      "message": "Bij elk beeld wachten tot de afbeeldingen klaar zijn met laden. Zet dit aan als schermafbeeldingen wazige of lege afbeeldingen tonen"
+   },
+   "optImgWaitOff": {
+      "message": "Uit"
+   },
+   "optImgWaitShort": {
+      "message": "Kort, tot 1,5 s per beeld (standaard)"
+   },
+   "optLandscape": {
+      "message": "Liggend"
+   },
+   "optLinks": {
+      "message": "Klikbare links"
+   },
+   "optLinksHint": {
+      "message": "Links op de pagina blijven klikbaar in de PDF"
+   },
+   "optOrientation": {
+      "message": "Richting"
+   },
+   "optOrientationHint": {
+      "message": "Paginarichting voor de formaten hierboven"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "Hele afbeelding"
+   },
+   "optPdfFullHint": {
+      "message": "Eén pagina, zo groot als de schermafbeelding"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8,5 x 14 inch"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8,5 x 11 inch"
+   },
+   "optPortrait": {
+      "message": "Staand"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Vragen waar op te slaan"
+   },
+   "optSaveAsHint": {
+      "message": "Een opslagvenster voor losse bestanden. Bij meerdere wordt het overgeslagen"
+   },
+   "optSaved": {
+      "message": "Opgeslagen"
+   },
+   "optSecCapturing": {
+      "message": "Vastleggen"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "Slim pagina's splitsen"
+   },
+   "optSmartSplitHint": {
+      "message": "Elke pagina-einde in de ruimte tussen twee regels leggen, zodat tekst nooit doormidden wordt gesneden"
+   },
+   "optUrlDate": {
+      "message": "Adres van de pagina en datum bovenaan zetten"
+   },
+   "optUrlDateHint": {
+      "message": "Het adres van de pagina en het tijdstip op de eerste PDF-pagina"
+   },
+   "pageTitle_editor": {
+      "message": "Opmaak - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Bestanden - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Instellingen - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Schermafbeelding - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Welkom - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Delen: $1"
+   },
+   "pdfFailed": {
+      "message": "PDF mislukt: $1"
+   },
+   "popupBlockedBody": {
+      "message": "Browserpagina's zoals de instellingen en de Web Store zijn beschermd, dus geen enkele extensie kan die vastleggen. Op gewone websites werkt alles."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome beschermt deze pagina"
+   },
+   "popupCannotAccess": {
+      "message": "Geen toegang tot deze pagina."
+   },
+   "popupCanvasWide": {
+      "message": "Breedte $1 pixels (canvas)"
+   },
+   "popupCaptureFailed": {
+      "message": "Vastleggen mislukt."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Deze pagina kon niet worden vastgelegd: $1"
+   },
+   "popupCapturing": {
+      "message": "Bezig met vastleggen..."
+   },
+   "popupCapturingTitle": {
+      "message": "De pagina wordt vastgelegd"
+   },
+   "popupChooseTitle": {
+      "message": "Wat wilt u vastleggen?"
+   },
+   "popupClose": {
+      "message": "Sluiten"
+   },
+   "popupConnectionLost": {
+      "message": "De verbinding met de pagina is verbroken."
+   },
+   "popupCreatingPdf": {
+      "message": "Pdf maken..."
+   },
+   "popupDemoVideo": {
+      "message": "Demo bekijken"
+   },
+   "popupDownloading": {
+      "message": "Bezig met downloaden..."
+   },
+   "popupFileUrlHint": {
+      "message": "Zet voor file://-pagina's 'Toegang tot bestands-URL's toestaan' aan bij de details van de extensie."
+   },
+   "popupFrameEarly": {
+      "message": "Nieuw in Pro: leg alleen het deel van de pagina vast dat u nodig hebt, volledig, met scrollen."
+   },
+   "popupFrameTitle": {
+      "message": "Frame wordt vastgelegd"
+   },
+   "popupFrameUnreachable": {
+      "message": "De extensie heeft geen toegang tot dit frame."
+   },
+   "popupHowItWorks": {
+      "message": "Zo werkt het"
+   },
+   "popupHowStep1": {
+      "message": "Wijs een deel van de pagina aan: het krijgt een kader."
+   },
+   "popupHowStep2": {
+      "message": "een groter of kleiner deel kiezen."
+   },
+   "popupHowStep3": {
+      "message": "Klik: we scrollen erdoorheen en leggen alles vast, ook wat eronder verborgen is."
+   },
+   "popupLocalFile": {
+      "message": "Dit is een lokaal bestand. Zet 'Toegang tot bestands-URL's toestaan' aan voor deze extensie en probeer het opnieuw."
+   },
+   "popupModeFrame": {
+      "message": "Deel van de pagina"
+   },
+   "popupModeFrameHint": {
+      "message": "Vroege toegang. Klik op een frame, een paneel of een willekeurig gebied; alleen dat wordt vastgelegd."
+   },
+   "popupModePage": {
+      "message": "Hele pagina"
+   },
+   "popupModePageHint": {
+      "message": "Scrolt tot het einde en voegt alle schermen samen tot één afbeelding."
+   },
+   "popupNoActiveTab": {
+      "message": "Geen actief tabblad."
+   },
+   "popupNoFrames": {
+      "message": "Op deze pagina valt niets te selecteren."
+   },
+   "popupOpenSettings": {
+      "message": "Instellingen van de extensie openen"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Alleen een deel van de pagina?"
+   },
+   "popupPauseHint": {
+      "message": "sluiten om te pauzeren, opnieuw openen om verder te gaan"
+   },
+   "popupPauseTitle": {
+      "message": "Pauze. Sluiten pauzeert, opnieuw openen gaat verder"
+   },
+   "popupPdfFailed": {
+      "message": "Het pdf-bestand kon niet worden gemaakt. De opname staat in Bestanden."
+   },
+   "popupPdfInvalid": {
+      "message": "Dit bestand kon niet als PDF worden gelezen."
+   },
+   "popupPdfLoading": {
+      "message": "PDF wordt geladen..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(pagina's 1-$1 van $2)"
+   },
+   "popupPdfPassword": {
+      "message": "Deze PDF is beveiligd met een wachtwoord en kan niet worden vastgelegd."
+   },
+   "popupPdfReadFailed": {
+      "message": "De PDF kon niet worden gelezen: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Pagina $1 van $2 wordt gerenderd..."
+   },
+   "popupPickFrame": {
+      "message": "Klik op het frame op de pagina"
+   },
+   "popupPickLost": {
+      "message": "Het geselecteerde element staat niet meer op de pagina. Selecteer het opnieuw."
+   },
+   "popupPickStartFailed": {
+      "message": "De selectie kon op deze pagina niet worden gestart. Probeer het opnieuw."
+   },
+   "popupPreparing": {
+      "message": "Voorbereiden..."
+   },
+   "popupReadImageFailed": {
+      "message": "De afbeelding kon niet worden gelezen: $1"
+   },
+   "popupResuming": {
+      "message": "Hervatten"
+   },
+   "popupSaving": {
+      "message": "Opslaan..."
+   },
+   "popupScrolling": {
+      "message": "Scrollen"
+   },
+   "popupSelfReload": {
+      "message": "Deze pagina laadt zichzelf opnieuw zodra er iets aan verandert, waardoor de opname van de volledige pagina niet kon worden voltooid."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Sneltoetsen instellen"
+   },
+   "popupShortcut": {
+      "message": "Sneltoets: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "De pagina past niet in één afbeelding en komt daarom in delen: $1. U kunt ze allemaal samen downloaden."
+   },
+   "popupStalled": {
+      "message": "Het vastleggen loopt vast ($1). Laad de pagina opnieuw en probeer het nog eens, of meld een probleem."
+   },
+   "popupStamping": {
+      "message": "Bewijsstempel wordt toegevoegd..."
+   },
+   "popupStopCapture": {
+      "message": "Vastleggen stoppen"
+   },
+   "popupTryDemo": {
+      "message": "Uitproberen op een voorbeeldpagina"
+   },
+   "popupWarmingUp": {
+      "message": "Inhoud laden"
+   },
+   "proBuyYear": {
+      "message": "Pro kopen"
+   },
+   "proCloudBody": {
+      "message": "Opslaan in de cloud hoort bij Pro. Opslaan op uw computer blijft gratis."
+   },
+   "proExportBody": {
+      "message": "Een schermafbeelding met uw bewerkingen opslaan hoort bij Pro. De onbewerkte opname van de pagina kunt u gratis blijven opslaan, kopiëren en afdrukken."
+   },
+   "proExportBuy": {
+      "message": "Proefperiode starten"
+   },
+   "proExportF1": {
+      "message": "Uw bewerkingen worden mee opgeslagen"
+   },
+   "proExportF2": {
+      "message": "Doorzoekbare PDF's met kopieerbare tekst"
+   },
+   "proExportF3": {
+      "message": "Adres, tijdstip en controlesom op elke export"
+   },
+   "proExportF4": {
+      "message": "Hele lijsten pagina's in één keer vastleggen"
+   },
+   "proExportF5": {
+      "message": "Rechtstreeks naar uw eigen Google Drive"
+   },
+   "proExportFine": {
+      "message": "Veilig betalen. 48 uur geld-teruggarantie (14 dagen in de EU en het VK). De prijs in uw land kan afwijken."
+   },
+   "proExportLoading": {
+      "message": "Beveiligde betaalpagina laden..."
+   },
+   "proExportNo": {
+      "message": "Niet nu"
+   },
+   "proExportOpenTab": {
+      "message": "Openen in een tabblad"
+   },
+   "proExportRenew": {
+      "message": "Na 7 dagen $$ 19 per jaar. Altijd opzegbaar."
+   },
+   "proExportSkipped": {
+      "message": "Schermafbeeldingen met bewerkingen niet opgeslagen: $1. Bewerkingen opslaan kan alleen met Pro."
+   },
+   "proExportSlow": {
+      "message": "De betaalpagina doet er even over."
+   },
+   "proExportTitle": {
+      "message": "Start de proefperiode van Pro om door te gaan"
+   },
+   "proExportTitleYear": {
+      "message": "Neem Pro om door te gaan"
+   },
+   "proExportTrial": {
+      "message": "voor de eerste 7 dagen"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Vandaag betaalt u niets"
+   },
+   "proOfferTitle": {
+      "message": "Dit krijgt u met Pro"
+   },
+   "proTryCta": {
+      "message": "Pro proberen"
+   },
+   "proYearNote": {
+      "message": "U hebt de proefperiode al gebruikt"
+   },
+   "proYearPer": {
+      "message": "per jaar"
+   },
+   "rateDoNotAsk": {
+      "message": "Niet meer vragen"
+   },
+   "rateNotNow": {
+      "message": "Niet nu"
+   },
+   "rateSkip": {
+      "message": "Overslaan"
+   },
+   "rateSorry": {
+      "message": "Dat spijt ons"
+   },
+   "rateStar1": {
+      "message": "Slecht"
+   },
+   "rateStar2": {
+      "message": "Matig"
+   },
+   "rateStar3": {
+      "message": "Redelijk"
+   },
+   "rateStar4": {
+      "message": "Goed"
+   },
+   "rateStar5": {
+      "message": "Uitstekend"
+   },
+   "rateTakenCount": {
+      "message": "$1 schermafbeeldingen tot nu toe. Als het nuttig was, zou een korte review veel betekenen - en zo niet, dan is dat helemaal prima."
+   },
+   "rateTellUs": {
+      "message": "Vertel het ons"
+   },
+   "rateText1": {
+      "message": "Beoordeel FullPage Capture en laat ons weten wat u ervan vindt."
+   },
+   "rateText2": {
+      "message": "Een korte review helpt anderen het te vinden. En als u liever niet wilt, is dat geen enkel probleem."
+   },
+   "rateText3": {
+      "message": "Als de extensie het verdiend heeft, zou een korte review veel helpen. Hoe dan ook: bedankt voor het gebruik."
+   },
+   "rateTitle1": {
+      "message": "Heeft u even tijd?"
+   },
+   "rateTitle2": {
+      "message": "Gebruikt u FullPage Capture nog?"
+   },
+   "rateTitle3": {
+      "message": "Nog één verzoek"
+   },
+   "reportEmpty": {
+      "message": "Beschrijf het probleem in een paar woorden."
+   },
+   "reportFailed": {
+      "message": "De melding kon niet worden verzonden. Controleer uw verbinding en probeer het opnieuw."
+   },
+   "reportLimited": {
+      "message": "Het maximum aantal meldingen voor vandaag is bereikt. Stuur ons in plaats daarvan een e-mail."
+   },
+   "reportNotify": {
+      "message": "Stuur mij een e-mail als deze pagina correct wordt vastgelegd"
+   },
+   "reportPage": {
+      "message": "Link naar de pagina"
+   },
+   "reportPageHint": {
+      "message": "Plak hier de link naar de pagina"
+   },
+   "reportPlaceholder": {
+      "message": "Wat gebeurde er? Wat had u verwacht?"
+   },
+   "reportPriority": {
+      "message": "Voorrang"
+   },
+   "reportPriorityTitle": {
+      "message": "Voorrangsondersteuning: binnen één werkdag een persoonlijk antwoord"
+   },
+   "reportPro": {
+      "message": "Voorrangsondersteuning: binnen één werkdag een persoonlijk antwoord op $1."
+   },
+   "reportProSent": {
+      "message": "Ontvangen – verzoek $1. We antwoorden per e-mail."
+   },
+   "reportSend": {
+      "message": "Verzenden"
+   },
+   "reportSending": {
+      "message": "Verzenden..."
+   },
+   "reportSub": {
+      "message": "Vertel ons wat er misging of wat er ontbreekt. We lezen elke melding en lossen dingen snel op."
+   },
+   "reportThanks": {
+      "message": "Bedankt. Uw melding is verzonden."
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Dit deel downloaden"
+   },
+   "resultEditEntire": {
+      "message": "Hele afbeelding bewerken"
+   },
+   "resultEditPart": {
+      "message": "Dit deel bewerken"
+   },
+   "resultEditPartN": {
+      "message": "Deel $1 bewerken"
+   },
+   "resultImgTitle": {
+      "message": "Schermafbeelding van de pagina"
+   },
+   "resultNameLabel": {
+      "message": "Naam van de schermafbeelding"
+   },
+   "resultNotFound": {
+      "message": "Schermafbeelding niet gevonden - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Schermafbeelding klaar"
+   },
+   "resultRename": {
+      "message": "Naam wijzigen"
+   },
+   "resultRenameFailed": {
+      "message": "Kan de naam niet opslaan"
+   },
+   "resultSaveAllJpg": {
+      "message": "Alle JPG's opslaan: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Alle PNG's opslaan: $1"
+   },
+   "resultSaveJpg": {
+      "message": "Opslaan als JPG"
+   },
+   "resultSavePdf": {
+      "message": "PDF opslaan"
+   },
+   "resultSavePng": {
+      "message": "Opslaan als PNG"
+   },
+   "resultSplitStrip": {
+      "message": "Past niet in één afbeelding en is daarom opgesplitst in delen: $1. U kunt elk deel apart bewerken of alles tegelijk."
+   },
+   "resultZoomOut": {
+      "message": "Passend maken"
+   },
+   "untitledCapture": {
+      "message": "Schermafbeelding"
+   },
+   "welcomeH1a": {
+      "message": "De hele pagina."
+   },
+   "welcomeH1b": {
+      "message": "Eén afbeelding."
+   },
+   "welcomeH2a": {
+      "message": "Frames en interne scrollgebieden"
+   },
+   "welcomeH2b": {
+      "message": "inbegrepen."
+   },
+   "welcomeH3a": {
+      "message": "Aantekenen. Vervagen."
+   },
+   "welcomeH3b": {
+      "message": "Nummeren. Bijsnijden."
+   },
+   "welcomeH4a": {
+      "message": "PDF's die afbreken"
+   },
+   "welcomeH4b": {
+      "message": "tussen"
+   },
+   "welcomeH4c": {
+      "message": "de regels. Nooit dwars erdoorheen."
+   },
+   "welcomeH5a": {
+      "message": "Niets verlaat"
+   },
+   "welcomeH5b": {
+      "message": "deze browser."
+   },
+   "welcomeH6": {
+      "message": "U bent in goed gezelschap."
+   },
+   "welcomeP1": {
+      "message": "Scrollt, zet aan elkaar en levert de hele pagina als één schermafbeelding, exact op de pixel."
+   },
+   "welcomeP2": {
+      "message": "Editors, dashboards en mailprogramma's worden ook uitgerold, niet alleen de pagina zelf."
+   },
+   "welcomeP3": {
+      "message": "Een volwaardige opmaakeditor met pijlen, tekst, markeerstift, pixelen en genummerde stappen."
+   },
+   "welcomeP4": {
+      "message": "Hele afbeelding, of Letter, Legal en A4 met slimme pagina-eindes en klikbare links."
+   },
+   "welcomeP5": {
+      "message": "Geen account. Geen analyse. Geen tracking. Elke schermafbeelding blijft op dit apparaat."
+   },
+   "welcomePress": {
+      "message": "Druk op"
+   },
+   "welcomeShortcutTail": {
+      "message": "op elke gewenste pagina, of klik op het pictogram van de extensie."
+   },
+   "welcomeSkip": {
+      "message": "Klik ergens om over te slaan"
+   },
+   "welcomeTryNow": {
+      "message": "Probeer het meteen, op deze pagina zelf."
+   },
+   "zoomActual": {
+      "message": "Werkelijke grootte"
+   },
+   "zoomFit": {
+      "message": "Passend in venster"
+   },
+   "zoomFitShort": {
+      "message": "Passend maken"
+   },
+   "zoomIn": {
+      "message": "Inzoomen"
+   },
+   "zoomLabel": {
+      "message": "Zoom"
+   },
+   "zoomOut": {
+      "message": "Uitzoomen"
+   }
+}

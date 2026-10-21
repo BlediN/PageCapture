@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../shared/theme.css" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div id="app">
+    <div class="hdr">
+      <span class="dot"></span>
+      <span class="hdr-title" data-i18n="popupCapturingTitle">Capturing the page</span>
+      <span id="counter" class="counter"></span>
+      <button id="pauseBtn" class="round sm muted" title="Pause. Closing the popup pauses, reopening resumes" data-i18n-title="popupPauseTitle">
+        <svg class="ic sm"><use href="../shared/icons.svg#pause" /></svg>
+      </button>
+    </div>
+
+    <div id="chooser" class="chooser" hidden>
+      <button id="modePage" class="pill primary choice" type="button"><svg class="ic sm"><use href="../shared/icons.svg#expand" /></svg><span class="t" data-i18n="popupModePage">Whole page</span><span id="keyPage" class="keys" hidden></span></button>
+      <button id="modeFrame" class="pill choice" type="button"><svg class="ic sm"><use href="../shared/icons.svg#frame" /></svg><span class="t" data-i18n="popupModeFrame">Part of the page</span><span class="pro-soft" data-i18n="optProTag">Pro</span><span id="keyFrame" class="keys" hidden></span></button>
+      <div class="note-row">
+        <p class="note" data-i18n="popupFrameEarly">New in Pro: capture just the part of the page you need, in full, with scrolling.</p>
+        <button id="howBtn" class="round sm muted how" type="button" title="How it works" data-i18n-title="popupHowItWorks" aria-expanded="false" aria-controls="howCard">
+          <svg class="ic sm"><use href="../shared/icons.svg#info" /></svg>
+        </button>
+      </div>
+      <div id="howCard" class="how-card" hidden>
+        <div class="how-demo" aria-hidden="true">
+          <div class="how-page">
+            <span class="hp-bar"></span>
+            <span class="hp-line w1"></span><span class="hp-line w2"></span>
+            <span class="hp-card"></span>
+            <span class="hp-line w3"></span><span class="hp-line w4"></span><span class="hp-line w5"></span>
+            <span class="how-col"></span><span class="how-colhead"></span>
+          </div>
+          <div class="how-panel"><div class="how-list"><i><b></b><u style="width:70%"></u></i><i><b></b><u style="width:55%"></u></i><i><b></b><u style="width:80%"></u></i><i><b></b><u style="width:60%"></u></i><i><b></b><u style="width:75%"></u></i><i><b></b><u style="width:50%"></u></i><i><b></b><u style="width:68%"></u></i><i><b></b><u style="width:58%"></u></i><i><b></b><u style="width:72%"></u></i><i><b></b><u style="width:64%"></u></i></div></div>
+          <span class="how-box o1"><span class="how-label">640 × 900</span></span>
+          <span class="how-box o2"><span class="how-label">600 × 720</span></span>
+          <span class="how-box o3"><span class="how-label">600 × 64</span></span>
+          <span class="how-keys"><span class="hk up">↑</span><span class="hk down">↓</span></span>
+          <span class="how-ring"></span>
+          <svg class="how-cursor" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 128 128"><circle fill="#808284" cx="64" cy="64" r="63"/><g><path fill="#fff" d="M98.5550537,39.1963501l-15.7350464-.0061646-6.4081421-9.0001221-22.8253784.0231934-7.2504272,9-1.8134155-.0018311-.0319824-3.0014648-11.6393433-.0101929-.0383911,2.999939-3.368042-.0033569c-3.0071411,0-5.4448853,2.4377441-5.4448853,5.4448853v43.7238159c0,3.0071411,2.4377441,5.4448853,5.4448853,5.4448853h69.1101685c3.0071411,0,5.4449463-2.4377441,5.4449463-5.4448853v-43.7238159c0-3.0071411-2.4378052-5.4448853-5.4449463-5.4448853ZM64.3063965,84.6947632c-10.0905151,0-18.2705688-8.1799927-18.2705688-18.2705688,0-10.0905151,8.1800537-18.2705688,18.2705688-18.2705688,10.0905762,0,18.2705688,8.1800537,18.2705688,18.2705688,0,10.0905762-8.1799927,18.2705688-18.2705688,18.2705688ZM92.3151245,49.2750244h-6.1890259c-1.56604,0-2.8355103-1.2695312-2.8355103-2.8355713,0-1.565979,1.2694702-2.8355103,2.8355103-2.8355103h6.1890259c1.56604,0,2.8355103,1.2695312,2.8355103,2.8355103,0,1.56604-1.2694702,2.8355713-2.8355103,2.8355713Z"/><circle fill="#fff" cx="64.3063965" cy="66.4241791" r="12.7398148"/></g></svg>
+          <div class="how-result"><div class="how-list"><i><b></b><u style="width:70%"></u></i><i><b></b><u style="width:55%"></u></i><i><b></b><u style="width:80%"></u></i><i><b></b><u style="width:60%"></u></i><i><b></b><u style="width:75%"></u></i><i><b></b><u style="width:50%"></u></i><i><b></b><u style="width:68%"></u></i><i><b></b><u style="width:58%"></u></i><i><b></b><u style="width:72%"></u></i><i><b></b><u style="width:64%"></u></i></div><span class="how-ok"><svg class="ic sm"><use href="../shared/icons.svg#check" /></svg></span></div>
+        </div>
+        <ol class="how-steps">
+          <li class="s1" data-i18n="popupHowStep1">Point at any part of the page: it gets outlined.</li>
+          <li class="s2"><span class="kk">↑</span><span class="kk">↓</span> <span data-i18n="popupHowStep2">pick a larger or smaller part.</span></li>
+          <li class="s3" data-i18n="popupHowStep3">Click: we scroll through it and capture all of it, even what's hidden below.</li>
+        </ol>
+        <a id="howVideo" class="how-video" href="#" hidden data-i18n="popupDemoVideo">Watch a demo</a>
+      </div>
+      <hr class="sep" />
+      <button id="openFiles" class="pill choice" type="button"><svg class="ic sm"><use href="../shared/icons.svg#folder-open" /></svg><span class="t" data-i18n="filesHeading">Your captures</span><svg class="ic sm go"><use href="../shared/icons.svg#arrow-up-right" /></svg></button>
+      <button id="setKeys" class="keys-link" type="button" hidden data-i18n="popupSetShortcuts">Set keyboard shortcuts</button>
+    </div>
+    <div id="bodyrow" class="bodyrow">
+      <div class="thumb">
+        <div class="ph">
+          <div class="b1"></div><div class="b2" style="width:88%"></div>
+          <div class="b2" style="width:74%"></div><div class="b3"></div>
+          <div class="b2" style="width:80%"></div>
+        </div>
+        <div class="scan"></div>
+      </div>
+      <div class="side">
+        <div id="status" class="phase" data-i18n="popupPreparing">Preparing...</div>
+        <div class="track"><div id="bar"></div></div>
+        <div class="meta"><span id="dimsMeta"></span><span data-i18n="popupPauseHint">close to pause, reopen to resume</span></div>
+      </div>
+    </div>
+
+    <div id="split-note" class="notice" hidden>
+      <svg class="ic"><use href="../shared/icons.svg#layers-2" /></svg>
+      <span id="split-note-text">This page is taller than one image can hold, so it will
+        arrive as several pieces. You can download them all together.</span>
+    </div>
+
+    <div id="blocked" hidden>
+      <div class="plate"><svg class="ic lg"><use href="../shared/icons.svg#eye-off" /></svg></div>
+      <div class="b-title" data-i18n="popupBlockedTitle">Chrome keeps this page private</div>
+      <p data-i18n="popupBlockedBody">Browser pages like settings and the Web Store are protected, so
+        no extension can capture them. Any regular website works fine.</p>
+      <button id="tryDemo" class="pill primary">
+        <svg class="ic sm"><use href="../shared/icons.svg#camera" /></svg>
+        <span data-i18n="popupTryDemo">Try it on a sample page</span></button>
+    </div>
+
+    <div id="error" hidden></div>
+
+    <button id="partOffer" class="part-offer" type="button" hidden>
+      <svg class="ic sm"><use href="../shared/icons.svg#frame" /></svg><span class="t" data-i18n="popupPartOffer">Only need part of the page?</span><span class="pro-soft" data-i18n="optProTag">Pro</span><svg class="ic sm go"><use href="../shared/icons.svg#arrow-up-right" /></svg>
+    </button>
+
+    <button id="abort" class="pill">
+      <svg class="ic sm"><use href="../shared/icons.svg#x" /></svg><span id="abortLabel" data-i18n="popupStopCapture">Stop capture</span>
+    </button>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

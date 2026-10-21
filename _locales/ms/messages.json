@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "Batal"
+   },
+   "actionDelete": {
+      "message": "Padam"
+   },
+   "actionEdit": {
+      "message": "Edit"
+   },
+   "actionFiles": {
+      "message": "Fail"
+   },
+   "actionOpen": {
+      "message": "Buka"
+   },
+   "actionPrint": {
+      "message": "Cetak"
+   },
+   "actionRate": {
+      "message": "Nilaikan FullPage Capture"
+   },
+   "actionReport": {
+      "message": "Laporkan masalah"
+   },
+   "actionSave": {
+      "message": "Simpan"
+   },
+   "actionSettings": {
+      "message": "Tetapan"
+   },
+   "appDesc": {
+      "message": "Tangkapan skrin halaman web penuh dalam Chrome. Screenshot panjang dengan editor anotasi."
+   },
+   "appName": {
+      "message": "FullPage Capture - Screenshot Halaman Penuh"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "Padam tangkapan skrin sebanyak: $1?\n(Tindakan ini tidak boleh dibatalkan.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Padam tangkapan skrin ini?\n(Tindakan ini tidak boleh dibatalkan.)"
+   },
+   "copiedToClipboard": {
+      "message": "Disalin ke papan keratan"
+   },
+   "copyFailed": {
+      "message": "Gagal menyalin: $1"
+   },
+   "createdPdf": {
+      "message": "PDF telah dibuat"
+   },
+   "creatingPdf": {
+      "message": "Membuat PDF:"
+   },
+   "dateFmtDate": {
+      "message": "Tarikh"
+   },
+   "dateFmtDateTime": {
+      "message": "Tarikh dan masa"
+   },
+   "dateFmtNone": {
+      "message": "Tiada tarikh"
+   },
+   "edApplyCrop": {
+      "message": "Gunakan pemangkasan"
+   },
+   "edArrowheads": {
+      "message": "Hujung anak panah"
+   },
+   "edBack": {
+      "message": "Kembali ke tangkapan skrin"
+   },
+   "edBrand": {
+      "message": "Penanda"
+   },
+   "edBringForward": {
+      "message": "Bawa ke hadapan"
+   },
+   "edCancelCrop": {
+      "message": "Batalkan pemangkasan"
+   },
+   "edClose": {
+      "message": "Tutup"
+   },
+   "edColor": {
+      "message": "Warna"
+   },
+   "edConfirmDelete": {
+      "message": "Padam tangkapan skrin ini?"
+   },
+   "edCopiedResized": {
+      "message": "Disalin (dikecilkan kepada $WIDTH$x$HEIGHT$ kerana had papan keratan)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Salin"
+   },
+   "edCopyLayer": {
+      "message": "Salin lapisan"
+   },
+   "edCopyTitle": {
+      "message": "Salin ke papan keratan"
+   },
+   "edCornerRadius": {
+      "message": "Jejari bucu"
+   },
+   "edCustomColor": {
+      "message": "Warna tersuai"
+   },
+   "edDeleteCapture": {
+      "message": "Padam tangkapan skrin"
+   },
+   "edDeleteSel": {
+      "message": "Padam pilihan"
+   },
+   "edDlImage": {
+      "message": "Muat turun imej"
+   },
+   "edDuplicateSel": {
+      "message": "Gandakan pilihan"
+   },
+   "edExport": {
+      "message": "Eksport"
+   },
+   "edExportSaveAs": {
+      "message": "Eksport dengan memilih lokasi"
+   },
+   "edFasterMove": {
+      "message": "Gerak lebih pantas"
+   },
+   "edFill": {
+      "message": "Isian"
+   },
+   "edFontSize": {
+      "message": "Saiz teks"
+   },
+   "edHeadBoth": {
+      "message": "Dua hujung"
+   },
+   "edHeadOne": {
+      "message": "Satu hujung"
+   },
+   "edHelp": {
+      "message": "Bantuan"
+   },
+   "edHelpDocument": {
+      "message": "Dokumen"
+   },
+   "edHelpLayers": {
+      "message": "Lapisan"
+   },
+   "edHelpShapes": {
+      "message": "Sisipkan bentuk"
+   },
+   "edHelpTools": {
+      "message": "Alat"
+   },
+   "edKeyMouseArrows": {
+      "message": "Tetikus atau kekunci anak panah"
+   },
+   "edKeyOorE": {
+      "message": "O atau E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + anak panah"
+   },
+   "edLayersEmpty": {
+      "message": "Belum ada apa-apa. Pilih alat daripada bar."
+   },
+   "edMode": {
+      "message": "Mod"
+   },
+   "edModeBlur": {
+      "message": "Kabur"
+   },
+   "edModePixel": {
+      "message": "Piksel"
+   },
+   "edMore": {
+      "message": "Lagi"
+   },
+   "edMoveLayer": {
+      "message": "Alihkan lapisan"
+   },
+   "edNoFill": {
+      "message": "Tiada isian"
+   },
+   "edNotFoundBody": {
+      "message": "Tangkapan skrin tidak ditemui. Mungkin ia telah dipadam."
+   },
+   "edNotFoundTitle": {
+      "message": "Tangkapan skrin tidak ditemui - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Objek"
+   },
+   "edObjects": {
+      "message": "Objek"
+   },
+   "edPasteLayer": {
+      "message": "Tampal lapisan"
+   },
+   "edPropsEmpty": {
+      "message": "Pilih objek untuk menukar gayanya."
+   },
+   "edRedo": {
+      "message": "Buat semula (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Buat semula"
+   },
+   "edSaveImage": {
+      "message": "Simpan imej"
+   },
+   "edSendBackward": {
+      "message": "Hantar ke belakang"
+   },
+   "edShortcuts": {
+      "message": "Pintasan papan kekunci"
+   },
+   "edThickness": {
+      "message": "Ketebalan"
+   },
+   "edToggleCrop": {
+      "message": "Mod pemangkasan"
+   },
+   "edToggleUrlDate": {
+      "message": "Tunjuk atau sembunyikan alamat dan tarikh"
+   },
+   "edToolArrow": {
+      "message": "Anak panah (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Anak panah"
+   },
+   "edToolBadge": {
+      "message": "Tanda bernombor (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Tanda bernombor"
+   },
+   "edToolBrush": {
+      "message": "Berus (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Berus"
+   },
+   "edToolCrop": {
+      "message": "Pangkas (C)"
+   },
+   "edToolEllipse": {
+      "message": "Elips (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Elips"
+   },
+   "edToolHighlight": {
+      "message": "Penyerlah (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Penyerlah"
+   },
+   "edToolLine": {
+      "message": "Garisan (L)"
+   },
+   "edToolLineShort": {
+      "message": "Garisan"
+   },
+   "edToolOvalShort": {
+      "message": "Bujur"
+   },
+   "edToolPen": {
+      "message": "Pensel (P)"
+   },
+   "edToolPenShort": {
+      "message": "Pensel"
+   },
+   "edToolRect": {
+      "message": "Segi empat tepat (R)"
+   },
+   "edToolRectShort": {
+      "message": "Segi empat tepat"
+   },
+   "edToolRedact": {
+      "message": "Kabur (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Kabur"
+   },
+   "edToolSelect": {
+      "message": "Pilih (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Pilih"
+   },
+   "edToolText": {
+      "message": "Teks (T)"
+   },
+   "edToolTextShort": {
+      "message": "Teks"
+   },
+   "edTplMac": {
+      "message": "Pelayar Mac"
+   },
+   "edTplNone": {
+      "message": "Tiada"
+   },
+   "edTplWin": {
+      "message": "Pelayar Windows"
+   },
+   "edUndo": {
+      "message": "Buat asal (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Buat asal"
+   },
+   "filesClearSelection": {
+      "message": "Kosongkan pilihan"
+   },
+   "filesDeselectAll": {
+      "message": "Nyahpilih semua"
+   },
+   "filesEmpty": {
+      "message": "Belum ada tangkapan skrin. Klik ikon sambungan pada mana-mana halaman untuk membuat yang pertama."
+   },
+   "filesHeading": {
+      "message": "Tangkapan skrin anda"
+   },
+   "filesLoadFailed": {
+      "message": "Gagal memuatkan: $1"
+   },
+   "filesSaveAll": {
+      "message": "Simpan semua: $1"
+   },
+   "filesSaveBoth": {
+      "message": "Simpan kedua-duanya"
+   },
+   "filesSaveFailed": {
+      "message": "$1 daripadanya tidak dapat disimpan."
+   },
+   "filesSavedCount": {
+      "message": "Disimpan pada peranti ini: $1"
+   },
+   "filesSearch": {
+      "message": "Cari"
+   },
+   "filesSelect": {
+      "message": "Pilih"
+   },
+   "filesSelectAll": {
+      "message": "Pilih semua"
+   },
+   "filesSelectedCount": {
+      "message": "Dipilih: $1"
+   },
+   "optAllow": {
+      "message": "Benarkan"
+   },
+   "optAutoDownload": {
+      "message": "Muat turun fail secara automatik"
+   },
+   "optAutoDownloadHint": {
+      "message": "Muat turun tangkapan skrin secara automatik sebagai imej dan bukannya membukanya dalam tetingkap baharu. Tab tangkapan skrin tidak akan dibuka. Anda boleh kembali ke sini dengan mengklik kanan ikon sambungan lalu memilih Pilihan."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Tidak serasi dengan tetapan pelayar 'Tanya lokasi menyimpan setiap fail sebelum memuat turun'. Jika tetapan itu turut dihidupkan, dialog simpan mungkin memaparkan ralat."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Tanya apa yang hendak ditangkap"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Mengklik ikon akan menawarkan Seluruh halaman atau Sebahagian halaman dahulu. Mati: satu klik menangkap seluruh halaman."
+   },
+   "optCopyFit": {
+      "message": "Kecilkan salinan untuk Google Dokumen"
+   },
+   "optCopyFitHint": {
+      "message": "Salinan ke papan keratan melebihi 25,000,000 piksel dikecilkan secara automatik"
+   },
+   "optDateFmt": {
+      "message": "Format tarikh"
+   },
+   "optDateFmtHint": {
+      "message": "Cara tarikh dipaparkan pada bar, atau sembunyikannya"
+   },
+   "optDelay": {
+      "message": "Jeda antara tatal"
+   },
+   "optDelay150": {
+      "message": "150 ms (lalai)"
+   },
+   "optDelayHint": {
+      "message": "Tingkatkan bagi halaman yang memuatkan kandungan dengan perlahan"
+   },
+   "optDelayNone": {
+      "message": "Tiada"
+   },
+   "optDirPermNote": {
+      "message": "Menyimpan ke folder memerlukan kebenaran muat turun. Benarkan supaya folder itu berfungsi."
+   },
+   "optFileType": {
+      "message": "Jenis fail"
+   },
+   "optFileTypeHint": {
+      "message": "Untuk butang Simpan dan muat turun automatik"
+   },
+   "optFolder": {
+      "message": "Simpan ke folder"
+   },
+   "optFolderHint": {
+      "message": "Subfolder dalam Muat Turun. Biarkan kosong untuk menyimpan terus ke Muat Turun"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Tetapan"
+   },
+   "optImgWait": {
+      "message": "Tunggu imej"
+   },
+   "optImgWaitFull": {
+      "message": "Penuh, sehingga 8 saat bagi imej besar"
+   },
+   "optImgWaitHint": {
+      "message": "Tunggu pada setiap bingkai sehingga imej selesai dimuatkan. Hidupkan jika tangkapan skrin memaparkan imej kabur atau kosong"
+   },
+   "optImgWaitOff": {
+      "message": "Mati"
+   },
+   "optImgWaitShort": {
+      "message": "Pendek, sehingga 1.5 saat setiap bingkai (lalai)"
+   },
+   "optLandscape": {
+      "message": "Landskap"
+   },
+   "optLinks": {
+      "message": "Pautan boleh klik"
+   },
+   "optLinksHint": {
+      "message": "Pautan pada halaman kekal boleh diklik dalam PDF"
+   },
+   "optOrientation": {
+      "message": "Orientasi"
+   },
+   "optOrientationHint": {
+      "message": "Orientasi halaman bagi saiz kertas di atas"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "Seluruh imej"
+   },
+   "optPdfFullHint": {
+      "message": "Satu halaman, sebesar tangkapan skrin"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8.5 x 14 inci"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8.5 x 11 inci"
+   },
+   "optPortrait": {
+      "message": "Potret"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Tanya lokasi menyimpan"
+   },
+   "optSaveAsHint": {
+      "message": "Dialog simpan bagi fail tunggal. Dilangkau apabila failnya banyak"
+   },
+   "optSaved": {
+      "message": "Disimpan"
+   },
+   "optSecCapturing": {
+      "message": "Penangkapan"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "Pembahagian halaman pintar"
+   },
+   "optSmartSplitHint": {
+      "message": "Alihkan setiap pemisah halaman ke ruang antara dua baris supaya teks tidak pernah terpotong"
+   },
+   "optUrlDate": {
+      "message": "Letakkan alamat halaman dan tarikh di atas"
+   },
+   "optUrlDateHint": {
+      "message": "Alamat halaman dan masa tangkapan pada halaman pertama PDF"
+   },
+   "pageTitle_editor": {
+      "message": "Penanda - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Fail - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Tetapan - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Tangkapan skrin - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Selamat datang - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Bahagian: $1"
+   },
+   "pdfFailed": {
+      "message": "Gagal membuat PDF: $1"
+   },
+   "popupBlockedBody": {
+      "message": "Halaman pelayar seperti tetapan dan Kedai Web dilindungi, jadi tiada sambungan yang boleh menangkapnya. Pada tapak biasa semuanya berfungsi."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome melindungi halaman ini"
+   },
+   "popupCannotAccess": {
+      "message": "Tidak boleh mengakses halaman ini."
+   },
+   "popupCanvasWide": {
+      "message": "Lebar $1 piksel (kanvas)"
+   },
+   "popupCaptureFailed": {
+      "message": "Penangkapan gagal."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Halaman ini tidak dapat ditangkap: $1"
+   },
+   "popupCapturing": {
+      "message": "Menangkap..."
+   },
+   "popupCapturingTitle": {
+      "message": "Menangkap halaman"
+   },
+   "popupChooseTitle": {
+      "message": "Apa yang mahu ditangkap?"
+   },
+   "popupClose": {
+      "message": "Tutup"
+   },
+   "popupConnectionLost": {
+      "message": "Sambungan dengan halaman terputus."
+   },
+   "popupCreatingPdf": {
+      "message": "Membuat PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "Tonton demo"
+   },
+   "popupDownloading": {
+      "message": "Memuat turun..."
+   },
+   "popupFileUrlHint": {
+      "message": "Bagi halaman file://, hidupkan 'Benarkan akses kepada URL fail' dalam butiran sambungan."
+   },
+   "popupFrameEarly": {
+      "message": "Baharu dalam Pro: tangkap hanya bahagian halaman yang anda perlukan, sepenuhnya, dengan menatal."
+   },
+   "popupFrameTitle": {
+      "message": "Menangkap bingkai"
+   },
+   "popupFrameUnreachable": {
+      "message": "Sambungan ini tidak dapat mengakses bingkai ini."
+   },
+   "popupHowItWorks": {
+      "message": "Cara ia berfungsi"
+   },
+   "popupHowStep1": {
+      "message": "Halakan ke mana-mana bahagian halaman: bahagian itu ditandakan dengan bingkai."
+   },
+   "popupHowStep2": {
+      "message": "pilih bahagian yang lebih besar atau lebih kecil."
+   },
+   "popupHowStep3": {
+      "message": "Klik: kami menatalnya dan menangkap semuanya, termasuk bahagian yang tersembunyi di bawah."
+   },
+   "popupLocalFile": {
+      "message": "Ini fail setempat. Untuk menangkapnya, hidupkan 'Benarkan akses kepada URL fail' bagi sambungan ini, kemudian cuba lagi."
+   },
+   "popupModeFrame": {
+      "message": "Sebahagian halaman"
+   },
+   "popupModeFrameHint": {
+      "message": "Akses awal. Klik bingkai, panel atau mana-mana kawasan; hanya bahagian itu yang ditangkap."
+   },
+   "popupModePage": {
+      "message": "Seluruh halaman"
+   },
+   "popupModePageHint": {
+      "message": "Menatal hingga ke hujung dan mencantumkan semua skrin menjadi satu imej."
+   },
+   "popupNoActiveTab": {
+      "message": "Tiada tab aktif."
+   },
+   "popupNoFrames": {
+      "message": "Tiada apa-apa yang boleh dipilih pada halaman ini."
+   },
+   "popupOpenSettings": {
+      "message": "Buka tetapan sambungan"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Hanya perlu sebahagian halaman?"
+   },
+   "popupPauseHint": {
+      "message": "tutup untuk menjeda, buka semula untuk menyambung"
+   },
+   "popupPauseTitle": {
+      "message": "Jeda. Menutup akan menjeda, membuka semula akan menyambung"
+   },
+   "popupPdfFailed": {
+      "message": "PDF tidak dapat dibuat. Tangkapan skrin disimpan dalam Fail."
+   },
+   "popupPdfInvalid": {
+      "message": "Fail ini tidak dapat dibaca sebagai PDF."
+   },
+   "popupPdfLoading": {
+      "message": "Memuatkan PDF..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(halaman 1-$1 daripada $2)"
+   },
+   "popupPdfPassword": {
+      "message": "PDF ini dilindungi kata laluan dan tidak dapat ditangkap."
+   },
+   "popupPdfReadFailed": {
+      "message": "Tidak dapat membaca PDF: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Merender halaman $1 daripada $2..."
+   },
+   "popupPickFrame": {
+      "message": "Klik bingkai pada halaman"
+   },
+   "popupPickLost": {
+      "message": "Elemen yang dipilih sudah tiada pada halaman. Pilih semula."
+   },
+   "popupPickStartFailed": {
+      "message": "Pemilihan tidak dapat dimulakan pada halaman ini. Cuba lagi."
+   },
+   "popupPreparing": {
+      "message": "Menyediakan..."
+   },
+   "popupReadImageFailed": {
+      "message": "Imej tidak dapat dibaca: $1"
+   },
+   "popupResuming": {
+      "message": "Menyambung"
+   },
+   "popupSaving": {
+      "message": "Menyimpan..."
+   },
+   "popupScrolling": {
+      "message": "Menatal"
+   },
+   "popupSelfReload": {
+      "message": "Halaman ini memuat semula dirinya sebaik sahaja sesuatu padanya diubah, jadi tangkapan halaman penuh tidak dapat diselesaikan."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Tetapkan pintasan papan kekunci"
+   },
+   "popupShortcut": {
+      "message": "Pintasan: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "Halaman ini tidak muat dalam satu imej, jadi ia akan dibahagikan kepada beberapa bahagian: $1. Anda boleh memuat turun semuanya sekali gus."
+   },
+   "popupStalled": {
+      "message": "Penangkapan tersekat ($1). Muat semula halaman dan cuba lagi, atau laporkan masalah."
+   },
+   "popupStamping": {
+      "message": "Menambah cap bukti..."
+   },
+   "popupStopCapture": {
+      "message": "Hentikan penangkapan"
+   },
+   "popupTryDemo": {
+      "message": "Cuba pada halaman contoh"
+   },
+   "popupWarmingUp": {
+      "message": "Memuatkan kandungan"
+   },
+   "proBuyYear": {
+      "message": "Tukar ke Pro"
+   },
+   "proCloudBody": {
+      "message": "Menyimpan ke awan ialah ciri Pro. Menyimpan ke komputer anda kekal percuma."
+   },
+   "proExportBody": {
+      "message": "Menyimpan tangkapan skrin bersama suntingan anda ialah ciri Pro. Tangkapan skrin asal masih boleh disimpan, disalin dan dicetak secara percuma."
+   },
+   "proExportBuy": {
+      "message": "Mulakan percubaan"
+   },
+   "proExportF1": {
+      "message": "Suntingan anda turut disimpan dalam fail"
+   },
+   "proExportF2": {
+      "message": "PDF dengan teks yang boleh dicari dan disalin"
+   },
+   "proExportF3": {
+      "message": "Alamat, masa dan checksum dicap pada fail"
+   },
+   "proExportF4": {
+      "message": "Seluruh senarai halaman ditangkap sekali gus"
+   },
+   "proExportF5": {
+      "message": "Terus ke Google Drive anda sendiri"
+   },
+   "proExportFine": {
+      "message": "Pembayaran selamat. Jaminan wang dikembalikan 48 jam (14 hari di EU dan UK). Harga di negara anda mungkin berbeza."
+   },
+   "proExportLoading": {
+      "message": "Memuatkan halaman pembayaran selamat..."
+   },
+   "proExportNo": {
+      "message": "Bukan sekarang"
+   },
+   "proExportOpenTab": {
+      "message": "Buka dalam tab baharu"
+   },
+   "proExportRenew": {
+      "message": "Selepas 7 hari, $$19 setahun. Batalkan bila-bila masa."
+   },
+   "proExportSkipped": {
+      "message": "$1 daripadanya tidak disimpan kerana mengandungi suntingan, iaitu ciri Pro."
+   },
+   "proExportSlow": {
+      "message": "Halaman pembayaran agak lambat dimuatkan."
+   },
+   "proExportTitle": {
+      "message": "Mulakan percubaan Pro untuk meneruskan"
+   },
+   "proExportTitleYear": {
+      "message": "Tukar ke Pro untuk meneruskan"
+   },
+   "proExportTrial": {
+      "message": "untuk percubaan 7 hari"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Tiada bayaran hari ini"
+   },
+   "proOfferTitle": {
+      "message": "Apa yang anda dapat dengan Pro"
+   },
+   "proTryCta": {
+      "message": "Cuba Pro"
+   },
+   "proYearNote": {
+      "message": "Anda sudah menggunakan percubaan percuma"
+   },
+   "proYearPer": {
+      "message": "setahun"
+   },
+   "rateDoNotAsk": {
+      "message": "Jangan tanya lagi"
+   },
+   "rateNotNow": {
+      "message": "Bukan sekarang"
+   },
+   "rateSkip": {
+      "message": "Langkau"
+   },
+   "rateSorry": {
+      "message": "Maaf atas hal itu"
+   },
+   "rateStar1": {
+      "message": "Sangat teruk"
+   },
+   "rateStar2": {
+      "message": "Lemah"
+   },
+   "rateStar3": {
+      "message": "Sederhana"
+   },
+   "rateStar4": {
+      "message": "Baik"
+   },
+   "rateStar5": {
+      "message": "Cemerlang"
+   },
+   "rateTakenCount": {
+      "message": "Setakat ini $1 tangkapan skrin. Kalau ia berguna, ulasan ringkas amat bermakna, dan kalau tidak, tidak mengapa langsung."
+   },
+   "rateTellUs": {
+      "message": "Beritahu kami"
+   },
+   "rateText1": {
+      "message": "Nilai FullPage Capture dan kongsikan pendapat anda."
+   },
+   "rateText2": {
+      "message": "Ulasan ringkas membantu orang lain menemuinya. Dan kalau anda tidak mahu, tiada masalah langsung."
+   },
+   "rateText3": {
+      "message": "Kalau sambungan ini layak menerimanya, ulasan ringkas amat membantu. Apa pun, terima kasih kerana menggunakannya."
+   },
+   "rateTitle1": {
+      "message": "Ada masa sebentar?"
+   },
+   "rateTitle2": {
+      "message": "Masih menggunakan FullPage Capture?"
+   },
+   "rateTitle3": {
+      "message": "Satu permintaan terakhir"
+   },
+   "reportEmpty": {
+      "message": "Terangkan masalah dalam beberapa patah perkataan."
+   },
+   "reportFailed": {
+      "message": "Laporan tidak dapat dihantar. Semak sambungan anda dan cuba lagi."
+   },
+   "reportLimited": {
+      "message": "Had laporan untuk hari ini telah dicapai. Sila hantar e-mel kepada kami."
+   },
+   "reportNotify": {
+      "message": "Beritahu saya melalui e-mel apabila halaman ini dapat ditangkap dengan betul"
+   },
+   "reportPage": {
+      "message": "Pautan halaman"
+   },
+   "reportPageHint": {
+      "message": "Tampal pautan halaman di sini"
+   },
+   "reportPlaceholder": {
+      "message": "Apa yang berlaku? Apa yang anda jangkakan?"
+   },
+   "reportPriority": {
+      "message": "Keutamaan"
+   },
+   "reportPriorityTitle": {
+      "message": "Sokongan keutamaan: seseorang akan membalas dalam satu hari bekerja"
+   },
+   "reportPro": {
+      "message": "Sokongan keutamaan: seseorang akan membalas dalam satu hari bekerja, ke $1."
+   },
+   "reportProSent": {
+      "message": "Diterima – permintaan $1. Kami akan membalas melalui e-mel."
+   },
+   "reportSend": {
+      "message": "Hantar"
+   },
+   "reportSending": {
+      "message": "Menghantar..."
+   },
+   "reportSub": {
+      "message": "Beritahu kami apa yang tidak kena atau apa yang kurang. Kami membaca setiap laporan dan membaikinya dengan cepat."
+   },
+   "reportThanks": {
+      "message": "Terima kasih. Laporan anda telah dihantar."
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Muat turun bahagian ini"
+   },
+   "resultEditEntire": {
+      "message": "Edit seluruh imej"
+   },
+   "resultEditPart": {
+      "message": "Edit bahagian ini"
+   },
+   "resultEditPartN": {
+      "message": "Edit bahagian $1"
+   },
+   "resultImgTitle": {
+      "message": "Tangkapan skrin halaman"
+   },
+   "resultNameLabel": {
+      "message": "Nama tangkapan skrin"
+   },
+   "resultNotFound": {
+      "message": "Tangkapan skrin tidak ditemui - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Tangkapan skrin sedia"
+   },
+   "resultRename": {
+      "message": "Namakan semula"
+   },
+   "resultRenameFailed": {
+      "message": "Nama tidak dapat disimpan"
+   },
+   "resultSaveAllJpg": {
+      "message": "Simpan semua JPG: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Simpan semua PNG: $1"
+   },
+   "resultSaveJpg": {
+      "message": "Simpan sebagai JPG"
+   },
+   "resultSavePdf": {
+      "message": "Simpan PDF"
+   },
+   "resultSavePng": {
+      "message": "Simpan sebagai PNG"
+   },
+   "resultSplitStrip": {
+      "message": "Tidak muat dalam satu imej, jadi ia dibahagikan kepada beberapa bahagian: $1. Anda boleh mengedit setiap bahagian secara berasingan atau semuanya sekali gus."
+   },
+   "resultZoomOut": {
+      "message": "Muatkan"
+   },
+   "untitledCapture": {
+      "message": "Tangkapan skrin"
+   },
+   "welcomeH1a": {
+      "message": "Seluruh halaman."
+   },
+   "welcomeH1b": {
+      "message": "Satu imej."
+   },
+   "welcomeH2a": {
+      "message": "Bingkai dan kawasan tatal dalaman"
+   },
+   "welcomeH2b": {
+      "message": "turut disertakan."
+   },
+   "welcomeH3a": {
+      "message": "Tanda. Kaburkan."
+   },
+   "welcomeH3b": {
+      "message": "Nomborkan. Pangkas."
+   },
+   "welcomeH4a": {
+      "message": "PDF yang memisah"
+   },
+   "welcomeH4b": {
+      "message": "antara"
+   },
+   "welcomeH4c": {
+      "message": "baris, bukan menembusinya."
+   },
+   "welcomeH5a": {
+      "message": "Tiada apa-apa yang meninggalkan"
+   },
+   "welcomeH5b": {
+      "message": "pelayar ini."
+   },
+   "welcomeH6": {
+      "message": "Anda tidak keseorangan."
+   },
+   "welcomeP1": {
+      "message": "Menatal, mencantum dan menyerahkan seluruh halaman sebagai satu tangkapan skrin yang tepat sehingga ke piksel."
+   },
+   "welcomeP2": {
+      "message": "Editor, papan pemuka dan aplikasi e-mel turut dibentangkan, bukan halaman itu sahaja."
+   },
+   "welcomeP3": {
+      "message": "Editor penanda yang lengkap dengan anak panah, teks, penyerlah, kesan piksel dan langkah bernombor."
+   },
+   "welcomeP4": {
+      "message": "Seluruh imej, atau Letter, Legal dan A4 dengan pemisah halaman pintar dan pautan boleh klik."
+   },
+   "welcomeP5": {
+      "message": "Tanpa akaun. Tanpa analitik. Tanpa penjejakan. Setiap tangkapan skrin kekal pada peranti ini."
+   },
+   "welcomePress": {
+      "message": "Tekan"
+   },
+   "welcomeShortcutTail": {
+      "message": "pada mana-mana halaman, atau klik ikon sambungan."
+   },
+   "welcomeSkip": {
+      "message": "Klik di mana-mana untuk melangkau"
+   },
+   "welcomeTryNow": {
+      "message": "Cuba sekarang juga, pada halaman ini."
+   },
+   "zoomActual": {
+      "message": "Saiz sebenar"
+   },
+   "zoomFit": {
+      "message": "Muatkan ke tetingkap"
+   },
+   "zoomFitShort": {
+      "message": "Muatkan"
+   },
+   "zoomIn": {
+      "message": "Zum masuk"
+   },
+   "zoomLabel": {
+      "message": "Zum"
+   },
+   "zoomOut": {
+      "message": "Zum keluar"
+   }
+}

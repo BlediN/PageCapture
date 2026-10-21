@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "İptal"
+   },
+   "actionDelete": {
+      "message": "Sil"
+   },
+   "actionEdit": {
+      "message": "Düzenle"
+   },
+   "actionFiles": {
+      "message": "Dosyalar"
+   },
+   "actionOpen": {
+      "message": "Aç"
+   },
+   "actionPrint": {
+      "message": "Yazdır"
+   },
+   "actionRate": {
+      "message": "FullPage Capture uygulamasını değerlendir"
+   },
+   "actionReport": {
+      "message": "Sorun bildir"
+   },
+   "actionSave": {
+      "message": "Kaydet"
+   },
+   "actionSettings": {
+      "message": "Ayarlar"
+   },
+   "appDesc": {
+      "message": "Chrome'da tam sayfa ekran görüntüsü alma. Uzun kaydırmalı ekran görüntüsü ve açıklama düzenleyici."
+   },
+   "appName": {
+      "message": "FullPage Capture - Tam Sayfa Ekran Görüntüsü"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "Şu kadar ekran görüntüsü silinsin mi: $1?\n(Bu işlem geri alınamaz.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Bu ekran görüntüsü silinsin mi?\n(Bu işlem geri alınamaz.)"
+   },
+   "copiedToClipboard": {
+      "message": "Panoya kopyalandı"
+   },
+   "copyFailed": {
+      "message": "Kopyalanamadı: $1"
+   },
+   "createdPdf": {
+      "message": "PDF oluşturuldu"
+   },
+   "creatingPdf": {
+      "message": "PDF oluşturuluyor:"
+   },
+   "dateFmtDate": {
+      "message": "Tarih"
+   },
+   "dateFmtDateTime": {
+      "message": "Tarih ve saat"
+   },
+   "dateFmtNone": {
+      "message": "Tarihsiz"
+   },
+   "edApplyCrop": {
+      "message": "Kırpmayı uygula"
+   },
+   "edArrowheads": {
+      "message": "Ok uçları"
+   },
+   "edBack": {
+      "message": "Ekran görüntüsüne dön"
+   },
+   "edBrand": {
+      "message": "İşaretleme"
+   },
+   "edBringForward": {
+      "message": "Öne getir"
+   },
+   "edCancelCrop": {
+      "message": "Kırpmayı iptal et"
+   },
+   "edClose": {
+      "message": "Kapat"
+   },
+   "edColor": {
+      "message": "Renk"
+   },
+   "edConfirmDelete": {
+      "message": "Bu ekran görüntüsü silinsin mi?"
+   },
+   "edCopiedResized": {
+      "message": "Kopyalandı (pano sınırları nedeniyle $WIDTH$x$HEIGHT$ boyutuna küçültüldü)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Kopyala"
+   },
+   "edCopyLayer": {
+      "message": "Katmanı kopyala"
+   },
+   "edCopyTitle": {
+      "message": "Panoya kopyala"
+   },
+   "edCornerRadius": {
+      "message": "Köşe yarıçapı"
+   },
+   "edCustomColor": {
+      "message": "Özel renk"
+   },
+   "edDeleteCapture": {
+      "message": "Ekran görüntüsünü sil"
+   },
+   "edDeleteSel": {
+      "message": "Seçimi sil"
+   },
+   "edDlImage": {
+      "message": "Görüntüyü indir"
+   },
+   "edDuplicateSel": {
+      "message": "Seçimi çoğalt"
+   },
+   "edExport": {
+      "message": "Dışa aktar"
+   },
+   "edExportSaveAs": {
+      "message": "Konum seçerek dışa aktar"
+   },
+   "edFasterMove": {
+      "message": "Hızlı taşıma"
+   },
+   "edFill": {
+      "message": "Dolgu"
+   },
+   "edFontSize": {
+      "message": "Yazı boyutu"
+   },
+   "edHeadBoth": {
+      "message": "İki uç"
+   },
+   "edHeadOne": {
+      "message": "Tek uç"
+   },
+   "edHelp": {
+      "message": "Yardım"
+   },
+   "edHelpDocument": {
+      "message": "Belge"
+   },
+   "edHelpLayers": {
+      "message": "Katmanlar"
+   },
+   "edHelpShapes": {
+      "message": "Şekil ekleme"
+   },
+   "edHelpTools": {
+      "message": "Araçlar"
+   },
+   "edKeyMouseArrows": {
+      "message": "Fare veya ok tuşları"
+   },
+   "edKeyOorE": {
+      "message": "O veya E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + ok tuşları"
+   },
+   "edLayersEmpty": {
+      "message": "Henüz bir şey yok. Çubuktan bir araç seçin."
+   },
+   "edMode": {
+      "message": "Mod"
+   },
+   "edModeBlur": {
+      "message": "Bulanıklaştırma"
+   },
+   "edModePixel": {
+      "message": "Pikselleştirme"
+   },
+   "edMore": {
+      "message": "Daha fazla"
+   },
+   "edMoveLayer": {
+      "message": "Katmanı taşı"
+   },
+   "edNoFill": {
+      "message": "Dolgusuz"
+   },
+   "edNotFoundBody": {
+      "message": "Ekran görüntüsü bulunamadı. Silinmiş olabilir."
+   },
+   "edNotFoundTitle": {
+      "message": "Ekran görüntüsü bulunamadı - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Nesne"
+   },
+   "edObjects": {
+      "message": "Nesneler"
+   },
+   "edPasteLayer": {
+      "message": "Katmanı yapıştır"
+   },
+   "edPropsEmpty": {
+      "message": "Stilini değiştirmek için bir nesne seçin."
+   },
+   "edRedo": {
+      "message": "Yinele (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Yinele"
+   },
+   "edSaveImage": {
+      "message": "Görüntüyü kaydet"
+   },
+   "edSendBackward": {
+      "message": "Arkaya gönder"
+   },
+   "edShortcuts": {
+      "message": "Klavye kısayolları"
+   },
+   "edThickness": {
+      "message": "Kalınlık"
+   },
+   "edToggleCrop": {
+      "message": "Kırpma modu"
+   },
+   "edToggleUrlDate": {
+      "message": "Adresi ve tarihi göster veya gizle"
+   },
+   "edToolArrow": {
+      "message": "Ok (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Ok"
+   },
+   "edToolBadge": {
+      "message": "Numaralı işaret (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Numaralı işaret"
+   },
+   "edToolBrush": {
+      "message": "Fırça (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Fırça"
+   },
+   "edToolCrop": {
+      "message": "Kırpma (C)"
+   },
+   "edToolEllipse": {
+      "message": "Elips (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Elips"
+   },
+   "edToolHighlight": {
+      "message": "Fosforlu kalem (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Fosforlu kalem"
+   },
+   "edToolLine": {
+      "message": "Çizgi (L)"
+   },
+   "edToolLineShort": {
+      "message": "Çizgi"
+   },
+   "edToolOvalShort": {
+      "message": "Oval"
+   },
+   "edToolPen": {
+      "message": "Kalem (P)"
+   },
+   "edToolPenShort": {
+      "message": "Kalem"
+   },
+   "edToolRect": {
+      "message": "Dikdörtgen (R)"
+   },
+   "edToolRectShort": {
+      "message": "Dikdörtgen"
+   },
+   "edToolRedact": {
+      "message": "Bulanıklaştırma (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Bulanıklaştırma"
+   },
+   "edToolSelect": {
+      "message": "Seçim (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Seçim"
+   },
+   "edToolText": {
+      "message": "Metin (T)"
+   },
+   "edToolTextShort": {
+      "message": "Metin"
+   },
+   "edTplMac": {
+      "message": "Mac tarayıcısı"
+   },
+   "edTplNone": {
+      "message": "Yok"
+   },
+   "edTplWin": {
+      "message": "Windows tarayıcısı"
+   },
+   "edUndo": {
+      "message": "Geri al (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Geri al"
+   },
+   "filesClearSelection": {
+      "message": "Seçimi temizle"
+   },
+   "filesDeselectAll": {
+      "message": "Tüm seçimi kaldır"
+   },
+   "filesEmpty": {
+      "message": "Henüz ekran görüntüsü yok. İlkini almak için herhangi bir sayfada uzantı simgesine tıklayın."
+   },
+   "filesHeading": {
+      "message": "Ekran görüntüleriniz"
+   },
+   "filesLoadFailed": {
+      "message": "Yüklenemedi: $1"
+   },
+   "filesSaveAll": {
+      "message": "Tümünü kaydet: $1"
+   },
+   "filesSaveBoth": {
+      "message": "İkisini de kaydet"
+   },
+   "filesSaveFailed": {
+      "message": "Bunlardan $1 tanesi kaydedilemedi."
+   },
+   "filesSavedCount": {
+      "message": "Bu cihazda kayıtlı: $1"
+   },
+   "filesSearch": {
+      "message": "Ara"
+   },
+   "filesSelect": {
+      "message": "Seç"
+   },
+   "filesSelectAll": {
+      "message": "Tümünü seç"
+   },
+   "filesSelectedCount": {
+      "message": "Seçili: $1"
+   },
+   "optAllow": {
+      "message": "İzin ver"
+   },
+   "optAutoDownload": {
+      "message": "Dosyaları otomatik indir"
+   },
+   "optAutoDownloadHint": {
+      "message": "Ekran görüntüsünü yeni bir pencerede açmak yerine otomatik olarak görüntü dosyası halinde indirir. Ekran görüntüsü sekmesi açılmaz. Uzantı simgesine sağ tıklayıp Seçenekler'i seçerek buraya dönebilirsiniz."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Tarayıcının 'İndirmeden önce her dosyanın nereye kaydedileceğini sor' ayarıyla uyumlu değildir. O da açıksa kaydetme penceresi hata gösterebilir."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Neyin yakalanacağını sor"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Simgeye tıklamak önce Tüm sayfa veya Sayfanın bir kısmı seçeneklerini sunar. Kapalı: tek tıklama tüm sayfayı yakalar."
+   },
+   "optCopyFit": {
+      "message": "Google Docs için kopyaları küçült"
+   },
+   "optCopyFitHint": {
+      "message": "Panoya alınan 25.000.000 pikselden büyük kopyalar otomatik olarak küçültülür"
+   },
+   "optDateFmt": {
+      "message": "Tarih biçimi"
+   },
+   "optDateFmtHint": {
+      "message": "Tarihin çubukta nasıl göründüğü veya gizlenmesi"
+   },
+   "optDelay": {
+      "message": "Kaydırmalar arası bekleme"
+   },
+   "optDelay150": {
+      "message": "150 ms (varsayılan)"
+   },
+   "optDelayHint": {
+      "message": "İçeriği geç yükleyen sayfalarda artırın"
+   },
+   "optDelayNone": {
+      "message": "Yok"
+   },
+   "optDirPermNote": {
+      "message": "Klasöre kaydetmek için indirme izni gerekir. Klasörün çalışması için izin verin."
+   },
+   "optFileType": {
+      "message": "Dosya türü"
+   },
+   "optFileTypeHint": {
+      "message": "Kaydet düğmesi ve otomatik indirme için"
+   },
+   "optFolder": {
+      "message": "Klasöre kaydet"
+   },
+   "optFolderHint": {
+      "message": "İndirilenler içinde bir alt klasör. Doğrudan İndirilenler'e kaydetmek için boş bırakın"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Ayarlar"
+   },
+   "optImgWait": {
+      "message": "Görüntüleri bekle"
+   },
+   "optImgWaitFull": {
+      "message": "Tam, büyük görüntülerde 8 saniyeye kadar"
+   },
+   "optImgWaitHint": {
+      "message": "Her karede görüntülerin yüklenmesini bekler. Ekran görüntülerinde bulanık veya boş resimler çıkıyorsa açın"
+   },
+   "optImgWaitOff": {
+      "message": "Kapalı"
+   },
+   "optImgWaitShort": {
+      "message": "Kısa, kare başına 1,5 saniyeye kadar (varsayılan)"
+   },
+   "optLandscape": {
+      "message": "Yatay"
+   },
+   "optLinks": {
+      "message": "Tıklanabilir bağlantılar"
+   },
+   "optLinksHint": {
+      "message": "Sayfadaki bağlantılar PDF içinde tıklanabilir kalır"
+   },
+   "optOrientation": {
+      "message": "Yön"
+   },
+   "optOrientationHint": {
+      "message": "Yukarıdaki boyutlar için sayfa yönü"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "Tüm görüntü"
+   },
+   "optPdfFullHint": {
+      "message": "Ekran görüntüsü boyutunda tek sayfa"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8,5 x 14 inç"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8,5 x 11 inç"
+   },
+   "optPortrait": {
+      "message": "Dikey"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Nereye kaydedileceğini sor"
+   },
+   "optSaveAsHint": {
+      "message": "Tek dosyalar için kaydetme penceresi. Birden fazlaysa atlanır"
+   },
+   "optSaved": {
+      "message": "Kaydedildi"
+   },
+   "optSecCapturing": {
+      "message": "Ekran görüntüsü alma"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "Akıllı sayfa bölme"
+   },
+   "optSmartSplitHint": {
+      "message": "Her sayfa sonunu iki satır arasındaki boşluğa taşır, böylece metin asla ortadan kesilmez"
+   },
+   "optUrlDate": {
+      "message": "Sayfa adresini ve tarihi üste ekle"
+   },
+   "optUrlDateHint": {
+      "message": "PDF'in ilk sayfasında sayfa adresi ve alınma saati"
+   },
+   "pageTitle_editor": {
+      "message": "İşaretleme - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Dosyalar - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Ayarlar - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Ekran görüntüsü - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Hoş geldiniz - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Parça: $1"
+   },
+   "pdfFailed": {
+      "message": "PDF oluşturulamadı: $1"
+   },
+   "popupBlockedBody": {
+      "message": "Ayarlar ve Web Mağazası gibi tarayıcı sayfaları korumalıdır, bu yüzden hiçbir uzantı onları alamaz. Sıradan sitelerde her şey çalışır."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome bu sayfayı koruyor"
+   },
+   "popupCannotAccess": {
+      "message": "Bu sayfaya erişilemiyor."
+   },
+   "popupCanvasWide": {
+      "message": "Genişlik $1 piksel (canvas)"
+   },
+   "popupCaptureFailed": {
+      "message": "Ekran görüntüsü alınamadı."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Bu sayfa alınamadı: $1"
+   },
+   "popupCapturing": {
+      "message": "Alınıyor..."
+   },
+   "popupCapturingTitle": {
+      "message": "Sayfa alınıyor"
+   },
+   "popupChooseTitle": {
+      "message": "Neyi almak istiyorsunuz?"
+   },
+   "popupClose": {
+      "message": "Kapat"
+   },
+   "popupConnectionLost": {
+      "message": "Sayfayla bağlantı koptu."
+   },
+   "popupCreatingPdf": {
+      "message": "PDF oluşturuluyor..."
+   },
+   "popupDemoVideo": {
+      "message": "Demoyu izleyin"
+   },
+   "popupDownloading": {
+      "message": "İndiriliyor..."
+   },
+   "popupFileUrlHint": {
+      "message": "file:// sayfaları için uzantı ayrıntılarında 'Dosya URL'lerine erişime izin ver' seçeneğini açın."
+   },
+   "popupFrameEarly": {
+      "message": "Pro'da yeni: sayfanın yalnızca ihtiyacınız olan kısmını kaydırarak eksiksiz alın."
+   },
+   "popupFrameTitle": {
+      "message": "Çerçeve alınıyor"
+   },
+   "popupFrameUnreachable": {
+      "message": "Uzantı bu çerçeveye erişemiyor."
+   },
+   "popupHowItWorks": {
+      "message": "Nasıl çalışır"
+   },
+   "popupHowStep1": {
+      "message": "Sayfanın herhangi bir kısmının üzerine gelin: çerçeveyle işaretlenir."
+   },
+   "popupHowStep2": {
+      "message": "daha büyük veya daha küçük bir kısım seçin."
+   },
+   "popupHowStep3": {
+      "message": "Tıklayın: kaydırarak aşağıda gizli kalan kısım dahil tamamını alırız."
+   },
+   "popupLocalFile": {
+      "message": "Bu yerel bir dosya. Almak için bu uzantıda 'Dosya URL'lerine erişime izin ver' seçeneğini açıp yeniden deneyin."
+   },
+   "popupModeFrame": {
+      "message": "Sayfanın bir kısmı"
+   },
+   "popupModeFrameHint": {
+      "message": "Erken erişim. Bir çerçeveye, panele veya herhangi bir alana tıklayın; yalnızca o bölüm alınır."
+   },
+   "popupModePage": {
+      "message": "Sayfanın tamamı"
+   },
+   "popupModePageHint": {
+      "message": "Sayfayı sonuna kadar kaydırır ve tüm ekranları tek bir görüntüde birleştirir."
+   },
+   "popupNoActiveTab": {
+      "message": "Etkin sekme yok."
+   },
+   "popupNoFrames": {
+      "message": "Bu sayfada seçilebilecek bir şey yok."
+   },
+   "popupOpenSettings": {
+      "message": "Uzantı ayarlarını aç"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Sayfanın yalnızca bir kısmı mı?"
+   },
+   "popupPauseHint": {
+      "message": "duraklatmak için kapatın, sürdürmek için yeniden açın"
+   },
+   "popupPauseTitle": {
+      "message": "Duraklat. Kapatmak duraklatır, yeniden açmak sürdürür"
+   },
+   "popupPdfFailed": {
+      "message": "PDF oluşturulamadı. Ekran görüntüsü Dosyalar bölümünde kayıtlı."
+   },
+   "popupPdfInvalid": {
+      "message": "Bu dosya PDF olarak okunamadı."
+   },
+   "popupPdfLoading": {
+      "message": "PDF yükleniyor..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(sayfa 1-$1 / $2)"
+   },
+   "popupPdfPassword": {
+      "message": "Bu PDF parola korumalı olduğundan alınamıyor."
+   },
+   "popupPdfReadFailed": {
+      "message": "PDF okunamadı: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Sayfa $1 / $2 işleniyor..."
+   },
+   "popupPickFrame": {
+      "message": "Sayfadaki çerçeveye tıklayın"
+   },
+   "popupPickLost": {
+      "message": "Sayfada seçilen öğe artık yok. Yeniden seçin."
+   },
+   "popupPickStartFailed": {
+      "message": "Bu sayfada seçim başlatılamadı. Yeniden deneyin."
+   },
+   "popupPreparing": {
+      "message": "Hazırlanıyor..."
+   },
+   "popupReadImageFailed": {
+      "message": "Görüntü okunamadı: $1"
+   },
+   "popupResuming": {
+      "message": "Sürdürülüyor"
+   },
+   "popupSaving": {
+      "message": "Kaydediliyor..."
+   },
+   "popupScrolling": {
+      "message": "Kaydırılıyor"
+   },
+   "popupSelfReload": {
+      "message": "Bu sayfa, üzerinde herhangi bir şey değiştiği anda kendini yeniden yüklüyor; bu yüzden tam sayfa yakalama tamamlanamadı."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Klavye kısayollarını ayarla"
+   },
+   "popupShortcut": {
+      "message": "Kısayol: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "Sayfa tek bir görüntüye sığmıyor, bu yüzden parçalar halinde gelecek: $1. Hepsini birlikte indirebilirsiniz."
+   },
+   "popupStalled": {
+      "message": "Alma işlemi takıldı ($1). Sayfayı yenileyip yeniden deneyin veya sorun bildirin."
+   },
+   "popupStamping": {
+      "message": "Kanıt damgası ekleniyor..."
+   },
+   "popupStopCapture": {
+      "message": "Almayı durdur"
+   },
+   "popupTryDemo": {
+      "message": "Örnek bir sayfada deneyin"
+   },
+   "popupWarmingUp": {
+      "message": "İçerik yükleniyor"
+   },
+   "proBuyYear": {
+      "message": "Pro'ya geç"
+   },
+   "proCloudBody": {
+      "message": "Buluta kaydetmek bir Pro özelliğidir. Bilgisayarınıza kaydetmek ücretsiz olmaya devam eder."
+   },
+   "proExportBody": {
+      "message": "Ekran görüntüsünü düzenlemelerinizle kaydetmek bir Pro özelliğidir. Orijinal ekran görüntüsünü ise ücretsiz kaydedebilir, kopyalayabilir ve yazdırabilirsiniz."
+   },
+   "proExportBuy": {
+      "message": "Denemeyi başlat"
+   },
+   "proExportF1": {
+      "message": "Düzenlemeler kaydedilen dosyaya işlenir"
+   },
+   "proExportF2": {
+      "message": "Metni aranabilir ve kopyalanabilir PDF'ler"
+   },
+   "proExportF3": {
+      "message": "Adres, saat ve sağlama toplamı damgası"
+   },
+   "proExportF4": {
+      "message": "Sayfa listesinin tamamı tek seferde alınır"
+   },
+   "proExportF5": {
+      "message": "Doğrudan kendi Google Drive'ınıza"
+   },
+   "proExportFine": {
+      "message": "Güvenli ödeme. 48 saat para iade garantisi (AB ve Birleşik Krallık'ta 14 gün). Ülkenizdeki fiyat farklı olabilir."
+   },
+   "proExportLoading": {
+      "message": "Güvenli ödeme sayfası yükleniyor..."
+   },
+   "proExportNo": {
+      "message": "Şimdi değil"
+   },
+   "proExportOpenTab": {
+      "message": "Yeni sekmede aç"
+   },
+   "proExportRenew": {
+      "message": "7 gün sonra yıllık $$19. İstediğiniz zaman iptal edebilirsiniz."
+   },
+   "proExportSkipped": {
+      "message": "Bunlardan $1 tanesi düzenleme içerdiği için kaydedilmedi. Düzenlemelerle kaydetmek bir Pro özelliğidir."
+   },
+   "proExportSlow": {
+      "message": "Ödeme sayfasının yüklenmesi uzun sürüyor."
+   },
+   "proExportTitle": {
+      "message": "Devam etmek için Pro denemesini başlatın"
+   },
+   "proExportTitleYear": {
+      "message": "Devam etmek için Pro'ya geçin"
+   },
+   "proExportTrial": {
+      "message": "ile 7 günlük deneme"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Bugün hiçbir ücret alınmaz"
+   },
+   "proOfferTitle": {
+      "message": "Pro'nun sundukları"
+   },
+   "proTryCta": {
+      "message": "Pro'yu dene"
+   },
+   "proYearNote": {
+      "message": "Ücretsiz denemenizi zaten kullandınız"
+   },
+   "proYearPer": {
+      "message": "/ yıl"
+   },
+   "rateDoNotAsk": {
+      "message": "Bir daha sorma"
+   },
+   "rateNotNow": {
+      "message": "Şimdi değil"
+   },
+   "rateSkip": {
+      "message": "Atla"
+   },
+   "rateSorry": {
+      "message": "Bunun için üzgünüz"
+   },
+   "rateStar1": {
+      "message": "Berbat"
+   },
+   "rateStar2": {
+      "message": "Kötü"
+   },
+   "rateStar3": {
+      "message": "İdare eder"
+   },
+   "rateStar4": {
+      "message": "İyi"
+   },
+   "rateStar5": {
+      "message": "Mükemmel"
+   },
+   "rateTakenCount": {
+      "message": "Şimdiye kadar $1 ekran görüntüsü. İşinize yaradıysa kısa bir yorum çok şey ifade eder, yaramadıysa da hiç sorun değil."
+   },
+   "rateTellUs": {
+      "message": "Bize anlatın"
+   },
+   "rateText1": {
+      "message": "FullPage Capture'ı puanlayın ve ne düşündüğünüzü bize yazın."
+   },
+   "rateText2": {
+      "message": "Kısa bir yorum, başkalarının onu bulmasına yardım eder. İstemiyorsanız da hiç sorun değil."
+   },
+   "rateText3": {
+      "message": "Uzantı bunu hak ettiyse, kısa bir yorum çok yardımcı olur. Her hâlükârda, kullandığınız için teşekkürler."
+   },
+   "rateTitle1": {
+      "message": "Bir dakikanız var mı?"
+   },
+   "rateTitle2": {
+      "message": "FullPage Capture'ı hâlâ kullanıyor musunuz?"
+   },
+   "rateTitle3": {
+      "message": "Son bir ricamız"
+   },
+   "reportEmpty": {
+      "message": "Sorunu birkaç kelimeyle anlatın."
+   },
+   "reportFailed": {
+      "message": "Bildirim gönderilemedi. Bağlantınızı kontrol edip yeniden deneyin."
+   },
+   "reportLimited": {
+      "message": "Bugünlük bildirim sınırına ulaştınız. Lütfen bize e-postayla yazın."
+   },
+   "reportNotify": {
+      "message": "Bu sayfanın görüntüsü doğru alındığında bana e-posta gönder"
+   },
+   "reportPage": {
+      "message": "Sayfa bağlantısı"
+   },
+   "reportPageHint": {
+      "message": "Sayfanın bağlantısını buraya yapıştırın"
+   },
+   "reportPlaceholder": {
+      "message": "Ne oldu? Ne bekliyordunuz?"
+   },
+   "reportPriority": {
+      "message": "Öncelikli"
+   },
+   "reportPriorityTitle": {
+      "message": "Öncelikli destek: bir kişi bir iş günü içinde yanıt verir"
+   },
+   "reportPro": {
+      "message": "Öncelikli destek: bir kişi bir iş günü içinde $1 adresine yanıt verir."
+   },
+   "reportProSent": {
+      "message": "Alındı – talep $1. E-postayla yanıt vereceğiz."
+   },
+   "reportSend": {
+      "message": "Gönder"
+   },
+   "reportSending": {
+      "message": "Gönderiliyor..."
+   },
+   "reportSub": {
+      "message": "Neyin yanlış gittiğini veya neyin eksik olduğunu yazın. Her bildirimi okuyor ve hızlıca düzeltiyoruz."
+   },
+   "reportThanks": {
+      "message": "Teşekkürler. Bildiriminiz gönderildi."
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Bu parçayı indir"
+   },
+   "resultEditEntire": {
+      "message": "Tüm görüntüyü düzenle"
+   },
+   "resultEditPart": {
+      "message": "Bu parçayı düzenle"
+   },
+   "resultEditPartN": {
+      "message": "$1. parçayı düzenle"
+   },
+   "resultImgTitle": {
+      "message": "Sayfanın ekran görüntüsü"
+   },
+   "resultNameLabel": {
+      "message": "Ekran görüntüsü adı"
+   },
+   "resultNotFound": {
+      "message": "Ekran görüntüsü bulunamadı - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Ekran görüntüsü hazır"
+   },
+   "resultRename": {
+      "message": "Yeniden adlandır"
+   },
+   "resultRenameFailed": {
+      "message": "Ad kaydedilemedi"
+   },
+   "resultSaveAllJpg": {
+      "message": "Tüm JPG dosyalarını kaydet: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Tüm PNG dosyalarını kaydet: $1"
+   },
+   "resultSaveJpg": {
+      "message": "JPG olarak kaydet"
+   },
+   "resultSavePdf": {
+      "message": "PDF olarak kaydet"
+   },
+   "resultSavePng": {
+      "message": "PNG olarak kaydet"
+   },
+   "resultSplitStrip": {
+      "message": "Tek bir görüntüye sığmadığı için parçalara ayrıldı: $1. Her parçayı tek tek veya hepsini birlikte düzenleyebilirsiniz."
+   },
+   "resultZoomOut": {
+      "message": "Sığdır"
+   },
+   "untitledCapture": {
+      "message": "Ekran görüntüsü"
+   },
+   "welcomeH1a": {
+      "message": "Sayfanın tamamı."
+   },
+   "welcomeH1b": {
+      "message": "Tek görüntü."
+   },
+   "welcomeH2a": {
+      "message": "Çerçeveler ve iç kaydırma alanları"
+   },
+   "welcomeH2b": {
+      "message": "dahil."
+   },
+   "welcomeH3a": {
+      "message": "İşaretle. Bulanıklaştır."
+   },
+   "welcomeH3b": {
+      "message": "Numaralandır. Kırp."
+   },
+   "welcomeH4a": {
+      "message": "Satırların"
+   },
+   "welcomeH4b": {
+      "message": "arasında"
+   },
+   "welcomeH4c": {
+      "message": "bölünen PDF'ler. Asla ortasından değil."
+   },
+   "welcomeH5a": {
+      "message": "Hiçbir şey"
+   },
+   "welcomeH5b": {
+      "message": "bu tarayıcıdan çıkmaz."
+   },
+   "welcomeH6": {
+      "message": "İyi bir topluluktasınız."
+   },
+   "welcomeP1": {
+      "message": "Kaydırır, birleştirir ve tüm sayfayı piksel piksel tek bir ekran görüntüsü olarak verir."
+   },
+   "welcomeP2": {
+      "message": "Yalnızca sayfa değil, düzenleyiciler, panolar ve e-posta istemcileri de açılır."
+   },
+   "welcomeP3": {
+      "message": "Oklar, metin, fosforlu kalem, pikselleştirme ve numaralı adımlarla tam bir işaretleme düzenleyicisi."
+   },
+   "welcomeP4": {
+      "message": "Tüm görüntü ya da akıllı sayfa sonları ve tıklanabilir bağlantılarla Letter, Legal ve A4."
+   },
+   "welcomeP5": {
+      "message": "Hesap yok. Analiz yok. Takip yok. Her ekran görüntüsü bu cihazda kalır."
+   },
+   "welcomePress": {
+      "message": "Şuna basın:"
+   },
+   "welcomeShortcutTail": {
+      "message": "herhangi bir sayfada, ya da uzantı simgesine tıklayın."
+   },
+   "welcomeSkip": {
+      "message": "Atlamak için herhangi bir yere tıklayın"
+   },
+   "welcomeTryNow": {
+      "message": "Hemen şimdi, tam da bu sayfada deneyin."
+   },
+   "zoomActual": {
+      "message": "Gerçek boyut"
+   },
+   "zoomFit": {
+      "message": "Pencereye sığdır"
+   },
+   "zoomFitShort": {
+      "message": "Sığdır"
+   },
+   "zoomIn": {
+      "message": "Yakınlaştır"
+   },
+   "zoomLabel": {
+      "message": "Yakınlaştırma"
+   },
+   "zoomOut": {
+      "message": "Uzaklaştır"
+   }
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Batch capture - FullPage Capture</title>
+  <link rel="stylesheet" href="../shared/theme.css" />
+  <link rel="stylesheet" href="batch.css" />
+</head>
+<body data-page="batch">
+  <header>
+    <span class="htitle" data-i18n="batchHeading">Batch capture</span>
+    <span id="count" class="hcount"></span>
+    <a href="../files/files.html" class="round" title="Your captures" data-i18n-title="filesHeading">
+      <svg class="ic"><use href="../shared/icons.svg#folder-open" /></svg></a>
+    <a href="../options/options.html" class="round" title="Settings" data-i18n-title="actionSettings">
+      <svg class="ic"><use href="../shared/icons.svg#settings" /></svg></a>
+  </header>
+
+  <main>
+    <section id="proNote" class="card pro-card" hidden>
+      <svg class="ic lg"><use href="../shared/icons.svg#star" /></svg>
+      <div>
+        <b data-i18n="batchProTitle">Batch capture is part of Pro</b>
+        <p data-i18n="batchProBody">Give the extension a list of addresses and it captures every page in one go, while you do something else.</p>
+      </div>
+      <a id="getPro" class="pill primary" href="#" target="_blank" rel="noopener" data-i18n="acctGetPro">Get Pro</a>
+    </section>
+
+    <section id="setup" class="card">
+      <label class="lbl" for="list"><span data-i18n="batchListLabel">Addresses, one per line</span>
+        <small data-i18n="batchListHint">Up to 200 pages. Each one is opened, captured whole and saved to your capture history.</small></label>
+      <textarea id="list" spellcheck="false" placeholder="https://example.com&#10;https://example.com/pricing" data-i18n-placeholder="batchListPlaceholder"></textarea>
+      <p class="muted" data-i18n="batchWindows">The pages open in a second window, in front. Leave it on screen while the batch runs: a covered window cannot be photographed. Your own window is not moved or resized.</p>
+      <div class="row">
+        <button id="addOpen" class="pill" type="button">
+          <svg class="ic sm"><use href="../shared/icons.svg#copy" /></svg><span data-i18n="batchAddOpen">Add open tabs</span></button>
+        <button id="clear" class="pill" type="button" data-i18n="batchClear">Clear</button>
+        <span class="grow"></span>
+        <button id="start" class="pill primary" type="button" data-i18n="batchStart">Start</button>
+      </div>
+    </section>
+
+    <section id="runBox" class="card" hidden>
+      <div class="run-head">
+        <b id="runTitle"></b>
+        <span class="grow"></span>
+        <button id="stop" class="pill" type="button" data-i18n="batchStop">Stop</button>
+      </div>
+      <div class="bar"><i id="bar"></i></div>
+      <div id="pausedBox" class="paused" hidden>
+        <span data-i18n="batchPausedHidden">Waiting: the capture window is hidden. Bring it back to the front and the run carries on.</span>
+        <button id="resume" class="pill" type="button" data-i18n="batchResume">Bring it back</button>
+      </div>
+      <ol id="queue"></ol>
+    </section>
+
+    <section id="doneBox" class="card" hidden>
+      <b id="doneTitle"></b>
+      <p id="doneBody" class="muted"></p>
+      <div class="row">
+        <button id="saveAll" class="pill primary" type="button" data-i18n="batchSaveAll">Save all files</button>
+        <button id="onePdf" class="pill" type="button" data-i18n="batchOnePdf">One PDF of everything</button>
+        <button id="sendCloud" class="pill" type="button" hidden>
+          <svg class="ic sm"><use href="../shared/icons.svg#cloud-upload" /></svg><span>Send all to the cloud</span></button>
+        <a href="../files/files.html" class="pill" data-i18n="batchOpenFiles">Open your captures</a>
+      </div>
+      <p id="saveNote" class="muted" hidden></p>
+    </section>
+  </main>
+
+  <iframe id="worker" hidden></iframe>
+  <script type="module" src="batch.js"></script>
+</body>
+</html>

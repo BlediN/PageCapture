@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "Anulează"
+   },
+   "actionDelete": {
+      "message": "Șterge"
+   },
+   "actionEdit": {
+      "message": "Editează"
+   },
+   "actionFiles": {
+      "message": "Fișiere"
+   },
+   "actionOpen": {
+      "message": "Deschide"
+   },
+   "actionPrint": {
+      "message": "Printează"
+   },
+   "actionRate": {
+      "message": "Evaluează FullPage Capture"
+   },
+   "actionReport": {
+      "message": "Raportează o problemă"
+   },
+   "actionSave": {
+      "message": "Salvează"
+   },
+   "actionSettings": {
+      "message": "Setări"
+   },
+   "appDesc": {
+      "message": "Captură de ecran a întregii pagini web în Chrome. Screenshot lung cu editor de adnotări."
+   },
+   "appName": {
+      "message": "FullPage Capture - Captură de Ecran Pagină Completă"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "Ștergeți capturi: $1?\n(Acțiunea nu poate fi anulată.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Ștergeți această captură?\n(Acțiunea nu poate fi anulată.)"
+   },
+   "copiedToClipboard": {
+      "message": "Copiat în clipboard"
+   },
+   "copyFailed": {
+      "message": "Copierea a eșuat: $1"
+   },
+   "createdPdf": {
+      "message": "PDF creat"
+   },
+   "creatingPdf": {
+      "message": "Se creează PDF-ul:"
+   },
+   "dateFmtDate": {
+      "message": "Data"
+   },
+   "dateFmtDateTime": {
+      "message": "Data și ora"
+   },
+   "dateFmtNone": {
+      "message": "Fără dată"
+   },
+   "edApplyCrop": {
+      "message": "Aplică decuparea"
+   },
+   "edArrowheads": {
+      "message": "Vârfuri de săgeată"
+   },
+   "edBack": {
+      "message": "Înapoi la captură"
+   },
+   "edBrand": {
+      "message": "Marcaje"
+   },
+   "edBringForward": {
+      "message": "Adu în față"
+   },
+   "edCancelCrop": {
+      "message": "Anulează decuparea"
+   },
+   "edClose": {
+      "message": "Închide"
+   },
+   "edColor": {
+      "message": "Culoare"
+   },
+   "edConfirmDelete": {
+      "message": "Ștergeți această captură?"
+   },
+   "edCopiedResized": {
+      "message": "Copiat (redimensionat la $WIDTH$x$HEIGHT$ din cauza limitelor clipboardului)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Copiază"
+   },
+   "edCopyLayer": {
+      "message": "Copiază stratul"
+   },
+   "edCopyTitle": {
+      "message": "Copiază în clipboard"
+   },
+   "edCornerRadius": {
+      "message": "Raza colțurilor"
+   },
+   "edCustomColor": {
+      "message": "Culoare personalizată"
+   },
+   "edDeleteCapture": {
+      "message": "Șterge captura"
+   },
+   "edDeleteSel": {
+      "message": "Șterge selecția"
+   },
+   "edDlImage": {
+      "message": "Descarcă imaginea"
+   },
+   "edDuplicateSel": {
+      "message": "Duplică selecția"
+   },
+   "edExport": {
+      "message": "Exportă"
+   },
+   "edExportSaveAs": {
+      "message": "Exportă alegând locul"
+   },
+   "edFasterMove": {
+      "message": "Mutare rapidă"
+   },
+   "edFill": {
+      "message": "Umplere"
+   },
+   "edFontSize": {
+      "message": "Mărimea textului"
+   },
+   "edHeadBoth": {
+      "message": "Ambele"
+   },
+   "edHeadOne": {
+      "message": "Un capăt"
+   },
+   "edHelp": {
+      "message": "Ajutor"
+   },
+   "edHelpDocument": {
+      "message": "Document"
+   },
+   "edHelpLayers": {
+      "message": "Straturi"
+   },
+   "edHelpShapes": {
+      "message": "Inserare de forme"
+   },
+   "edHelpTools": {
+      "message": "Instrumente"
+   },
+   "edKeyMouseArrows": {
+      "message": "Mouse sau tastele săgeți"
+   },
+   "edKeyOorE": {
+      "message": "O sau E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + săgeți"
+   },
+   "edLayersEmpty": {
+      "message": "Încă nimic. Alegeți un instrument din bară."
+   },
+   "edMode": {
+      "message": "Mod"
+   },
+   "edModeBlur": {
+      "message": "Estompare"
+   },
+   "edModePixel": {
+      "message": "Pixelare"
+   },
+   "edMore": {
+      "message": "Mai multe"
+   },
+   "edMoveLayer": {
+      "message": "Mută stratul"
+   },
+   "edNoFill": {
+      "message": "Fără umplere"
+   },
+   "edNotFoundBody": {
+      "message": "Captura nu a fost găsită. Este posibil să fi fost ștearsă."
+   },
+   "edNotFoundTitle": {
+      "message": "Captura nu a fost găsită - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Obiect"
+   },
+   "edObjects": {
+      "message": "Obiecte"
+   },
+   "edPasteLayer": {
+      "message": "Lipește stratul"
+   },
+   "edPropsEmpty": {
+      "message": "Selectați un obiect pentru a-i schimba stilul."
+   },
+   "edRedo": {
+      "message": "Refă (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Refă"
+   },
+   "edSaveImage": {
+      "message": "Salvează imaginea"
+   },
+   "edSendBackward": {
+      "message": "Trimite în spate"
+   },
+   "edShortcuts": {
+      "message": "Scurtături de tastatură"
+   },
+   "edThickness": {
+      "message": "Grosime"
+   },
+   "edToggleCrop": {
+      "message": "Mod decupare"
+   },
+   "edToggleUrlDate": {
+      "message": "Arată sau ascunde adresa și data"
+   },
+   "edToolArrow": {
+      "message": "Săgeată (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Săgeată"
+   },
+   "edToolBadge": {
+      "message": "Marcaj numerotat (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Marcaj numerotat"
+   },
+   "edToolBrush": {
+      "message": "Pensulă (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Pensulă"
+   },
+   "edToolCrop": {
+      "message": "Decupare (C)"
+   },
+   "edToolEllipse": {
+      "message": "Elipsă (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Elipsă"
+   },
+   "edToolHighlight": {
+      "message": "Marker (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Marker"
+   },
+   "edToolLine": {
+      "message": "Linie (L)"
+   },
+   "edToolLineShort": {
+      "message": "Linie"
+   },
+   "edToolOvalShort": {
+      "message": "Oval"
+   },
+   "edToolPen": {
+      "message": "Creion (P)"
+   },
+   "edToolPenShort": {
+      "message": "Creion"
+   },
+   "edToolRect": {
+      "message": "Dreptunghi (R)"
+   },
+   "edToolRectShort": {
+      "message": "Dreptunghi"
+   },
+   "edToolRedact": {
+      "message": "Estompare (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Estompare"
+   },
+   "edToolSelect": {
+      "message": "Selecție (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Selecție"
+   },
+   "edToolText": {
+      "message": "Text (T)"
+   },
+   "edToolTextShort": {
+      "message": "Text"
+   },
+   "edTplMac": {
+      "message": "Browser Mac"
+   },
+   "edTplNone": {
+      "message": "Niciunul"
+   },
+   "edTplWin": {
+      "message": "Browser Windows"
+   },
+   "edUndo": {
+      "message": "Anulează (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Anulează"
+   },
+   "filesClearSelection": {
+      "message": "Golește selecția"
+   },
+   "filesDeselectAll": {
+      "message": "Deselectează tot"
+   },
+   "filesEmpty": {
+      "message": "Încă nu există capturi. Faceți clic pe pictograma extensiei pe orice pagină pentru a o crea pe prima."
+   },
+   "filesHeading": {
+      "message": "Capturile dvs."
+   },
+   "filesLoadFailed": {
+      "message": "Încărcarea a eșuat: $1"
+   },
+   "filesSaveAll": {
+      "message": "Salvează toate: $1"
+   },
+   "filesSaveBoth": {
+      "message": "Salvează-le pe amândouă"
+   },
+   "filesSaveFailed": {
+      "message": "$1 dintre acestea nu au putut fi salvate."
+   },
+   "filesSavedCount": {
+      "message": "Salvate pe acest dispozitiv: $1"
+   },
+   "filesSearch": {
+      "message": "Caută"
+   },
+   "filesSelect": {
+      "message": "Selectează"
+   },
+   "filesSelectAll": {
+      "message": "Selectează tot"
+   },
+   "filesSelectedCount": {
+      "message": "Selectate: $1"
+   },
+   "optAllow": {
+      "message": "Permite"
+   },
+   "optAutoDownload": {
+      "message": "Descarcă fișierele automat"
+   },
+   "optAutoDownloadHint": {
+      "message": "Descarcă automat captura ca imagine în loc să o deschidă într-o fereastră nouă. Fila cu captura nu se va deschide. Puteți reveni aici făcând clic dreapta pe pictograma extensiei și alegând Opțiuni."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Incompatibil cu setarea browserului 'Întreabă unde să salvezi fiecare fișier înainte de descărcare'. Dacă este și ea activă, fereastra de salvare poate afișa erori."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Întreabă ce să capturez"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Clicul pe pictogramă oferă întâi Toată pagina sau O parte din pagină. Dezactivat: un clic capturează toată pagina."
+   },
+   "optCopyFit": {
+      "message": "Micșorează copiile pentru Google Docs"
+   },
+   "optCopyFitHint": {
+      "message": "Copiile în clipboard de peste 25.000.000 de pixeli sunt micșorate automat"
+   },
+   "optDateFmt": {
+      "message": "Formatul datei"
+   },
+   "optDateFmtHint": {
+      "message": "Cum apare data în bară sau ascundeți-o"
+   },
+   "optDelay": {
+      "message": "Pauză între derulări"
+   },
+   "optDelay150": {
+      "message": "150 ms (implicit)"
+   },
+   "optDelayHint": {
+      "message": "Măriți-o pentru paginile care încarcă lent conținutul"
+   },
+   "optDelayNone": {
+      "message": "Niciuna"
+   },
+   "optDirPermNote": {
+      "message": "Salvarea într-un dosar necesită permisiunea de descărcare. Acordați-o pentru ca dosarul să funcționeze."
+   },
+   "optFileType": {
+      "message": "Tip de fișier"
+   },
+   "optFileTypeHint": {
+      "message": "Pentru butonul Salvează și descărcarea automată"
+   },
+   "optFolder": {
+      "message": "Salvează într-un dosar"
+   },
+   "optFolderHint": {
+      "message": "Un subdosar în Descărcări. Lăsați gol pentru a salva direct în Descărcări"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Setări"
+   },
+   "optImgWait": {
+      "message": "Așteaptă imaginile"
+   },
+   "optImgWaitFull": {
+      "message": "Completă, până la 8 s la imaginile mari"
+   },
+   "optImgWaitHint": {
+      "message": "Așteaptă la fiecare cadru până se termină încărcarea imaginilor. Activați dacă în capturi apar imagini neclare sau goale"
+   },
+   "optImgWaitOff": {
+      "message": "Dezactivată"
+   },
+   "optImgWaitShort": {
+      "message": "Scurtă, până la 1,5 s pe cadru (implicit)"
+   },
+   "optLandscape": {
+      "message": "Vedere"
+   },
+   "optLinks": {
+      "message": "Linkuri pe care se poate face clic"
+   },
+   "optLinksHint": {
+      "message": "Linkurile din pagină rămân active în PDF"
+   },
+   "optOrientation": {
+      "message": "Orientare"
+   },
+   "optOrientationHint": {
+      "message": "Orientarea paginii pentru formatele de mai sus"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "Imaginea întreagă"
+   },
+   "optPdfFullHint": {
+      "message": "O pagină de mărimea capturii"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8,5 x 14 inci"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8,5 x 11 inci"
+   },
+   "optPortrait": {
+      "message": "Portret"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Întreabă unde să salveze"
+   },
+   "optSaveAsHint": {
+      "message": "O fereastră de salvare pentru fișiere singulare. Când sunt mai multe, este omisă"
+   },
+   "optSaved": {
+      "message": "Salvat"
+   },
+   "optSecCapturing": {
+      "message": "Capturare"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "Împărțire inteligentă pe pagini"
+   },
+   "optSmartSplitHint": {
+      "message": "Mută fiecare întrerupere de pagină în spațiul dintre două rânduri, ca textul să nu fie niciodată tăiat"
+   },
+   "optUrlDate": {
+      "message": "Pune adresa paginii și data sus"
+   },
+   "optUrlDateHint": {
+      "message": "Adresa paginii și ora capturii pe prima pagină a PDF-ului"
+   },
+   "pageTitle_editor": {
+      "message": "Marcaje - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Fișiere - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Setări - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Captură - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Bun venit - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Părți: $1"
+   },
+   "pdfFailed": {
+      "message": "Crearea PDF-ului a eșuat: $1"
+   },
+   "popupBlockedBody": {
+      "message": "Paginile browserului, cum sunt setările sau Web Store, sunt protejate, așa că nicio extensie nu le poate captura. Pe site-urile obișnuite totul funcționează."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome protejează această pagină"
+   },
+   "popupCannotAccess": {
+      "message": "Nu se poate accesa această pagină."
+   },
+   "popupCanvasWide": {
+      "message": "Lățime de $1 pixeli (canvas)"
+   },
+   "popupCaptureFailed": {
+      "message": "Captura a eșuat."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Această pagină nu a putut fi capturată: $1"
+   },
+   "popupCapturing": {
+      "message": "Se capturează..."
+   },
+   "popupCapturingTitle": {
+      "message": "Se capturează pagina"
+   },
+   "popupChooseTitle": {
+      "message": "Ce doriți să capturați?"
+   },
+   "popupClose": {
+      "message": "Închide"
+   },
+   "popupConnectionLost": {
+      "message": "Conexiunea cu pagina s-a pierdut."
+   },
+   "popupCreatingPdf": {
+      "message": "Se creează PDF-ul..."
+   },
+   "popupDemoVideo": {
+      "message": "Vezi o demonstrație"
+   },
+   "popupDownloading": {
+      "message": "Se descarcă..."
+   },
+   "popupFileUrlHint": {
+      "message": "Pentru paginile file://, activați 'Permite accesul la adresele URL de fișiere' în detaliile extensiei."
+   },
+   "popupFrameEarly": {
+      "message": "Nou în Pro: capturați doar partea paginii de care aveți nevoie, în întregime, cu derulare."
+   },
+   "popupFrameTitle": {
+      "message": "Se capturează un cadru"
+   },
+   "popupFrameUnreachable": {
+      "message": "Extensia nu poate accesa acest cadru."
+   },
+   "popupHowItWorks": {
+      "message": "Cum funcționează"
+   },
+   "popupHowStep1": {
+      "message": "Indicați orice parte a paginii: va fi încadrată."
+   },
+   "popupHowStep2": {
+      "message": "alegeți o parte mai mare sau mai mică."
+   },
+   "popupHowStep3": {
+      "message": "Dați clic: o derulăm și o capturăm în întregime, chiar și ce e ascuns mai jos."
+   },
+   "popupLocalFile": {
+      "message": "Acesta este un fișier local. Pentru a-l captura, activați 'Permite accesul la adresele URL de fișiere' pentru această extensie și încercați din nou."
+   },
+   "popupModeFrame": {
+      "message": "O parte a paginii"
+   },
+   "popupModeFrameHint": {
+      "message": "Acces anticipat. Dați clic pe un cadru, un panou sau orice zonă; se capturează doar aceasta."
+   },
+   "popupModePage": {
+      "message": "Toată pagina"
+   },
+   "popupModePageHint": {
+      "message": "Derulează până la capăt și îmbină toate ecranele într-o singură imagine."
+   },
+   "popupNoActiveTab": {
+      "message": "Nicio filă activă."
+   },
+   "popupNoFrames": {
+      "message": "Pe această pagină nu se poate selecta nimic."
+   },
+   "popupOpenSettings": {
+      "message": "Deschide setările extensiei"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Doar o parte din pagină?"
+   },
+   "popupPauseHint": {
+      "message": "închideți pentru a pune pauză, deschideți din nou pentru a continua"
+   },
+   "popupPauseTitle": {
+      "message": "Pauză. Închiderea pune pauză, redeschiderea continuă"
+   },
+   "popupPdfFailed": {
+      "message": "PDF-ul nu a putut fi creat. Captura este salvată în Fișiere."
+   },
+   "popupPdfInvalid": {
+      "message": "Acest fișier nu a putut fi citit ca PDF."
+   },
+   "popupPdfLoading": {
+      "message": "Se încarcă PDF-ul..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(paginile 1-$1 din $2)"
+   },
+   "popupPdfPassword": {
+      "message": "Acest PDF este protejat cu parolă și nu poate fi capturat."
+   },
+   "popupPdfReadFailed": {
+      "message": "PDF-ul nu a putut fi citit: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Se redă pagina $1 din $2..."
+   },
+   "popupPickFrame": {
+      "message": "Dați clic pe cadrul din pagină"
+   },
+   "popupPickLost": {
+      "message": "Elementul selectat nu mai există în pagină. Selectați-l din nou."
+   },
+   "popupPickStartFailed": {
+      "message": "Selecția nu a putut începe pe această pagină. Încercați din nou."
+   },
+   "popupPreparing": {
+      "message": "Se pregătește..."
+   },
+   "popupReadImageFailed": {
+      "message": "Imaginea nu a putut fi citită: $1"
+   },
+   "popupResuming": {
+      "message": "Se continuă"
+   },
+   "popupSaving": {
+      "message": "Se salvează..."
+   },
+   "popupScrolling": {
+      "message": "Se derulează"
+   },
+   "popupSelfReload": {
+      "message": "Această pagină se reîncarcă singură de îndată ce ceva se modifică în ea, așa că captura întregii pagini nu a putut fi finalizată."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Setează comenzi rapide de la tastatură"
+   },
+   "popupShortcut": {
+      "message": "Scurtătură: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "Pagina nu încape într-o singură imagine, așa că va veni împărțită în părți: $1. Le puteți descărca pe toate odată."
+   },
+   "popupStalled": {
+      "message": "Captura s-a blocat ($1). Reîncărcați pagina și încercați din nou sau raportați o problemă."
+   },
+   "popupStamping": {
+      "message": "Se adaugă ștampila de probă..."
+   },
+   "popupStopCapture": {
+      "message": "Oprește captura"
+   },
+   "popupTryDemo": {
+      "message": "Încercați pe o pagină de exemplu"
+   },
+   "popupWarmingUp": {
+      "message": "Se încarcă conținutul"
+   },
+   "proBuyYear": {
+      "message": "Treci la Pro"
+   },
+   "proCloudBody": {
+      "message": "Salvarea în cloud face parte din Pro. Salvarea pe computer rămâne gratuită."
+   },
+   "proExportBody": {
+      "message": "Salvarea unei capturi cu modificările dvs. face parte din Pro. Captura originală, așa cum arăta pagina, o puteți salva, copia și printa gratuit în continuare."
+   },
+   "proExportBuy": {
+      "message": "Începe perioada de probă"
+   },
+   "proExportF1": {
+      "message": "Modificările dvs. apar în fișierul salvat"
+   },
+   "proExportF2": {
+      "message": "PDF-uri în care puteți căuta și copia text"
+   },
+   "proExportF3": {
+      "message": "Ștampilă cu adresa, ora și suma de control"
+   },
+   "proExportF4": {
+      "message": "O listă întreagă de pagini, capturată deodată"
+   },
+   "proExportF5": {
+      "message": "Direct în contul dvs. Google Drive"
+   },
+   "proExportFine": {
+      "message": "Plată securizată. Rambursare garantată timp de 48 de ore (14 zile în UE și în Regatul Unit). Prețul în țara dvs. poate diferi."
+   },
+   "proExportLoading": {
+      "message": "Se deschide pagina de plată securizată..."
+   },
+   "proExportNo": {
+      "message": "Nu acum"
+   },
+   "proExportOpenTab": {
+      "message": "Deschide într-o filă"
+   },
+   "proExportRenew": {
+      "message": "După cele 7 zile, 19 $$ pe an. Puteți anula oricând."
+   },
+   "proExportSkipped": {
+      "message": "Capturi nesalvate: $1. Salvarea capturilor cu modificări face parte din Pro."
+   },
+   "proExportSlow": {
+      "message": "Pagina de plată se încarcă greu."
+   },
+   "proExportTitle": {
+      "message": "Pentru a continua, începeți perioada de probă Pro"
+   },
+   "proExportTitleYear": {
+      "message": "Pentru a continua, treceți la Pro"
+   },
+   "proExportTrial": {
+      "message": "pentru 7 zile de probă"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Astăzi nu plătiți nimic"
+   },
+   "proOfferTitle": {
+      "message": "Ce vă oferă Pro"
+   },
+   "proTryCta": {
+      "message": "Încearcă Pro"
+   },
+   "proYearNote": {
+      "message": "Ați folosit deja perioada de probă"
+   },
+   "proYearPer": {
+      "message": "pe an"
+   },
+   "rateDoNotAsk": {
+      "message": "Nu mai întreba"
+   },
+   "rateNotNow": {
+      "message": "Nu acum"
+   },
+   "rateSkip": {
+      "message": "Omite"
+   },
+   "rateSorry": {
+      "message": "Ne pare rău"
+   },
+   "rateStar1": {
+      "message": "Groaznic"
+   },
+   "rateStar2": {
+      "message": "Slab"
+   },
+   "rateStar3": {
+      "message": "Acceptabil"
+   },
+   "rateStar4": {
+      "message": "Bun"
+   },
+   "rateStar5": {
+      "message": "Excelent"
+   },
+   "rateTakenCount": {
+      "message": "Capturi până acum: $1. Dacă v-a fost utilă, o recenzie scurtă ar însemna mult, iar dacă nu, e absolut în regulă."
+   },
+   "rateTellUs": {
+      "message": "Spuneți-ne"
+   },
+   "rateText1": {
+      "message": "Evaluați FullPage Capture și spuneți-ne ce părere aveți."
+   },
+   "rateText2": {
+      "message": "O recenzie scurtă îi ajută pe alții să o găsească. Iar dacă preferați să nu, nicio problemă."
+   },
+   "rateText3": {
+      "message": "Dacă extensia a meritat, o recenzie scurtă ar ajuta mult. Oricum ar fi, vă mulțumim că o folosiți."
+   },
+   "rateTitle1": {
+      "message": "Aveți un minut?"
+   },
+   "rateTitle2": {
+      "message": "Mai folosiți FullPage Capture?"
+   },
+   "rateTitle3": {
+      "message": "O ultimă rugăminte"
+   },
+   "reportEmpty": {
+      "message": "Descrieți problema în câteva cuvinte."
+   },
+   "reportFailed": {
+      "message": "Raportul nu a putut fi trimis. Verificați conexiunea și încercați din nou."
+   },
+   "reportLimited": {
+      "message": "Ați atins numărul maxim de rapoarte pentru azi. Scrieți-ne prin e-mail."
+   },
+   "reportNotify": {
+      "message": "Anunțați-mă prin e-mail când această pagină se capturează corect"
+   },
+   "reportPage": {
+      "message": "Linkul paginii"
+   },
+   "reportPageHint": {
+      "message": "Lipiți aici linkul paginii"
+   },
+   "reportPlaceholder": {
+      "message": "Ce s-a întâmplat? La ce vă așteptați?"
+   },
+   "reportPriority": {
+      "message": "Prioritar"
+   },
+   "reportPriorityTitle": {
+      "message": "Asistență prioritară: o persoană vă răspunde în cel mult o zi lucrătoare"
+   },
+   "reportPro": {
+      "message": "Asistență prioritară: o persoană vă răspunde în cel mult o zi lucrătoare, la $1."
+   },
+   "reportProSent": {
+      "message": "Primit – solicitarea $1. Vă răspundem prin e-mail."
+   },
+   "reportSend": {
+      "message": "Trimite"
+   },
+   "reportSending": {
+      "message": "Se trimite..."
+   },
+   "reportSub": {
+      "message": "Spuneți-ne ce nu a mers sau ce lipsește. Citim fiecare raport și reparăm repede."
+   },
+   "reportThanks": {
+      "message": "Mulțumim. Raportul dvs. a fost trimis."
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Descarcă această parte"
+   },
+   "resultEditEntire": {
+      "message": "Editează imaginea întreagă"
+   },
+   "resultEditPart": {
+      "message": "Editează această parte"
+   },
+   "resultEditPartN": {
+      "message": "Editează partea $1"
+   },
+   "resultImgTitle": {
+      "message": "Captura paginii"
+   },
+   "resultNameLabel": {
+      "message": "Numele capturii"
+   },
+   "resultNotFound": {
+      "message": "Captura nu a fost găsită - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Captura este gata"
+   },
+   "resultRename": {
+      "message": "Redenumește"
+   },
+   "resultRenameFailed": {
+      "message": "Numele nu a putut fi salvat"
+   },
+   "resultSaveAllJpg": {
+      "message": "Salvează toate JPG: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Salvează toate PNG: $1"
+   },
+   "resultSaveJpg": {
+      "message": "Salvează în JPG"
+   },
+   "resultSavePdf": {
+      "message": "Salvează PDF"
+   },
+   "resultSavePng": {
+      "message": "Salvează în PNG"
+   },
+   "resultSplitStrip": {
+      "message": "Nu încape într-o singură imagine, așa că a fost împărțită în părți: $1. Puteți edita fiecare parte separat sau tot deodată."
+   },
+   "resultZoomOut": {
+      "message": "Potrivește"
+   },
+   "untitledCapture": {
+      "message": "Captură"
+   },
+   "welcomeH1a": {
+      "message": "Toată pagina."
+   },
+   "welcomeH1b": {
+      "message": "O singură imagine."
+   },
+   "welcomeH2a": {
+      "message": "Cadrele și zonele de derulare interne"
+   },
+   "welcomeH2b": {
+      "message": "incluse."
+   },
+   "welcomeH3a": {
+      "message": "Adnotați. Estompați."
+   },
+   "welcomeH3b": {
+      "message": "Numerotați. Decupați."
+   },
+   "welcomeH4a": {
+      "message": "PDF-uri care se rup"
+   },
+   "welcomeH4b": {
+      "message": "între"
+   },
+   "welcomeH4c": {
+      "message": "rânduri. Niciodată prin ele."
+   },
+   "welcomeH5a": {
+      "message": "Nimic nu părăsește"
+   },
+   "welcomeH5b": {
+      "message": "acest browser."
+   },
+   "welcomeH6": {
+      "message": "Sunteți în companie bună."
+   },
+   "welcomeP1": {
+      "message": "Derulează, coase și livrează toată pagina ca o singură captură exactă la pixel."
+   },
+   "welcomeP2": {
+      "message": "Se derulează și editoarele, tablourile de bord și clienții de e-mail, nu doar pagina în sine."
+   },
+   "welcomeP3": {
+      "message": "Un editor complet de adnotare cu săgeți, text, marker, pixelare și pași numerotați."
+   },
+   "welcomeP4": {
+      "message": "Imaginea întreagă sau Letter, Legal și A4 cu întreruperi inteligente de pagină și linkuri active."
+   },
+   "welcomeP5": {
+      "message": "Fără cont. Fără analiză. Fără urmărire. Fiecare captură rămâne pe acest dispozitiv."
+   },
+   "welcomePress": {
+      "message": "Apăsați"
+   },
+   "welcomeShortcutTail": {
+      "message": "pe orice pagină sau faceți clic pe pictograma extensiei."
+   },
+   "welcomeSkip": {
+      "message": "Faceți clic oriunde pentru a sări"
+   },
+   "welcomeTryNow": {
+      "message": "Încercați chiar acum, pe această pagină."
+   },
+   "zoomActual": {
+      "message": "Mărime reală"
+   },
+   "zoomFit": {
+      "message": "Potrivește la fereastră"
+   },
+   "zoomFitShort": {
+      "message": "Potrivește"
+   },
+   "zoomIn": {
+      "message": "Mărește"
+   },
+   "zoomLabel": {
+      "message": "Zoom"
+   },
+   "zoomOut": {
+      "message": "Micșorează"
+   }
+}

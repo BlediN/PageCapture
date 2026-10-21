@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Welcome - FullPage Capture</title>
+  <link rel="stylesheet" href="../shared/theme.css" />
+  <style>
+    html, body { height: 100%; }
+    body { margin: 0; overflow: hidden; background: var(--ground); }
+
+    #stage {
+      position: fixed;
+      inset: 0;
+      background: #0f1419;
+      transition: background 60ms linear;
+    }
+    #stage.lit { background: var(--ground); }
+
+    .scene {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 26px;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .scene.on { opacity: 1; pointer-events: auto; }
+
+    /* ------------------------------ boot ------------------------------ */
+    .s-boot { transition: opacity 300ms ease; }
+    .boot-mark {
+      position: relative;
+      width: 96px;
+      height: 96px;
+    }
+    .boot-mark img {
+      width: 96px;
+      height: 96px;
+      animation: markin 900ms cubic-bezier(0.2, 0.9, 0.25, 1.2) both;
+    }
+    @keyframes markin {
+      from { opacity: 0; transform: scale(0.4); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .boot-ring {
+      position: absolute;
+      inset: -18px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.55);
+      animation: ringpulse 800ms ease-out 500ms infinite;
+    }
+    @keyframes ringpulse {
+      from { opacity: 0.8; transform: scale(0.72); }
+      to { opacity: 0; transform: scale(1.25); }
+    }
+    .boot-hint {
+      margin-top: 34px;
+      color: rgba(255, 255, 255, 0.55);
+      font-size: 13.5px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      animation: markin 700ms ease 350ms both;
+    }
+
+    /* ----------------------------- flash ------------------------------ */
+    #flash {
+      position: absolute;
+      inset: 0;
+      background: #fff;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 6;
+    }
+    #flash.bang { animation: bangflash 620ms ease-out both; }
+    @keyframes bangflash {
+      0% { opacity: 0; }
+      12% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    #burst { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 5; }
+    #burst i { position: absolute; left: 50%; top: 50%; display: block; }
+
+    /* ---------------------------- benefits ---------------------------- */
+    .s-benefit .num {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      color: var(--ink-3);
+      margin-bottom: 22px;
+    }
+    .s-benefit h2 {
+      margin: 0;
+      max-width: 980px;
+      font-size: clamp(38px, 6.4vw, 72px);
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1.04;
+      color: var(--ink);
+    }
+    .s-benefit .accent { white-space: nowrap; }
+    .a-blue { color: #1d9bf0; }
+    .a-red { color: #f4212e; }
+    .a-green { color: #00ba7c; }
+    .a-violet { color: #7856ff; }
+    .s-benefit .sub {
+      margin: 20px 0 0;
+      max-width: 640px;
+      font-size: 16.5px;
+      line-height: 1.55;
+      color: var(--ink-2);
+    }
+    .scene.anim > * {
+      opacity: 0;
+      transform: translateY(26px);
+      filter: blur(12px);
+    }
+    .scene.on.anim > * {
+      opacity: 1;
+      transform: translateY(0);
+      filter: blur(0);
+      transition:
+        opacity 560ms cubic-bezier(0.2, 0.7, 0.2, 1),
+        transform 560ms cubic-bezier(0.2, 0.7, 0.2, 1),
+        filter 560ms cubic-bezier(0.2, 0.7, 0.2, 1);
+    }
+    .scene.on.anim > *:nth-child(2) { transition-delay: 90ms; }
+    .scene.on.anim > *:nth-child(3) { transition-delay: 190ms; }
+    .scene.leaving.anim > * {
+      opacity: 0;
+      transform: translateY(-20px);
+      filter: blur(8px);
+      transition: all 340ms ease-in;
+    }
+
+    /* ----------------------------- finale ----------------------------- */
+    .s-final .mark { width: 64px; height: 64px; margin-bottom: 26px; }
+    .s-final h2 {
+      margin: 0;
+      font-size: clamp(42px, 7vw, 84px);
+      font-weight: 700;
+      letter-spacing: -0.045em;
+      line-height: 1.02;
+      color: var(--ink);
+    }
+    .s-final .sub {
+      margin: 22px 0 0;
+      font-size: 16.5px;
+      color: var(--ink-2);
+      line-height: 1.6;
+    }
+    kbd {
+      background: var(--recessed);
+      border: 1px solid var(--ctl-border);
+      border-radius: 6px;
+      padding: 1px 7px;
+      font: 600 13px var(--font);
+    }
+    .acct-offer { margin-top: 30px; display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    .acct-offer small { flex-basis: 100%; color: var(--ink-3); font-size: 13px; }
+    .acct-offer[hidden] { display: none; }
+    .skip-hint {
+      position: fixed;
+      bottom: 22px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 12.5px;
+      color: var(--ink-3);
+      z-index: 7;
+      opacity: 0;
+      transition: opacity 400ms ease;
+    }
+    .skip-hint.on { opacity: 1; }
+    #stage:not(.lit) .skip-hint { color: rgba(255, 255, 255, 0.4); }
+  </style>
+</head>
+<body data-page="welcome">
+  <div id="stage">
+    <div class="scene s-boot on" id="boot">
+      <div class="boot-mark"><img src="../shared/logo.svg" alt="" /><span class="boot-ring"></span></div>
+      <div class="boot-hint" data-i18n="appTitle">FullPage Capture</div>
+    </div>
+
+    <div class="scene anim" data-scene>
+      <div class="num">01</div>
+      <h2><span data-i18n="welcomeH1a">The whole page.</span><br /><span class="accent a-blue" data-i18n="welcomeH1b">One image.</span></h2>
+      <p class="sub" data-i18n="welcomeP1">Scrolls, stitches and delivers the entire page as a
+        single pixel-perfect screenshot.</p>
+    </div>
+    <div class="scene anim" data-scene>
+      <div class="num">02</div>
+      <h2><span data-i18n="welcomeH2a">Frames and inner scrollers</span> <span class="accent a-violet" data-i18n="welcomeH2b">included.</span></h2>
+      <p class="sub" data-i18n="welcomeP2">Editors, dashboards and mail clients unroll too,
+        not just the page itself.</p>
+    </div>
+    <div class="scene anim" data-scene>
+      <div class="num">03</div>
+      <h2><span data-i18n="welcomeH3a">Annotate. Blur.</span><br /><span class="accent a-red" data-i18n="welcomeH3b">Badge. Crop.</span></h2>
+      <p class="sub" data-i18n="welcomeP3">A full markup editor with arrows, text, highlighter,
+        pixelate and numbered steps.</p>
+    </div>
+    <div class="scene anim" data-scene>
+      <div class="num">04</div>
+      <h2><span data-i18n="welcomeH4a">PDFs that break</span> <span class="accent a-blue" data-i18n="welcomeH4b">between</span> <span data-i18n="welcomeH4c">lines. Never through them.</span></h2>
+      <p class="sub" data-i18n="welcomeP4">Full image, or Letter, Legal and A4 with smart page
+        breaks and clickable links.</p>
+    </div>
+    <div class="scene anim" data-scene>
+      <div class="num">05</div>
+      <h2><span data-i18n="welcomeH5a">Nothing ever leaves</span> <span class="accent a-green" data-i18n="welcomeH5b">this browser.</span></h2>
+      <p class="sub" data-i18n="welcomeP5">No account. No analytics. No tracking. Every
+        capture stays on this device.</p>
+    </div>
+
+    <div class="scene anim s-final" data-final>
+      <img class="mark" src="../shared/logo.svg" alt="" />
+      <h2 data-i18n="welcomeH6">You're in good company.</h2>
+      <p class="sub"><span data-i18n="welcomePress">Press</span> <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>K</kbd> <span data-i18n="welcomeShortcutTail">on any
+        page, or click the extension icon.</span><br /><span data-i18n="welcomeTryNow">Try it right now, on this
+        very page.</span></p>
+      <div class="acct-offer" id="acctOffer">
+        <button id="wSignIn" class="pill primary" type="button" data-i18n="welcomeSignIn">Sign in with Google or email</button>
+        <button id="wLater" class="pill" type="button" data-i18n="welcomeLater">Later</button>
+        <small data-i18n="welcomeSignInHint">Optional. An account lets Pro follow you between browsers.</small>
+      </div>
+    </div>
+
+    <div id="burst"></div>
+    <div id="flash"></div>
+    <div class="skip-hint" id="skipHint" data-i18n="welcomeSkip">Click anywhere to skip</div>
+  </div>
+  <script src="../content/page.js"></script>
+  <script type="module" src="welcome.js"></script>
+</body>
+</html>

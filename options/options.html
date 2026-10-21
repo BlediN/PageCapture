@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Settings - FullPage Capture</title>
+  <link rel="stylesheet" href="../shared/theme.css" />
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body data-page="options">
+  <header>
+    <img src="../shared/logo.svg" alt="" class="logo" />
+    <span class="htitle" data-i18n="optHeading">Settings</span>
+    <a href="#" id="btn-report" class="pill">
+      <svg class="ic sm"><use href="../shared/icons.svg#message-square-warning" /></svg><span data-i18n="actionReport">Report an issue</span></a>
+    <a href="../files/files.html" class="pill">
+      <svg class="ic sm"><use href="../shared/icons.svg#folder-open" /></svg><span data-i18n="filesHeading">Your captures</span></a>
+  </header>
+  <main>
+    <section id="acctSec">
+      <h2><svg class="ic"><use href="../shared/icons.svg#star" /></svg><span data-i18n="optSecAccount">Account &amp; Pro</span></h2>
+      <div class="row" id="acctOutRow">
+        <div class="lbl"><span data-i18n="acctNotSignedIn">Not signed in</span>
+          <small data-i18n="acctSignInHint">Sign in with Google or an email link to use Pro in this browser. The free version works without an account.</small></div>
+        <button id="acctSignIn" class="pill primary" type="button" data-i18n="acctSignIn">Sign in</button>
+      </div>
+      <div class="row" id="acctInRow" hidden>
+        <div class="lbl"><span id="acctEmail"></span>
+          <small id="acctStatus" class="tone-free"></small></div>
+        <span class="dir-wrap">
+          <a id="acctGetPro" class="pill primary" href="#" target="_blank" rel="noopener" data-i18n="acctGetPro">Get Pro</a>
+          <a id="acctManage" class="pill" href="#" target="_blank" rel="noopener" data-i18n="acctManage">Manage account</a>
+          <button id="acctSignOut" class="pill" type="button" data-i18n="acctSignOut">Sign out</button>
+        </span>
+      </div>
+      <div id="acctMsg" class="notice" hidden>
+        <svg class="ic"><use href="../shared/icons.svg#info" /></svg>
+        <span id="acctMsgText"></span>
+      </div>
+    </section>
+    <section id="evSec">
+      <h2><svg class="ic"><use href="../shared/icons.svg#star" /></svg><span data-i18n="optSecPro">Pro features</span></h2>
+      <div class="row">
+        <div class="lbl"><span><span data-i18n="optEvidence">Evidence mode</span> <span class="pro-tag" data-i18n="optProTag">Pro</span></span>
+          <small data-i18n="optEvidenceHint">Every export gets a band with the page address, the exact time with its time zone, and a SHA-256 checksum of the pixels; the same facts are written into the file. Images are saved as PNG and PDF pages losslessly, so the checksum can be verified later at fullpagecapture.net/verify. Replaces the PDF address bar.</small></div>
+        <label class="toggle"><input id="evidence" type="checkbox" /><span></span></label>
+      </div>
+      <div class="row">
+        <div class="lbl"><span><span data-i18n="optPdfText">Searchable PDF</span> <span class="pro-tag" data-i18n="optProTag">Pro</span></span>
+          <small data-i18n="optPdfTextHint">PDF exports carry the words of the page over the picture, so the text can be selected, searched and copied. Nothing is visible on the page itself.</small></div>
+        <label class="toggle"><input id="pdfText" type="checkbox" /><span></span></label>
+      </div>
+      <div class="row">
+        <div class="lbl"><span><span data-i18n="optBatch">Batch capture</span> <span class="pro-tag" data-i18n="optProTag">Pro</span></span>
+          <small data-i18n="optBatchHint">A list of addresses captured in one go, on its own page. Open it from here or from your captures.</small></div>
+        <a id="openBatch" class="pill" href="../batch/batch.html" target="_blank" rel="noopener" data-i18n="optBatchOpen">Open batch capture</a>
+      </div>
+      <div class="row" id="cloudPickRow" hidden>
+        <div class="lbl"><span><span data-i18n="cloudProviderLabel">Where captures go</span> <span class="pro-tag" data-i18n="optProTag">Pro</span></span>
+          <small data-i18n="cloudProviderHint">One at a time. Captures already sent stay where they are.</small></div>
+        <div class="seg" id="cloudSeg"></div>
+      </div>
+      <div class="row" id="cloudRow" hidden>
+        <div class="lbl"><span><span data-i18n="cloudOptTitle">Save to the cloud</span> <span class="pro-tag" data-i18n="optProTag">Pro</span></span>
+          <small data-i18n="cloudOptBody">Send a capture straight to a "FullPage Capture" folder in your own cloud storage.</small>
+          <small id="cloudScope"></small>
+          <small id="cloudWho" class="cloud-who" hidden></small></div>
+        <button id="cloudBtn" class="pill" type="button" data-i18n="cloudConnect">Connect</button>
+      </div>
+      <div id="evidencePro" class="notice" hidden>
+        <svg class="ic"><use href="../shared/icons.svg#star" /></svg>
+        <span data-i18n="optEvidenceProNote">Evidence mode is part of Pro.</span>
+        <a id="evidenceGetPro" class="pill primary" href="#" target="_blank" rel="noopener" data-i18n="acctGetPro">Get Pro</a>
+      </div>
+    </section>
+    <section>
+      <h2><svg class="ic"><use href="../shared/icons.svg#camera" /></svg><span data-i18n="optSecCapturing">Capturing</span></h2>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optChooser">Ask what to capture</span>
+          <small data-i18n="optChooserHint">Clicking the icon first offers Whole page or Part of the page. Off: one click captures the whole page.</small></div>
+        <label class="toggle"><input id="chooser" type="checkbox" /><span></span></label>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optFileType">File type</span>
+          <small data-i18n="optFileTypeHint">For the image download buttons</small></div>
+        <div class="seg" id="fmtSeg">
+          <button data-fmt="png">PNG</button>
+          <button data-fmt="jpg">JPEG</button>
+          <button data-fmt="pdf">PDF</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optDelay">Pause between scrolls</span>
+          <small data-i18n="optDelayHint">Raise it for pages with slow lazy-loading</small></div>
+        <select id="delay">
+          <option value="0" data-i18n="optDelayNone">None</option>
+          <option value="150" data-i18n="optDelay150">150 ms (default)</option>
+          <option value="300">300 ms</option>
+          <option value="600">600 ms</option>
+          <option value="1000">1 s</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optImgWait">Wait for images</span>
+          <small data-i18n="optImgWaitHint">Pause each frame until lazy-loading images finish. Turn on
+            if screenshots show blurry or empty images</small></div>
+        <select id="imgWait">
+          <option value="off" data-i18n="optImgWaitOff">Off</option>
+          <option value="short" data-i18n="optImgWaitShort">Short, up to 1.5 s per frame (default)</option>
+          <option value="full" data-i18n="optImgWaitFull">Full, up to 8 s for large images</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optFolder">Save into a folder</span>
+          <small data-i18n="optFolderHint">A subfolder under Downloads. Leave empty to use Downloads itself</small></div>
+        <span class="dir-wrap">
+          <input id="dir" type="text" placeholder="screenshots" data-i18n-placeholder="optFolderPlaceholder" />
+          <button id="dirSave" class="pill" type="button" data-i18n="actionSave">Save</button>
+        </span>
+      </div>
+      <div id="dirPerm" class="notice" hidden>
+        <svg class="ic"><use href="../shared/icons.svg#info" /></svg>
+        <span data-i18n="optDirPermNote">Saving into a folder needs the Downloads permission. Allow it
+          to make the folder take effect.</span>
+        <button id="grantDownloads" class="pill" data-i18n="optAllow">Allow</button>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optSaveAs">Ask where to save</span>
+          <small data-i18n="optSaveAsHint">A save-as dialog for single files. Skipped for batches</small></div>
+        <label class="toggle"><input id="saveAs" type="checkbox" /><span></span></label>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optAutoDownload">Auto-download files</span>
+          <small data-i18n="optAutoDownloadHint">Automatically download your screenshot as an image instead of
+            opening it in a new window. The capture tab will not open. You can
+            return here by right-clicking the extension icon and selecting
+            Options.</small>
+          <small class="warn" data-i18n="optAutoDownloadWarn">Not compatible with the browser setting 'Ask where
+            to save each file before downloading'. If that is enabled too, the
+            save dialog can show errors.</small></div>
+        <label class="toggle"><input id="autoDownload" type="checkbox" /><span></span></label>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optCopyFit">Shrink copies for Google Docs</span>
+          <small data-i18n="optCopyFitHint">Clipboard copies above 25,000,000 px are resized automatically</small></div>
+        <label class="toggle"><input id="copyFit" type="checkbox" /><span></span></label>
+      </div>
+    </section>
+    <section>
+      <h2><svg class="ic"><use href="../shared/icons.svg#file-text" /></svg><span data-i18n="optSecPdf">PDF</span></h2>
+      <div class="tiles" id="pdfTiles">
+        <label class="tile">
+          <input type="radio" name="pdfFormat" value="one" />
+          <svg viewBox="0 0 44 44" class="diagram">
+            <rect class="pg" x="15" y="5" width="14" height="34" rx="3" />
+            <path d="M19 12h6M19 17h6M19 22h4" />
+          </svg>
+          <span class="t-txt"><span class="t-name" data-i18n="optPdfFull">Full image</span>
+            <small data-i18n="optPdfFullHint">One page, sized to the screenshot</small></span>
+          <span class="t-check"><svg class="ic"><use href="../shared/icons.svg#check" /></svg></span>
+        </label>
+        <label class="tile">
+          <input type="radio" name="pdfFormat" value="letter" />
+          <svg viewBox="0 0 44 44" class="diagram">
+            <rect x="8" y="7" width="18" height="23" rx="3" />
+            <rect class="pg" x="17" y="14" width="18" height="23" rx="3" />
+            <path d="M21 21h10M21 26h10M21 31h6" />
+          </svg>
+          <span class="t-txt"><span class="t-name" data-i18n="optPdfLetter">US Letter</span>
+            <small data-i18n="optPdfLetterHint">8.5 x 11 in</small></span>
+          <span class="t-check"><svg class="ic"><use href="../shared/icons.svg#check" /></svg></span>
+        </label>
+        <label class="tile">
+          <input type="radio" name="pdfFormat" value="legal" />
+          <svg viewBox="0 0 44 44" class="diagram">
+            <rect x="9" y="4" width="16" height="27" rx="3" />
+            <rect class="pg" x="18" y="12" width="16" height="27" rx="3" />
+            <path d="M22 19h8M22 24h8M22 29h8M22 34h5" />
+          </svg>
+          <span class="t-txt"><span class="t-name" data-i18n="optPdfLegal">US Legal</span>
+            <small data-i18n="optPdfLegalHint">8.5 x 14 in</small></span>
+          <span class="t-check"><svg class="ic"><use href="../shared/icons.svg#check" /></svg></span>
+        </label>
+        <label class="tile">
+          <input type="radio" name="pdfFormat" value="a4" />
+          <svg viewBox="0 0 44 44" class="diagram">
+            <rect x="10" y="7" width="16" height="23" rx="3" />
+            <rect class="pg" x="18" y="14" width="16" height="23" rx="3" />
+            <path d="M22 21h8M22 26h8M22 31h5" />
+          </svg>
+          <span class="t-txt"><span class="t-name" data-i18n="optPdfA4">A4</span>
+            <small data-i18n="optPdfA4Hint">210 x 297 mm</small></span>
+          <span class="t-check"><svg class="ic"><use href="../shared/icons.svg#check" /></svg></span>
+        </label>
+      </div>
+      <div class="row" id="pdfOrientRow">
+        <div class="lbl"><span data-i18n="optOrientation">Orientation</span>
+          <small data-i18n="optOrientationHint">Paper orientation for the page sizes above</small></div>
+        <div class="seg" id="orientSeg">
+          <button data-orient="portrait" data-i18n="optPortrait">Portrait</button>
+          <button data-orient="landscape" data-i18n="optLandscape">Landscape</button>
+        </div>
+      </div>
+      <div class="row" id="pdfSmartRow">
+        <div class="lbl"><span data-i18n="optSmartSplit">Smart page splitting</span>
+          <small data-i18n="optSmartSplitHint">Move each page break to a gap between lines so text is never cut in half</small></div>
+        <label class="toggle"><input id="pdfSmartSplit" type="checkbox" /><span></span></label>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optLinks">Clickable links</span>
+          <small data-i18n="optLinksHint">Links on the page stay clickable in the PDF</small></div>
+        <label class="toggle"><input id="pdfLinks" type="checkbox" /><span></span></label>
+      </div>
+      <div class="row">
+        <div class="lbl"><span data-i18n="optUrlDate">Stamp the page address and date on top</span>
+          <small data-i18n="optUrlDateHint">The page URL and capture time on the first PDF page</small></div>
+        <label class="toggle"><input id="pdfUrlDate" type="checkbox" /><span></span></label>
+      </div>
+      <div class="row" id="pdfDateFmtRow" hidden>
+        <div class="lbl"><span data-i18n="optDateFmt">Date format</span>
+          <small data-i18n="optDateFmtHint">How the capture date appears in the bar, or hide it</small></div>
+        <select id="pdfDateFmt">
+          <option value="date" data-i18n="dateFmtDate">Date</option>
+          <option value="datetime" data-i18n="dateFmtDateTime">Date &amp; time</option>
+          <option value="iso">ISO</option>
+          <option value="none" data-i18n="dateFmtNone">No date</option>
+        </select>
+      </div>
+    </section>
+    <p id="saved" hidden>
+      <svg class="ic sm"><use href="../shared/icons.svg#check" /></svg><span data-i18n="optSaved">Saved</span></p>
+  </main>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

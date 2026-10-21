@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "Anuluj"
+   },
+   "actionDelete": {
+      "message": "Usuń"
+   },
+   "actionEdit": {
+      "message": "Edytuj"
+   },
+   "actionFiles": {
+      "message": "Pliki"
+   },
+   "actionOpen": {
+      "message": "Otwórz"
+   },
+   "actionPrint": {
+      "message": "Drukuj"
+   },
+   "actionRate": {
+      "message": "Oceń FullPage Capture"
+   },
+   "actionReport": {
+      "message": "Zgłoś problem"
+   },
+   "actionSave": {
+      "message": "Zapisz"
+   },
+   "actionSettings": {
+      "message": "Ustawienia"
+   },
+   "appDesc": {
+      "message": "Długi, przewijany zrzut ekranu całej strony w Chrome. Z edytorem adnotacji."
+   },
+   "appName": {
+      "message": "FullPage Capture - Zrzut Ekranu Całej Strony"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "Usunąć zrzuty ekranu: $1?\n(Tej operacji nie można cofnąć.)"
+   },
+   "confirmDeleteOne": {
+      "message": "Usunąć ten zrzut ekranu?\n(Tej operacji nie można cofnąć.)"
+   },
+   "copiedToClipboard": {
+      "message": "Skopiowano do schowka"
+   },
+   "copyFailed": {
+      "message": "Nie udało się skopiować: $1"
+   },
+   "createdPdf": {
+      "message": "PDF gotowy"
+   },
+   "creatingPdf": {
+      "message": "Tworzenie pliku PDF:"
+   },
+   "dateFmtDate": {
+      "message": "Data"
+   },
+   "dateFmtDateTime": {
+      "message": "Data i godzina"
+   },
+   "dateFmtNone": {
+      "message": "Bez daty"
+   },
+   "edApplyCrop": {
+      "message": "Zastosuj kadrowanie"
+   },
+   "edArrowheads": {
+      "message": "Groty strzałki"
+   },
+   "edBack": {
+      "message": "Wróć do zrzutu"
+   },
+   "edBrand": {
+      "message": "Adnotacje"
+   },
+   "edBringForward": {
+      "message": "Przesuń do przodu"
+   },
+   "edCancelCrop": {
+      "message": "Anuluj kadrowanie"
+   },
+   "edClose": {
+      "message": "Zamknij"
+   },
+   "edColor": {
+      "message": "Kolor"
+   },
+   "edConfirmDelete": {
+      "message": "Usunąć ten zrzut ekranu?"
+   },
+   "edCopiedResized": {
+      "message": "Skopiowano (zmniejszono do $WIDTH$x$HEIGHT$ ze względu na ograniczenia schowka)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Kopiuj"
+   },
+   "edCopyLayer": {
+      "message": "Kopiuj warstwę"
+   },
+   "edCopyTitle": {
+      "message": "Kopiuj do schowka"
+   },
+   "edCornerRadius": {
+      "message": "Promień narożników"
+   },
+   "edCustomColor": {
+      "message": "Własny kolor"
+   },
+   "edDeleteCapture": {
+      "message": "Usuń zrzut ekranu"
+   },
+   "edDeleteSel": {
+      "message": "Usuń zaznaczone"
+   },
+   "edDlImage": {
+      "message": "Pobierz obraz"
+   },
+   "edDuplicateSel": {
+      "message": "Powiel zaznaczone"
+   },
+   "edExport": {
+      "message": "Eksportuj"
+   },
+   "edExportSaveAs": {
+      "message": "Eksportuj z wyborem miejsca"
+   },
+   "edFasterMove": {
+      "message": "Szybkie przesuwanie"
+   },
+   "edFill": {
+      "message": "Wypełnienie"
+   },
+   "edFontSize": {
+      "message": "Rozmiar tekstu"
+   },
+   "edHeadBoth": {
+      "message": "Oba końce"
+   },
+   "edHeadOne": {
+      "message": "Jeden koniec"
+   },
+   "edHelp": {
+      "message": "Pomoc"
+   },
+   "edHelpDocument": {
+      "message": "Dokument"
+   },
+   "edHelpLayers": {
+      "message": "Warstwy"
+   },
+   "edHelpShapes": {
+      "message": "Wstawianie kształtów"
+   },
+   "edHelpTools": {
+      "message": "Narzędzia"
+   },
+   "edKeyMouseArrows": {
+      "message": "Mysz lub strzałki"
+   },
+   "edKeyOorE": {
+      "message": "O lub E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Shift + strzałki"
+   },
+   "edLayersEmpty": {
+      "message": "Na razie pusto. Wybierz narzędzie z paska."
+   },
+   "edMode": {
+      "message": "Tryb"
+   },
+   "edModeBlur": {
+      "message": "Rozmycie"
+   },
+   "edModePixel": {
+      "message": "Pikselizacja"
+   },
+   "edMore": {
+      "message": "Więcej"
+   },
+   "edMoveLayer": {
+      "message": "Przesuń warstwę"
+   },
+   "edNoFill": {
+      "message": "Bez wypełnienia"
+   },
+   "edNotFoundBody": {
+      "message": "Nie znaleziono zrzutu ekranu. Mógł zostać usunięty."
+   },
+   "edNotFoundTitle": {
+      "message": "Nie znaleziono zrzutu - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Obiekt"
+   },
+   "edObjects": {
+      "message": "Obiekty"
+   },
+   "edPasteLayer": {
+      "message": "Wklej warstwę"
+   },
+   "edPropsEmpty": {
+      "message": "Zaznacz obiekt, aby zmienić jego styl."
+   },
+   "edRedo": {
+      "message": "Ponów (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Ponów"
+   },
+   "edSaveImage": {
+      "message": "Zapisz obraz"
+   },
+   "edSendBackward": {
+      "message": "Przesuń do tyłu"
+   },
+   "edShortcuts": {
+      "message": "Skróty klawiszowe"
+   },
+   "edThickness": {
+      "message": "Grubość"
+   },
+   "edToggleCrop": {
+      "message": "Tryb kadrowania"
+   },
+   "edToggleUrlDate": {
+      "message": "Pokaż lub ukryj adres i datę"
+   },
+   "edToolArrow": {
+      "message": "Strzałka (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Strzałka"
+   },
+   "edToolBadge": {
+      "message": "Numerowany znacznik (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Numerowany znacznik"
+   },
+   "edToolBrush": {
+      "message": "Pędzel (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Pędzel"
+   },
+   "edToolCrop": {
+      "message": "Kadrowanie (C)"
+   },
+   "edToolEllipse": {
+      "message": "Elipsa (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Elipsa"
+   },
+   "edToolHighlight": {
+      "message": "Zakreślacz (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Zakreślacz"
+   },
+   "edToolLine": {
+      "message": "Linia (L)"
+   },
+   "edToolLineShort": {
+      "message": "Linia"
+   },
+   "edToolOvalShort": {
+      "message": "Owal"
+   },
+   "edToolPen": {
+      "message": "Ołówek (P)"
+   },
+   "edToolPenShort": {
+      "message": "Ołówek"
+   },
+   "edToolRect": {
+      "message": "Prostokąt (R)"
+   },
+   "edToolRectShort": {
+      "message": "Prostokąt"
+   },
+   "edToolRedact": {
+      "message": "Rozmycie (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Rozmycie"
+   },
+   "edToolSelect": {
+      "message": "Zaznaczanie (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Zaznaczanie"
+   },
+   "edToolText": {
+      "message": "Tekst (T)"
+   },
+   "edToolTextShort": {
+      "message": "Tekst"
+   },
+   "edTplMac": {
+      "message": "Przeglądarka Mac"
+   },
+   "edTplNone": {
+      "message": "Brak"
+   },
+   "edTplWin": {
+      "message": "Przeglądarka Windows"
+   },
+   "edUndo": {
+      "message": "Cofnij (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Cofnij"
+   },
+   "filesClearSelection": {
+      "message": "Wyczyść zaznaczenie"
+   },
+   "filesDeselectAll": {
+      "message": "Odznacz wszystko"
+   },
+   "filesEmpty": {
+      "message": "Nie ma jeszcze zrzutów ekranu. Kliknij ikonę rozszerzenia na dowolnej stronie, aby zrobić pierwszy."
+   },
+   "filesHeading": {
+      "message": "Twoje zrzuty ekranu"
+   },
+   "filesLoadFailed": {
+      "message": "Nie udało się wczytać: $1"
+   },
+   "filesSaveAll": {
+      "message": "Zapisz wszystkie: $1"
+   },
+   "filesSaveBoth": {
+      "message": "Zapisz oba"
+   },
+   "filesSaveFailed": {
+      "message": "Nie udało się zapisać: $1."
+   },
+   "filesSavedCount": {
+      "message": "Zapisane na tym urządzeniu: $1"
+   },
+   "filesSearch": {
+      "message": "Szukaj"
+   },
+   "filesSelect": {
+      "message": "Zaznacz"
+   },
+   "filesSelectAll": {
+      "message": "Zaznacz wszystko"
+   },
+   "filesSelectedCount": {
+      "message": "Zaznaczone: $1"
+   },
+   "optAllow": {
+      "message": "Zezwól"
+   },
+   "optAutoDownload": {
+      "message": "Automatycznie pobieraj pliki"
+   },
+   "optAutoDownloadHint": {
+      "message": "Automatycznie pobieraj zrzut ekranu jako obraz zamiast otwierać go w nowym oknie. Karta ze zrzutem się nie otworzy. Możesz tu wrócić, klikając prawym przyciskiem ikonę rozszerzenia i wybierając Opcje."
+   },
+   "optAutoDownloadWarn": {
+      "message": "Niezgodne z ustawieniem przeglądarki 'Pytaj, gdzie zapisać każdy plik przed pobraniem'. Jeśli jest ono również włączone, okno zapisu może pokazywać błędy."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Pytaj, co przechwycić"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Kliknięcie ikony najpierw proponuje Całą stronę lub Część strony. Wyłączone: jedno kliknięcie przechwytuje całą stronę."
+   },
+   "optCopyFit": {
+      "message": "Zmniejszaj kopie na potrzeby Google Docs"
+   },
+   "optCopyFitHint": {
+      "message": "Kopie do schowka powyżej 25 000 000 pikseli są zmniejszane automatycznie"
+   },
+   "optDateFmt": {
+      "message": "Format daty"
+   },
+   "optDateFmtHint": {
+      "message": "Jak data wygląda na pasku albo ukryj ją"
+   },
+   "optDelay": {
+      "message": "Przerwa między przewinięciami"
+   },
+   "optDelay150": {
+      "message": "150 ms (domyślnie)"
+   },
+   "optDelayHint": {
+      "message": "Zwiększ na stronach, które wolno doczytują treść"
+   },
+   "optDelayNone": {
+      "message": "Brak"
+   },
+   "optDirPermNote": {
+      "message": "Zapis do folderu wymaga uprawnienia do pobierania. Zezwól na nie, aby folder zadziałał."
+   },
+   "optFileType": {
+      "message": "Typ pliku"
+   },
+   "optFileTypeHint": {
+      "message": "Dla przycisku Zapisz i pobierania automatycznego"
+   },
+   "optFolder": {
+      "message": "Zapisuj do folderu"
+   },
+   "optFolderHint": {
+      "message": "Podfolder w katalogu Pobrane. Zostaw puste, aby zapisywać prosto do Pobranych"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Ustawienia"
+   },
+   "optImgWait": {
+      "message": "Czekaj na obrazy"
+   },
+   "optImgWaitFull": {
+      "message": "Pełne, do 8 s przy dużych obrazach"
+   },
+   "optImgWaitHint": {
+      "message": "Czekaj na każdej klatce, aż obrazy się doczytają. Włącz, jeśli na zrzutach są rozmyte lub puste obrazy"
+   },
+   "optImgWaitOff": {
+      "message": "Wyłączone"
+   },
+   "optImgWaitShort": {
+      "message": "Krótkie, do 1,5 s na klatkę (domyślnie)"
+   },
+   "optLandscape": {
+      "message": "Pozioma"
+   },
+   "optLinks": {
+      "message": "Klikalne linki"
+   },
+   "optLinksHint": {
+      "message": "Linki ze strony pozostają klikalne w pliku PDF"
+   },
+   "optOrientation": {
+      "message": "Orientacja"
+   },
+   "optOrientationHint": {
+      "message": "Orientacja strony dla formatów powyżej"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "Cały obraz"
+   },
+   "optPdfFullHint": {
+      "message": "Jedna strona w rozmiarze zrzutu"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8,5 x 14 cala"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8,5 x 11 cala"
+   },
+   "optPortrait": {
+      "message": "Pionowa"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Pytaj, gdzie zapisać"
+   },
+   "optSaveAsHint": {
+      "message": "Okno zapisu dla pojedynczych plików. Przy kilku jest pomijane"
+   },
+   "optSaved": {
+      "message": "Zapisano"
+   },
+   "optSecCapturing": {
+      "message": "Zrzuty ekranu"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "Inteligentny podział na strony"
+   },
+   "optSmartSplitHint": {
+      "message": "Przenoś każdy podział strony w odstęp między wierszami, żeby tekst nigdy nie był przecięty"
+   },
+   "optUrlDate": {
+      "message": "Umieszczaj adres strony i datę u góry"
+   },
+   "optUrlDateHint": {
+      "message": "Adres strony i godzina zrzutu na pierwszej stronie pliku PDF"
+   },
+   "pageTitle_editor": {
+      "message": "Adnotacje - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Pliki - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Ustawienia - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Zrzut ekranu - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Witamy - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Części: $1"
+   },
+   "pdfFailed": {
+      "message": "Nie udało się utworzyć pliku PDF: $1"
+   },
+   "popupBlockedBody": {
+      "message": "Strony przeglądarki, takie jak ustawienia czy Chrome Web Store, są chronione, więc żadne rozszerzenie nie może ich zarejestrować. Na zwykłych stronach wszystko działa."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome chroni tę stronę"
+   },
+   "popupCannotAccess": {
+      "message": "Brak dostępu do tej strony."
+   },
+   "popupCanvasWide": {
+      "message": "Szerokość $1 pikseli (canvas)"
+   },
+   "popupCaptureFailed": {
+      "message": "Nie udało się zrobić zrzutu."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "Nie udało się zarejestrować tej strony: $1"
+   },
+   "popupCapturing": {
+      "message": "Tworzenie zrzutu..."
+   },
+   "popupCapturingTitle": {
+      "message": "Tworzenie zrzutu strony"
+   },
+   "popupChooseTitle": {
+      "message": "Co przechwycić?"
+   },
+   "popupClose": {
+      "message": "Zamknij"
+   },
+   "popupConnectionLost": {
+      "message": "Utracono połączenie ze stroną."
+   },
+   "popupCreatingPdf": {
+      "message": "Tworzenie pliku PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "Obejrzyj demo"
+   },
+   "popupDownloading": {
+      "message": "Pobieranie..."
+   },
+   "popupFileUrlHint": {
+      "message": "W przypadku stron file:// włącz 'Zezwalaj na dostęp do adresów URL plików' w szczegółach rozszerzenia."
+   },
+   "popupFrameEarly": {
+      "message": "Nowość w Pro: zrób zrzut tylko potrzebnej części strony, w całości i z przewijaniem."
+   },
+   "popupFrameTitle": {
+      "message": "Tworzenie zrzutu ramki"
+   },
+   "popupFrameUnreachable": {
+      "message": "Rozszerzenie nie ma dostępu do tej ramki."
+   },
+   "popupHowItWorks": {
+      "message": "Jak to działa"
+   },
+   "popupHowStep1": {
+      "message": "Wskaż dowolną część strony, a zostanie obramowana."
+   },
+   "popupHowStep2": {
+      "message": "wybierz większą lub mniejszą część."
+   },
+   "popupHowStep3": {
+      "message": "Kliknij, a przewiniemy ją i zrobimy zrzut całości, także tego, co ukryte niżej."
+   },
+   "popupLocalFile": {
+      "message": "To jest plik lokalny. Aby go zarejestrować, włącz 'Zezwalaj na dostęp do adresów URL plików' dla tego rozszerzenia i spróbuj ponownie."
+   },
+   "popupModeFrame": {
+      "message": "Część strony"
+   },
+   "popupModeFrameHint": {
+      "message": "Wczesny dostęp. Kliknij ramkę, panel lub dowolny obszar – zrzut obejmie tylko to."
+   },
+   "popupModePage": {
+      "message": "Cała strona"
+   },
+   "popupModePageHint": {
+      "message": "Przewija stronę do końca i łączy wszystkie ekrany w jeden obraz."
+   },
+   "popupNoActiveTab": {
+      "message": "Brak aktywnej karty."
+   },
+   "popupNoFrames": {
+      "message": "Na tej stronie nie ma nic do wybrania."
+   },
+   "popupOpenSettings": {
+      "message": "Otwórz ustawienia rozszerzenia"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "Tylko część strony?"
+   },
+   "popupPauseHint": {
+      "message": "zamknij, aby wstrzymać, otwórz ponownie, aby wznowić"
+   },
+   "popupPauseTitle": {
+      "message": "Pauza. Zamknięcie wstrzymuje, ponowne otwarcie wznawia"
+   },
+   "popupPdfFailed": {
+      "message": "Nie udało się utworzyć pliku PDF. Zrzut jest zapisany w Plikach."
+   },
+   "popupPdfInvalid": {
+      "message": "Nie udało się odczytać tego pliku jako PDF."
+   },
+   "popupPdfLoading": {
+      "message": "Wczytywanie pliku PDF..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(strony 1–$1 z $2)"
+   },
+   "popupPdfPassword": {
+      "message": "Ten plik PDF jest chroniony hasłem i nie można zrobić jego zrzutu."
+   },
+   "popupPdfReadFailed": {
+      "message": "Nie udało się odczytać pliku PDF: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Renderowanie strony $1 z $2..."
+   },
+   "popupPickFrame": {
+      "message": "Kliknij ramkę na stronie"
+   },
+   "popupPickLost": {
+      "message": "Wybrany element zniknął ze strony. Wybierz go ponownie."
+   },
+   "popupPickStartFailed": {
+      "message": "Nie udało się rozpocząć wybierania na tej stronie. Spróbuj ponownie."
+   },
+   "popupPreparing": {
+      "message": "Przygotowywanie..."
+   },
+   "popupReadImageFailed": {
+      "message": "Nie udało się odczytać obrazu: $1"
+   },
+   "popupResuming": {
+      "message": "Wznawianie"
+   },
+   "popupSaving": {
+      "message": "Zapisywanie..."
+   },
+   "popupScrolling": {
+      "message": "Przewijanie"
+   },
+   "popupSelfReload": {
+      "message": "Ta strona przeładowuje się, gdy tylko coś się na niej zmieni, dlatego nie udało się ukończyć zrzutu całej strony."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Ustaw skróty klawiszowe"
+   },
+   "popupShortcut": {
+      "message": "Skrót: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "Strona nie mieści się w jednym obrazie, więc zostanie podzielona na części: $1. Można pobrać je wszystkie naraz."
+   },
+   "popupStalled": {
+      "message": "Zrzut się zatrzymał ($1). Odśwież stronę i spróbuj ponownie albo zgłoś problem."
+   },
+   "popupStamping": {
+      "message": "Dodawanie pieczęci dowodowej..."
+   },
+   "popupStopCapture": {
+      "message": "Zatrzymaj"
+   },
+   "popupTryDemo": {
+      "message": "Wypróbuj na przykładowej stronie"
+   },
+   "popupWarmingUp": {
+      "message": "Wczytywanie treści"
+   },
+   "proBuyYear": {
+      "message": "Przejdź na Pro"
+   },
+   "proCloudBody": {
+      "message": "Zapisywanie w chmurze to funkcja Pro. Zapisywanie na komputerze pozostaje bezpłatne."
+   },
+   "proExportBody": {
+      "message": "Zapisywanie zrzutu z Twoimi zmianami to funkcja Pro. Oryginalny zrzut strony nadal możesz bezpłatnie zapisywać, kopiować i drukować."
+   },
+   "proExportBuy": {
+      "message": "Rozpocznij okres próbny"
+   },
+   "proExportF1": {
+      "message": "Twoje zmiany w zapisanym pliku"
+   },
+   "proExportF2": {
+      "message": "PDF z wyszukiwaniem i kopiowaniem tekstu"
+   },
+   "proExportF3": {
+      "message": "Adres, godzina i suma kontrolna na zrzucie"
+   },
+   "proExportF4": {
+      "message": "Zrzuty całej listy stron za jednym razem"
+   },
+   "proExportF5": {
+      "message": "Zapis prosto na Twój Google Drive"
+   },
+   "proExportFine": {
+      "message": "Bezpieczna płatność. 48-godzinna gwarancja zwrotu pieniędzy (14 dni w UE i Wielkiej Brytanii). Cena w Twoim kraju może się różnić."
+   },
+   "proExportLoading": {
+      "message": "Ładowanie bezpiecznej strony płatności..."
+   },
+   "proExportNo": {
+      "message": "Nie teraz"
+   },
+   "proExportOpenTab": {
+      "message": "Otwórz w nowej karcie"
+   },
+   "proExportRenew": {
+      "message": "Po 7 dniach – 19 $$ rocznie. Anuluj w dowolnym momencie."
+   },
+   "proExportSkipped": {
+      "message": "Nie zapisano zrzutów ze zmianami: $1. Ich zapisywanie to funkcja Pro."
+   },
+   "proExportSlow": {
+      "message": "Strona płatności ładuje się dłużej niż zwykle."
+   },
+   "proExportTitle": {
+      "message": "Aby kontynuować, rozpocznij okres próbny Pro"
+   },
+   "proExportTitleYear": {
+      "message": "Aby kontynuować, przejdź na Pro"
+   },
+   "proExportTrial": {
+      "message": "za 7-dniowy okres próbny"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Dziś nic nie płacisz"
+   },
+   "proOfferTitle": {
+      "message": "Co daje Pro"
+   },
+   "proTryCta": {
+      "message": "Wypróbuj Pro"
+   },
+   "proYearNote": {
+      "message": "Okres próbny został już wykorzystany"
+   },
+   "proYearPer": {
+      "message": "rocznie"
+   },
+   "rateDoNotAsk": {
+      "message": "Nie pytaj ponownie"
+   },
+   "rateNotNow": {
+      "message": "Nie teraz"
+   },
+   "rateSkip": {
+      "message": "Pomiń"
+   },
+   "rateSorry": {
+      "message": "Przykro nam"
+   },
+   "rateStar1": {
+      "message": "Fatalnie"
+   },
+   "rateStar2": {
+      "message": "Słabo"
+   },
+   "rateStar3": {
+      "message": "Może być"
+   },
+   "rateStar4": {
+      "message": "Dobrze"
+   },
+   "rateStar5": {
+      "message": "Świetnie"
+   },
+   "rateTakenCount": {
+      "message": "Zrzutów ekranu do tej pory: $1. Jeśli okazało się przydatne, krótka opinia znaczyłaby wiele, a jeśli nie, to zupełnie w porządku."
+   },
+   "rateTellUs": {
+      "message": "Napisz nam"
+   },
+   "rateText1": {
+      "message": "Oceń FullPage Capture i napisz, co o nim myślisz."
+   },
+   "rateText2": {
+      "message": "Krótka opinia pomaga innym je znaleźć. A jeśli wolisz tego nie robić, żaden problem."
+   },
+   "rateText3": {
+      "message": "Jeśli rozszerzenie na to zasłużyło, krótka opinia bardzo by pomogła. Tak czy inaczej, dziękujemy za korzystanie."
+   },
+   "rateTitle1": {
+      "message": "Masz chwilę?"
+   },
+   "rateTitle2": {
+      "message": "Nadal korzystasz z FullPage Capture?"
+   },
+   "rateTitle3": {
+      "message": "Ostatnia prośba"
+   },
+   "reportEmpty": {
+      "message": "Opisz problem w kilku słowach."
+   },
+   "reportFailed": {
+      "message": "Nie udało się wysłać zgłoszenia. Sprawdź połączenie i spróbuj ponownie."
+   },
+   "reportLimited": {
+      "message": "To limit zgłoszeń na dziś. Napisz do nas e-mailem."
+   },
+   "reportNotify": {
+      "message": "Powiadom mnie e-mailem, gdy zrzut tej strony zacznie wychodzić poprawnie"
+   },
+   "reportPage": {
+      "message": "Link do strony"
+   },
+   "reportPageHint": {
+      "message": "Wklej tutaj link do strony"
+   },
+   "reportPlaceholder": {
+      "message": "Co się stało? Czego oczekiwałeś?"
+   },
+   "reportPriority": {
+      "message": "Priorytet"
+   },
+   "reportPriorityTitle": {
+      "message": "Priorytetowe wsparcie: człowiek odpowie w ciągu jednego dnia roboczego"
+   },
+   "reportPro": {
+      "message": "Priorytetowe wsparcie: człowiek odpowie w ciągu jednego dnia roboczego, na $1."
+   },
+   "reportProSent": {
+      "message": "Otrzymano – zgłoszenie $1. Odpowiemy e-mailem."
+   },
+   "reportSend": {
+      "message": "Wyślij"
+   },
+   "reportSending": {
+      "message": "Wysyłanie..."
+   },
+   "reportSub": {
+      "message": "Napisz, co poszło nie tak albo czego brakuje. Czytamy każde zgłoszenie i szybko naprawiamy."
+   },
+   "reportThanks": {
+      "message": "Dziękujemy. Zgłoszenie zostało wysłane."
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Pobierz tę część"
+   },
+   "resultEditEntire": {
+      "message": "Edytuj cały obraz"
+   },
+   "resultEditPart": {
+      "message": "Edytuj tę część"
+   },
+   "resultEditPartN": {
+      "message": "Edytuj część $1"
+   },
+   "resultImgTitle": {
+      "message": "Zrzut ekranu strony"
+   },
+   "resultNameLabel": {
+      "message": "Nazwa zrzutu ekranu"
+   },
+   "resultNotFound": {
+      "message": "Nie znaleziono zrzutu - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Zrzut gotowy"
+   },
+   "resultRename": {
+      "message": "Zmień nazwę"
+   },
+   "resultRenameFailed": {
+      "message": "Nie udało się zapisać nazwy"
+   },
+   "resultSaveAllJpg": {
+      "message": "Zapisz wszystkie JPG: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Zapisz wszystkie PNG: $1"
+   },
+   "resultSaveJpg": {
+      "message": "Zapisz jako JPG"
+   },
+   "resultSavePdf": {
+      "message": "Zapisz PDF"
+   },
+   "resultSavePng": {
+      "message": "Zapisz jako PNG"
+   },
+   "resultSplitStrip": {
+      "message": "Nie mieści się w jednym obrazie, więc podzielono na części: $1. Możesz edytować każdą część osobno albo wszystko naraz."
+   },
+   "resultZoomOut": {
+      "message": "Dopasuj"
+   },
+   "untitledCapture": {
+      "message": "Zrzut ekranu"
+   },
+   "welcomeH1a": {
+      "message": "Cała strona."
+   },
+   "welcomeH1b": {
+      "message": "Jeden obraz."
+   },
+   "welcomeH2a": {
+      "message": "Ramki i wewnętrzne obszary przewijania"
+   },
+   "welcomeH2b": {
+      "message": "również."
+   },
+   "welcomeH3a": {
+      "message": "Adnotacje. Rozmycie."
+   },
+   "welcomeH3b": {
+      "message": "Numerki. Kadrowanie."
+   },
+   "welcomeH4a": {
+      "message": "Pliki PDF dzielone"
+   },
+   "welcomeH4b": {
+      "message": "między"
+   },
+   "welcomeH4c": {
+      "message": "wierszami. Nigdy w poprzek nich."
+   },
+   "welcomeH5a": {
+      "message": "Nic nie opuszcza"
+   },
+   "welcomeH5b": {
+      "message": "tej przeglądarki."
+   },
+   "welcomeH6": {
+      "message": "Jesteś w dobrym towarzystwie."
+   },
+   "welcomeP1": {
+      "message": "Przewija, zszywa i oddaje całą stronę jako jeden zrzut ekranu, co do piksela."
+   },
+   "welcomeP2": {
+      "message": "Edytory, panele i programy pocztowe też się rozwijają, nie tylko sama strona."
+   },
+   "welcomeP3": {
+      "message": "Pełny edytor adnotacji ze strzałkami, tekstem, zakreślaczem, pikselizacją i numerowanymi krokami."
+   },
+   "welcomeP4": {
+      "message": "Cały obraz albo Letter, Legal i A4 z inteligentnym podziałem stron i klikalnymi linkami."
+   },
+   "welcomeP5": {
+      "message": "Bez konta. Bez analityki. Bez śledzenia. Każdy zrzut zostaje na tym urządzeniu."
+   },
+   "welcomePress": {
+      "message": "Naciśnij"
+   },
+   "welcomeShortcutTail": {
+      "message": "na dowolnej stronie albo kliknij ikonę rozszerzenia."
+   },
+   "welcomeSkip": {
+      "message": "Kliknij w dowolnym miejscu, aby pominąć"
+   },
+   "welcomeTryNow": {
+      "message": "Wypróbuj od razu, na tej właśnie stronie."
+   },
+   "zoomActual": {
+      "message": "Rozmiar rzeczywisty"
+   },
+   "zoomFit": {
+      "message": "Dopasuj do okna"
+   },
+   "zoomFitShort": {
+      "message": "Dopasuj"
+   },
+   "zoomIn": {
+      "message": "Powiększ"
+   },
+   "zoomLabel": {
+      "message": "Powiększenie"
+   },
+   "zoomOut": {
+      "message": "Pomniejsz"
+   }
+}

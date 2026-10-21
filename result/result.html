@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Screenshot - FullPage Capture</title>
+  <link rel="stylesheet" href="../shared/theme.css" />
+  <link rel="stylesheet" href="result.css" />
+</head>
+<body data-page="result">
+  <header>
+    <div class="hleft">
+      <img src="../shared/logo.svg" alt="" class="logo" />
+      <span class="htitle" data-i18n="resultReady">Capture ready</span>
+      <div class="hname" title="Rename" data-i18n-title="resultRename">
+        <span id="nameText" class="nametext" role="button" tabindex="0"></span>
+        <svg class="ic sm namepen"><use href="../shared/icons.svg#pencil-line" /></svg>
+        <input id="nameInput" class="nameinput" type="text" spellcheck="false" hidden
+               maxlength="120" aria-label="Screenshot name" data-i18n-aria="resultNameLabel" />
+      </div>
+      <span id="metaLine" class="hmeta"></span>
+    </div>
+    <div class="hright">
+      <div class="edit-wrap">
+        <a href="#" id="btn-edit" class="pill">
+          <svg class="ic sm"><use href="../shared/icons.svg#pencil-line" /></svg><span data-i18n="actionEdit">Edit</span></a>
+        <div id="edit-menu" class="edit-menu"></div>
+      </div>
+      <div class="edit-wrap" id="copy-wrap">
+        <a href="#" id="btn-copy" class="pill" title="Copy to clipboard" data-i18n-title="edCopyTitle">
+          <svg class="ic sm"><use href="../shared/icons.svg#copy" /></svg><span data-i18n="edCopy">Copy</span></a><a
+          href="#" id="btn-copy-more" class="pill caret" title="Copy another part" data-i18n-title="resultCopyOther" hidden>
+          <svg class="ic sm"><use href="../shared/icons.svg#chevron-down" /></svg></a>
+        <div id="copy-menu" class="edit-menu"></div>
+      </div>
+      <a href="#" id="btn-print" class="pill" title="Print" data-i18n-title="actionPrint">
+        <svg class="ic sm"><use href="../shared/icons.svg#printer" /></svg><span data-i18n="actionPrint">Print</span></a>
+      <div class="edit-wrap" id="drive-wrap" hidden>
+        <a href="#" id="btn-cloud" class="pill" title="Save this capture to your Google Drive">
+          <svg class="ic sm" id="cloudIcon"><use href="../shared/icons.svg#cloud-upload" /></svg><span id="cloudLabel">Save to the cloud</span></a>
+        <div id="drive-menu" class="edit-menu drive-menu"></div>
+      </div>
+      <div class="edit-wrap split" id="save-wrap">
+        <a href="#" id="btn-download" class="pill primary">
+          <svg class="ic sm"><use href="../shared/icons.svg#download" /></svg><span id="dlLabel" data-i18n="resultSavePng">Save PNG</span></a><a
+          href="#" id="btn-save-more" class="pill primary caret" title="Other file types" data-i18n-title="edSaveOther">
+          <svg class="ic sm"><use href="../shared/icons.svg#chevron-down" /></svg></a>
+        <div id="save-menu" class="edit-menu save-menu"></div>
+      </div>
+      <div class="divider-v"></div>
+      <a href="#" id="btn-report" class="round" title="Report an issue" data-i18n-title="actionReport">
+        <svg class="ic"><use href="../shared/icons.svg#message-square-warning" /></svg></a>
+      <a href="#" id="btn-rate" class="round" title="Rate FullPage Capture" data-i18n-title="actionRate" target="_blank" rel="noopener">
+        <svg class="ic"><use href="../shared/icons.svg#star" /></svg></a>
+      <a href="../files/files.html" class="round" title="Files" data-i18n-title="actionFiles">
+        <svg class="ic"><use href="../shared/icons.svg#folder-open" /></svg></a>
+      <a href="../options/options.html" class="round" title="Settings" data-i18n-title="actionSettings">
+        <svg class="ic"><use href="../shared/icons.svg#settings" /></svg></a>
+      <a href="#" id="btn-trash" class="round muted" title="Delete" data-i18n-title="actionDelete">
+        <svg class="ic"><use href="../shared/icons.svg#trash-2" /></svg></a>
+    </div>
+  </header>
+  <div id="content">
+    <div id="splitStrip" class="strip" hidden>
+      <svg class="ic"><use href="../shared/icons.svg#layers-2" /></svg>
+      <span id="stripText"></span>
+      <a href="#" id="btn-edit-entire" class="pill" hidden data-i18n="resultEditEntire">Edit entire image</a>
+    </div>
+    <div id="image" tabindex="1"></div>
+  </div>
+  <div class="ctrls" id="img-ctrls">
+    <button class="round sm zoom-out" title="Fit" data-i18n-title="resultZoomOut">
+      <svg class="ic sm"><use href="../shared/icons.svg#minus" /></svg></button>
+    <span class="zoom-amount" data-i18n="zoomLabel">Zoom</span>
+    <button class="round sm zoom-in" title="Actual size" data-i18n-title="zoomActual">
+      <svg class="ic sm"><use href="../shared/icons.svg#plus" /></svg></button>
+    <div class="divider-v"></div>
+    <button class="round sm zoom-fit" title="Fit to window" data-i18n-title="zoomFit">
+      <svg class="ic sm"><use href="../shared/icons.svg#maximize-2" /></svg></button>
+  </div>
+  <a href="#" id="btn-try-pro" class="try-pro" hidden>
+    <span data-i18n="proTryCta">Try Pro</span><b class="try-pro-zero"><span>$0</span></b></a>
+  <script type="module" src="result.js"></script>
+</body>
+</html>

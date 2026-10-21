@@ -1,0 +1,1027 @@
+{
+   "actionCancel": {
+      "message": "Cancelar"
+   },
+   "actionDelete": {
+      "message": "Eliminar"
+   },
+   "actionEdit": {
+      "message": "Editar"
+   },
+   "actionFiles": {
+      "message": "Archivos"
+   },
+   "actionOpen": {
+      "message": "Abrir"
+   },
+   "actionPrint": {
+      "message": "Imprimir"
+   },
+   "actionRate": {
+      "message": "Valorar FullPage Capture"
+   },
+   "actionReport": {
+      "message": "Informar de un problema"
+   },
+   "actionSave": {
+      "message": "Guardar"
+   },
+   "actionSettings": {
+      "message": "Ajustes"
+   },
+   "appDesc": {
+      "message": "Captura de pantalla de la página web completa en Chrome. Screenshot con editor de anotaciones."
+   },
+   "appName": {
+      "message": "FullPage Capture - Captura de Página Completa"
+   },
+   "appTitle": {
+      "message": "FullPage Capture"
+   },
+   "confirmDeleteMany": {
+      "message": "¿Eliminar capturas: $1?\n(Esta acción no se puede deshacer.)"
+   },
+   "confirmDeleteOne": {
+      "message": "¿Eliminar esta captura?\n(Esta acción no se puede deshacer.)"
+   },
+   "copiedToClipboard": {
+      "message": "Copiado al portapapeles"
+   },
+   "copyFailed": {
+      "message": "No se pudo copiar: $1"
+   },
+   "createdPdf": {
+      "message": "PDF creado"
+   },
+   "creatingPdf": {
+      "message": "Creando PDF:"
+   },
+   "dateFmtDate": {
+      "message": "Fecha"
+   },
+   "dateFmtDateTime": {
+      "message": "Fecha y hora"
+   },
+   "dateFmtNone": {
+      "message": "Sin fecha"
+   },
+   "edApplyCrop": {
+      "message": "Aplicar recorte"
+   },
+   "edArrowheads": {
+      "message": "Puntas de flecha"
+   },
+   "edBack": {
+      "message": "Volver a la captura"
+   },
+   "edBrand": {
+      "message": "Anotación"
+   },
+   "edBringForward": {
+      "message": "Traer adelante"
+   },
+   "edCancelCrop": {
+      "message": "Cancelar recorte"
+   },
+   "edClose": {
+      "message": "Cerrar"
+   },
+   "edColor": {
+      "message": "Color"
+   },
+   "edConfirmDelete": {
+      "message": "¿Eliminar esta captura?"
+   },
+   "edCopiedResized": {
+      "message": "Copiado (redimensionado a $WIDTH$x$HEIGHT$ por los límites del portapapeles)",
+      "placeholders": {
+         "height": {
+            "content": "$2"
+         },
+         "width": {
+            "content": "$1"
+         }
+      }
+   },
+   "edCopy": {
+      "message": "Copiar"
+   },
+   "edCopyLayer": {
+      "message": "Copiar capa"
+   },
+   "edCopyTitle": {
+      "message": "Copiar al portapapeles"
+   },
+   "edCornerRadius": {
+      "message": "Radio de las esquinas"
+   },
+   "edCustomColor": {
+      "message": "Color personalizado"
+   },
+   "edDeleteCapture": {
+      "message": "Eliminar captura"
+   },
+   "edDeleteSel": {
+      "message": "Eliminar la selección"
+   },
+   "edDlImage": {
+      "message": "Descargar imagen"
+   },
+   "edDuplicateSel": {
+      "message": "Duplicar la selección"
+   },
+   "edExport": {
+      "message": "Exportar"
+   },
+   "edExportSaveAs": {
+      "message": "Exportar eligiendo la ubicación"
+   },
+   "edFasterMove": {
+      "message": "Movimiento rápido"
+   },
+   "edFill": {
+      "message": "Relleno"
+   },
+   "edFontSize": {
+      "message": "Tamaño del texto"
+   },
+   "edHeadBoth": {
+      "message": "Ambos"
+   },
+   "edHeadOne": {
+      "message": "Un extremo"
+   },
+   "edHelp": {
+      "message": "Ayuda"
+   },
+   "edHelpDocument": {
+      "message": "Documento"
+   },
+   "edHelpLayers": {
+      "message": "Capas"
+   },
+   "edHelpShapes": {
+      "message": "Insertar formas"
+   },
+   "edHelpTools": {
+      "message": "Herramientas"
+   },
+   "edKeyMouseArrows": {
+      "message": "Ratón o flechas del teclado"
+   },
+   "edKeyOorE": {
+      "message": "O o E"
+   },
+   "edKeyShiftArrows": {
+      "message": "Mayús + flechas"
+   },
+   "edLayersEmpty": {
+      "message": "Todavía no hay nada. Elija una herramienta de la barra."
+   },
+   "edMode": {
+      "message": "Modo"
+   },
+   "edModeBlur": {
+      "message": "Desenfoque"
+   },
+   "edModePixel": {
+      "message": "Pixelado"
+   },
+   "edMore": {
+      "message": "Más"
+   },
+   "edMoveLayer": {
+      "message": "Mover la capa"
+   },
+   "edNoFill": {
+      "message": "Sin relleno"
+   },
+   "edNotFoundBody": {
+      "message": "Captura no encontrada. Es posible que se haya eliminado."
+   },
+   "edNotFoundTitle": {
+      "message": "Captura no encontrada - FullPage Capture"
+   },
+   "edObject": {
+      "message": "Objeto"
+   },
+   "edObjects": {
+      "message": "Objetos"
+   },
+   "edPasteLayer": {
+      "message": "Pegar la capa"
+   },
+   "edPropsEmpty": {
+      "message": "Seleccione un objeto para cambiar su estilo."
+   },
+   "edRedo": {
+      "message": "Rehacer (Ctrl+Shift+Z)"
+   },
+   "edRedoShort": {
+      "message": "Rehacer"
+   },
+   "edSaveImage": {
+      "message": "Guardar imagen"
+   },
+   "edSendBackward": {
+      "message": "Enviar atrás"
+   },
+   "edShortcuts": {
+      "message": "Atajos de teclado"
+   },
+   "edThickness": {
+      "message": "Grosor"
+   },
+   "edToggleCrop": {
+      "message": "Modo de recorte"
+   },
+   "edToggleUrlDate": {
+      "message": "Mostrar u ocultar la dirección y la fecha"
+   },
+   "edToolArrow": {
+      "message": "Flecha (A)"
+   },
+   "edToolArrowShort": {
+      "message": "Flecha"
+   },
+   "edToolBadge": {
+      "message": "Marca numerada (N)"
+   },
+   "edToolBadgeShort": {
+      "message": "Marca numerada"
+   },
+   "edToolBrush": {
+      "message": "Pincel (M)"
+   },
+   "edToolBrushShort": {
+      "message": "Pincel"
+   },
+   "edToolCrop": {
+      "message": "Recortar (C)"
+   },
+   "edToolEllipse": {
+      "message": "Elipse (E)"
+   },
+   "edToolEllipseShort": {
+      "message": "Elipse"
+   },
+   "edToolHighlight": {
+      "message": "Marcador (H)"
+   },
+   "edToolHighlightShort": {
+      "message": "Marcador"
+   },
+   "edToolLine": {
+      "message": "Línea (L)"
+   },
+   "edToolLineShort": {
+      "message": "Línea"
+   },
+   "edToolOvalShort": {
+      "message": "Óvalo"
+   },
+   "edToolPen": {
+      "message": "Lápiz (P)"
+   },
+   "edToolPenShort": {
+      "message": "Lápiz"
+   },
+   "edToolRect": {
+      "message": "Rectángulo (R)"
+   },
+   "edToolRectShort": {
+      "message": "Rectángulo"
+   },
+   "edToolRedact": {
+      "message": "Desenfoque (B)"
+   },
+   "edToolRedactShort": {
+      "message": "Desenfoque"
+   },
+   "edToolSelect": {
+      "message": "Selección (V)"
+   },
+   "edToolSelectShort": {
+      "message": "Selección"
+   },
+   "edToolText": {
+      "message": "Texto (T)"
+   },
+   "edToolTextShort": {
+      "message": "Texto"
+   },
+   "edTplMac": {
+      "message": "Navegador de Mac"
+   },
+   "edTplNone": {
+      "message": "Ninguno"
+   },
+   "edTplWin": {
+      "message": "Navegador de Windows"
+   },
+   "edUndo": {
+      "message": "Deshacer (Ctrl+Z)"
+   },
+   "edUndoShort": {
+      "message": "Deshacer"
+   },
+   "filesClearSelection": {
+      "message": "Borrar la selección"
+   },
+   "filesDeselectAll": {
+      "message": "Deseleccionar todo"
+   },
+   "filesEmpty": {
+      "message": "Todavía no hay capturas. Haga clic en el icono de la extensión en cualquier página para crear la primera."
+   },
+   "filesHeading": {
+      "message": "Sus capturas"
+   },
+   "filesLoadFailed": {
+      "message": "No se pudo cargar: $1"
+   },
+   "filesSaveAll": {
+      "message": "Guardar todas: $1"
+   },
+   "filesSaveBoth": {
+      "message": "Guardar las dos"
+   },
+   "filesSaveFailed": {
+      "message": "No se pudieron guardar $1 de estas."
+   },
+   "filesSavedCount": {
+      "message": "Guardadas en este dispositivo: $1"
+   },
+   "filesSearch": {
+      "message": "Buscar"
+   },
+   "filesSelect": {
+      "message": "Seleccionar"
+   },
+   "filesSelectAll": {
+      "message": "Seleccionar todo"
+   },
+   "filesSelectedCount": {
+      "message": "Seleccionadas: $1"
+   },
+   "optAllow": {
+      "message": "Permitir"
+   },
+   "optAutoDownload": {
+      "message": "Descargar los archivos automáticamente"
+   },
+   "optAutoDownloadHint": {
+      "message": "Descargar la captura automáticamente como imagen en lugar de abrirla en una ventana nueva. La pestaña de la captura no se abrirá. Puede volver aquí haciendo clic con el botón derecho en el icono de la extensión y eligiendo Opciones."
+   },
+   "optAutoDownloadWarn": {
+      "message": "No es compatible con el ajuste del navegador 'Preguntar dónde se guardará cada archivo antes de descargarlo'. Si también está activado, el cuadro de guardado puede mostrar errores."
+   },
+   "optChooser": {
+      "description": "Options, Capturing: toggle that makes the toolbar icon ask Whole page or Part of the page before capturing",
+      "message": "Preguntar qué capturar"
+   },
+   "optChooserHint": {
+      "description": "Options, Capturing: hint under the Ask what to capture toggle",
+      "message": "Al hacer clic en el icono, primero se ofrece Página completa o Parte de la página. Desactivado: un clic captura toda la página."
+   },
+   "optCopyFit": {
+      "message": "Reducir las copias para Google Docs"
+   },
+   "optCopyFitHint": {
+      "message": "Las copias al portapapeles de más de 25.000.000 píxeles se reducen automáticamente"
+   },
+   "optDateFmt": {
+      "message": "Formato de la fecha"
+   },
+   "optDateFmtHint": {
+      "message": "Cómo aparece la fecha en la barra, u ocultarla"
+   },
+   "optDelay": {
+      "message": "Pausa entre desplazamientos"
+   },
+   "optDelay150": {
+      "message": "150 ms (predeterminado)"
+   },
+   "optDelayHint": {
+      "message": "Auméntela en páginas que cargan el contenido con lentitud"
+   },
+   "optDelayNone": {
+      "message": "Ninguna"
+   },
+   "optDirPermNote": {
+      "message": "Guardar en una carpeta requiere el permiso de descargas. Permítalo para que la carpeta tenga efecto."
+   },
+   "optFileType": {
+      "message": "Tipo de archivo"
+   },
+   "optFileTypeHint": {
+      "message": "Para el botón Guardar y la descarga automática"
+   },
+   "optFolder": {
+      "message": "Guardar en una carpeta"
+   },
+   "optFolderHint": {
+      "message": "Una subcarpeta dentro de Descargas. Déjelo vacío para guardar directamente en Descargas"
+   },
+   "optFolderPlaceholder": {
+      "message": "screenshots"
+   },
+   "optHeading": {
+      "message": "Ajustes"
+   },
+   "optImgWait": {
+      "message": "Esperar a las imágenes"
+   },
+   "optImgWaitFull": {
+      "message": "Completa, hasta 8 s en imágenes grandes"
+   },
+   "optImgWaitHint": {
+      "message": "Esperar en cada fotograma a que terminen de cargarse las imágenes. Actívelo si las capturas muestran imágenes borrosas o vacías"
+   },
+   "optImgWaitOff": {
+      "message": "Desactivada"
+   },
+   "optImgWaitShort": {
+      "message": "Corta, hasta 1,5 s por fotograma (predeterminado)"
+   },
+   "optLandscape": {
+      "message": "Horizontal"
+   },
+   "optLinks": {
+      "message": "Enlaces en los que se puede hacer clic"
+   },
+   "optLinksHint": {
+      "message": "Los enlaces de la página siguen funcionando en el PDF"
+   },
+   "optOrientation": {
+      "message": "Orientación"
+   },
+   "optOrientationHint": {
+      "message": "Orientación de la página para los formatos de arriba"
+   },
+   "optPdfA4": {
+      "message": "A4"
+   },
+   "optPdfA4Hint": {
+      "message": "210 x 297 mm"
+   },
+   "optPdfFull": {
+      "message": "Imagen completa"
+   },
+   "optPdfFullHint": {
+      "message": "Una página del tamaño de la captura"
+   },
+   "optPdfLegal": {
+      "message": "US Legal"
+   },
+   "optPdfLegalHint": {
+      "message": "8,5 x 14 pulgadas"
+   },
+   "optPdfLetter": {
+      "message": "US Letter"
+   },
+   "optPdfLetterHint": {
+      "message": "8,5 x 11 pulgadas"
+   },
+   "optPortrait": {
+      "message": "Vertical"
+   },
+   "optProTag": {
+      "message": "Pro"
+   },
+   "optSaveAs": {
+      "message": "Preguntar dónde guardar"
+   },
+   "optSaveAsHint": {
+      "message": "Un cuadro de guardado para archivos sueltos. Se omite cuando son varios"
+   },
+   "optSaved": {
+      "message": "Guardado"
+   },
+   "optSecCapturing": {
+      "message": "Captura"
+   },
+   "optSecPdf": {
+      "message": "PDF"
+   },
+   "optSmartSplit": {
+      "message": "División inteligente de páginas"
+   },
+   "optSmartSplitHint": {
+      "message": "Llevar cada salto de página al espacio entre dos líneas para que el texto nunca se corte"
+   },
+   "optUrlDate": {
+      "message": "Poner la dirección de la página y la fecha arriba"
+   },
+   "optUrlDateHint": {
+      "message": "La dirección de la página y la hora de la captura en la primera página del PDF"
+   },
+   "pageTitle_editor": {
+      "message": "Anotación - FullPage Capture"
+   },
+   "pageTitle_files": {
+      "message": "Archivos - FullPage Capture"
+   },
+   "pageTitle_options": {
+      "message": "Ajustes - FullPage Capture"
+   },
+   "pageTitle_result": {
+      "message": "Captura - FullPage Capture"
+   },
+   "pageTitle_welcome": {
+      "message": "Bienvenido - FullPage Capture"
+   },
+   "partsTag": {
+      "message": "Partes: $1"
+   },
+   "pdfFailed": {
+      "message": "Error al crear el PDF: $1"
+   },
+   "popupBlockedBody": {
+      "message": "Las páginas del navegador, como los ajustes o la Chrome Web Store, están protegidas, así que ninguna extensión puede capturarlas. En los sitios normales todo funciona."
+   },
+   "popupBlockedTitle": {
+      "message": "Chrome protege esta página"
+   },
+   "popupCannotAccess": {
+      "message": "No se puede acceder a esta página."
+   },
+   "popupCanvasWide": {
+      "message": "Ancho de $1 píxeles (lienzo)"
+   },
+   "popupCaptureFailed": {
+      "message": "No se pudo hacer la captura."
+   },
+   "popupCaptureFailedDetail": {
+      "message": "No se pudo capturar esta página: $1"
+   },
+   "popupCapturing": {
+      "message": "Capturando..."
+   },
+   "popupCapturingTitle": {
+      "message": "Capturando la página"
+   },
+   "popupChooseTitle": {
+      "message": "¿Qué quiere capturar?"
+   },
+   "popupClose": {
+      "message": "Cerrar"
+   },
+   "popupConnectionLost": {
+      "message": "Se perdió la conexión con la página."
+   },
+   "popupCreatingPdf": {
+      "message": "Creando PDF..."
+   },
+   "popupDemoVideo": {
+      "message": "Ver una demostración"
+   },
+   "popupDownloading": {
+      "message": "Descargando..."
+   },
+   "popupFileUrlHint": {
+      "message": "Para las páginas file://, active 'Permitir acceso a URL de archivo' en los detalles de la extensión."
+   },
+   "popupFrameEarly": {
+      "message": "Novedad en Pro: capture solo la parte de la página que necesita, completa y con desplazamiento."
+   },
+   "popupFrameTitle": {
+      "message": "Capturando un marco"
+   },
+   "popupFrameUnreachable": {
+      "message": "La extensión no puede acceder a este marco."
+   },
+   "popupHowItWorks": {
+      "message": "Cómo funciona"
+   },
+   "popupHowStep1": {
+      "message": "Señale cualquier parte de la página: se resalta con un marco."
+   },
+   "popupHowStep2": {
+      "message": "elegir una parte más grande o más pequeña."
+   },
+   "popupHowStep3": {
+      "message": "Haga clic: la recorremos y la capturamos entera, incluso lo que queda oculto abajo."
+   },
+   "popupLocalFile": {
+      "message": "Es un archivo local. Para capturarlo, active 'Permitir acceso a URL de archivo' en esta extensión y vuelva a intentarlo."
+   },
+   "popupModeFrame": {
+      "message": "Parte de la página"
+   },
+   "popupModeFrameHint": {
+      "message": "Acceso anticipado. Haga clic en un marco, un panel o cualquier zona; solo se capturará eso."
+   },
+   "popupModePage": {
+      "message": "Página completa"
+   },
+   "popupModePageHint": {
+      "message": "Se desplaza hasta el final y une todas las pantallas en una sola imagen."
+   },
+   "popupNoActiveTab": {
+      "message": "No hay ninguna pestaña activa."
+   },
+   "popupNoFrames": {
+      "message": "En esta página no hay nada que se pueda seleccionar."
+   },
+   "popupOpenSettings": {
+      "message": "Abrir los ajustes de la extensión"
+   },
+   "popupPartOffer": {
+      "description": "Popup progress screen: a row offering Part of the page (Pro) while the whole page is being captured",
+      "message": "¿Solo una parte de la página?"
+   },
+   "popupPauseHint": {
+      "message": "cierre para pausar, vuelva a abrir para continuar"
+   },
+   "popupPauseTitle": {
+      "message": "Pausa. Cerrar pausa, volver a abrir continúa"
+   },
+   "popupPdfFailed": {
+      "message": "No se pudo crear el PDF. La captura está guardada en Archivos."
+   },
+   "popupPdfInvalid": {
+      "message": "No se pudo leer este archivo como PDF."
+   },
+   "popupPdfLoading": {
+      "message": "Cargando el PDF..."
+   },
+   "popupPdfPagesOf": {
+      "message": "(páginas 1-$1 de $2)"
+   },
+   "popupPdfPassword": {
+      "message": "Este PDF está protegido con contraseña y no se puede capturar."
+   },
+   "popupPdfReadFailed": {
+      "message": "No se pudo leer el PDF: $1"
+   },
+   "popupPdfRendering": {
+      "message": "Procesando la página $1 de $2..."
+   },
+   "popupPickFrame": {
+      "message": "Haga clic en el marco que quiere capturar"
+   },
+   "popupPickLost": {
+      "message": "El elemento seleccionado ya no está en la página. Selecciónelo de nuevo."
+   },
+   "popupPickStartFailed": {
+      "message": "No se pudo iniciar la selección en esta página. Inténtelo de nuevo."
+   },
+   "popupPreparing": {
+      "message": "Preparando..."
+   },
+   "popupReadImageFailed": {
+      "message": "No se pudo leer la imagen: $1"
+   },
+   "popupResuming": {
+      "message": "Continuando"
+   },
+   "popupSaving": {
+      "message": "Guardando..."
+   },
+   "popupScrolling": {
+      "message": "Desplazando"
+   },
+   "popupSelfReload": {
+      "message": "Esta página se recarga sola en cuanto algo cambia en ella, por lo que no se pudo completar la captura de página completa."
+   },
+   "popupSetShortcuts": {
+      "description": "Popup chooser: link to Chrome's keyboard shortcut settings, always shown, to set or change the shortcuts",
+      "message": "Configurar atajos de teclado"
+   },
+   "popupShortcut": {
+      "message": "Atajo: $key$",
+      "placeholders": {
+         "key": {
+            "content": "$1"
+         }
+      }
+   },
+   "popupSplitNote": {
+      "message": "La página no cabe en una sola imagen, así que llegará dividida en partes: $1. Puede descargarlas todas juntas."
+   },
+   "popupStalled": {
+      "message": "La captura se ha detenido ($1). Recargue la página e inténtelo de nuevo, o informe de un problema."
+   },
+   "popupStamping": {
+      "message": "Añadiendo el sello de evidencia..."
+   },
+   "popupStopCapture": {
+      "message": "Detener la captura"
+   },
+   "popupTryDemo": {
+      "message": "Probar en una página de ejemplo"
+   },
+   "popupWarmingUp": {
+      "message": "Cargando el contenido"
+   },
+   "proBuyYear": {
+      "message": "Obtener Pro"
+   },
+   "proCloudBody": {
+      "message": "Guardar en la nube forma parte de Pro. Guardar en su ordenador sigue siendo gratis."
+   },
+   "proExportBody": {
+      "message": "Guardar una captura con sus cambios forma parte de Pro. La captura original, tal como se veía la página, se puede seguir guardando, copiando e imprimiendo gratis."
+   },
+   "proExportBuy": {
+      "message": "Empezar la prueba"
+   },
+   "proExportF1": {
+      "message": "Sus cambios quedan en el archivo guardado"
+   },
+   "proExportF2": {
+      "message": "PDF con texto que se puede buscar y copiar"
+   },
+   "proExportF3": {
+      "message": "Sello con dirección, hora y suma de control"
+   },
+   "proExportF4": {
+      "message": "Toda una lista de páginas capturada de una vez"
+   },
+   "proExportF5": {
+      "message": "Directamente a su propio Google Drive"
+   },
+   "proExportFine": {
+      "message": "Pago seguro. Garantía de reembolso de 48 horas (14 días en la UE y el Reino Unido). El precio en su país puede variar."
+   },
+   "proExportLoading": {
+      "message": "Abriendo la página de pago segura..."
+   },
+   "proExportNo": {
+      "message": "Ahora no"
+   },
+   "proExportOpenTab": {
+      "message": "Abrir en una pestaña"
+   },
+   "proExportRenew": {
+      "message": "Tras los 7 días, 19 $$ al año. Puede cancelar cuando quiera."
+   },
+   "proExportSkipped": {
+      "message": "Capturas no guardadas: $1. Guardar capturas con cambios forma parte de Pro."
+   },
+   "proExportSlow": {
+      "message": "La página de pago está tardando en abrirse."
+   },
+   "proExportTitle": {
+      "message": "Para continuar, inicie su prueba gratuita de Pro"
+   },
+   "proExportTitleYear": {
+      "message": "Para continuar, obtenga Pro"
+   },
+   "proExportTrial": {
+      "message": "durante 7 días de prueba"
+   },
+   "proExportTrialAmount": {
+      "message": "$$0"
+   },
+   "proExportTrialNote": {
+      "message": "Hoy no tiene que pagar nada"
+   },
+   "proOfferTitle": {
+      "message": "Lo que incluye Pro"
+   },
+   "proTryCta": {
+      "message": "Probar Pro"
+   },
+   "proYearNote": {
+      "message": "Ya ha usado la prueba gratuita"
+   },
+   "proYearPer": {
+      "message": "al año"
+   },
+   "rateDoNotAsk": {
+      "message": "No volver a preguntar"
+   },
+   "rateNotNow": {
+      "message": "Ahora no"
+   },
+   "rateSkip": {
+      "message": "Omitir"
+   },
+   "rateSorry": {
+      "message": "Lo sentimos"
+   },
+   "rateStar1": {
+      "message": "Pésima"
+   },
+   "rateStar2": {
+      "message": "Mala"
+   },
+   "rateStar3": {
+      "message": "Normal"
+   },
+   "rateStar4": {
+      "message": "Buena"
+   },
+   "rateStar5": {
+      "message": "Excelente"
+   },
+   "rateTakenCount": {
+      "message": "$1 capturas hasta ahora. Si le ha resultado útil, una breve reseña significaría mucho, y si no, no pasa nada."
+   },
+   "rateTellUs": {
+      "message": "Cuéntenos"
+   },
+   "rateText1": {
+      "message": "Valore FullPage Capture y cuéntenos qué le parece."
+   },
+   "rateText2": {
+      "message": "Una breve reseña ayuda a que otros la encuentren. Y si prefiere no hacerlo, ningún problema."
+   },
+   "rateText3": {
+      "message": "Si la extensión se lo ha ganado, una breve reseña ayudaría mucho. En cualquier caso, gracias por usarla."
+   },
+   "rateTitle1": {
+      "message": "¿Tiene un momento?"
+   },
+   "rateTitle2": {
+      "message": "¿Sigue usando FullPage Capture?"
+   },
+   "rateTitle3": {
+      "message": "Una última petición"
+   },
+   "reportEmpty": {
+      "message": "Describa el problema en pocas palabras."
+   },
+   "reportFailed": {
+      "message": "No se pudo enviar el informe. Compruebe su conexión e inténtelo de nuevo."
+   },
+   "reportLimited": {
+      "message": "Ha alcanzado el máximo de informes por hoy. Escríbanos por correo electrónico."
+   },
+   "reportNotify": {
+      "message": "Avisarme por correo cuando esta página se capture correctamente"
+   },
+   "reportPage": {
+      "message": "Enlace de la página"
+   },
+   "reportPageHint": {
+      "message": "Pega aquí el enlace de la página"
+   },
+   "reportPlaceholder": {
+      "message": "¿Qué ha pasado? ¿Qué esperaba?"
+   },
+   "reportPriority": {
+      "message": "Prioritario"
+   },
+   "reportPriorityTitle": {
+      "message": "Soporte prioritario: una persona le responde en un día hábil"
+   },
+   "reportPro": {
+      "message": "Soporte prioritario: una persona le responde en un día hábil, en $1."
+   },
+   "reportProSent": {
+      "message": "Recibido: solicitud $1. Le responderemos por correo."
+   },
+   "reportSend": {
+      "message": "Enviar"
+   },
+   "reportSending": {
+      "message": "Enviando..."
+   },
+   "reportSub": {
+      "message": "Cuéntenos qué ha fallado o qué falta. Leemos todos los informes y lo arreglamos rápido."
+   },
+   "reportThanks": {
+      "message": "Gracias. Su informe se ha enviado."
+   },
+   "resultDocTitle": {
+      "message": "$1 - FullPage Capture"
+   },
+   "resultDownloadPart": {
+      "message": "Descargar esta parte"
+   },
+   "resultEditEntire": {
+      "message": "Editar la imagen completa"
+   },
+   "resultEditPart": {
+      "message": "Editar esta parte"
+   },
+   "resultEditPartN": {
+      "message": "Editar la parte $1"
+   },
+   "resultImgTitle": {
+      "message": "Captura de la página"
+   },
+   "resultNameLabel": {
+      "message": "Nombre de la captura"
+   },
+   "resultNotFound": {
+      "message": "Captura no encontrada - FullPage Capture"
+   },
+   "resultReady": {
+      "message": "Captura lista"
+   },
+   "resultRename": {
+      "message": "Cambiar nombre"
+   },
+   "resultRenameFailed": {
+      "message": "No se pudo guardar el nombre"
+   },
+   "resultSaveAllJpg": {
+      "message": "Guardar todos los JPG: $1"
+   },
+   "resultSaveAllPng": {
+      "message": "Guardar todos los PNG: $1"
+   },
+   "resultSaveJpg": {
+      "message": "Guardar en JPG"
+   },
+   "resultSavePdf": {
+      "message": "Guardar PDF"
+   },
+   "resultSavePng": {
+      "message": "Guardar en PNG"
+   },
+   "resultSplitStrip": {
+      "message": "No cabe en una sola imagen, así que se ha dividido en partes: $1. Puede editar cada parte por separado o todo a la vez."
+   },
+   "resultZoomOut": {
+      "message": "Ajustar"
+   },
+   "untitledCapture": {
+      "message": "Captura de pantalla"
+   },
+   "welcomeH1a": {
+      "message": "La página entera."
+   },
+   "welcomeH1b": {
+      "message": "Una sola imagen."
+   },
+   "welcomeH2a": {
+      "message": "Marcos y áreas de desplazamiento internas"
+   },
+   "welcomeH2b": {
+      "message": "incluidos."
+   },
+   "welcomeH3a": {
+      "message": "Anotar. Desenfocar."
+   },
+   "welcomeH3b": {
+      "message": "Numerar. Recortar."
+   },
+   "welcomeH4a": {
+      "message": "PDF que cortan"
+   },
+   "welcomeH4b": {
+      "message": "entre"
+   },
+   "welcomeH4c": {
+      "message": "líneas. Nunca por en medio."
+   },
+   "welcomeH5a": {
+      "message": "Nada sale nunca de"
+   },
+   "welcomeH5b": {
+      "message": "este navegador."
+   },
+   "welcomeH6": {
+      "message": "Está en buena compañía."
+   },
+   "welcomeP1": {
+      "message": "Desplaza, une y entrega la página entera como una sola captura exacta al píxel."
+   },
+   "welcomeP2": {
+      "message": "Los editores, los paneles y el correo también se despliegan, no solo la página en sí."
+   },
+   "welcomeP3": {
+      "message": "Un editor de anotación completo con flechas, texto, marcador, pixelado y pasos numerados."
+   },
+   "welcomeP4": {
+      "message": "Imagen completa, o Letter, Legal y A4 con saltos de página inteligentes y enlaces activos."
+   },
+   "welcomeP5": {
+      "message": "Sin cuenta. Sin analítica. Sin seguimiento. Cada captura se queda en este dispositivo."
+   },
+   "welcomePress": {
+      "message": "Pulse"
+   },
+   "welcomeShortcutTail": {
+      "message": "en cualquier página, o haga clic en el icono de la extensión."
+   },
+   "welcomeSkip": {
+      "message": "Haga clic en cualquier sitio para saltar"
+   },
+   "welcomeTryNow": {
+      "message": "Pruébelo ahora mismo, en esta misma página."
+   },
+   "zoomActual": {
+      "message": "Tamaño real"
+   },
+   "zoomFit": {
+      "message": "Ajustar a la ventana"
+   },
+   "zoomFitShort": {
+      "message": "Ajustar"
+   },
+   "zoomIn": {
+      "message": "Acercar"
+   },
+   "zoomLabel": {
+      "message": "Zoom"
+   },
+   "zoomOut": {
+      "message": "Alejar"
+   }
+}
